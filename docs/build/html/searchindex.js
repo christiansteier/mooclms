@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{index:1,search:1,modul:1,content:1,word1:0,word2:0,glossari:[],page:1},objtypes:{},objnames:{},filenames:["glossary","index"],titles:["Glossary","Welcome to mooclms&#8217;s documentation!"],objects:{},titleterms:{welcom:1,indic:1,mooclm:1,tabl:1,glossari:0,document:1}})
