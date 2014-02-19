@@ -3,15 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to mooclms's documentation!
-===================================
+Welcome to the Moodle 2.6 Documentation 
+========================================
 
-Contents:
+* :ref:`Getting Started for Administrators`
+* :ref:`Getting started for Teachers`
+* :ref:`Getting started for Students`
 
+
+Table Of Content
+================
+ 
 .. toctree::
    :maxdepth: 2
 
-
+   about_moodle
+   Getting Started
+   Site Setup
+   Upgrading
 
 Indices and tables
 ==================
