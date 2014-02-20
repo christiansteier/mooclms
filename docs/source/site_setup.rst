@@ -35,32 +35,40 @@ Server Software
     * MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)
     * Oracle - version 10.2 (not recommended)
 
-Browser : Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .
+**Browser :** Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .
+
 Set up your server
+^^^^^^^^^^^^^^^^^^^
 
 Depending on your particular choices of software set up your basic server . If you are using a hosted server all this should be done for you by your hosting provider.
-Download and copy files into place
 
-    Download your required version from http://download.moodle.org/ and unzip it .
-    Then place the whole folder in your web server documents directory, in which case the site will be located at http://yourwebserver.com/moodle , or you can copy all the contents straight into the main web server documents directory, in which case the site will be simply http://yourwebserver.com .
-    Secure the Moodle files: it is vital that the files are not writeable by the web server user. Files are owned by administrator / superuser and are only writeable by them, readable by everyone else. If you want to use built-in ad-on installer you need to make the directory writeable by web server user.
+Download and copy files into place
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Download your required version from http://download.moodle.org/ and unzip it .
+2. Then place the whole folder in your web server documents directory, in which case the site will be located at http://yourwebserver.com/moodle , or you can copy all the contents straight into the main web server documents directory, in which case the site will be simply http://yourwebserver.com .
+3. Secure the Moodle files: it is vital that the files are not writeable by the web server user. Files are owned by administrator / superuser and are only writeable by them, readable by everyone else. If you want to use built-in ad-on installer you need to make the directory writeable by web server user.
 
 Create an empty database
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Create a new, empty database for your installation. You need to find and ake a note of following during information for final installation stage :
 
-    dbhost - the database server hostname. Probably ' localhost ' if the databse and web server are the same machine, otherwise the name of the database server.
-    dbname - the database name. Whatever you called it example - moodle .
-    dbuser - the username for the database.
-    dbpass - the passowrd for the above user
+    * dbhost - the database server hostname. Probably ' localhost ' if the databse and web server are the same machine, otherwise the name of the database server.
+    * dbname - the database name. Whatever you called it example - moodle .
+    * dbuser - the username for the database.
+    * dbpass - the passowrd for the above user
 
 Create the data (moodledata) directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Moodle requires a directory to store all of its files (all your site's uploaded files, temporary data, cache, session data etc.). The web server needs to be able to write to this directory. So create a directory and set the permissions for anyone on the server to write here. 
-Start Moodle Install
 
-    Go to your Moodle's main URL using a web browser.
-    The installation process will take you through a number of pages. You should be asked to confirm the copyright, see the database tables being created, supply administrator account details and supply the site details. The database creation can take some time - please be patient. You should eventually end up at the Moodle front page with an invitation to create a new course.
+Start Moodle Install
+^^^^^^^^^^^^^^^^^^^^^
+
+1. Go to your Moodle's main URL using a web browser.
+2. The installation process will take you through a number of pages. You should be asked to confirm the copyright, see the database tables being created, supply administrator account details and supply the site details. The database creation can take some time - please be patient. You should eventually end up at the Moodle front page with an invitation to create a new course.
 
 
 Technical Specification
