@@ -137,23 +137,26 @@ The advanced features in Administration > Site administration > Advanced feature
 **Outcomes**
 
 .. image:: _images/outcome.png
-   :height: 100px    
-	:width: 200 px    
-
-
+  
 Outcomes are specific descriptions of what a student has demonstrated and understood at the completion of an activity or course. Each outcome is rated by some sort of scale. Other terms for outcomes are Competencies and Goals.
 
 They are similar to sub components of a grade. A grade is an assessment of overall performance that may include tests, participation, attendance and projects. Outcomes assess specific levels of knowledge through a series of statements, that maybe coded with numbers or letters. Thus an overall grade can be given for a course, along with statements about specific competencies in the form of outcomes.
 
 **Comments**
 
+.. image:: _images/enable_comments.png
+
 A comments block can be added to any page in Moodle, enabling users to easily add comments. A similar interface enables comments to be added to glossary, database activity and blog entries. The comments interface uses AJAX so that comments are added instantly without needing a page refresh.
 
 **Tags Functionality**
 
+.. image:: _images/enable_tags.png
+
 Tags allows students and teachers to describe their interests in a way that is easy for people with similar interests to find them. The user's profile has a place to enter interests, which will create or add the user to an existing tag. Tag pages can be viewed and blog posts can be tagged.
 
 **Notes**
+
+.. image:: _images/enable_notes.png
 
 The Notes feature is a way to attach information about a user by another user. For example, a teacher might attach a note to a specific student about the hobbies and interests that seems to engage that student.
 
@@ -161,49 +164,73 @@ Users must have the permissions to View notes and Manage notes in order to use t
 
 **Portfolios**
 
+.. image:: _images/enable_portfolio.png
+
 Portfolios in Moodle make it easy for a student to export their work to an external portfolio. For example, student work might include forum posts or assignment submissions that they believe demonstrates their knowledge.
 
 **Web Services**
+
+.. image:: _images/enable_services.png
 
 Web services enable other systems to login to Moodle and perform operations.
 
 **Messaging**
 
+.. image:: _images/enable_messaging.png
+
 Messaging refers both to automatic alerts from Moodle about new forum posts, assignment submission notifications etc, and also to conversations using the instant messaging feature.
 
 **Notification email override**
+
+.. image:: _images/notification_email.png
 
 For allowing users to enter a different email address in Administration > My profile > Messaging .
 
 **Statistics**
 
+.. image:: _images/enable_statistics.png
+
 If statistics are enabled for the site, graphs and tables of user activity may be generated.
 
 **RSS feeds**
+
+.. image:: _images/enable_rss.png
 
 RSS (really simple syndication) feeds in Moodle enable people to stay up to date with forum posts, glossary entries and other events within Moodle.
 
 **Blogs**
 
+.. image:: _images/enable_blog.png
+
 Blogs in Moodle are user based - each user has their own blog. Users can also register their external blogs, such as Blogger or Wordpress, so that entries are automatically included in their Moodle blog.
 
 **Networking**
+
+.. image:: _images/enable_networking.png
 
 The Moodle network feature allows a Moodle administrator to establish a link with another Moodle or a Mahara site and to share some resources with the users of that Moodle.
 
 **Completion tracking**
 
+.. image:: _images/enable_tracking.png
+
 Completion tracking is a process that assists Course completion and Activity completion features. It must be enabled in Advanced settings before it can be used anywhere in the site.
 
 **Conditional access**
+
+.. image:: _images/enable_condition.png
 
 Conditional activities enable teachers to restrict the availability of any activity or even a course section (in Moodle 2.3 onwards) according to certain conditions such as dates, grade obtained, or activity completion. When it is enabled by the administrator, a "Restrict access" setting appears in the settings of activities or resources .
 
 **Plagiarism plugins**
 
+.. image:: _images/enable_plagiarism.png
+
 Plagiarism is when a student submits content they have copied and the real author was not given credit for the words. Plagiarism prevention detects when this form of cheating or academic dishonesty has happened.
 
 **Badges**
+
+.. image:: _images/enable_badges.png
 
 Badges are a good way of celebrating achievement and showing progress. Badges may be awarded based on a variety of chosen criteria and are fully compatible with Mozilla Open Badges. They are displayed on a user's profile.
 
