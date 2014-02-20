@@ -5,7 +5,7 @@ Administrators
 ---------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     site_setup
     upgrading
