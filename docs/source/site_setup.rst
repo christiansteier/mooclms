@@ -137,6 +137,9 @@ The advanced features in Administration > Site administration > Advanced feature
 **Outcomes**
 
 .. image:: _images/outcome.png
+   :height: 100px    
+	:width: 200 px    
+
 
 Outcomes are specific descriptions of what a student has demonstrated and understood at the completion of an activity or course. Each outcome is rated by some sort of scale. Other terms for outcomes are Competencies and Goals.
 
