@@ -2,7 +2,6 @@
 
 Add a new user
 ===============
-
 An administrator or manager can create new user accounts in Administration > Site administration > Users > Accounts > Add a new user.
 
 General
@@ -54,20 +53,16 @@ General
 
 User Picture
 ^^^^^^^^^^^^^
-
 The user's picture can be displayed next to the user's name, to any content he/she has posted in Moodle activities such as forum.
 
 Additional names
 ^^^^^^^^^^^^^^^^^
-
 Here you can fill additional names if you required.
 
 Interests
 ^^^^^^^^^^
-
 The list of interests can be used as a way of connecting users with similar interests. Tags must be enabled on the site.
 
 Optional
 ^^^^^^^^^
-
 These include: Web Page, ICA number, Skype ID, AIM ID, Yahoo ID, MSN ID, ID number, Institution, Department, Phone, Mobile Phone, Address.
