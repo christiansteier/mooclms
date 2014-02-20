@@ -17,7 +17,7 @@ You can only upgrade to Moodle 2.6 from Moodle 2.2 or later. If upgrading from e
 
 **Put your site into maintenance mode -** You should put it into maintenance mode to stop any non-admin users from logging in.
 
-**Install the new Moodle Software - ** Steps to follow:
+**Install the new Moodle Software -** Steps to follow:
 
     1. Move your old Moodle files to another location.
     2. Unzip the Moodle package there so that all new files are in the location the old fles used to be in on the server.
