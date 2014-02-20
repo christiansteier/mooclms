@@ -3,10 +3,15 @@ Getting Started in Moodle
 
 Administrators
 ---------------
-* Site Setup
-* Upgrading
-* Users
-* Courses
+
+.. toctree::
+    :maxdepth: 2
+
+    Site Setup
+    Upgrading
+    User
+    Courses
+    
 * Grades
 * Badges
 * Location
