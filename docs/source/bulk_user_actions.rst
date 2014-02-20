@@ -12,6 +12,8 @@ The bulk user actions feature in Settings > Site administration > Users > Accoun
     * Download user data in text, ODS or Excel file format
     * Force users to change their passwords
     * Add users to a cohort
+    
+.. image:: _images/bulkuserfilter.png
 
 **To perform a bulk user action**
 
@@ -24,3 +26,4 @@ The bulk user actions feature in Settings > Site administration > Users > Accoun
     * Select in the box on the left those users you require and move them to the box on the right.
     * From the dropdown box With selected users, choose the action you wish to perform and then click Go. 
 
+.. image:: _images/bulkuseraction.png
