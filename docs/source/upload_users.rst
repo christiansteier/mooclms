@@ -1,6 +1,7 @@
 .. _upload_users:
 
 Upload users
+=============
 
 An administrator can upload multiple user accounts via text file in Administration > Site administration > Users > Accounts > Upload users.
 
