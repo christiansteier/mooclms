@@ -24,13 +24,13 @@ You can only upgrade to Moodle 2.6 from Moodle 2.2 or later. If upgrading from e
     3. Copy your old config.php back to the new moodle directory.
     4. If you have any custom plugins, themes, add-ons on your site you should add them to the new code tree now.
 
-**Finishing The upgrade -** Last step to follow:
+6. **Finishing The upgrade -** Last step to follow:
 
-Enter the moodle URL in your browser.
+7. Enter the moodle URL in your browser.
 
-Then go to Administration > Site administration > Notifications.
+8. Then go to Administration > Site administration > Notifications.
 
-Moodle will automatically detect the new version and  file systems upgrades that are necessary. If there is anything it can't do itself then you will see messages telling you what you need to do.
+9. Moodle will automatically detect the new version and  file systems upgrades that are necessary. If there is anything it can't do itself then you will see messages telling you what you need to do.
 
 
 Automatic Update Deployment
