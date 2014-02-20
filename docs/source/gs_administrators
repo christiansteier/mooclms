@@ -1,0 +1,10 @@
+Getting Started for Administrators
+===================================
+
+ .. toctree::
+   :maxdepth: 2
+
+   Site setup
+   Upgrading
+   Users
+   Courses
