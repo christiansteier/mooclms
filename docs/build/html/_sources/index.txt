@@ -18,7 +18,7 @@ Table Of Content
    :maxdepth: 2
 
    about_moodle
-   Getting Started
+   getting_started 
    Site Setup
    Upgrading
 
