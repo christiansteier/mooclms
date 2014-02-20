@@ -1,6 +1,6 @@
 Getting Started in Moodle 
 ==========================
 
-* Administrators
-* Teachers
-* Students
+* :ref:`administrators`
+* :ref:`teachers`
+* :ref:`students`
