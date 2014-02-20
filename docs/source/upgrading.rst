@@ -40,14 +40,12 @@ An administrator can enable updates deployment in Administration > Site Administ
 Assignment Upgrade Helper
 --------------------------
 
-Assignment upgrade tool
-^^^^^^^^^^^^^^^^^^^^^^^^
+**Assignment upgrade tool**
 
 The Assignment upgrade tool is an administrator tool for upgrading assignments in Moodle 2.2 and older to the new assignment module in Moodle 2.3 onwards.
 It is recommended that admins upgrade all existing assignments to use the new assignment module as soon as possible, then disable the old assignment module (called 'Assignment 2.2' in Moodle 2.3 onwards), to avoid the confusion of having two assignment modules.
 
-Upgrading assignments
-^^^^^^^^^^^^^^^^^^^^^^
+**Upgrading assignments**
 
 To upgrade existing assignments to use the new assignment module
 
@@ -58,8 +56,7 @@ To upgrade existing assignments to use the new assignment module
 
 A confirmation screen will appear.
 
-Disabling the old assignment module
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Disabling the old assignment module**
 
 Once all existing assignments have been upgraded, the old assignment module can be disabled.
 
@@ -71,7 +68,10 @@ Teachers will then have only the new assignment module available for selection i
 
 Question Engine Upgrade Helper
 -------------------------------
+The question engine upgrade helper is an admin tool for sites which have been upgraded from a pre-Moodle 2.1 version. Moodle 2.1 onwards uses a new question engine.
+A site administrator can run the question engine upgrade helper in Settings > Site administration > question engine upgrade helper.
 
+**Note:** You can reset any quiz that has been converted and then re-do it, but you should only do that if you have a good reason to do so and you don't have to.
 
 
 
