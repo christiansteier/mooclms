@@ -110,9 +110,9 @@ Managing a Moodle Site
 
 A user with the role of Administrator is typically in charge of a Moodle site once it has been installed, although some tasks may be delegated to others by assigning them a role such as Manager. The links below provide more information about how to manage your Moodle site.
 
-    * *Authentication* - different methods of adding new users to your Moodle
-    * *Managing accounts* - how to search for, edit, delete or perform bulk actions on users
-    * *Enrolments* - different methods of adding users to courses.
+    * Authentication - different methods of adding new users to your Moodle
+    * Managing accounts - how to search for, edit, delete or perform bulk actions on users
+    * Enrolments - different methods of adding users to courses.
     * Roles and permissions - how to add or remove permissions from students, teachers and other users on your Moodle
     * Security - how to keep your Moodle safe
     * Performance - ways to check the efficiency and smooth running of your Moodle
