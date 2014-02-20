@@ -21,6 +21,26 @@ Administrators
 
 Teachers
 ---------
+* Moodle Familiarization
+* Course Pages
+* Moodle Editing
+* Moodle Repositories
+* Resources and Activities
+* Activity Locking and Grades
+* Moodle Blocks
+* Settings
 
 Students
 ---------
+* Navigating Moodle
+* My Moodle
+* Using a Course page
+* More Moodle Stuff
+* Miscellaneous
+
+
+
+
+
+
+
