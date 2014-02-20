@@ -24,7 +24,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
-    <link rel="prev" title="Getting Started in Moodle" href="getting_started.html" /> 
+    <link rel="prev" title="Upgrading" href="upgrading.html" /> 
   </head>
   <body>
     <div class="related">
@@ -34,7 +34,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="getting_started.html" title="Getting Started in Moodle"
+          <a href="upgrading.html" title="Upgrading"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
@@ -50,53 +50,154 @@
 <p>This document will show you how to setup a moodle site.</p>
 <div class="section" id="moodle-installation">
 <h2>Moodle Installation<a class="headerlink" href="#moodle-installation" title="Permalink to this headline">¶</a></h2>
-<p>Moodle is primarily developed in Linus using Apache, PostgreSQL / MySQL / MariaDB and PHP
-Basic Requirements
-Sever Hardware</p>
+<p>Moodle is primarily developed in Linus using Apache, PostgreSQL / MySQL / MariaDB and PHP .</p>
+<p>Basic Requirements</p>
+<div class="section" id="sever-hardware">
+<h3>Sever Hardware<a class="headerlink" href="#sever-hardware" title="Permalink to this headline">¶</a></h3>
 <p>Specific hardware requirements for your project will depend on the volume of anticipated concurrent users and should be discussed with your team IT team if you are hosting the server yourself, or company with whom you are hosting. As minimum are:</p>
-<p>Disk space: 160MB free (min) plus as much as you need to store your material. 5GB is probably a realistic minimum.</p>
-<p>Memory : 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM
-Server Software</p>
-<p>Operating System : A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012</p>
-<p>Web server :  Apache is recommended . Others also wok such as IIS, lighttpd, nginx, cherokee, zeus and LiteSpeed.</p>
-<p>PHP : Minimum version is 5.3.3. recommended PHP 5.5 and newer if available.</p>
-<p>Database : Minimum versions of following -</p>
+<p><strong>Disk space :</strong> 160MB free (min) plus as much as you need to store your material. 5GB is probably a realistic minimum.</p>
+<p><strong>Memory :</strong> 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM</p>
+</div>
+<div class="section" id="server-software">
+<h3>Server Software<a class="headerlink" href="#server-software" title="Permalink to this headline">¶</a></h3>
+<p><strong>Operating System :</strong> A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012</p>
+<p><strong>Web server :</strong>  Apache is recommended . Others also wok such as IIS, lighttpd, nginx, cherokee, zeus and LiteSpeed.</p>
+<p><strong>PHP :</strong> Minimum version is 5.3.3. recommended PHP 5.5 and newer if available.</p>
+<p><strong>Database :</strong> Minimum versions of following -</p>
 <blockquote>
-<div>MySQL - version 5.1.33 (mostly recommended)
-PostgreSQL - version 8.3 (mostly recommended)
-MariaDB - version 5.3.5 ( drop-in replacement for Oracle&#8217;s MySQL)
-MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)
-Oracle - version 10.2 (not recommended)</div></blockquote>
-<p>Browser : Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .
-Set up your server</p>
-<p>Depending on your particular choices of software set up your basic server . If you are using a hosted server all this should be done for you by your hosting provider.
-Download and copy files into place</p>
-<blockquote>
-<div>Download your required version from <a class="reference external" href="http://download.moodle.org/">http://download.moodle.org/</a> and unzip it .
-Then place the whole folder in your web server documents directory, in which case the site will be located at <a class="reference external" href="http://yourwebserver.com/moodle">http://yourwebserver.com/moodle</a> , or you can copy all the contents straight into the main web server documents directory, in which case the site will be simply <a class="reference external" href="http://yourwebserver.com">http://yourwebserver.com</a> .
-Secure the Moodle files: it is vital that the files are not writeable by the web server user. Files are owned by administrator / superuser and are only writeable by them, readable by everyone else. If you want to use built-in ad-on installer you need to make the directory writeable by web server user.</div></blockquote>
-<p>Create an empty database</p>
+<div><ul class="simple">
+<li>MySQL - version 5.1.33 (mostly recommended)</li>
+<li>PostgreSQL - version 8.3 (mostly recommended)</li>
+<li>MariaDB - version 5.3.5 ( drop-in replacement for Oracle&#8217;s MySQL)</li>
+<li>MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)</li>
+<li>Oracle - version 10.2 (not recommended)</li>
+</ul>
+</div></blockquote>
+<p><strong>Browser :</strong> Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .</p>
+</div>
+<div class="section" id="set-up-your-server">
+<h3>Set up your server<a class="headerlink" href="#set-up-your-server" title="Permalink to this headline">¶</a></h3>
+<p>Depending on your particular choices of software set up your basic server . If you are using a hosted server all this should be done for you by your hosting provider.</p>
+</div>
+<div class="section" id="download-and-copy-files-into-place">
+<h3>Download and copy files into place<a class="headerlink" href="#download-and-copy-files-into-place" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Download your required version from <a class="reference external" href="http://download.moodle.org/">http://download.moodle.org/</a> and unzip it .</li>
+<li>Then place the whole folder in your web server documents directory, in which case the site will be located at <a class="reference external" href="http://yourwebserver.com/moodle">http://yourwebserver.com/moodle</a> , or you can copy all the contents straight into the main web server documents directory, in which case the site will be simply <a class="reference external" href="http://yourwebserver.com">http://yourwebserver.com</a> .</li>
+<li>Secure the Moodle files: it is vital that the files are not writeable by the web server user. Files are owned by administrator / superuser and are only writeable by them, readable by everyone else. If you want to use built-in ad-on installer you need to make the directory writeable by web server user.</li>
+</ol>
+</div>
+<div class="section" id="create-an-empty-database">
+<h3>Create an empty database<a class="headerlink" href="#create-an-empty-database" title="Permalink to this headline">¶</a></h3>
 <p>Create a new, empty database for your installation. You need to find and ake a note of following during information for final installation stage :</p>
 <blockquote>
-<div>dbhost - the database server hostname. Probably &#8216; localhost &#8216; if the databse and web server are the same machine, otherwise the name of the database server.
-dbname - the database name. Whatever you called it example - moodle .
-dbuser - the username for the database.
-dbpass - the passowrd for the above user</div></blockquote>
-<p>Create the data (moodledata) directory</p>
-<p>Moodle requires a directory to store all of its files (all your site&#8217;s uploaded files, temporary data, cache, session data etc.). The web server needs to be able to write to this directory. So create a directory and set the permissions for anyone on the server to write here.
-Start Moodle Install</p>
-<blockquote>
-<div>Go to your Moodle&#8217;s main URL using a web browser.
-The installation process will take you through a number of pages. You should be asked to confirm the copyright, see the database tables being created, supply administrator account details and supply the site details. The database creation can take some time - please be patient. You should eventually end up at the Moodle front page with an invitation to create a new course.</div></blockquote>
+<div><ul class="simple">
+<li>dbhost - the database server hostname. Probably &#8216; localhost &#8216; if the databse and web server are the same machine, otherwise the name of the database server.</li>
+<li>dbname - the database name. Whatever you called it example - moodle .</li>
+<li>dbuser - the username for the database.</li>
+<li>dbpass - the passowrd for the above user</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="create-the-data-moodledata-directory">
+<h3>Create the data (moodledata) directory<a class="headerlink" href="#create-the-data-moodledata-directory" title="Permalink to this headline">¶</a></h3>
+<p>Moodle requires a directory to store all of its files (all your site&#8217;s uploaded files, temporary data, cache, session data etc.). The web server needs to be able to write to this directory. So create a directory and set the permissions for anyone on the server to write here.</p>
+</div>
+<div class="section" id="start-moodle-install">
+<h3>Start Moodle Install<a class="headerlink" href="#start-moodle-install" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to your Moodle&#8217;s main URL using a web browser.</li>
+<li>The installation process will take you through a number of pages. You should be asked to confirm the copyright, see the database tables being created, supply administrator account details and supply the site details. The database creation can take some time - please be patient. You should eventually end up at the Moodle front page with an invitation to create a new course.</li>
+</ol>
+</div>
 </div>
 <div class="section" id="technical-specification">
 <h2>Technical Specification<a class="headerlink" href="#technical-specification" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Sever Hardware<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Specific hardware requirements for your project will depend on the volume of anticipated concurrent users and should be discussed with your team IT team if you are hosting the server yourself, or company with whom you are hosting. As minimum are:</p>
+<p><strong>Disk space :</strong> 160MB free (min) plus as much as you need to store your material. 5GB is probably a realistic minimum.</p>
+<p><strong>Memory :</strong> 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM</p>
+</div>
+<div class="section" id="id2">
+<h3>Server Software<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><strong>Operating System :</strong> A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012</p>
+<p><strong>Web server :</strong>  Apache is recommended . Others also wok such as IIS, lighttpd, nginx, cherokee, zeus and LiteSpeed.</p>
+<p><strong>PHP :</strong> Minimum version is 5.3.3. recommended PHP 5.5 and newer if available.</p>
+<p><strong>Database :</strong> Minimum versions of following -</p>
+<blockquote>
+<div><ul class="simple">
+<li>MySQL - version 5.1.33 (mostly recommended)</li>
+<li>PostgreSQL - version 8.3 (mostly recommended)</li>
+<li>MariaDB - version 5.3.5 ( drop-in replacement for Oracle&#8217;s MySQL)</li>
+<li>MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)</li>
+<li>Oracle - version 10.2 (not recommended)</li>
+</ul>
+</div></blockquote>
+<p><strong>Browser :</strong> Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .</p>
+</div>
 </div>
 <div class="section" id="managing-a-moodle-site">
 <h2>Managing a Moodle Site<a class="headerlink" href="#managing-a-moodle-site" title="Permalink to this headline">¶</a></h2>
+<p>A user with the role of Administrator is typically in charge of a Moodle site once it has been installed, although some tasks may be delegated to others by assigning them a role such as Manager. The links below provide more information about how to manage your Moodle site.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Authentication - different methods of adding new users to your Moodle</li>
+<li>Managing accounts - how to search for, edit, delete or perform bulk actions on users</li>
+<li>Enrolments - different methods of adding users to courses.</li>
+<li>Roles and permissions - how to add or remove permissions from students, teachers and other users on your Moodle</li>
+<li>Security - how to keep your Moodle safe</li>
+<li>Performance - ways to check the efficiency and smooth running of your Moodle</li>
+<li>Backup - how to backup your site and courses</li>
+<li>Site appearance - ways to change the display and navigation of your site</li>
+<li>Language - how to add new languages and alter the default terms used.</li>
+<li>Server settings - registration, maintenance and default settings</li>
+<li>Site-wide reports - a list of useful reports for administrators</li>
+<li>Admin tools - a list of useful tools, such as DB search and replace and database transfer</li>
+<li>Developer tools - how to debug your site, purge caches and tools for test sites only</li>
+<li>Web services - how to connect other systems to Moodle to perform operations</li>
+<li>Community hubs - search for, download, enrol in or add your own courses to public directories.</li>
+<li>More features - Blogs, Comments, Tags, Messaging, Notes, RSS feeds, Calendar</li>
+</ul>
+</div></blockquote>
 </div>
 <div class="section" id="advanced-features">
 <h2>Advanced Features<a class="headerlink" href="#advanced-features" title="Permalink to this headline">¶</a></h2>
+<p>The advanced features in Administration &gt; Site administration &gt; Advanced features contains a number of features that may be enabled / disabled globally by the site administrator.</p>
+<p><strong>Outcomes</strong></p>
+<p>Outcomes are specific descriptions of what a student has demonstrated and understood at the completion of an activity or course. Each outcome is rated by some sort of scale. Other terms for outcomes are Competencies and Goals.</p>
+<p>They are similar to sub components of a grade. A grade is an assessment of overall performance that may include tests, participation, attendance and projects. Outcomes assess specific levels of knowledge through a series of statements, that maybe coded with numbers or letters. Thus an overall grade can be given for a course, along with statements about specific competencies in the form of outcomes.</p>
+<p><strong>Comments</strong></p>
+<p>A comments block can be added to any page in Moodle, enabling users to easily add comments. A similar interface enables comments to be added to glossary, database activity and blog entries. The comments interface uses AJAX so that comments are added instantly without needing a page refresh.</p>
+<p><strong>Tags Functionality</strong></p>
+<p>Tags allows students and teachers to describe their interests in a way that is easy for people with similar interests to find them. The user&#8217;s profile has a place to enter interests, which will create or add the user to an existing tag. Tag pages can be viewed and blog posts can be tagged.</p>
+<p><strong>Notes</strong></p>
+<p>The Notes feature is a way to attach information about a user by another user. For example, a teacher might attach a note to a specific student about the hobbies and interests that seems to engage that student.</p>
+<p>Users must have the permissions to View notes and Manage notes in order to use this feature in any context. Thus students might be allowed to view or even manage notes within a course.</p>
+<p><strong>Portfolios</strong></p>
+<p>Portfolios in Moodle make it easy for a student to export their work to an external portfolio. For example, student work might include forum posts or assignment submissions that they believe demonstrates their knowledge.</p>
+<p><strong>Web Services</strong></p>
+<p>Web services enable other systems to login to Moodle and perform operations.</p>
+<p><strong>Messaging</strong></p>
+<p>Messaging refers both to automatic alerts from Moodle about new forum posts, assignment submission notifications etc, and also to conversations using the instant messaging feature.</p>
+<p><strong>Notification email override</strong></p>
+<p>For allowing users to enter a different email address in Administration &gt; My profile &gt; Messaging .</p>
+<p><strong>Statistics</strong></p>
+<p>If statistics are enabled for the site, graphs and tables of user activity may be generated.</p>
+<p><strong>RSS feeds</strong></p>
+<p>RSS (really simple syndication) feeds in Moodle enable people to stay up to date with forum posts, glossary entries and other events within Moodle.</p>
+<p><strong>Blogs</strong></p>
+<p>Blogs in Moodle are user based - each user has their own blog. Users can also register their external blogs, such as Blogger or Wordpress, so that entries are automatically included in their Moodle blog.</p>
+<p><strong>Networking</strong></p>
+<p>The Moodle network feature allows a Moodle administrator to establish a link with another Moodle or a Mahara site and to share some resources with the users of that Moodle.</p>
+<p><strong>Completion tracking</strong></p>
+<p>Completion tracking is a process that assists Course completion and Activity completion features. It must be enabled in Advanced settings before it can be used anywhere in the site.</p>
+<p><strong>Conditional access</strong></p>
+<p>Conditional activities enable teachers to restrict the availability of any activity or even a course section (in Moodle 2.3 onwards) according to certain conditions such as dates, grade obtained, or activity completion. When it is enabled by the administrator, a &#8220;Restrict access&#8221; setting appears in the settings of activities or resources .</p>
+<p><strong>Plagiarism plugins</strong></p>
+<p>Plagiarism is when a student submits content they have copied and the real author was not given credit for the words. Plagiarism prevention detects when this form of cheating or academic dishonesty has happened.</p>
+<p><strong>Badges</strong></p>
+<p>Badges are a good way of celebrating achievement and showing progress. Badges may be awarded based on a variety of chosen criteria and are fully compatible with Mozilla Open Badges. They are displayed on a user&#8217;s profile.</p>
 </div>
 </div>
 
@@ -109,8 +210,21 @@ The installation process will take you through a number of pages. You should be 
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Site Setup</a><ul>
-<li><a class="reference internal" href="#moodle-installation">Moodle Installation</a></li>
-<li><a class="reference internal" href="#technical-specification">Technical Specification</a></li>
+<li><a class="reference internal" href="#moodle-installation">Moodle Installation</a><ul>
+<li><a class="reference internal" href="#sever-hardware">Sever Hardware</a></li>
+<li><a class="reference internal" href="#server-software">Server Software</a></li>
+<li><a class="reference internal" href="#set-up-your-server">Set up your server</a></li>
+<li><a class="reference internal" href="#download-and-copy-files-into-place">Download and copy files into place</a></li>
+<li><a class="reference internal" href="#create-an-empty-database">Create an empty database</a></li>
+<li><a class="reference internal" href="#create-the-data-moodledata-directory">Create the data (moodledata) directory</a></li>
+<li><a class="reference internal" href="#start-moodle-install">Start Moodle Install</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#technical-specification">Technical Specification</a><ul>
+<li><a class="reference internal" href="#id1">Sever Hardware</a></li>
+<li><a class="reference internal" href="#id2">Server Software</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#managing-a-moodle-site">Managing a Moodle Site</a></li>
 <li><a class="reference internal" href="#advanced-features">Advanced Features</a></li>
 </ul>
@@ -118,8 +232,8 @@ The installation process will take you through a number of pages. You should be 
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="getting_started.html"
-                        title="previous chapter">Getting Started in Moodle</a></p>
+  <p class="topless"><a href="upgrading.html"
+                        title="previous chapter">Upgrading</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/site_setup.txt"
@@ -149,7 +263,7 @@ The installation process will take you through a number of pages. You should be 
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="getting_started.html" title="Getting Started in Moodle"
+          <a href="upgrading.html" title="Upgrading"
              >previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
