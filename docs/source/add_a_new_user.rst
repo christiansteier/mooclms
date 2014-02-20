@@ -8,6 +8,8 @@ An administrator or manager can create new user accounts in Administration > Sit
 General
 ^^^^^^^^
 
+.. image:: _images/general_fields.png
+
 **Username -** The user will use this username to log into the Moodle. It should be unique.
 
 **Authentication method -** Accounts created by an administrator use the Manual Accounts method, and accounts created by the user themselves using the email sign-up method use the E-mail based self-registration method.
