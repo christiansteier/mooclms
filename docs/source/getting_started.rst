@@ -2,5 +2,5 @@ Getting Started in Moodle
 ==========================
 
 * :ref:`gs_administrators`
-* :ref:`teachers`
-* :ref:`students`
+* :ref:`gs_teachers`
+* :ref:`gs_students`
