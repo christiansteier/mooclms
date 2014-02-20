@@ -71,12 +71,15 @@ Start Moodle Install
 2. The installation process will take you through a number of pages. You should be asked to confirm the copyright, see the database tables being created, supply administrator account details and supply the site details. The database creation can take some time - please be patient. You should eventually end up at the Moodle front page with an invitation to create a new course.
 
 
+
 Technical Specification
 ------------------------
 
 
+
 Managing a Moodle Site
 -----------------------
+
 
 
 Advanced Features
