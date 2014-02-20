@@ -2,6 +2,7 @@ Getting Started in Moodle
 ==========================
 
 Administrators
+^^^^^^^^^^^^^^^
 
 .. toctree::
     :maxdepth: 1
@@ -24,6 +25,7 @@ Administrators
 
 
 Teachers
+^^^^^^^^^
 
 * Moodle Familiarization
 * Course Pages
