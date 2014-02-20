@@ -7,7 +7,7 @@ An administrator can perform various tasks relating to user accounts in Administ
 
 * :ref:`browse_list_of_users`
 * :ref:`bulk_user_actions`
-* :ref:`add_a_new_user
+* :ref:`add_a_new_user`
 * :ref:`user_profile_fields`
 * :ref:`cohorts`
 * :ref:`upload_users`
