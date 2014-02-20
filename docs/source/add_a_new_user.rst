@@ -20,38 +20,38 @@ General
 
 **Password -** This is the user's password.
 
-First Name - The user's first name.
+**First Name -** The user's first name.
 
-Surname - The user's surname.
+**Surname -** The user's surname.
 
-Email address - Password reset notices, forum digests and other messages are sent to this email address from the Moodle site.
+**Email address -** Password reset notices, forum digests and other messages are sent to this email address from the Moodle site.
 
-Email display - This setting controls who can see the user's email address.
+**Email display -** This setting controls who can see the user's email address.
 
-Email format - This setting can be used such that Moodle will send text-only emails to the users.
+**Email format -** This setting can be used such that Moodle will send text-only emails to the users.
 
-Email digest type - This setting set whether the user will receive an email for each new forum post in subscribed forums, or if new posts should be sent once per day in a digest, and which type of digest.
+**Email digest type -** This setting set whether the user will receive an email for each new forum post in subscribed forums, or if new posts should be sent once per day in a digest, and which type of digest.
 
         No digest (one receives individual emails),
         Complete (a single digest daily) or
         Subjects (a single digest daily with only the post topics included).
 
-Forum auto-subscribe - If a user subscribes to a forum, new posts will be sent in the digest as specified. This setting sets whether a user is automatically subscribed to forums or if a manual click on the subscription button in each forum is required.
+**Forum auto-subscribe -** If a user subscribes to a forum, new posts will be sent in the digest as specified. This setting sets whether a user is automatically subscribed to forums or if a manual click on the subscription button in each forum is required.
 
-Forum tracking - This setting specifies whether new posts written since the user's last visit should be highlighted a such.
+**Forum tracking -** This setting specifies whether new posts written since the user's last visit should be highlighted a such.
 
-When editing text - This setting specifies whether the user prefers to see the WYSIWYG text editor or just a plain text box.
+**When editing text -** This setting specifies whether the user prefers to see the WYSIWYG text editor or just a plain text box.
 
-City / town - The user's city or town.
+**City / town -** The user's city or town.
 
-Country - The user's country.
+**Country -** The user's country.
 
-Timezone - This setting is used to adjust the times of messages and assignment/quiz due dates to match the user's local time.
+**Timezone -** This setting is used to adjust the times of messages and assignment/quiz due dates to match the user's local time.
 
-Preferred language - This will cause the Moodle interface to be displayed in the specified language.
- Note: Content will not be translated automatically, but if multi-language content is entered the appropriate language content will be displayed, if available.
+**Preferred language -** This will cause the Moodle interface to be displayed in the specified language.
+**Note:** Content will not be translated automatically, but if multi-language content is entered the appropriate language content will be displayed, if available.
 
-Description - Information about the user that other users can see.
+**Description -** Information about the user that other users can see.
 
 User Picture
 ^^^^^^^^^^^^^
