@@ -15,6 +15,20 @@ Table Of Content
    about_moodle
    getting_started 
    site_setup
+   upgrading
+   users
+   courses
+   grades
+   badges
+   location
+   language
+   plugins
+   security
+   appearance
+   front_page
+   server 
+   reports
+   development
 
 Indices and tables
 ==================
