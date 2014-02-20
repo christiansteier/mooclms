@@ -1,7 +1,7 @@
 Upgrading
 =========
 
-Upgrading from Moodle
+Upgrade from Moodle
 ----------------------
 You can only upgrade to Moodle 2.6 from Moodle 2.2 or later. If upgrading from earlier versions, you must upgrade to 2.2 first .
 
