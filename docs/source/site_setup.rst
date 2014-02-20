@@ -5,30 +5,35 @@ This document will show you how to setup a moodle site.
 
 Moodle Installation
 -------------------
-Moodle is primarily developed in Linus using Apache, PostgreSQL / MySQL / MariaDB and PHP
+Moodle is primarily developed in Linus using Apache, PostgreSQL / MySQL / MariaDB and PHP .
+
 Basic Requirements
+
 Sever Hardware
+^^^^^^^^^^^^^^
 
 Specific hardware requirements for your project will depend on the volume of anticipated concurrent users and should be discussed with your team IT team if you are hosting the server yourself, or company with whom you are hosting. As minimum are:
 
-Disk space: 160MB free (min) plus as much as you need to store your material. 5GB is probably a realistic minimum.
+**Disk space :** 160MB free (min) plus as much as you need to store your material. 5GB is probably a realistic minimum.
 
-Memory : 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM
+**Memory :** 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM
+
 Server Software
+^^^^^^^^^^^^^^^^
 
-Operating System : A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012
+**Operating System :** A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012
 
-Web server :  Apache is recommended . Others also wok such as IIS, lighttpd, nginx, cherokee, zeus and LiteSpeed.
+**Web server :**  Apache is recommended . Others also wok such as IIS, lighttpd, nginx, cherokee, zeus and LiteSpeed.
 
-PHP : Minimum version is 5.3.3. recommended PHP 5.5 and newer if available.
+**PHP :** Minimum version is 5.3.3. recommended PHP 5.5 and newer if available.
 
-Database : Minimum versions of following -
+**Database :** Minimum versions of following -
 
-    MySQL - version 5.1.33 (mostly recommended)
-    PostgreSQL - version 8.3 (mostly recommended)
-    MariaDB - version 5.3.5 ( drop-in replacement for Oracle's MySQL)
-    MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)
-    Oracle - version 10.2 (not recommended)
+    * MySQL - version 5.1.33 (mostly recommended)
+    * PostgreSQL - version 8.3 (mostly recommended)
+    * MariaDB - version 5.3.5 ( drop-in replacement for Oracle's MySQL)
+    * MSSQL- version 9.0 (fully supported but documentation and online help are not as comprehensive)
+    * Oracle - version 10.2 (not recommended)
 
 Browser : Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .
 Set up your server
