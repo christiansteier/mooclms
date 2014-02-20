@@ -9,8 +9,8 @@ Moodle is primarily developed in Linus using Apache, PostgreSQL / MySQL / MariaD
 
 Basic Requirements
 
-A. Sever Hardware
-   ^^^^^^^^^^^^^^^
+Sever Hardware
+^^^^^^^^^^^^^^^
 
 Specific hardware requirements for your project will depend on the volume of anticipated concurrent users and should be discussed with your team IT team if you are hosting the server yourself, or company with whom you are hosting. As minimum are:
 
@@ -18,8 +18,8 @@ Specific hardware requirements for your project will depend on the volume of ant
 
 **Memory :** 256MB (min) , 1GB or more is strongly recommended. Moodle can support 10 to 20 concurrent users for every 1GB of RAM
 
-B. Server Software
-   ^^^^^^^^^^^^^^^^
+Server Software
+^^^^^^^^^^^^^^^^
 
 **Operating System :** A linux based system is recommended for high performance. Example- CentOS, Redhat, Ubuntu, Debian, Mac OS X . Moodle can also be installed on Window 7 / 2012
 
@@ -37,8 +37,8 @@ B. Server Software
 
 **Browser :** Mimimum browser for accessing Moodle: recent firefox, Internet Explorer 9, Safari 6, recent Gooogle Chrome 11 .
 
-C. Set up your server
-   ^^^^^^^^^^^^^^^^^^^
+Set up your server
+^^^^^^^^^^^^^^^^^^^
 
 Depending on your particular choices of software set up your basic server . If you are using a hosted server all this should be done for you by your hosting provider.
 
