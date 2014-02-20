@@ -169,28 +169,36 @@ Messaging refers both to automatic alerts from Moodle about new forum posts, ass
 **Notification email override**
 
 For allowing users to enter a different email address in Administration > My profile > Messaging .
-Statistics
+
+**Statistics**
 
 If statistics are enabled for the site, graphs and tables of user activity may be generated.
-RSS feeds
+
+**RSS feeds**
 
 RSS (really simple syndication) feeds in Moodle enable people to stay up to date with forum posts, glossary entries and other events within Moodle.
-Blogs
+
+**Blogs**
 
 Blogs in Moodle are user based - each user has their own blog. Users can also register their external blogs, such as Blogger or Wordpress, so that entries are automatically included in their Moodle blog.
-Networking
+
+**Networking**
 
 The Moodle network feature allows a Moodle administrator to establish a link with another Moodle or a Mahara site and to share some resources with the users of that Moodle.
-Completion tracking
+
+**Completion tracking**
 
 Completion tracking is a process that assists Course completion and Activity completion features. It must be enabled in Advanced settings before it can be used anywhere in the site.
-Conditional access
+
+**Conditional access**
 
 Conditional activities enable teachers to restrict the availability of any activity or even a course section (in Moodle 2.3 onwards) according to certain conditions such as dates, grade obtained, or activity completion. When it is enabled by the administrator, a "Restrict access" setting appears in the settings of activities or resources .
-Plagiarism plugins
+
+**Plagiarism plugins**
 
 Plagiarism is when a student submits content they have copied and the real author was not given credit for the words. Plagiarism prevention detects when this form of cheating or academic dishonesty has happened.
-Badges
+
+**Badges**
 
 Badges are a good way of celebrating achievement and showing progress. Badges may be awarded based on a variety of chosen criteria and are fully compatible with Mozilla Open Badges. They are displayed on a user's profile.
 
