@@ -31,10 +31,9 @@ General
 **Email format -** This setting can be used such that Moodle will send text-only emails to the users.
 
 **Email digest type -** This setting set whether the user will receive an email for each new forum post in subscribed forums, or if new posts should be sent once per day in a digest, and which type of digest.
-
-        No digest (one receives individual emails),
-        Complete (a single digest daily) or
-        Subjects (a single digest daily with only the post topics included).
+     * No digest (one receives individual emails),
+     * Complete (a single digest daily) or
+     * Subjects (a single digest daily with only the post topics included).
 
 **Forum auto-subscribe -** If a user subscribes to a forum, new posts will be sent in the digest as specified. This setting sets whether a user is automatically subscribed to forums or if a manual click on the subscription button in each forum is required.
 
