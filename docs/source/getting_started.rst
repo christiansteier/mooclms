@@ -7,42 +7,21 @@ Administrators
 .. toctree::
     :maxdepth: 2
 
-    Site Setup
-    Upgrading
-    User
-    Courses
-    
-* Grades
-* Badges
-* Location
-* Language
-* Plugins
-* Security
-* Appearance
-* Front page
-* Server
-* Reports
-* Development
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    site_setup
+    upgrading
+    users
+    courses
+    grades
+    badges
+    location
+    language
+    plugins
+    security
+    appearance
+    front_page
+    server 
+    reports
+    development
 
 
 Teachers
