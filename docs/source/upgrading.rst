@@ -5,19 +5,19 @@ Upgrade from Moodle
 ----------------------
 You can only upgrade to Moodle 2.6 from Moodle 2.2 or later. If upgrading from earlier versions, you must upgrade to 2.2 first .
 
-**Check the requirements -** Check that your server meets all requirements for 2.6 in Administration > Site administration > Server > Environment.
+1. **Check the requirements -** Check that your server meets all requirements for 2.6 in Administration > Site administration > Server > Environment.
 
-**Before you upgrade your site for real -**  We advise that you test the upgrade first on a COPY of your production site, to make sure it works as you expect.
+2. **Before you upgrade your site for real -**  We advise that you test the upgrade first on a COPY of your production site, to make sure it works as you expect.
 
-**Backup important data -** The three should be backed up:
+3. **Backup important data -** The three should be backed up:
 
     * Moodle software (For example, everything in server/htdocs/moodle)
     * Moodle uploaded files (For example, server/moodledata)
     * Moodle database (For example, your Postgres or MySQL database dump)
 
-**Put your site into maintenance mode -** You should put it into maintenance mode to stop any non-admin users from logging in.
+4. **Put your site into maintenance mode -** You should put it into maintenance mode to stop any non-admin users from logging in.
 
-**Install the new Moodle Software -** Steps to follow:
+5. **Install the new Moodle Software -** Steps to follow:
 
     1. Move your old Moodle files to another location.
     2. Unzip the Moodle package there so that all new files are in the location the old fles used to be in on the server.
