@@ -13,7 +13,7 @@ Table Of Content
    :maxdepth: 2
 
    about_moodle
-   getting_started 
+   Getting Started (getting_started)
    site_setup
 
 Indices and tables
