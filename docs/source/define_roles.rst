@@ -24,7 +24,7 @@ Manage roles
 ^^^^^^^^^^^^^
 The 'Manage roles' tab contains a list of roles on your site. The Edit column contains icons for editing and deleting roles, and for moving them up or down in the list (affecting the way that roles are listed around Moodle). 
 
-.. _image:: _images/manage_role.png
+.. image:: _images/manage_role.png
 
 To edit a role:
 
@@ -60,7 +60,7 @@ Allow role assignments
 ^^^^^^^^^^^^^^^^^^^^^^^
 The "Allow role assignments" tab allows (or does not allow) a specific role to be able to assign specific roles to a user. 
 
-.. _image:: _images/allow_role_assignment.png
+.. image:: _images/allow_role_assignment.png
 
 Enabling teachers to assign other teachers
 
