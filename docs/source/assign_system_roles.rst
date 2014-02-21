@@ -2,7 +2,7 @@
 
 Assign System Roles
 ====================
-You are here Administration > Site Administration > Users > Permissions > Assign System Roles .
+You are here *Administration > Site Administration > Users > Permissions > Assign System Roles* .
 
 In Moodle users do not normally have a global, site-wide role. In other words in Moodle you may have a teacher role in the course you teach in but a studentrole in another course.
 
