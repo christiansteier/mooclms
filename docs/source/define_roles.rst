@@ -7,7 +7,7 @@ A role is a collection of permissions defined for the whole system that you can 
 For example, you may have a role called ‘Trainer’ set up to allow trainers to do certain things (and not others), once this role exists you can assign it to someone in a course to make them a ‘Trainer’ for that course. You could also assign the role to a user in the course category to make them a ‘Trainer’ for all the courses under that category, or assign the role to a user just in a single forum, giving that user those capabilities just in that forum. 
 
 Permissions
-^^^^^^^^^^^^
+============
 You have three permission levels for each task:
 
 **Allow:** The role is assigned in the stipulated context.
@@ -20,7 +20,7 @@ You have three permission levels for each task:
    :depth: 3
 
 Managing roles
-^^^^^^^^^^^^^^^
+===============
 Managing overall role capabilities can be done by an administrator using *Settings > Site administration > Users > Permissions > Define roles*. This is the place to add custom roles or modify existing roles.
 
 Manage roles
