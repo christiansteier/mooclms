@@ -8,4 +8,4 @@ Users may be assigned the role of site administrator by another site administrat
 
 .. image:: _images/manage_site_administrator.png
 
-Note: The primary administrator (created when the site was created) cannot be removed from the site administrator role.
+**Note:** The primary administrator (created when the site was created) cannot be removed from the site administrator role.
