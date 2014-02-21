@@ -15,7 +15,7 @@ System context
 
 Front page context
 ^^^^^^^^^^^^^^^^^^^
-   * *Administration > Site Administration > Front Page>Users>Permissions>Assigned roles*
+   * *Administration > Site Administration > Front Page > Users > Permissions > Assigned roles*
    * Those with a role in the system context do not need to be assigned a role here as well.
    * However you might want to allow a teacher to manage items on the front page; in this instance, you would assign them the role on the Front page. 
    
