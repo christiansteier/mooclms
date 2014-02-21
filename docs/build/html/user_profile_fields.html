@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
+    <title>User profile fields &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,13 +41,61 @@
         <div class="bodywrapper">
           <div class="body">
             
-  
+  <div class="section" id="user-profile-fields">
+<span id="id1"></span><h1>User profile fields<a class="headerlink" href="#user-profile-fields" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/profile_fields.png" src="_images/profile_fields.png" />
+<p>Administrators can create new user profile categories and fields in Administration &gt; Site administration &gt; Users &gt; Accounts &gt; User profile fields.</p>
+<p>Profile fields may be a menu of choices, text area, text input or a checkbox and may be required or not.</p>
+<p>New profile fields will appear on each user’s profile page unless &#8220;Who is this field visible to?&#8221; is set to &#8220;Not visible&#8221; in which case only the administrator can see the field. The fields can also be displayed on the signup page if &#8220;Display on signup page?&#8221; is set to &#8220;Yes&#8221; (although note that they will never be displayed if set to &#8220;Not visible&#8221;).</p>
+<p>You can set the order in which your custom profile fields appear under the associated profile category using the up/down arrows on the User profiles fields page.</p>
+<p>To create a new profile field, select the profile field format you require from the dropdown list.</p>
+<div class="section" id="common-settings">
+<h2>Common Settings<a class="headerlink" href="#common-settings" title="Permalink to this headline">¶</a></h2>
+<p>All new fields must be given a unique Short Name and a Name (this is displayed on the profile page). You may also choose to enter a Description for the field for your own reference. There are also a number of configuration options common to all custom profile field types:</p>
+<p><strong>Is this field required?</strong>
+This option specifies whether this is a mandatory or optional field for user accounts.</p>
+<p><strong>Is this field locked?</strong>
+This option determines whether once information is populated in this field, it cannot be edited by the user.</p>
+<p><strong>Should the data be unique?</strong>
+If you need the information populated in your field to be unique across the system (such as an ID number) select Yes to this option and the  profile page update will perform a validation check on the data entered.</p>
+<p><strong>Display on signup page?</strong>
+Depending on the authentication method in use on your Moodle site, you may have some users creating their own accounts. If you would like this custom field to appear on the registration or signup page, select Yes.</p>
+<p><strong>Who is this field visible to?</strong>
+Each custom field can be given one of three visibility settings:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Visible to everyone</li>
+<li>Not visible</li>
+<li>Visible to user</li>
+</ul>
+</div></blockquote>
+<p>The Not visible setting would typically be set by an administrator who wants to hold private data on the users. The Visible to user setting would normally be selected for a field that holds sensitive information, while the Visible to everyone setting can be used for any type of information.</p>
+</div>
+<div class="section" id="specific-settings">
+<h2>Specific Settings<a class="headerlink" href="#specific-settings" title="Permalink to this headline">¶</a></h2>
+<p>There are also a few field type Specific Settings requiring configuration around default value and size.</p>
+<p><strong>Important</strong></p>
+<p>If the site administrator bulk uploads user data via .csv file, it is essential to use the correct convention to represent the new profile field. The convention is profile_field_shortname</p>
+<p>Replace &#8216;shortname&#8217; with the actual short name used for the new profile field eg. dob. So the field should read something like profile_field_dob.</p>
+<p>Also, you will need to visit Administration &gt; Site Administration &gt; Users &gt; Accounts &gt; User Profile Fields &gt; Create new Profile Field before attempting to upload a file using it. Creating an upload file first with custom profile fields without creating the User Profile Fields first in Site Administration <strong>will result in the error</strong> .</p>
+</div>
+</div>
+
 
           </div>
         </div>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">User profile fields</a><ul>
+<li><a class="reference internal" href="#common-settings">Common Settings</a></li>
+<li><a class="reference internal" href="#specific-settings">Specific Settings</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/user_profile_fields.txt"
