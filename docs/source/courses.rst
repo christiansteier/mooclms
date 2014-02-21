@@ -46,9 +46,17 @@ See :ref: `Course Settings` to learn more about these settings.
 
 Course Request
 ---------------
+The course request feature can be enabled by an administrator in *Settings > Site administration > Courses > Course request*.
 
+An admin can set the default category for course requests, whether users can select a category when requesting a course, and who can receive notification of course requests (from a list of users with the capability moodle/site:approvecourse).
 
+A 'Request a new course' button will then appear on the 'All courses' page. The All courses page can be accessed via a link in the Courses block.
 
+If course requests are enabled, by default all authenticated users can make course requests. 
+    
+.. image:: _images/
+
+  
 Backup
 -------
 
