@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
+    <title>User Policies &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,7 +41,51 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <p id="user-policies">User Policies</p>
+  <div class="section" id="user-policies">
+<span id="id1"></span><h1>User Policies<a class="headerlink" href="#user-policies" title="Permalink to this headline">¶</a></h1>
+<p>This is where you can select what actions are taken in specific role circumstances, for example, if someone wishes to sign in as a guest the default role allocated to that person can be specified.</p>
+<p>The following settings may be changed by an administrator in <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; User policies</em>.</p>
+<p><strong>Role for visitors</strong>
+Users who are not logged in to the site will be treated as if they have the role specified here, granted to them at the site context. The role of Guest is the default and the recommended setting for standard Moodle sites. The user will still be required to login to participate in an activity.</p>
+<p><strong>Role for guest</strong>
+This option specifies the role that will automatically be assigned to the guest user. This role is also temporarily assigned to non enrolled users when they enter a course that allows guests without password.</p>
+<p><strong>Deny Guest Access to a site altogether</strong>
+Go to Site administration ► Plugins ► Authentication ► Manage authentication and there is a switch there that allows you to turn the Guest Access button off altogether.</p>
+<p><strong>Default role for all users</strong>
+It is recommended that the default role for all users is set to Authenticated user. To set it to a custom role, the custom role must be assignable in the system context and have role archetype set to none.</p>
+<p><strong>Auto-login guest</strong>
+If not set, then visitors must click the &#8220;Login as a guest&#8221; button before entering a course which allows guest access.
+<strong>Note:</strong> If auto-login guest is set, the guest login button also needs to be set to show (in Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication), even though visitors won&#8217;t necessarily use it.</p>
+<p><strong>Hide user fields</strong>
+The following user fields appear on users&#8217; profile pages. Certain user fields are also listed on the course participants page. You can increase student privacy by hiding selected user fields.
+Description, city/town, country, web page, ICQ number, Skype ID, Yahoo ID, AIM ID, MSN ID, last access, My courses and first access and groups</p>
+<p><strong>Show user identity</strong>
+Any of the following fields may be shown to users with the capability moodle/site:viewuseridentity when searching for users and displaying lists of users.</p>
+<blockquote>
+<div><ul class="simple">
+<li>ID number</li>
+<li>Email address</li>
+<li>Phone number</li>
+<li>Mobile phone</li>
+<li>Department</li>
+<li>Institution</li>
+</ul>
+</div></blockquote>
+<p>This setting is useful for sites with large number of users, where the likelihood of users with the same name is high.</p>
+<p><strong>Maximum users per page</strong>
+You can choose here the maximum number of users to be displayed when searching in courses, groups, cohorts etc. The default is 100 but if your Moodle site is very large you can increase the number here.</p>
+<p><strong>Enable Gravatar</strong>
+Gravatar (an abbreviation for globally recognized avatar) is a service for providing globally unique avatars.</p>
+<p><strong>Gravatar default image URL</strong>
+If gravatars are enabled, an alternative default user picture may be specified. The options are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>A gravatar default image.</li>
+<li>A specified image - by entering the image URL</li>
+</ul>
+</div></blockquote>
+<p>If the field is left empty then the theme&#8217;s default user picture is used.</p>
+</div>
 
 
           </div>

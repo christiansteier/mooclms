@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
+    <title>Upload users &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,13 +41,73 @@
         <div class="bodywrapper">
           <div class="body">
             
-  
+  <div class="section" id="upload-users">
+<span id="id1"></span><h1>Upload users<a class="headerlink" href="#upload-users" title="Permalink to this headline">¶</a></h1>
+<p>An administrator can upload multiple user accounts via text file in Administration &gt; Site administration &gt; Users &gt; Accounts &gt; Upload users.</p>
+<div class="section" id="upload-user-process">
+<h2>Upload user process<a class="headerlink" href="#upload-user-process" title="Permalink to this headline">¶</a></h2>
+<p>Steps to be followed:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Create file for uploading.</li>
+<li>Go to Settings &gt; Site administration &gt; Users &gt; Accounts &gt; Upload users</li>
+<li>Add file to upload</li>
+<li>Upload users preview - check settings and default user profile settings</li>
+<li>Upload users preview - click &#8220;Upload users&#8221;</li>
+<li>Upload users results - shows list of users, exceptions made in upload and summary of number of users</li>
+<li>Upload users results - click &#8220;Continue&#8221;</li>
+<li>Returns to Upload users screen</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="file-formats-for-upload-users-file">
+<h2>File formats for upload users file<a class="headerlink" href="#file-formats-for-upload-users-file" title="Permalink to this headline">¶</a></h2>
+<p>You can use a spread sheet program to create the file with the required columns and fields. Then save the file as &#8220;CSV (comma delimited)&#8221;. These files can be opened with simple text editors for verification.</p>
+<p>File can include the following:</p>
+<p><strong>Required fields :</strong> username,firstname,lastname,email</p>
+<p>Validity checks are performed for:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>username can only contain alphabetical lowercase letters , numbers, hypen &#8216;-&#8216;, underscore &#8216;_&#8217;, period &#8216;.&#8217;, or at-sign &#8216;&#64;&#8217;</li>
+<li>email is in the form: <a class="reference external" href="mailto:name&#37;&#52;&#48;example&#46;com">name<span>&#64;</span>example<span>&#46;</span>com</a> .</li>
+</ol>
+</div></blockquote>
+<p><strong>Password field :</strong> &#8220;password&#8221; field is optional if &#8220;Create password if needed&#8221; setting is chosen (default).</p>
+<blockquote>
+<div><ul class="simple">
+<li>If included, values should meet the requirements for the site&#8217;s Password policy. To force password change for a particular user, set the password field to changeme.</li>
+<li>If omitted, a password will be generated for each user (during the next Cron job) and welcome e-mails sent out.</li>
+<li>Note: the text for the welcome e-mail is in the language settings. Please refer to this forum threadfor details.</li>
+</ul>
+</div></blockquote>
+<p><strong>Optional fields :</strong> To provide values other than the default include one or more of these</p>
+<p>institution,department,city,country,lang,auth,timezone,idnumber,icq,phone1,phone2,address,url,description,mailformat,maildisplay,htmleditor,autosubscribe</p>
+<p><strong>Additional name fields</strong></p>
+<p><strong>Country :</strong> use a country TWO LETTER CODE</p>
+<p><strong>Custom profile field names :</strong> (Optional). xxxxx is the real custom user profile field name (i.e. the unique shortname)</p>
+<p>profile_field_xxxxx</p>
+<p><strong>Special fields :</strong> Used for changing of usernames or deleting of users</p>
+<p>oldusername, deleted</p>
+<p><strong>Enrolment fields</strong> (Optional) : course1,type1,role1,group1,enrolperiod1,enrolstatus1/course2,type2,role2,group2,enrolperiod2/enrolstatus2 etc.</p>
+<p><strong>Cohort field</strong> (Optional) : cohort1</p>
+</div>
+</div>
+
 
           </div>
         </div>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Upload users</a><ul>
+<li><a class="reference internal" href="#upload-user-process">Upload user process</a></li>
+<li><a class="reference internal" href="#file-formats-for-upload-users-file">File formats for upload users file</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/upload_users.txt"

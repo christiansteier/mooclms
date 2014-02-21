@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
+    <title>Cohorts &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,13 +41,110 @@
         <div class="bodywrapper">
           <div class="body">
             
-  
+  <div class="section" id="cohorts">
+<span id="id1"></span><h1>Cohorts<a class="headerlink" href="#cohorts" title="Permalink to this headline">¶</a></h1>
+<p>Cohorts, or site wide cohorts, enable all members of a cohort to be enrolled in a course in one action, either manually or synchronised automatically.</p>
+<div class="section" id="creating-a-cohort">
+<h2>Creating a cohort<a class="headerlink" href="#creating-a-cohort" title="Permalink to this headline">¶</a></h2>
+<p>Cohorts can be created by site administrators and other users with appropriate permissions.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access Administration &gt; Site administration &gt; Users &gt; Accounts &gt; Cohorts</li>
+<li>Click the Add button</li>
+<li>NOTE In the dropdown you can choose between making your cohort available throughout the site &#8220;system&#8221; or in a named category.</li>
+<li>Complete the details and save the changes.</li>
+<li>Follow the assign link opposite the cohort name in the list of available cohorts.</li>
+<li>Select potential users from the list then click the Add button.</li>
+</ol>
+</div></blockquote>
+<p>To synchronise cohort members with course participants, the Cohort sync enrolment plugin should be enabled in Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins.</p>
+</div>
+<div class="section" id="adding-users-to-a-cohort-in-bulk">
+<h2>Adding users to a cohort in bulk<a class="headerlink" href="#adding-users-to-a-cohort-in-bulk" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access Administration &gt; Site administration &gt; Users &gt; Accounts &gt; Bulk user actions</li>
+<li>Find users by setting an appropriate filter</li>
+<li>Add users from the available list to the selected list</li>
+<li>Choose &#8216;Add to cohort&#8217; with selected users</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="uploading-users-to-a-cohort">
+<h2>Uploading users to a cohort<a class="headerlink" href="#uploading-users-to-a-cohort" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can upload users via CSV file to existing cohorts as follows:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access Administration &gt; Site administration &gt; Users &gt; Accounts &gt; Upload users</li>
+<li>Upload a text file with the following format:</li>
+</ol>
+</div></blockquote>
+<table border="1" class="docutils">
+<caption>Cohort</caption>
+<colgroup>
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">username</th>
+<th class="head">password</th>
+<th class="head">firstname</th>
+<th class="head">lastname</th>
+<th class="head">email</th>
+<th class="head">cohort1</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>john</td>
+<td>user*123</td>
+<td>John</td>
+<td>Teacher</td>
+<td><a class="reference external" href="mailto:john&#37;&#52;&#48;example&#46;com">john<span>&#64;</span>example<span>&#46;</span>com</a></td>
+<td>first</td>
+</tr>
+<tr class="row-odd"><td>tanisha</td>
+<td>user*123</td>
+<td>Tanisha</td>
+<td>Student</td>
+<td><a class="reference external" href="mailto:tanisha&#37;&#52;&#48;example&#46;com">tanisha<span>&#64;</span>example<span>&#46;</span>com</a></td>
+<td>second</td>
+</tr>
+</tbody>
+</table>
+<p>Where first and second are the cohort ids of existing cohorts not their names.</p>
+</div>
+<div class="section" id="searching-cohorts">
+<h2>Searching cohorts<a class="headerlink" href="#searching-cohorts" title="Permalink to this headline">¶</a></h2>
+<p>When a site has a large number of cohorts, keywords may be enetered into the search cohort box to search for the available cohorts.</p>
+</div>
+<div class="section" id="managing-category-cohorts">
+<h2>Managing category cohorts<a class="headerlink" href="#managing-category-cohorts" title="Permalink to this headline">¶</a></h2>
+<p>Cohorts which have been created for a category rather than the system can be located by selecting the appropriate category and then clicking the Cohorts link in Administration &gt; Category (name) &gt; Cohorts.</p>
+</div>
+</div>
+
 
           </div>
         </div>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Cohorts</a><ul>
+<li><a class="reference internal" href="#creating-a-cohort">Creating a cohort</a></li>
+<li><a class="reference internal" href="#adding-users-to-a-cohort-in-bulk">Adding users to a cohort in bulk</a></li>
+<li><a class="reference internal" href="#uploading-users-to-a-cohort">Uploading users to a cohort</a></li>
+<li><a class="reference internal" href="#searching-cohorts">Searching cohorts</a></li>
+<li><a class="reference internal" href="#managing-category-cohorts">Managing category cohorts</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/cohorts.txt"
