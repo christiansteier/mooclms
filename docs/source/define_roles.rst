@@ -17,7 +17,7 @@ You have three permission levels for each task:
 **Prohibit:** This is rarely needed, but occasionally you might want to completely deny permissions to a role in a way that can not be overridden at any lower context. A good example of when you might need this is when an admin wants to prohibit one person from starting new discussions in any forum on the whole site. In this case they can create a role with that capability set to ‘Prohibit’ and then assign it to that user in the site context. 
 
 .. contents:: Table of Contents
-   :depth: 1
+   :depth: 3
 
 Managing roles
 ^^^^^^^^^^^^^^^
