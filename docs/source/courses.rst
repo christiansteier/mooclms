@@ -22,6 +22,25 @@ If the category is visible, the course category description will be displayed to
 
 Course Default Settings
 ------------------------
+You are here: *Administration > Site administration > Courses > Course default settings*
+
+Course default settings allow you to set the default settings used for new courses.
+
+The following defaults are included:
+
+    * Format
+    * Number Weeks/Topics
+    * Visibility of hidden sections
+    * Number of News Items to show
+    * Showing of Gradebook to learners
+    * Showing of activity reports
+    * Maximum upload size
+    * Metacourse
+    * Completion Tracking
+    * Completion tracking beings on enrolment
+    * Course Tagging
+
+See :ref: `Course Settings` to learn more about these settings.
 
 
 
