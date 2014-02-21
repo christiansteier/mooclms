@@ -9,11 +9,8 @@ For example, you may have a role called ‘Trainer’ set up to allow trainers t
 Permissions
 ^^^^^^^^^^^^
 You have three permission levels for each task:
- 
 **Allow:** The role is assigned in the stipulated context.
- 
 **Prevent:** By choosing this you are removing permission for this capability, even if the users with this role were allowed that permission in a higher context.
- 
 **Prohibit:** This is rarely needed, but occasionally you might want to completely deny permissions to a role in a way that can not be overridden at any lower context. A good example of when you might need this is when an admin wants to prohibit one person from starting new discussions in any forum on the whole site. In this case they can create a role with that capability set to ‘Prohibit’ and then assign it to that user in the site context. 
 
 Managing roles
@@ -34,6 +31,7 @@ To edit a role:
     
 Add a new role
 ^^^^^^^^^^^^^^^
+To add a new role:
     1. Go to *Settings > Site administration > Users > Permissions > Define roles*.
     2. Click 'Add a new role' on the 'Manage Roles' page.
     3. On the 'Add a new role' page, give the role a name.
@@ -46,7 +44,6 @@ Add a new role
 Resetting a role
 ^^^^^^^^^^^^^^^^^
 To reset a role back to the default permissions:
-    
     1. Go to *Settings > Site administration > Users > Permissions > Define roles*.
     2. Click on the name of the role, for example "student".
     3. Click the 'Reset to defaults' button. 
@@ -62,7 +59,6 @@ The "Allow role assignments" tab allows (or does not allow) a specific role to b
 Enabling teachers to assign other teachers
 
 By default, teachers can only assign other users the roles of non-editing teachers, students and guests. If you want teachers to be able to assign other teachers in their course, you can allow the role assignment:
-
     1. Click on *Settings > Site administration > Users > Permissions > Define roles*.
     2. Click the Allow role assignments tab.
     3. Click the checkbox where the teacher row and column intersect.
