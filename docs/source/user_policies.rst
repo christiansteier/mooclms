@@ -6,6 +6,8 @@ This is where you can select what actions are taken in specific role circumstanc
 
 The following settings may be changed by an administrator in *Administration > Site administration > Users > Permissions > User policies*.
 
+.. image:: _images/user_policies.png
+
 **Role for visitors**
 Users who are not logged in to the site will be treated as if they have the role specified here, granted to them at the site context. The role of Guest is the default and the recommended setting for standard Moodle sites. The user will still be required to login to participate in an activity.
 
