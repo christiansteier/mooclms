@@ -13,6 +13,7 @@ Location Settings
   * Default country - Select the country to appear by default on a new user account page form.
 
   IP address lookup 
+  
   * GeoIP City data file - Location of GeoIP City binary data file. This is a non-invasive way to determine geographical and other information about Internet visitors in real-time. This file is not part of Moodle distribution and must be obtained separately from MaxMind. There is a GeoIPLite version for free.
   
   * Google Maps API key - Google Maps for IP address lookup visualization key. The Google Maps API lets you embed Google Maps with JavaScript. This is free. 
