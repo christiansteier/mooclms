@@ -34,6 +34,7 @@ uploadcourse.csv :
      - manual
      - student
      - 1 month
+     -
    * - courserestored
      - Course restored 2
      - 1
