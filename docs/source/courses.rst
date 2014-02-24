@@ -65,7 +65,7 @@ Default settings for course backups can be set by a site administrator in *Setti
 
 Selected settings may be locked, so that they cannot be changed when creating a course backup. By selecting a time in the "Keep logs for.." dropdown, it is possible to specify how long backup logs information is kept before being deleted. As this information may be very large, it is recommended the length of time chosen be quite short.
 
-See :ref: `<automated_backup_setup>` for scheduling automatic backup.
+See :ref: `automated_backup_setup` for scheduling automatic backup.
 
 
 Upload Courses
