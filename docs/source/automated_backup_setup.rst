@@ -22,6 +22,8 @@ To set the backup schedule:
 
 Once you've set up your backup schedule, Moodle will automatically create archives of all the courses on the server at the time you specified. Once the backup is complete, Moodle will send you an email describing the status of the backup. 
 
+.. image:: _images/automatic_backup_setup.png
+
 Use course names for your backups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 By default, the backups will be named according to the course ID, which is not always easily recognisable. Check the box Use course name in backup filename in *Settings > Site Administration > Courses > Backups > Automated backup setup* to have them saved with the course shortname instead. 
