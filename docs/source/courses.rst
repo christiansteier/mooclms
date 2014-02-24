@@ -16,7 +16,8 @@ Adding categories is very simple:
     1. *Go to Administration > Site administration > Courses > Add a category*
     2. Complete the details required and click 'Create category.'
     3. Alternatively, you can go to Administration>Site administration>Courses>Manage courses and categories and click the link 'Create new category'. 
-.. image:: _images/
+
+.. image:: _images/add_new_category.png
 
 If the category is visible, the course category description will be displayed to users when they enter the category, above the list of courses. 
 
