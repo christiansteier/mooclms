@@ -5,6 +5,9 @@ A course in Moodle is an area where a teacher will add resources and activities 
 
 Manage Courses and Categories
 ------------------------------
+Course categories organize courses for all Moodle site participants. The default course category on a new Moodle site is "Miscellaneous" (although this can be renamed) A Course creator, Administrator or Manager can put all courses in the Miscellaneous category. The list of courses within a category by default shows the teachers and the summary of each course.
+
+To know more about :ref:`manage_course_categories` 
 
 
 Add a Category
@@ -20,6 +23,7 @@ Adding categories is very simple:
 .. image:: _images/add_new_category.png
 
 If the category is visible, the course category description will be displayed to users when they enter the category, above the list of courses. 
+
 
 Course Default Settings
 ------------------------
