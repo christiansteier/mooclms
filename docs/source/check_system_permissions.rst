@@ -15,5 +15,5 @@ Checking system permissions
     
     **Note:** Use the filter to search the permissions list.
     
-.. image:: _images
+.. image:: _images/check_system_permissions.png
 
