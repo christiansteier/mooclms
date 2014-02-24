@@ -59,6 +59,11 @@ If course requests are enabled, by default all authenticated users can make cour
   
 Backup
 -------
+A backup allows a site administrator to save everything associated with a moodle site. These backups can be restored to bring a site back to the point in time when the backup was made.
+
+Default settings for course backups can be set by a site administrator in *Settings > Site administration > Courses > Backups > General backup default*.
+
+Selected settings may be locked, so that they cannot be changed when creating a course backup. By selecting a time in the "Keep logs for.." dropdown, it is possible to specify how long backup logs information is kept before being deleted. As this information may be very large, it is recommended the length of time chosen be quite short.
 
 
 
