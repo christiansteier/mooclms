@@ -70,3 +70,17 @@ See :ref:`automated_backup_setup` for scheduling automatic backup.
 
 Upload Courses
 ---------------
+An administrator can upload multiple courses via text file in *Administration > Site administration > Courses > Upload courses*. 
+In addition to creating new courses, this functionality may also be used to update or delete courses, or import content from another course.
+
+To know more about :ref:`upload_courses`.
+
+
+
+
+
+
+
+
+
+
