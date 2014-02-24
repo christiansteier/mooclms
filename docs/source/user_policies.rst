@@ -26,7 +26,9 @@ If not set, then visitors must click the "Login as a guest" button before enteri
 
 **Hide user fields**
 The following user fields appear on users' profile pages. Certain user fields are also listed on the course participants page. You can increase student privacy by hiding selected user fields.
-Description, city/town, country, web page, ICQ number, Skype ID, Yahoo ID, AIM ID, MSN ID, last access, My courses and first access and groups 
+Description, city/town, country, web page, ICQ number, Skype ID, Yahoo ID, AIM ID, MSN ID, last access, My courses and first access and groups.
+
+.. image:: _images/hide_user_fields.png
 
 **Show user identity**
 Any of the following fields may be shown to users with the capability moodle/site:viewuseridentity when searching for users and displaying lists of users.
