@@ -1,4 +1,4 @@
-.. _automated_backup_setup::
+.. _automated_backup_setup:
 
 Automated Course Backup
 ========================
