@@ -16,7 +16,8 @@ Adding categories is very simple:
     1. *Go to Administration > Site administration > Courses > Add a category*
     2. Complete the details required and click 'Create category.'
     3. Alternatively, you can go to Administration>Site administration>Courses>Manage courses and categories and click the link 'Create new category'. 
-.. image:: _images/
+
+.. image:: _images/add_new_category.png
 
 If the category is visible, the course category description will be displayed to users when they enter the category, above the list of courses. 
 
@@ -40,7 +41,7 @@ The following defaults are included:
     * Completion tracking beings on enrolment
     * Course Tagging
 
-See :ref: `Course Settings` to learn more about these settings.
+See :ref:`Course Settings` to learn more about these settings.
 
 
 
@@ -54,7 +55,7 @@ A 'Request a new course' button will then appear on the 'All courses' page. The 
 
 If course requests are enabled, by default all authenticated users can make course requests. 
     
-.. image:: _images/
+.. image:: _images/course_request.png
 
   
 Backup
@@ -65,8 +66,24 @@ Default settings for course backups can be set by a site administrator in *Setti
 
 Selected settings may be locked, so that they cannot be changed when creating a course backup. By selecting a time in the "Keep logs for.." dropdown, it is possible to specify how long backup logs information is kept before being deleted. As this information may be very large, it is recommended the length of time chosen be quite short.
 
-See :ref: `Automated backup setup <automated_backup_setup>` for scheduling automatic backup.     >
+.. image:: _images/general_backup_default.png
+
+See :ref:`automated_backup_setup` for scheduling automatic backup.
 
 
 Upload Courses
 ---------------
+An administrator can upload multiple courses via text file in *Administration > Site administration > Courses > Upload courses*. 
+In addition to creating new courses, this functionality may also be used to update or delete courses, or import content from another course.
+
+To know more about :ref:`upload_courses`.
+
+
+
+
+
+
+
+
+
+

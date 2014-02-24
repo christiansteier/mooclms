@@ -43,6 +43,163 @@
             
   <div class="section" id="upload-courses">
 <span id="id1"></span><h1>Upload courses<a class="headerlink" href="#upload-courses" title="Permalink to this headline">¶</a></h1>
+<p>To upload one or more courses</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Courses &gt; Upload courses</em></li>
+<li>Either drag and drop the CSV file or click the &#8216;Choose a file&#8217; button and select the file in the file picker</li>
+<li>Select appropriate import options carefully, then click the preview button.</li>
+</ol>
+</div></blockquote>
+<p>Note: It is also possible to use the command-line tool <em>admin/tool/uploadcourse/cli/uploadcourse.php</em>.</p>
+<p>When using the web interface, use the Preview option to see if any errors were detected in the previewed rows. If you proceed with the upload and there were something wrong detected with a course, it will be ignored.</p>
+<p>Example:
+uploadcourse.csv :</p>
+<table border="1" class="docutils">
+<caption>Cohort</caption>
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">shortname</th>
+<th class="head">fullname</th>
+<th class="head">category</th>
+<th class="head">summary</th>
+<th class="head">enrolment_1</th>
+<th class="head">enrolment_1_role</th>
+<th class="head">enrolment_1_enrolperiod</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>courserestored</td>
+<td>Course restored</td>
+<td>1</td>
+<td>a summary</td>
+<td>manual</td>
+<td>student</td>
+<td>1 month</td>
+</tr>
+<tr class="row-odd"><td>courserestored</td>
+<td>Course restored 2</td>
+<td>1</td>
+<td>a summary</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>courserestored</td>
+<td>Course restored 3</td>
+<td>1</td>
+<td>a summary</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="creating-the-text-file">
+<h2>Creating the text file<a class="headerlink" href="#creating-the-text-file" title="Permalink to this headline">¶</a></h2>
+<p>The text file to upload courses must be a CSV file. It accepts the following columns which are divided in two categories, the course information, and the course actions.</p>
+<div class="section" id="course-information-fields">
+<h3>Course information fields<a class="headerlink" href="#course-information-fields" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>shortname - the shortname</li>
+<li>fullname - the full name</li>
+<li>idnumber - the ID number</li>
+<li>category - the ID of the category to place the course in. This takes precedence over category_idnumber and category_path.</li>
+<li>category_idnumber - the ID number of the category to place the course in. This takes precedence over category_path.</li>
+<li>category_path - the path of the category to place the course in.</li>
+<li>visible - 1 if the course is visible, 0 if hidden</li>
+<li>startdate - the time at which the course starts. Please note that this value is passed to the PHP function strtotime to generate a timestamp.</li>
+<li>summary - the summary of the course</li>
+<li>format - the course format to use, this must be a valid course format plugin name. E.g. weeks, topics.</li>
+<li>theme - the theme to use</li>
+<li>lang - the language to use</li>
+<li>newsitems - the number of news items</li>
+<li>showgrades - 1 to show the gradebook to students, 0 to hide it.</li>
+<li>showreports - 1 to show the activity reports, 0 to hide it.</li>
+<li>legacyfiles - 1 to enable the legacy course files, 0 not to.</li>
+<li>maxbytes - the maximum upload size of the course in bytes. Use 0 for the site limit.</li>
+<li>groupmode - 0 for No groups, 1 for Separate groups and 2 for Visible groups.</li>
+<li>groupmodeforce - 1 to force the group mode, otherwise enter 0.</li>
+<li>enablecompletion - 1 to enable the activity completion, 0 not to.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="enrolment-fields">
+<h3>Enrolment fields<a class="headerlink" href="#enrolment-fields" title="Permalink to this headline">¶</a></h3>
+<p>Some fields can be constructed to enable and configure enrolment methods. The fields must be named enrolment_[number] for the enrolment method name, and enrolment_[number]_property for its properties.</p>
+<blockquote>
+<div><ul class="simple">
+<li>enrolment_[number] - The name of the enrolment method</li>
+<li>enrolment_[number]_delete - 1 to delete this enrolment method from the course, if set to 1 all the other properties will be ignored.</li>
+<li>enrolment_[number]_disable - 1 to disable this enrolment method from the course, if set to 1 all the other properties will be ignored.</li>
+<li>enrolment_[number]_startdate - The enrolment start date. This value is passed to the PHP function strtotime().</li>
+<li>enrolment_[number]_enddate - The enrolment end date. This value is passed to the PHP function strtotime().</li>
+<li>enrolment_[number]_enrolperiod - Number of seconds, or if not a value understood by strtotime() such as &#8220;4 days&#8221;.</li>
+<li>enrolment_[number]_role - The role short name</li>
+<li>enrolment_[number]_[property] - Where property is understood by the specified enrolment method</li>
+<li>role_[shortname] - The new name of the role [shortname].</li>
+</ul>
+</div></blockquote>
+<p>Note: Upload courses is not yet compatible with all enrolment methods</p>
+</div>
+<div class="section" id="course-action-fields">
+<h3>Course action fields<a class="headerlink" href="#course-action-fields" title="Permalink to this headline">¶</a></h3>
+<p>Those settings take precedence over the Course process parameters.</p>
+<blockquote>
+<div><ul class="simple">
+<li>delete - 1 to delete the course</li>
+<li>rename - The shortname to rename the course to</li>
+<li>backupfile - An absolute path to a backup file (.mbz) to import in the course</li>
+<li>templatecourse - The short name of a course to import the content from</li>
+<li>reset - 1 to reset the course</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="mandatory-fields">
+<h3>Mandatory fields<a class="headerlink" href="#mandatory-fields" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>shortname - This field is mandatory for every operation, with the only exception of creating new courses. See details on the course process parameter Shortname template for more information.</li>
+<li>fullname - Required when creating a new course.</li>
+<li>category, category_idnumber, category_path - One of these is required when creating a course.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="import-options">
+<h3>Import options<a class="headerlink" href="#import-options" title="Permalink to this headline">¶</a></h3>
+<p>To prevent unexpected behaviour, you have to specify what you want the tool to be able to do.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Upload mode - This allows you to specify if courses can be created and/or updated.</li>
+<li>Update mode - If you allow courses to be updated, you also have to tell the tool what to update the courses with.</li>
+<li>Allow deletes - Whether the delete field is accepted or not</li>
+<li>Allow renames - Whether the rename field is accepted or not</li>
+<li>Allow resets - Whether the reset field is accepted or not</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="course-process">
+<h3>Course process<a class="headerlink" href="#course-process" title="Permalink to this headline">¶</a></h3>
+<p>This allows you to specify actions to be taken for every course uploaded.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Shortname template - If you are creating courses without a shortname, you can use this field to automatically generate a shortname. This field accepts two placeholders: %i for the ID number, %f for the summary.</li>
+<li>Restore file - A backup file (.mbz) to import in the course after create/update.</li>
+<li>Restore from course - The shortname of a course to import content from after create/update.</li>
+<li>Reset after upload - Whether to reset the course after creating/updating it.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +208,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Upload courses</a><ul>
+<li><a class="reference internal" href="#creating-the-text-file">Creating the text file</a><ul>
+<li><a class="reference internal" href="#course-information-fields">Course information fields</a></li>
+<li><a class="reference internal" href="#enrolment-fields">Enrolment fields</a></li>
+<li><a class="reference internal" href="#course-action-fields">Course action fields</a></li>
+<li><a class="reference internal" href="#mandatory-fields">Mandatory fields</a></li>
+<li><a class="reference internal" href="#import-options">Import options</a></li>
+<li><a class="reference internal" href="#course-process">Course process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/upload_courses.txt"

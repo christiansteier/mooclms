@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
+    <title>Automated Course Backup &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,7 +41,33 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <p>Automated Course Backup</p>
+  <div class="section" id="automated-course-backup">
+<span id="automated-backup-setup"></span><h1>Automated Course Backup<a class="headerlink" href="#automated-course-backup" title="Permalink to this headline">¶</a></h1>
+<p>A site administrator can configure a schedule for automated course backups in <em>Settings &gt; Site administration &gt; &gt; Courses &gt; Backups &gt; Automated backup setup</em>.</p>
+<p>Moodle has an automated course backup system that you can run on a nightly basis to export all course content for the entire site. Automated course backups runs the same functions as individual course backups. It&#8217;s a good idea to schedule backups for when your server isn&#8217;t usually busy. Running the backup tool over all the courses can be processor-intensive, so you shouldn&#8217;t run it when there are a lot of students trying to access the server. You should always alert users with an announcement on the first page that if they log on during the backup hours they may notice a decrease in performance.</p>
+<p>In order to make scheduled backups, you have to set up CRON to run periodically. Please refer to the <a class="reference internal" href="cron.html#cron"><em>cron instructions</em></a> .</p>
+<div class="section" id="setting-an-automated-course-backup-schedule">
+<h2>Setting an automated course backup schedule<a class="headerlink" href="#setting-an-automated-course-backup-schedule" title="Permalink to this headline">¶</a></h2>
+<p>To set the backup schedule:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Settings &gt; Site administration &gt; &gt; Courses &gt; Backups &gt; Automated backup setup</em>.</li>
+<li>Set backup_auto_active to enabled.</li>
+<li>Select the days of the week to run the backup.</li>
+<li>Set the execution time for the backup process. For most servers, early morning will be the best time. Keep in mind the time zone your server is using.</li>
+<li>Set the &#8220;Save to...&#8221; path. If you can, choose a backup path on another machine or on a different drive than the one Moodle is on. You don’t want to lose your backups at the same time you lose your Moodle site if the drive fails. If you leave the field blank, then backup zip files will be saved in the backup folder of each course files folder. On a Linux server the path might look like: /home/(your user or domain)/public_html/archive/ or if it&#8217;s below the publicly accessible folders: /home/(your user or domain)/archive/ if the path is not recognized a red X is shown after saving, otherwise a green check.</li>
+<li>Choose whether to skip the backup of hidden courses or courses which have not been modified within a specified number of days, or not modified since the last backup (new settings in Moodle 2.4 onwards).</li>
+<li>Click the &#8220;Save changes&#8221; button.</li>
+</ol>
+</div></blockquote>
+<p>Once you&#8217;ve set up your backup schedule, Moodle will automatically create archives of all the courses on the server at the time you specified. Once the backup is complete, Moodle will send you an email describing the status of the backup.</p>
+<img alt="_images/automatic_backup_setup.png" src="_images/automatic_backup_setup.png" />
+<div class="section" id="use-course-names-for-your-backups">
+<h3>Use course names for your backups<a class="headerlink" href="#use-course-names-for-your-backups" title="Permalink to this headline">¶</a></h3>
+<p>By default, the backups will be named according to the course ID, which is not always easily recognisable. Check the box Use course name in backup filename in <em>Settings &gt; Site Administration &gt; Courses &gt; Backups &gt; Automated backup setup</em> to have them saved with the course shortname instead.</p>
+</div>
+</div>
+</div>
 
 
           </div>
@@ -49,6 +75,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Automated Course Backup</a><ul>
+<li><a class="reference internal" href="#setting-an-automated-course-backup-schedule">Setting an automated course backup schedule</a><ul>
+<li><a class="reference internal" href="#use-course-names-for-your-backups">Use course names for your backups</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/automated_backup_setup.txt"
