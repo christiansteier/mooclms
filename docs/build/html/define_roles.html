@@ -45,33 +45,34 @@
 <span id="id1"></span><h1>Define Roles<a class="headerlink" href="#define-roles" title="Permalink to this headline">¶</a></h1>
 <p>A role is a collection of permissions defined for the whole system that you can assign to specific users in specific contexts. The combination of roles and context define a specific user&#8217;s ability to do something on any page. The most common examples are the roles of student and teacher in the context of a course.</p>
 <p>For example, you may have a role called ‘Trainer’ set up to allow trainers to do certain things (and not others), once this role exists you can assign it to someone in a course to make them a ‘Trainer’ for that course. You could also assign the role to a user in the course category to make them a ‘Trainer’ for all the courses under that category, or assign the role to a user just in a single forum, giving that user those capabilities just in that forum.</p>
+</div>
 <div class="section" id="permissions">
-<h2>Permissions<a class="headerlink" href="#permissions" title="Permalink to this headline">¶</a></h2>
+<h1>Permissions<a class="headerlink" href="#permissions" title="Permalink to this headline">¶</a></h1>
 <p>You have three permission levels for each task:</p>
 <p><strong>Allow:</strong> The role is assigned in the stipulated context.</p>
 <p><strong>Prevent:</strong> By choosing this you are removing permission for this capability, even if the users with this role were allowed that permission in a higher context.</p>
 <p><strong>Prohibit:</strong> This is rarely needed, but occasionally you might want to completely deny permissions to a role in a way that can not be overridden at any lower context. A good example of when you might need this is when an admin wants to prohibit one person from starting new discussions in any forum on the whole site. In this case they can create a role with that capability set to ‘Prohibit’ and then assign it to that user in the site context.</p>
 </div>
 <div class="section" id="managing-roles">
-<h2>Managing roles<a class="headerlink" href="#managing-roles" title="Permalink to this headline">¶</a></h2>
+<h1>Managing roles<a class="headerlink" href="#managing-roles" title="Permalink to this headline">¶</a></h1>
 <p>Managing overall role capabilities can be done by an administrator using <em>Settings &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em>. This is the place to add custom roles or modify existing roles.</p>
-</div>
 <div class="section" id="manage-roles">
 <h2>Manage roles<a class="headerlink" href="#manage-roles" title="Permalink to this headline">¶</a></h2>
 <p>The &#8216;Manage roles&#8217; tab contains a list of roles on your site. The Edit column contains icons for editing and deleting roles, and for moving them up or down in the list (affecting the way that roles are listed around Moodle).</p>
-<dl class="docutils">
-<dt>To edit a role:</dt>
-<dd><ol class="first last arabic simple">
+<img alt="_images/manage_role.png" src="_images/manage_role.png" />
+<p>To edit a role:</p>
+<blockquote>
+<div><ol class="arabic simple">
 <li>Go to <em>Settings &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em>.</li>
 <li>Click the edit icon opposite the role you want to edit. For example &#8220;student&#8221;.</li>
 <li>On the editing role page, change permissions as required for each capability.</li>
 <li>Scroll to the bottom of the page and click the &#8220;Save changes&#8221; button.</li>
 </ol>
-</dd>
-</dl>
+</div></blockquote>
 </div>
 <div class="section" id="add-a-new-role">
 <h2>Add a new role<a class="headerlink" href="#add-a-new-role" title="Permalink to this headline">¶</a></h2>
+<p>To add a new role:</p>
 <blockquote>
 <div><ol class="arabic simple">
 <li>Go to <em>Settings &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em>.</li>
@@ -100,6 +101,7 @@
 <div class="section" id="allow-role-assignments">
 <h2>Allow role assignments<a class="headerlink" href="#allow-role-assignments" title="Permalink to this headline">¶</a></h2>
 <p>The &#8220;Allow role assignments&#8221; tab allows (or does not allow) a specific role to be able to assign specific roles to a user.</p>
+<img alt="_images/allow_role_assignment.png" src="_images/allow_role_assignment.png" />
 <p>Enabling teachers to assign other teachers</p>
 <p>By default, teachers can only assign other users the roles of non-editing teachers, students and guests. If you want teachers to be able to assign other teachers in their course, you can allow the role assignment:</p>
 <blockquote>
@@ -131,9 +133,9 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Define Roles</a><ul>
+<li><a class="reference internal" href="#">Define Roles</a></li>
 <li><a class="reference internal" href="#permissions">Permissions</a></li>
-<li><a class="reference internal" href="#managing-roles">Managing roles</a></li>
+<li><a class="reference internal" href="#managing-roles">Managing roles</a><ul>
 <li><a class="reference internal" href="#manage-roles">Manage roles</a></li>
 <li><a class="reference internal" href="#add-a-new-role">Add a new role</a></li>
 <li><a class="reference internal" href="#resetting-a-role">Resetting a role</a></li>
