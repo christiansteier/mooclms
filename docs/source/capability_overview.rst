@@ -10,4 +10,4 @@ The report allows the administrator to select a capability and one or more roles
 
 For example, it might show the gradereport:user view capability for a student role is set at the system level as "Allow" and for Course 1 it is set to "Prohibit".
 
-.. image:: _images/
+.. image:: _images/capability_overview.png
