@@ -55,7 +55,7 @@ A 'Request a new course' button will then appear on the 'All courses' page. The 
 
 If course requests are enabled, by default all authenticated users can make course requests. 
     
-.. image:: _images/
+.. image:: _images/course_request.png
 
   
 Backup
