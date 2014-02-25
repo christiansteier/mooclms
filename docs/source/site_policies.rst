@@ -31,7 +31,9 @@ Upload file sizes are restricted in a number of ways - each one in this list res
 2. The PHP site settings post_max_size and upload_max_filesize in php.ini : modify php.ini in web server directories ( apache2.x.x/bin/php.ini ) not in php directories :
  
       post_max_size = 128M;  to increase limit to 128 Megabytes;
+      
       upload_max_filesize = 128M;  to increase limit to 128 Megabytes;
+      
       max_execution_time = 600 ; Maximum execution time of each script, in seconds;
 
 3. The Moodle site-wide maximum uploaded file size setting: Settings > Site administration > Security > Site policies > Maximum uploaded file size.
