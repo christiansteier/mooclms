@@ -12,7 +12,7 @@ Site administration settings
 
    * Default language - This sets the default language for the site. This setting can be overridden by users using the language menu or the setting in their user profile.
 
-     Note: If a preferred language is set in your browser then this will override the default site language (unless language auto-detection is disabled). 
+     **Note:** If a preferred language is set in your browser then this will override the default site language (unless language auto-detection is disabled). 
 
    * Display language menu - This sets whether the language menu is displayed on the login page and the home page. If this is turned off, the only places where a user can change the language setting is in their user profile or in the course settings if they are a teacher.
 
