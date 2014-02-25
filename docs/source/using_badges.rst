@@ -27,9 +27,9 @@ Awarding the badge
 ^^^^^^^^^^^^^^^^^^^
 Badges may be awarded manually from Administration > Course administration > Badges > Manage badges > Recipients and clicking the "Award badge" button.
 
-Tip: If your site has a large number of users, it's easier to search for email addresses than names.
+**Tip:** If your site has a large number of users, it's easier to search for email addresses than names.
 
-*Important Note:* Currently once a badge has been issued it cannot be revoked. So make sure that you are giving a badge to the correct users! 
+**Important Note:** Currently once a badge has been issued it cannot be revoked. So make sure that you are giving a badge to the correct users! 
 
 
 Adding a site badge
