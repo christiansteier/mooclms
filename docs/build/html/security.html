@@ -24,7 +24,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
-    <link rel="next" title="&lt;no title&gt;" href="appearance.html" />
+    <link rel="next" title="Appearance" href="appearance.html" />
     <link rel="prev" title="Plugins" href="plugins.html" /> 
   </head>
   <body>
@@ -35,7 +35,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="appearance.html" title="&lt;no title&gt;"
+          <a href="appearance.html" title="Appearance"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="plugins.html" title="Plugins"
@@ -51,6 +51,47 @@
             
   <div class="section" id="security">
 <h1>Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ip-blocker">
+<h2>IP Blocker<a class="headerlink" href="#ip-blocker" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can set a list of allowed and/or blocked IP addresses in <em>Settings &gt; Site administration &gt; Security &gt; IP blocker</em>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>By default, entries in the blocked list are processed first, but checking the box <em>Allowed list will be processed first</em> reverses this order.</li>
+<li>Each entry in the allowed or blocked list goes on one line, with either the full IP address, partial address or range. Blank lines or domain names written as text (like moodle.org)are ignored.</li>
+</ul>
+</div></blockquote>
+<img alt="_images/" src="_images/" />
+</div>
+<div class="section" id="site-policies">
+<h2>Site Policies<a class="headerlink" href="#site-policies" title="Permalink to this headline">¶</a></h2>
+<p>A site administrator can set site policies affecting the security and privacy of the site in Settings &gt; Site administration &gt; Security &gt; Site policies.</p>
+<p>Read <a class="reference internal" href="site_policies.html#site-policies"><em>Site Policies</em></a> for more information.</p>
+</div>
+<div class="section" id="http-security">
+<h2>HTTP Security<a class="headerlink" href="#http-security" title="Permalink to this headline">¶</a></h2>
+<p>HTTPS for logins can be enabled by an administrator in <em>Settings &gt; Site administration &gt; Security &gt; HTTP security</em>.</p>
+<div class="section" id="use-https-for-logins">
+<h3>Use HTTPS for logins<a class="headerlink" href="#use-https-for-logins" title="Permalink to this headline">¶</a></h3>
+<p>HTTPS encrypts the user&#8217;s login data, so it&#8217;s difficult to sniff out a user&#8217;s username and password on the network. You will need to enable HTTPS on your server before you turn on this setting, or else you will be locked out of your site. Every web server has a different method for enabling HTTPS, so you should check the documentation for your web server.</p>
+</div>
+</div>
+<div class="section" id="notifications">
+<h2>Notifications<a class="headerlink" href="#notifications" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can set up login failure notification in <em>Settings &gt; Site Administration &gt; Security &gt; Notifications</em>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Display login failures to - Set this to administrators to be warned of anyone attempting to steal student or teacher logins. When set, a link stating the number of failed logins appears in the top right corner of the page when an administrator logs in. Click the link to access the login error page.</li>
+<li>Email login failures - If you&#8217;re concerned about login failures, you can set up email notification for administrators or any/all users who can change the site configuration.</li>
+<li>Threshold for email notifications - This sets the number of failed logins for a given user from a single computer that will trigger notification.</li>
+</ul>
+</div></blockquote>
+<p><strong>Note:</strong> The number of failed login attempts that result in account lockout may be set in <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em>.</p>
+</div>
+<div class="section" id="anti-virus">
+<h2>Anti-Virus<a class="headerlink" href="#anti-virus" title="Permalink to this headline">¶</a></h2>
+<p>The use of the open source virus scanner clam AV on uploaded files can be enabled by an <em>Administrator in Settings &gt; Site administration &gt; Security &gt; Anti-Virus</em>.</p>
+<p>Clam AV should be installed on your server. See <a class="reference external" href="http://www.clamav.net">http://www.clamav.net</a> for more information.</p>
+</div>
 </div>
 
 
@@ -59,12 +100,27 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Security</a><ul>
+<li><a class="reference internal" href="#ip-blocker">IP Blocker</a></li>
+<li><a class="reference internal" href="#site-policies">Site Policies</a></li>
+<li><a class="reference internal" href="#http-security">HTTP Security</a><ul>
+<li><a class="reference internal" href="#use-https-for-logins">Use HTTPS for logins</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notifications">Notifications</a></li>
+<li><a class="reference internal" href="#anti-virus">Anti-Virus</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="plugins.html"
                         title="previous chapter">Plugins</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="appearance.html"
-                        title="next chapter">&lt;no title&gt;</a></p>
+                        title="next chapter">Appearance</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/security.txt"
@@ -94,7 +150,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="appearance.html" title="&lt;no title&gt;"
+          <a href="appearance.html" title="Appearance"
              >next</a> |</li>
         <li class="right" >
           <a href="plugins.html" title="Plugins"
