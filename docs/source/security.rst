@@ -38,7 +38,7 @@ An administrator can set up login failure notification in *Settings > Site Admin
 
    * Threshold for email notifications - This sets the number of failed logins for a given user from a single computer that will trigger notification.
 
-**Note:** The number of failed login attempts that result in account lockout may be set in Administration > Site administration > Security > Site policies. 
+**Note:** The number of failed login attempts that result in account lockout may be set in *Administration > Site administration > Security > Site policies*. 
 
 
 Anti-Virus
