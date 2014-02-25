@@ -30,11 +30,9 @@ Upload file sizes are restricted in a number of ways - each one in this list res
 
 2. The PHP site settings post_max_size and upload_max_filesize in php.ini : modify php.ini in web server directories ( apache2.x.x/bin/php.ini ) not in php directories :
  
-.. parsed-literal::
-
-post_max_size = 128M;  to increase limit to 128 Megabytes;
-upload_max_filesize = 128M;  to increase limit to 128 Megabytes;
-max_execution_time = 600 ; Maximum execution time of each script, in seconds;
+      post_max_size = 128M;  to increase limit to 128 Megabytes;
+      upload_max_filesize = 128M;  to increase limit to 128 Megabytes;
+      max_execution_time = 600 ; Maximum execution time of each script, in seconds;
 
 3. The Moodle site-wide maximum uploaded file size setting: Settings > Site administration > Security > Site policies > Maximum uploaded file size.
 
@@ -44,10 +42,21 @@ max_execution_time = 600 ; Maximum execution time of each script, in seconds;
 
 5. Certain course activity module settings (for example, Assignment) 
 
- User quota
-
+**User quota**
 The maximum number of bytes that a user can store in their own Private files area.
-Allow EMBED and OBJECT tags
 
+**Allow EMBED and OBJECT tags**
 Allowing these presents a security risk but if you wish normal users such as students to be able to use them then check the box here. 
+
+
+
+
+
+
+
+
+
+
+
+
 
