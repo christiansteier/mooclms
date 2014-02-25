@@ -5,11 +5,10 @@ IP Blocker
 -----------
 An administrator can set a list of allowed and/or blocked IP addresses in *Settings > Site administration > Security > IP blocker*.
 
-.. image:: _images/
-
     * By default, entries in the blocked list are processed first, but checking the box *Allowed list will be processed first* reverses this order.
     * Each entry in the allowed or blocked list goes on one line, with either the full IP address, partial address or range. Blank lines or domain names written as text (like moodle.org)are ignored. 
 
+.. image:: _images/
 
 
 
