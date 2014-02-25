@@ -44,18 +44,8 @@ See :ref:`managing_badges` for more details.
 
 Add a New Badge
 ----------------
-Adding a site badge
-^^^^^^^^^^^^^^^^^^^^
-   * An administrator can add a site badge from Administration > Site administration > Badges > Add a new badge. 
-     
-     Badge details - Add a name and description and upload your badge here.
-
-     Issuer details - If you add the teacher name here, it will appear when the badge is displayed. An email address is optional.
-     
-     Badge expiry - Set a date here if the badge will cease to be valid after a certain date. Leave it to never if you want the badge to be permanently displayed. 
-     
-   * When the settings are saved, you are then taken to the Manage badges screen where you can decide the criteria for awarding the badge. 
-   
+ 
+To know how to add badges please refer :ref:`using_badges` .
 
 
 

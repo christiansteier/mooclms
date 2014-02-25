@@ -11,7 +11,7 @@ Managing course badges
      Recipients: This shows the number of users awarded the badge
      Actions: The following actions are available 
      
-*Note:* Availability of enable and disable access actions depends on the current status of a badge (e.g. if a badge is available to users, "disable access" icon will be shown).
+**Note:** Availability of enable and disable access actions depends on the current status of a badge (e.g. if a badge is available to users, "disable access" icon will be shown).
 
 Before a badge has been issued to at least one user, all its details and settings can be edited by clicking the "Edit badge" action icon.
 
