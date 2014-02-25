@@ -5,7 +5,7 @@ Managing Badges
 
 Managing course badges
 -----------------------
-   * If course badges have been enabled in *Administration > Site administration > Badges > Badges settings*, then a teacher will see a link Administration>Course administration>Badges>Managing badges. This will show a list of badges created and available for allocation, along with actions which may be performed on them: 
+   * If course badges have been enabled in *Administration > Site administration > Badges > Badges settings*, then a teacher will see a link *Administration > Course administration > Badges > Managing badges*. This will show a list of badges created and available for allocation, along with actions which may be performed on them: 
    * Badge status: Badges may be made available or not by enabling or disabling with the "eye" icon or enable/disable button
      Criteria : This shows how the badge is awarded
      Recipients: This shows the number of users awarded the badge
@@ -37,7 +37,7 @@ Individual user badge management
    
 Preferences
 ^^^^^^^^^^^^
-Here users can decide whether to automatically display all badges earned. (Badges can be individually displayed or hidden from Navigation>My profile>My badges)
+Here users can decide whether to automatically display all badges earned. (Badges can be individually displayed or hidden from *Navigation > My profile > My badges* )
 
 Backpack settings
 ^^^^^^^^^^^^^^^^^^
