@@ -14,8 +14,9 @@ An administrator can set a list of allowed and/or blocked IP addresses in *Setti
 
 Site Policies
 --------------
+A site administrator can set site policies affecting the security and privacy of the site in Settings > Site administration > Security > Site policies. 
 
-
+Read :ref:`site_policies` for more information.
 
 
 HTTP Security
