@@ -6,7 +6,7 @@ You are here: Administration > Site Administrations > Language > Language Custom
 
 The language editing interface enables you to easily change any word or phrase used on the site. For example, you may want to change the word “Course” to “Area.”
 
-Note: in language editing you can check for untranslated words in specific areas of the system.
+**Note:** in language editing you can check for untranslated words in specific areas of the system.
 
 To change a word or phrase
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
