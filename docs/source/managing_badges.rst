@@ -1,0 +1,8 @@
+.. _managing_badges:
+
+Managing Badges
+================
+
+
+
+
