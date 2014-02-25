@@ -9,6 +9,9 @@ There are two categories of badges:
 
 Badges Settings
 ----------------
+
+Site administration settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Badges are enabled by default and can be disabled in *Administration > Site administration > Advanced features*.
 
 The site settings for badges are located in *Administration > Site administration > Badges > Badges settings* .
@@ -21,13 +24,22 @@ The site settings for badges are located in *Administration > Site administratio
 
    * Enable course badges - Ticking this box will allow teachers to add and manage badges in their courses. 
 
+Course administration settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    * A teacher can add and manage badges in their course if the administrator has enabled course badges in *Administration > Site administration > Badges settings*.
+    * They will see a link to badges in *Administration > Course administration > Badges*. where badges may be managed and added.
+    
+Individual user settings
+^^^^^^^^^^^^^^^^^^^^^^^^^
+    * A user can manage badges from *Navigation > My profile > My badges*.
+    * A user can view available course badges from *Navigation > Current course > Badges*. 
+
 
 Manage Badges
 --------------
 Badges may be managed at the course or site level. (Note that teachers in a course cannot by default access site badges unless they have been given a system role with badge managing capabilities). Individual users can manage their badges from their profile. 
 
 See :ref:`managing_badges` for more details.
-
 
 
 Add a New Badge
