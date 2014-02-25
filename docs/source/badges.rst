@@ -39,7 +39,7 @@ Manage Badges
 --------------
 Badges may be managed at the course or site level. (Note that teachers in a course cannot by default access site badges unless they have been given a system role with badge managing capabilities). Individual users can manage their badges from their profile. 
 
-See :ref: `managing_badges` for more details.
+See :ref:`managing_badges` for more details.
 
 
 Add a New Badge
