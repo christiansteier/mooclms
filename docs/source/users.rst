@@ -23,10 +23,10 @@ Permissions
 .. toctree::
    :maxdepth: 1
 
-* :ref:`user_policies`
-* :ref:`site_administrators`
-* :ref:`define_roles`
-* :ref:`assign_system_roles`
-* :ref:`check_system_permissions`
-* :ref:`capability_overview`
-* :ref:`unsupported_role_assignments`
+   user_policies
+   site_administrators
+   define_roles
+   assign_system_roles
+   check_system_permissions
+   capability_overview
+   unsupported_role_assignments
