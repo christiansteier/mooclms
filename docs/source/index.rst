@@ -10,7 +10,7 @@ Table Of Content
 ================
  
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    about_moodle
    getting_started 
