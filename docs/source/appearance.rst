@@ -14,7 +14,7 @@ There are many ways to customise the appearance of your Moodle site so that it b
    moodle_docs
    default_home_page
    default_profile_page
-   courses
+   course
    ajax_javascript
    manage_tags
    additional_html
