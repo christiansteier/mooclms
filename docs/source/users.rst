@@ -5,13 +5,16 @@ Accounts
 --------
 An administrator can perform various tasks relating to user accounts in Administration > Site administration > Users > Accounts. The links below provide more information:
 
-* :ref:`browse_list_of_users`
-* :ref:`bulk_user_actions`
-* :ref:`add_a_new_user`
-* :ref:`user_profile_fields`
-* :ref:`cohorts`
-* :ref:`upload_users`
-* :ref:`upload_user_pictures`
+.. toctree::
+   :maxdepth: 2
+   
+    browse_list_of_users
+    bulk_user_actions
+    add_a_new_user
+    user_profile_fields
+    cohorts
+    upload_users
+    upload_user_pictures
 
 
 Permissions
