@@ -6,7 +6,7 @@ Accounts
 An administrator can perform various tasks relating to user accounts in Administration > Site administration > Users > Accounts. The links below provide more information:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    browse_list_of_users
    bulk_user_actions
