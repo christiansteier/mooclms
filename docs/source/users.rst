@@ -20,6 +20,9 @@ An administrator can perform various tasks relating to user accounts in Administ
 Permissions
 -----------
 
+.. toctree::
+   :maxdepth: 1
+
 * :ref:`user_policies`
 * :ref:`site_administrators`
 * :ref:`define_roles`
