@@ -24,6 +24,8 @@ A last execution log of scheduled course backups can be found in *Settings > Sit
 
 Clicking on a particular course name will cause a detailed execution log to be displayed, including date, hour and minute when each step of the backup was performed. 
 
+
+
 Config Changes
 ----------------
 The config changes report enables an Administrator to see at a glance which aspects of the Moodle site have been recently altered and, where applicable, by which administrator.
