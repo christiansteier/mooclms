@@ -18,20 +18,6 @@ Comments report
 A list of all comments added may be found in *Site administration > Reports > Comments*. 
 
 
-Backups
---------
-A last execution log of scheduled course backups can be found in *Settings > Site administration > Reports > Backups*. It displays a list of all course backups made, the time taken to create them, their status (see below), and the next scheduled automated backup execution time.
-
-Clicking on a particular course name will cause a detailed execution log to be displayed, including date, hour and minute when each step of the backup was performed. 
-
-
-
-Config Changes
-----------------
-The config changes report enables an Administrator to see at a glance which aspects of the Moodle site have been recently altered and, where applicable, by which administrator.
-
-The report is found in *Settings > Site Administration > Reports > Config changes* 
-
 
 
 Logs
@@ -116,14 +102,5 @@ This provides the site administrator with a report that highlights any security 
     **Frontpage role** - This checks that the frontpage user role is defined with sane permissions. 
 
 
-
-
-Spam Cleaner
----------------
-If your site was open in the past and you have a spam problem then here are some things you can do to clean up the profiles:
-
-    1. Use our Spam cleaner report in *Settings > Site administration > Reports > Spam cleaner* to locate user accounts responsible for spam and other nasty stuff and help you delete them. In addition to user profile descriptions, comments, blog posts and messages are also searched for keywords.
-    2. Browse your user list looking for patterns to detect users who need to be deleted. For example, spammers might have chosen a country that none of your real users has.
-    3. Use the delete buttons or the Bulk user actions tool in *Settings > Site administration > Users > Accounts* to find all these users and delete them. 
 
 
