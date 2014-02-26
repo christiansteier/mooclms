@@ -51,6 +51,98 @@
             
   <div class="section" id="reports">
 <h1>Reports<a class="headerlink" href="#reports" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="comments">
+<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h2>
+<p>A comments block can be added to any page in Moodle, enabling users to easily add comments. A similar interface enables comments to be added to glossary, database activity and blog entries. The comments interface uses AJAX so that comments are added instantly without needing a page refresh.</p>
+<div class="section" id="enabling-comments">
+<h3>Enabling comments<a class="headerlink" href="#enabling-comments" title="Permalink to this headline">¶</a></h3>
+<p>Comments can be disabled/enabled by an administrator in <em>Settings &gt; Site administration &gt; Advanced features</em>.</p>
+</div>
+<div class="section" id="blog-comments">
+<h3>Blog comments<a class="headerlink" href="#blog-comments" title="Permalink to this headline">¶</a></h3>
+<p>Blog comments are enabled by default. The feature may be disabled in <em>Site administration &gt; Appearance &gt; Blog</em>.</p>
+</div>
+<div class="section" id="comments-report">
+<h3>Comments report<a class="headerlink" href="#comments-report" title="Permalink to this headline">¶</a></h3>
+<p>A list of all comments added may be found in <em>Site administration &gt; Reports &gt; Comments</em>.</p>
+</div>
+</div>
+<div class="section" id="backups">
+<h2>Backups<a class="headerlink" href="#backups" title="Permalink to this headline">¶</a></h2>
+<p>A last execution log of scheduled course backups can be found in <em>Settings &gt; Site administration &gt; Reports &gt; Backups</em>. It displays a list of all course backups made, the time taken to create them, their status (see below), and the next scheduled automated backup execution time.</p>
+<p>Clicking on a particular course name will cause a detailed execution log to be displayed, including date, hour and minute when each step of the backup was performed.</p>
+</div>
+<div class="section" id="config-changes">
+<h2>Config Changes<a class="headerlink" href="#config-changes" title="Permalink to this headline">¶</a></h2>
+<p>The config changes report enables an Administrator to see at a glance which aspects of the Moodle site have been recently altered and, where applicable, by which administrator.</p>
+<p>The report is found in <em>Settings &gt; Site Administration &gt; Reports &gt; Config changes</em></p>
+</div>
+<div class="section" id="logs">
+<h2>Logs<a class="headerlink" href="#logs" title="Permalink to this headline">¶</a></h2>
+<p>Logs in Moodle are activity reports. Logs are available at site and course level.</p>
+<p>To obtain course overview reports, you must first enable statistics. If you haven’t got statistics enabled you will be taken to the enable statistics settings. You can choose to view reports of the most active courses or the most participatory courses over a certain time period. Results are displayed in a bar chart and in a table.</p>
+</div>
+<div class="section" id="live-logs">
+<h2>Live Logs<a class="headerlink" href="#live-logs" title="Permalink to this headline">¶</a></h2>
+<p>Live logs from the past hour (either for a course or for the site) are available via a link on the logs page. This allows you to define a number of parameters to run a report on activities within the system.</p>
+<p>Live logs provide the following fields:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Course - course short name</li>
+<li>Time - time of access</li>
+<li>IP Address - unique user internet address</li>
+<li>Full Name - name logged on with</li>
+<li>Action - what they were doing</li>
+<li>Information - any further information on the activity</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="performance-overview">
+<h2>Performance Overview<a class="headerlink" href="#performance-overview" title="Permalink to this headline">¶</a></h2>
+<p>The performance overview report in Administration &gt; Site administration &gt; Reports &gt; Performance overview lists issues which may affect performance of the site.</p>
+</div>
+<div class="section" id="question-instances">
+<h2>Question Instances<a class="headerlink" href="#question-instances" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can generate a question instances report in <em>Administration &gt; Site administration &gt; Reports &gt; Question instances</em>. The Manager can also generate this report.</p>
+<p>This report lists all the places a specific question type is used. It provides a list by course that shows the total, visible and hidden number of that question type. Clicking on a context link such as course title will take you to the relevant question in the question bank.</p>
+<p>One practical use of this report is to find questions that may have inadvertently been created in a course which should have been created at the System default or a particular category context.</p>
+</div>
+<div class="section" id="security-overview">
+<h2>Security Overview<a class="headerlink" href="#security-overview" title="Permalink to this headline">¶</a></h2>
+<p>A security overview report is available for site administrators in <em>Settings &gt; Site administration &gt; Reports &gt; Security overview</em>.</p>
+<p>This provides the site administrator with a report that highlights any security problems that need to be remedied.</p>
+<blockquote>
+<div><p><strong>Register globals</strong> - register_globals is a PHP setting that must be disabled for Moodle to operate safely.</p>
+<p><strong>Insecure dataroot</strong> - The dataroot is the directory where Moodle stores user files. It should not be directly accessible via the web.</p>
+<p><strong>Displaying of PHP errors</strong> - If PHP is set to display errors, then anyone can enter a faulty URL causing PHP to give up valuable information about directory structures and so on.</p>
+<p><strong>No authentication</strong> - Use of the &#8220;no authentication&#8221; plugin can be dangerous, allowing people to access the site without authenticating.</p>
+<p><strong>Allow EMBED and OBJECT</strong> - Allowing ordinary users to embed Flash and other media in their texts (eg forum posts) can be a problem because those rich media objects can be used to steal admin or teacher access, even if the media object is on another server.</p>
+<p><strong>Enabled .swf media filter</strong> - Even the flash media filter can be abused to include malicious flash files.</p>
+<p><strong>Open user profiles</strong> - User profiles should not be open to the web without authentication, both for privacy reasons and because spammers then have a platform to publish spam on your site.</p>
+<p><strong>Open to Google</strong> - Allowing Google to enter your site means that all the contents become available to the world. Don&#8217;t use this unless it&#8217;s a really public site.</p>
+<p><strong>Password policy</strong> - Using a password policy will force your users to use stronger passwords that are less susceptible to being cracked by a intruder.</p>
+<p><strong>Password salt</strong> - Setting a password salt greatly reduces the risk of password theft.</p>
+<p><strong>Email change confirmation</strong> - You should generally always force users to confirm email address changes via an extra step where a confirmation link is sent to the user.</p>
+<p><strong>Writable config.php</strong> - The config.php file must not be writeable by the web server process. If it is, then it is possible for another vulnerability to allow attackers to rewrite the Moodle code and display whatever they want.</p>
+<p><strong>XSS trusted users</strong> - Make sure that you trust all the people on this list: they are the ones with permissions to potentially write XSS exploits in forums etc.</p>
+<p><strong>Administrators</strong> - Review your administrator accounts and make sure you only have what you need.</p>
+<p><strong>Backup of user data</strong> - Make sure that only roles that need to backup user data can do so and that all users who have the capability are trusted.</p>
+<p><strong>Default role for all users</strong> - This checks that the registered user role is defined with sane permissions.</p>
+<p><strong>Guest role</strong> - This checks that the guest role is defined with sane permissions.</p>
+<p><strong>Frontpage role</strong> - This checks that the frontpage user role is defined with sane permissions.</p>
+</div></blockquote>
+</div>
+<div class="section" id="spam-cleaner">
+<h2>Spam Cleaner<a class="headerlink" href="#spam-cleaner" title="Permalink to this headline">¶</a></h2>
+<p>If your site was open in the past and you have a spam problem then here are some things you can do to clean up the profiles:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Use our Spam cleaner report in <em>Settings &gt; Site administration &gt; Reports &gt; Spam cleaner</em> to locate user accounts responsible for spam and other nasty stuff and help you delete them. In addition to user profile descriptions, comments, blog posts and messages are also searched for keywords.</li>
+<li>Browse your user list looking for patterns to detect users who need to be deleted. For example, spammers might have chosen a country that none of your real users has.</li>
+<li>Use the delete buttons or the Bulk user actions tool in <em>Settings &gt; Site administration &gt; Users &gt; Accounts</em> to find all these users and delete them.</li>
+</ol>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -59,6 +151,27 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Reports</a><ul>
+<li><a class="reference internal" href="#comments">Comments</a><ul>
+<li><a class="reference internal" href="#enabling-comments">Enabling comments</a></li>
+<li><a class="reference internal" href="#blog-comments">Blog comments</a></li>
+<li><a class="reference internal" href="#comments-report">Comments report</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#backups">Backups</a></li>
+<li><a class="reference internal" href="#config-changes">Config Changes</a></li>
+<li><a class="reference internal" href="#logs">Logs</a></li>
+<li><a class="reference internal" href="#live-logs">Live Logs</a></li>
+<li><a class="reference internal" href="#performance-overview">Performance Overview</a></li>
+<li><a class="reference internal" href="#question-instances">Question Instances</a></li>
+<li><a class="reference internal" href="#security-overview">Security Overview</a></li>
+<li><a class="reference internal" href="#spam-cleaner">Spam Cleaner</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="front_page.html"
                         title="previous chapter">Front Page</a></p>

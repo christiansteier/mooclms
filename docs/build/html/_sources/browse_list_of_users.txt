@@ -1,5 +1,3 @@
-.. _browse_list_of_users:
-
 Browse list of users
 =====================
 
