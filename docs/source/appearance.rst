@@ -8,9 +8,9 @@ It includes below things:
 .. toctree::
    :maxdepth: 2
    
-   Themes
-   Calendar
-   Blog
+   themes
+   calendar
+   blog
    Navigation
    HTML settings
    Media embedding
