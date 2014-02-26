@@ -112,5 +112,10 @@ This provides the site administrator with a report that highlights any security 
 
 Spam Cleaner
 ---------------
+If your site was open in the past and you have a spam problem then here are some things you can do to clean up the profiles:
+
+    1. Use our Spam cleaner report in *Settings > Site administration > Reports > Spam cleaner* to locate user accounts responsible for spam and other nasty stuff and help you delete them. In addition to user profile descriptions, comments, blog posts and messages are also searched for keywords.
+    2. Browse your user list looking for patterns to detect users who need to be deleted. For example, spammers might have chosen a country that none of your real users has.
+    3. Use the delete buttons or the Bulk user actions tool in *Settings > Site administration > Users > Accounts* to find all these users and delete them. 
 
 
