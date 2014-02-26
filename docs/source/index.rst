@@ -29,8 +29,7 @@ Table Of Content
    server 
    reports
    development
-   assignment_upgrade_helper
-   question_engine_upgrade_helper
+  
 
 Indices and tables
 ==================
