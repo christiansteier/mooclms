@@ -25,7 +25,7 @@ Backups
 Config Changes
 ----------------
 The config changes report enables an Administrator to see at a glance which aspects of the Moodle site have been recently altered and, where applicable, by which administrator.
-The report is found in Settings>Site Administration>Reports>Config changes 
+The report is found in *Settings > Site Administration > Reports > Config changes* 
 
 Logs
 -----
