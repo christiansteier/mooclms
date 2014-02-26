@@ -67,7 +67,63 @@ One practical use of this report is to find questions that may have inadvertentl
 
 Security Overview
 -------------------
+A security overview report is available for site administrators in *Settings > Site administration > Reports > Security overview*. 
 
+This provides the site administrator with a report that highlights any security problems that need to be remedied.
+
+    Register globals - 
+    register_globals is a PHP setting that must be disabled for Moodle to operate safely. 
+
+    Insecure dataroot - 
+    The dataroot is the directory where Moodle stores user files. It should not be directly accessible via the web. 
+
+    Displaying of PHP errors -  
+    If PHP is set to display errors, then anyone can enter a faulty URL causing PHP to give up valuable information about directory structures and so on. 
+
+    No authentication -
+    Use of the "no authentication" plugin can be dangerous, allowing people to access the site without authenticating. 
+
+    Allow EMBED and OBJECT - 
+    Allowing ordinary users to embed Flash and other media in their texts (eg forum posts) can be a problem because those rich media objects can be used to steal admin or teacher access, even if the media object is on another server. 
+
+    Enabled .swf media filter -  
+    Even the flash media filter can be abused to include malicious flash files. 
+
+    Open user profiles - 
+    User profiles should not be open to the web without authentication, both for privacy reasons and because spammers then have a platform to publish spam on your site. 
+
+    Open to Google - 
+    Allowing Google to enter your site means that all the contents become available to the world. Don't use this unless it's a really public site. 
+
+    Password policy - 
+    Using a password policy will force your users to use stronger passwords that are less susceptible to being cracked by a intruder. 
+
+    Password salt - 
+    Setting a password salt greatly reduces the risk of password theft. 
+
+    Email change confirmation -  
+    You should generally always force users to confirm email address changes via an extra step where a confirmation link is sent to the user. 
+
+    Writable config.php - 
+    The config.php file must not be writeable by the web server process. If it is, then it is possible for another vulnerability to allow attackers to rewrite the Moodle code and display whatever they want. 
+
+    XSS trusted users - 
+    Make sure that you trust all the people on this list: they are the ones with permissions to potentially write XSS exploits in forums etc. 
+
+    Administrators - 
+    Review your administrator accounts and make sure you only have what you need. 
+
+    Backup of user data - 
+    Make sure that only roles that need to backup user data can do so and that all users who have the capability are trusted. 
+
+    Default role for all users - 
+    This checks that the registered user role is defined with sane permissions. 
+
+    Guest role - 
+    This checks that the guest role is defined with sane permissions. 
+
+    Frontpage role - 
+    This checks that the frontpage user role is defined with sane permissions. 
 
 
 
