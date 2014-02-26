@@ -20,7 +20,9 @@ A list of all comments added may be found in *Site administration > Reports > Co
 
 Backups
 --------
+A last execution log of scheduled course backups can be found in *Settings > Site administration > Reports > Backups*. It displays a list of all course backups made, the time taken to create them, their status (see below), and the next scheduled automated backup execution time.
 
+Clicking on a particular course name will cause a detailed execution log to be displayed, including date, hour and minute when each step of the backup was performed. 
 
 Config Changes
 ----------------
