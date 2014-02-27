@@ -1,5 +1,5 @@
 .. _installing_add-ons
 
-Installing Add Ons
+Installing add-ons
 ===================
 
