@@ -13,6 +13,7 @@ Calendar
 
 
 
+.. _blog:
 
 Blog
 -----
