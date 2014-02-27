@@ -29,22 +29,21 @@ Navigation
 
 HTML Settings
 ---------------
-
-
+The list of images that will be used to replace the emoticon text can be defined by a site administrator in *Settings > Site administration > Appearence > HTML settings*. The images defined here are used by Display emoticons as images filter and TinyMCE HTML editor's Insert emoticon popup menu.
 
 
 
 Media Embedding
 -----------------
+Location : *Settings > Site administration > Appearence > Media embedding*
 
+see more details :ref:`media_embedding`
 
 
 
 
 Moodle Docs
 -------------
-
-
 Moodle Docs is an abbreviation for *Moodle documentation*.
 
 By default, managers, teachers and non-editing teachers (and any other users with the capability moodle/site:doclinks) have "Moodle Docs for this page" links at the bottom of each page in Moodle for accessing context-specific documentation.
@@ -61,12 +60,21 @@ You may find that teachers prefer the documentation to open in a new window, so 
 
 Default My home page
 ----------------------
+An administrator or manager (or other user with the capability moodle/my:configsyspages) can set which content (course overview, calendar, blocks) appears on the My home page for new users as follows:
+
+    1. Access *Settings > Site administration > Appearance > Default My Moodle page* .
+    2. Select the required blocks from the "Add a block" drop-down menu. Configure each block as desired
+    3. Reposition blocks using the arrow icons in the block headers 
 
 
 
 Default profile page
 ----------------------
+An administrator or manager (or any other user with the capability moodle/user:managesyspages) can set which blocks appear on the default profile page for new users.
 
+    1. Access *Administration > Site administration > Appearance > Default profile page*.
+    2. Select the required blocks from the "Add a block" drop-down menu. Configure each block as desired.
+    3. Reposition blocks using the arrow icons in the block headers. 
 
 
 

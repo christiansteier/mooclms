@@ -23,7 +23,8 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="prev" title="Database Transfer" href="database_transfer.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,6 +33,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="database_transfer.html" title="Database Transfer"
+             accesskey="P">previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -43,6 +47,58 @@
             
   <div class="section" id="tags">
 <span id="id1"></span><h1>Tags<a class="headerlink" href="#tags" title="Permalink to this headline">¶</a></h1>
+<p>Tags allows students and teachers to describe their interests in a way that is easy for people with similar interests to find them.</p>
+<div class="section" id="tags-settings">
+<h2>Tags Settings<a class="headerlink" href="#tags-settings" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="enable-tags-functionality">
+<h3>Enable tags functionality<a class="headerlink" href="#enable-tags-functionality" title="Permalink to this headline">¶</a></h3>
+<p>By default, site-wide tags functionality is enabled. If this is not required, tags functionality may be disabled by an administrator by un-checking the usetags box in <em>Settings &gt; Site administration &gt; Advanced features</em>.</p>
+</div>
+<div class="section" id="show-course-tags">
+<h3>Show course tags<a class="headerlink" href="#show-course-tags" title="Permalink to this headline">¶</a></h3>
+<p>The Tags block has one setting which may be changed by an administrator in Settings &gt; Site administration &gt; Plugins &gt; Blocks &gt; Tags.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Show course tags - This enables students to tag courses.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="using-tags">
+<h2>Using Tags<a class="headerlink" href="#using-tags" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="describing-interests-for-tags">
+<h3>Describing interests for tags<a class="headerlink" href="#describing-interests-for-tags" title="Permalink to this headline">¶</a></h3>
+<p>To tell everyone what your interests are, go to your profile editing page and enter your interests/tags separated by commas. If a tag you entered already exists, you get associated to that tag. If it does not, a new tag will be created.</p>
+</div>
+<div class="section" id="blog-post-tags">
+<h3>Blog post tags<a class="headerlink" href="#blog-post-tags" title="Permalink to this headline">¶</a></h3>
+<p>After writing a blog post, users are allowed to add user defined tags about the post. These are usually keywords relevant to the post separated by commas. If a tag you entered already exists, you get associated to that tag. If it does not, a new tag will be created. If one tag is associated with interests and a blog post, the tag page will show both.</p>
+</div>
+<div class="section" id="tag-pages">
+<h3>Tag pages<a class="headerlink" href="#tag-pages" title="Permalink to this headline">¶</a></h3>
+<p>Each tag in Moodle has a page associated with it. The tag page brings together users, information and resources related to that tag. A tag has a description, links to related tags, a list of users associated with that tag and Moodle blocks with resources related to it.</p>
+<p>If a user has the capability to edit tags, a link &#8220;Edit this tag&#8221; will appear in the tag page. The tag may be edited to add a description and related tags.</p>
+</div>
+<div class="section" id="tag-clouds">
+<h3>Tag clouds<a class="headerlink" href="#tag-clouds" title="Permalink to this headline">¶</a></h3>
+<p>A very effective way of viewing all tags is in a tags block, or &#8220;tag cloud&#8221;. A unique feature of tag clouds are that the size of each tag is related to the number of items associated with it. The larger the tag, the more items associated with it.</p>
+</div>
+<div class="section" id="search-tags">
+<h3>Search tags<a class="headerlink" href="#search-tags" title="Permalink to this headline">¶</a></h3>
+<p>The Search tags page in <em>Navigation &gt; Site pages &gt; Tags</em> allows you to look for existing tags.</p>
+</div>
+<div class="section" id="course-tags">
+<h3>Course tags<a class="headerlink" href="#course-tags" title="Permalink to this headline">¶</a></h3>
+<p>If the administrator has enabled course tags in the Tags block setting, then students will have the option to add tags related to the course they are currently in.</p>
+</div>
+</div>
+<div class="section" id="managing-tags">
+<h2>Managing Tags<a class="headerlink" href="#managing-tags" title="Permalink to this headline">¶</a></h2>
+<p>Tags can be managed by a site administrator or manager (or any other user with the capability moodle/<a class="reference external" href="tag:manage">tag:manage</a>) in <em>Settings &gt; Site administration &gt; Appearance &gt; Manage tags</em>.</p>
+<p>The manage tags page provides a list of tags, together with information on their creators, how many times they are used, when they were last modified and which tags have been flagged as inappropriate. Inappropriate tags are shown in red when using the default theme.</p>
+<p>Selected tags may be have their flag reset (in other words remove the inappropriate flag) or be deleted. Tag names and types may also be changed.</p>
+<p>The manage tags page also allows for official tags to be added. Official tags are tags which are added by a site administrator and are displayed to all users of the Moodle site when adding a blog entry. Creating a set of official tags for commonly used topics can reduce the amount of duplication in blog tags.</p>
+</div>
 </div>
 
 
@@ -51,6 +107,31 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Tags</a><ul>
+<li><a class="reference internal" href="#tags-settings">Tags Settings</a><ul>
+<li><a class="reference internal" href="#enable-tags-functionality">Enable tags functionality</a></li>
+<li><a class="reference internal" href="#show-course-tags">Show course tags</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-tags">Using Tags</a><ul>
+<li><a class="reference internal" href="#describing-interests-for-tags">Describing interests for tags</a></li>
+<li><a class="reference internal" href="#blog-post-tags">Blog post tags</a></li>
+<li><a class="reference internal" href="#tag-pages">Tag pages</a></li>
+<li><a class="reference internal" href="#tag-clouds">Tag clouds</a></li>
+<li><a class="reference internal" href="#search-tags">Search tags</a></li>
+<li><a class="reference internal" href="#course-tags">Course tags</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-tags">Managing Tags</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="database_transfer.html"
+                        title="previous chapter">Database Transfer</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/tags.txt"
@@ -79,6 +160,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="database_transfer.html" title="Database Transfer"
+             >previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
