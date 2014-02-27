@@ -57,9 +57,8 @@ Prevent installing add-ons from within Moodle
 -----------------------------------------------
 If required, installing and updating from within Moodle can be prevented by copying the following lines of code from config-dist.php and pasting them in config.php. 
 
-// Use the following flag to completely disable the On-click add-on installation
-// feature and hide it from the server administration UI.
-//
+// Use the following flag to completely disable the On-click add-on installation feature and hide it from the server administration UI.
+
 //      $CFG->disableonclickaddoninstall = true;
 
     
