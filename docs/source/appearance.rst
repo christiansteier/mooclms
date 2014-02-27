@@ -61,6 +61,11 @@ You may find that teachers prefer the documentation to open in a new window, so 
 
 Default My home page
 ----------------------
+An administrator or manager (or other user with the capability moodle/my:configsyspages) can set which content (course overview, calendar, blocks) appears on the My home page for new users as follows:
+
+    1. Access *Settings > Site administration > Appearance > Default My Moodle page* .
+    2. Select the required blocks from the "Add a block" drop-down menu. Configure each block as desired
+    3. Reposition blocks using the arrow icons in the block headers 
 
 
 
