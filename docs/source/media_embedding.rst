@@ -26,7 +26,9 @@ To enable the embedding of media files, an admin must enable
 Site administration settings
 ------------------------------
 An administrator can enable selected media players in Settings > Site administration > Appearance > Media embedding.
+
 Available players
+^^^^^^^^^^^^^^^^^^^
 
     * YouTube (displays videos hosted on youtube)
     * Vimeo (displays videos hosted on vimeo)
@@ -45,6 +47,7 @@ Available players
     * .ogv - HTML 5 video 
 
 Legacy media players
+^^^^^^^^^^^^^^^^^^^^^
 
 The following legacy media player formats are also available but not recommended for general usage:
 
