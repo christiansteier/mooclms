@@ -12,7 +12,7 @@ Debugging
 -----------
 *Settings > Site administration > Development > Debugging*
 
-At certain times a site administrator will need to see more and/or a more complete error message. The default is to show NONE. These messages can also 1) be very confusing to teachers and students when they suddenly appear and 2) can reveal things about your Moodle and web server that should not be common knowledge. Thus use with care and for short periods of time. See :ref:`debugging` for details. 
+At certain times a site administrator will need to see more and/or a more complete error message. The default is to show NONE. These messages can also 1) be very confusing to teachers and students when they suddenly appear and 2) can reveal things about your Moodle and web server that should not be common knowledge. Thus use with care and for short periods of time. See :ref:`debugging`  for details. 
 
 
 Web Service Test Client
