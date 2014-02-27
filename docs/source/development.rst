@@ -5,6 +5,7 @@ Developers of Moodle code have some special tools included in the Moodle package
 Experimental
 -------------
 Moodle includes a few experimental features which a cautious administrator may consider enabling. See :ref:`experimental_settings` for details. 
+See :ref:`database_transfer` to know how to migrate moodle site from one database to another.
 
 
 
