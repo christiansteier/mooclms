@@ -32,6 +32,9 @@ Table Of Content
    experimental_settings
    database_transfer
    tags
+   blogs
+   calendar
+   installing_add_ons
 
 Indices and tables
 ==================
