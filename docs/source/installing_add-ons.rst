@@ -52,8 +52,16 @@ To uninstall an add-on
     2. Use a file manager to remove/delete the actual plugin directory as instructed, otherwise Moodle will reinstall it next time you access the site administration.
     
     
-    
-    
+
+Prevent installing add-ons from within Moodle
+-----------------------------------------------
+If required, installing and updating from within Moodle can be prevented by copying the following lines of code from config-dist.php and pasting them in config.php. 
+
+// Use the following flag to completely disable the On-click add-on installation
+// feature and hide it from the server administration UI.
+//
+//      $CFG->disableonclickaddoninstall = true;
+
     
     
     
