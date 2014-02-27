@@ -4,7 +4,7 @@ Database Transfer
 ==================
 The database transfer tool enables an administrator to migrate their Moodle site from one database to another, for example from MySQL to Postgres.
 
-The tool is currently classed as an experimental feature and may be found in Settings > Site administration > Development > Experimental > Database migration. There is also a command line script in admin/tool/dbtransfer/cli/migrate.php.
+The tool is currently classed as an experimental feature and may be found in *Settings > Site administration > Development > Experimental > Database migration*. There is also a command line script in admin/tool/dbtransfer/cli/migrate.php.
 
 The dbtransfer tool uses the XMLDB schema definitions from Moodle and installed plugins to retrieve the data from one database and transfer it another.
 
