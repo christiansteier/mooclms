@@ -47,7 +47,7 @@ Enable comments - Blog comments are enabled by default, though may be disabled i
 
 Navigation
 ------------
-
+An administrator can change navigation settings, such as the default home page and whether to show course categories in the navigation, in *Settings > Site administration > Appearance > Navigation*.
 
 
 
