@@ -92,13 +92,19 @@ An administrator can change the following course settings in Settings > Site adm
 
 Ajax and Javascript
 ---------------------
+Admins can choose to disable AJAX across the whole site in *Settings > Site administration > Appearance > AJAX and Javascript*.
 
+Ajax is required for drag and drop functionality so leaving it enabled is recommended. 
 
 
 
 Manage Tags
 -------------
+Tags can be managed by a site administrator or manager (or any other user with the capability moodle/tag:manage) in Settings > Site administration > Appearance > Manage tags.
 
+The manage tags page provides a list of tags, together with information on their creators, how many times they are used, when they were last modified and which tags have been flagged as inappropriate. Inappropriate tags are shown in red when using the default theme. 
+
+Please see :ref:`tags` to know more about tags.
 
 
 
@@ -111,18 +117,6 @@ These settings allow you to specify HTML that you want added to every page witho
 You can add HTML will be added within the HEAD tag for the page, immediately after the BODY tag has been opened, or immediately before the body tag is closed.
 
 Doing this allows you add custom headers or footers on every page, or add support for services like Google Analytics very easily and independent of your chosen theme. 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
