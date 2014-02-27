@@ -29,6 +29,8 @@ Table Of Content
    server 
    reports
    development
+   experimental_settings
+   database_transfer
   
 
 Indices and tables

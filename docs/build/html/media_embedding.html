@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Database Transfer &mdash; mooclms 2.6.1 documentation</title>
+    <title>&lt;no title&gt; &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -23,8 +23,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
-    <link rel="prev" title="Experimental Settings" href="experimental_settings.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
   </head>
   <body>
     <div class="related">
@@ -33,9 +32,6 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="experimental_settings.html" title="Experimental Settings"
-             accesskey="P">previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -45,20 +41,7 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="database-transfer">
-<span id="id1"></span><h1>Database Transfer<a class="headerlink" href="#database-transfer" title="Permalink to this headline">¶</a></h1>
-<p>The database transfer tool enables an administrator to migrate their Moodle site from one database to another, for example from MySQL to Postgres.</p>
-<p>The tool is currently classed as an experimental feature and may be found in <em>Settings &gt; Site administration &gt; Development &gt; Experimental &gt; Database migration</em>. There is also a command line script in admin/tool/dbtransfer/cli/migrate.php.</p>
-<p>The dbtransfer tool uses the XMLDB schema definitions from Moodle and installed plugins to retrieve the data from one database and transfer it another.</p>
-<p>Some troubles you may find when using this tool:</p>
-<blockquote>
-<div><ul class="simple">
-<li>If there is any object in the current database (columns, tables,...) not included in the XMLDB schema the dbtransfer won&#8217;t be executed until these objects are removed (this may happen if Moodle has been upgraded from earlier versions).</li>
-<li>If there is some wrong encoded data in the current database the transfer will crash; in that case find and fix the troublemaking data and launch de dbtranfer tool again.</li>
-<li>If you are trying to migrate a big instance it will take a while, and there can be set some timeout (database, PHP, Apache) that can break the migration.</li>
-</ul>
-</div></blockquote>
-</div>
+  <p id="media-embedding">Media Embedding</p>
 
 
           </div>
@@ -66,12 +49,9 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="experimental_settings.html"
-                        title="previous chapter">Experimental Settings</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
-    <li><a href="_sources/database_transfer.txt"
+    <li><a href="_sources/media_embedding.txt"
            rel="nofollow">Show Source</a></li>
   </ul>
 <div id="searchbox" style="display: none">
@@ -97,9 +77,6 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li class="right" >
-          <a href="experimental_settings.html" title="Experimental Settings"
-             >previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
