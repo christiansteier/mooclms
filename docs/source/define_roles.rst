@@ -8,7 +8,7 @@ For example, you may have a role called ‘Trainer’ set up to allow trainers t
 
 Permissions
 ============
-You have three permission levels for each task:
+You have three permission levels for each task:t
 
 **Allow:** The role is assigned in the stipulated context.
 
@@ -40,7 +40,7 @@ To add a new role:
     1. Go to *Settings > Site administration > Users > Permissions > Define roles*.
     2. Click 'Add a new role' on the 'Manage Roles' page.
     3. On the 'Add a new role' page, give the role a name.
-    4. Give the role a meaningful short name, the short name is necessary for Totara plugins they refer to the system roles.
+    4. Give the role a meaningful short name, the short name is necessary for Moodle plugins they refer to the system roles.
     5. Give the role a description (optional).
     6. You can base a new role on the permissions set for an existing role, so that you do not start from scratch. Select from the Legacy role type option to do this.
     7. Set the required permissions.
