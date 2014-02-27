@@ -137,7 +137,7 @@ Both Full and Simple views have "Add category" and "Add grade item" buttons at t
 
 Scales
 -------
-
+Scales are a way of evaluating or rating a students' performance. Moodle offers a standard set of numeric scales. Scales may be used in Forums, Glossaries and Assignments for rating and/or grading a student's activity. 
 
 
 Letters
