@@ -63,7 +63,7 @@ When enabled CSS will be run through an optimisation process before being cached
 
 New backup format
 -------------------
-If you have large courses you may find it useful to turn on an experimental option, 'Enable new backup format' from Administration > Site administration > Development > Experimental > Experimental settings .
+If you have large courses you may find it useful to turn on an experimental option, 'Enable new backup format' from *Administration > Site administration > Development > Experimental > Experimental settings* .
 
 This option selects a different internal backup format. Without this option, you cannot back up courses larger than 4GB.
 
