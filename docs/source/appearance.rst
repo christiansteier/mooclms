@@ -37,7 +37,7 @@ Media Embedding
 -----------------
 An administrator can enable selected media players in *Settings > Site administration > Appearence > Media embedding*
 
-see more details :ref:`media_embedding`
+See more details :ref:`media_embedding`
 
 
 
