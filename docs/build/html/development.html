@@ -47,6 +47,49 @@
             
   <div class="section" id="development">
 <h1>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h1>
+<p>Developers of Moodle code have some special tools included in the Moodle package to assist them. Most of the tools should ONLY be used on test sites (not production sites).</p>
+<div class="section" id="experimental">
+<h2>Experimental<a class="headerlink" href="#experimental" title="Permalink to this headline">¶</a></h2>
+<p>Moodle includes a few experimental features which a cautious administrator may consider enabling. See <a class="reference internal" href="experimental_settings.html#experimental-settings"><em>Experimental Settings</em></a> for details.</p>
+</div>
+<div class="section" id="debugging">
+<h2>Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; Debugging</em></p>
+<p>At certain times a site administrator will need to see more and/or a more complete error message. The default is to show NONE. These messages can also 1) be very confusing to teachers and students when they suddenly appear and 2) can reveal things about your Moodle and web server that should not be common knowledge. Thus use with care and for short periods of time. See <a class="reference internal" href="debugging.html#debugging"><em>Debugging</em></a> for details.</p>
+</div>
+<div class="section" id="web-service-test-client">
+<h2>Web Service Test Client<a class="headerlink" href="#web-service-test-client" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; Web Service Test Client</em></p>
+<p>Admins can simulate external access to their own Web Services using the URL <a class="reference external" href="http://yourmoodlesite.org/webservice/testclient.php">http://yourmoodlesite.org/webservice/testclient.php</a>.</p>
+<p>Warning: The test client is not clever! It lets you choose disabled/unavaibled functions (however it behaves well and produces an error in these case). This is normal because clients are going to be bad sometimes so we needed to simulate a bad client!</p>
+</div>
+<div class="section" id="purge-all-caches">
+<h2>Purge All Caches<a class="headerlink" href="#purge-all-caches" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; Purge all caches</em></p>
+<p>Moodle can cache themes, language strings, filters and other bits of information that have been calculated and stored by the web browser. This link forces all user web browsers to refresh their screens of any information that Moodle has cached. Several modules that use cache have settings which will turn off caching for that module. Eliminating or purging caches slows performance.</p>
+</div>
+<div class="section" id="make-test-course">
+<h2>Make Test Course<a class="headerlink" href="#make-test-course" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; Make test course</em></p>
+<p>This tool creates standard test courses that include many sections, activities, and files.</p>
+<p>This is intended to provide a standardised measure for checking the reliability and performance of various system components (such as backup and restore).</p>
+</div>
+<div class="section" id="make-jmeter-test-plan">
+<h2>Make JMeter Test Plan<a class="headerlink" href="#make-jmeter-test-plan" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; Make JMeter test plan</em></p>
+<p>The JMeter test plan generator allows you to run performance tests over a Moodle course, it works along with <a class="reference external" href="https://github.com/moodlehq/moodle-performance-comparison">https://github.com/moodlehq/moodle-performance-comparison</a></p>
+<p>This tool is for developer use only and should not be used on a live site. It is disabled unless you set the debugging option to DEVELOPER.</p>
+</div>
+<div class="section" id="phpunit-tests">
+<h2>PHPUnit Tests<a class="headerlink" href="#phpunit-tests" title="Permalink to this headline">¶</a></h2>
+<p><em>Settings &gt; Site administration &gt; Development &gt; PHPUnit test</em></p>
+<p>The purpose of Unit tests is to evaluate the individual parts of a program (functions, and methods of classes) to make sure that each element individually does the right thing. Unit Tests can be one of the first steps in a quality control process for developing or tweaking Totara code. The next steps will involve other forms of testing to ensure that these different parts work together properly.</p>
+</div>
+<div class="section" id="xmldb-editor">
+<h2>XMLDB Editor<a class="headerlink" href="#xmldb-editor" title="Permalink to this headline">¶</a></h2>
+<p><em>Administration &gt; Site administration &gt; Development &gt; XMLDB editor</em></p>
+<p>The XMLDB editor is a tool for developers to easily edit tables/fields/keys/indexes in install.xml files.</p>
+</div>
 </div>
 
 
@@ -55,6 +98,21 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Development</a><ul>
+<li><a class="reference internal" href="#experimental">Experimental</a></li>
+<li><a class="reference internal" href="#debugging">Debugging</a></li>
+<li><a class="reference internal" href="#web-service-test-client">Web Service Test Client</a></li>
+<li><a class="reference internal" href="#purge-all-caches">Purge All Caches</a></li>
+<li><a class="reference internal" href="#make-test-course">Make Test Course</a></li>
+<li><a class="reference internal" href="#make-jmeter-test-plan">Make JMeter Test Plan</a></li>
+<li><a class="reference internal" href="#phpunit-tests">PHPUnit Tests</a></li>
+<li><a class="reference internal" href="#xmldb-editor">XMLDB Editor</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="reports.html"
                         title="previous chapter">Reports</a></p>
