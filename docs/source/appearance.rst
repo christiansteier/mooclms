@@ -7,7 +7,13 @@ There are many ways to customise the appearance of your Moodle site so that it b
 
 Themes
 -------
+A theme sets the appearance - colours, fonts, and icons for your Moodle site.
 
+.. toctree::
+   :maxdepth: 1
+   
+   theme_settings
+   theme_selector
 
 
 .. _calendar:
