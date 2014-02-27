@@ -4,3 +4,95 @@ There are many ways to customise the appearance of your Moodle site so that it b
 
 Themes
 -------
+
+
+
+
+Calendar
+----------
+
+
+
+
+Blog
+-----
+
+
+
+
+
+Navigation
+------------
+
+
+
+
+HTML Settings
+---------------
+
+
+
+
+
+Media Embedding
+-----------------
+
+
+
+
+
+Moodle Docs
+-------------
+
+
+
+
+Default My home page
+----------------------
+
+
+
+Default profile page
+----------------------
+
+
+
+
+Courses
+---------
+
+
+
+
+Ajax and Javascript
+---------------------
+
+
+
+
+Manage Tags
+-------------
+
+
+
+
+Additional HTML
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
