@@ -31,7 +31,7 @@ Table Of Content
    development
    experimental_settings
    database_transfer
-  
+   tags
 
 Indices and tables
 ==================
