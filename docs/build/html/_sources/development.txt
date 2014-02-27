@@ -61,7 +61,7 @@ PHPUnit Tests
 ----------------
 *Settings > Site administration > Development > PHPUnit test*
 
-The purpose of Unit tests is to evaluate the individual parts of a program (functions, and methods of classes) to make sure that each element individually does the right thing. Unit Tests can be one of the first steps in a quality control process for developing or tweaking Totara code. The next steps will involve other forms of testing to ensure that these different parts work together properly.
+The purpose of Unit tests is to evaluate the individual parts of a program (functions, and methods of classes) to make sure that each element individually does the right thing. Unit Tests can be one of the first steps in a quality control process for developing or tweaking Moodle code. The next steps will involve other forms of testing to ensure that these different parts work together properly.
 
 
 
