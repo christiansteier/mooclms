@@ -17,8 +17,31 @@ Calendar
 Blog
 -----
 
+Enabling / disabling blogs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Blogs in Moodle are enabled by default. They may be disabled by a site administrator in *Settings > Site administration > Advanced features* by setting the blog visibility to 'Disable blog system completely'. 
 
+My profile settings
+^^^^^^^^^^^^^^^^^^^^
+Blog entries per page - In *Settings > My profile > Blogs > Preferences* you can set how many blog entries are displayed on a page. The default number of entries is 10. 
 
+Site administration settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Blogs have additional settings which may be changed by an administrator in *Settings > Site administration > Appearance > Blog*. 
+
+Enable blog associations - If blog associations are enabled, users can blog about their course or a particular activity using the context-sensitive links for adding an entry in the Blog menu block e.g. 'Add an entry about this assignment' or 'Add an entry about this course'.
+
+Blog visibility - This setting allows you to restrict the level to which user blogs can be viewed on this site. Note that they specify the maximum context of the VIEWER not the poster or the types of blog posts. Blogs can also be disabled completely if you don't want them at all.
+
+**Note:** Sites upgrading to 2.0 which previously had blog visibility set to "Users can only see blogs for people who share a course" or "Users can only see blogs for people who share a group" will have blogs converted into blog-like format forums. 
+
+Enable external blogs - Enables users to specify external blog feeds. Moodle regularly checks these blog feeds and copies new entries to the local blog of that user. 
+
+External blog cron schedule - How often Moodle checks the external blogs for new entries. By default it is 24 hours. 
+
+Maximum number of external blogs per user - By default, the number of external blogs each user is allowed to link to their Moodle blog is 1. 
+
+Enable comments - Blog comments are enabled by default, though may be disabled if required. 
 
 
 Navigation
@@ -35,9 +58,9 @@ The list of images that will be used to replace the emoticon text can be defined
 
 Media Embedding
 -----------------
-Location : *Settings > Site administration > Appearence > Media embedding*
+An administrator can enable selected media players in *Settings > Site administration > Appearence > Media embedding*
 
-see more details :ref:`media_embedding`
+See more details :ref:`media_embedding`
 
 
 

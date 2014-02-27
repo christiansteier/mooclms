@@ -60,6 +60,25 @@
 </div>
 <div class="section" id="blog">
 <h2>Blog<a class="headerlink" href="#blog" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="enabling-disabling-blogs">
+<h3>Enabling / disabling blogs<a class="headerlink" href="#enabling-disabling-blogs" title="Permalink to this headline">¶</a></h3>
+<p>Blogs in Moodle are enabled by default. They may be disabled by a site administrator in <em>Settings &gt; Site administration &gt; Advanced features</em> by setting the blog visibility to &#8216;Disable blog system completely&#8217;.</p>
+</div>
+<div class="section" id="my-profile-settings">
+<h3>My profile settings<a class="headerlink" href="#my-profile-settings" title="Permalink to this headline">¶</a></h3>
+<p>Blog entries per page - In <em>Settings &gt; My profile &gt; Blogs &gt; Preferences</em> you can set how many blog entries are displayed on a page. The default number of entries is 10.</p>
+</div>
+<div class="section" id="site-administration-settings">
+<h3>Site administration settings<a class="headerlink" href="#site-administration-settings" title="Permalink to this headline">¶</a></h3>
+<p>Blogs have additional settings which may be changed by an administrator in <em>Settings &gt; Site administration &gt; Appearance &gt; Blog</em>.</p>
+<p>Enable blog associations - If blog associations are enabled, users can blog about their course or a particular activity using the context-sensitive links for adding an entry in the Blog menu block e.g. &#8216;Add an entry about this assignment&#8217; or &#8216;Add an entry about this course&#8217;.</p>
+<p>Blog visibility - This setting allows you to restrict the level to which user blogs can be viewed on this site. Note that they specify the maximum context of the VIEWER not the poster or the types of blog posts. Blogs can also be disabled completely if you don&#8217;t want them at all.</p>
+<p><strong>Note:</strong> Sites upgrading to 2.0 which previously had blog visibility set to &#8220;Users can only see blogs for people who share a course&#8221; or &#8220;Users can only see blogs for people who share a group&#8221; will have blogs converted into blog-like format forums.</p>
+<p>Enable external blogs - Enables users to specify external blog feeds. Moodle regularly checks these blog feeds and copies new entries to the local blog of that user.</p>
+<p>External blog cron schedule - How often Moodle checks the external blogs for new entries. By default it is 24 hours.</p>
+<p>Maximum number of external blogs per user - By default, the number of external blogs each user is allowed to link to their Moodle blog is 1.</p>
+<p>Enable comments - Blog comments are enabled by default, though may be disabled if required.</p>
+</div>
 </div>
 <div class="section" id="navigation">
 <h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h2>
@@ -70,8 +89,8 @@
 </div>
 <div class="section" id="media-embedding">
 <h2>Media Embedding<a class="headerlink" href="#media-embedding" title="Permalink to this headline">¶</a></h2>
-<p>Location : <em>Settings &gt; Site administration &gt; Appearence &gt; Media embedding</em></p>
-<p>see more details <em class="xref std std-ref">media_embedding</em></p>
+<p>An administrator can enable selected media players in <em>Settings &gt; Site administration &gt; Appearence &gt; Media embedding</em></p>
+<p>See more details <a class="reference internal" href="media_embedding.html#media-embedding"><em>Media Embedding</em></a></p>
 </div>
 <div class="section" id="moodle-docs">
 <h2>Moodle Docs<a class="headerlink" href="#moodle-docs" title="Permalink to this headline">¶</a></h2>
@@ -149,7 +168,12 @@
 <li><a class="reference internal" href="#">Appearance</a><ul>
 <li><a class="reference internal" href="#themes">Themes</a></li>
 <li><a class="reference internal" href="#calendar">Calendar</a></li>
-<li><a class="reference internal" href="#blog">Blog</a></li>
+<li><a class="reference internal" href="#blog">Blog</a><ul>
+<li><a class="reference internal" href="#enabling-disabling-blogs">Enabling / disabling blogs</a></li>
+<li><a class="reference internal" href="#my-profile-settings">My profile settings</a></li>
+<li><a class="reference internal" href="#site-administration-settings">Site administration settings</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#navigation">Navigation</a></li>
 <li><a class="reference internal" href="#html-settings">HTML Settings</a></li>
 <li><a class="reference internal" href="#media-embedding">Media Embedding</a></li>
