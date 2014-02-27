@@ -111,7 +111,7 @@ If rounding of grades in grade calculations is required, the round(number, count
 
 Advance grade item options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In Moodle 2.0 Course administration>Grades>Category & Items>Add grade item, or Simple view>edit item brings up the Grade item page with the "Show advanced" button.
+In Moodle 2.0 *Course administration > Grades > Category & Items > Add grade item*, or Simple view>edit item brings up the Grade item page with the "Show advanced" button.
 
 These features can be set or viewed:
 
