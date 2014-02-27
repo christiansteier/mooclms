@@ -43,6 +43,71 @@
             
   <div class="section" id="experimental-settings">
 <span id="id1"></span><h1>Experimental Settings<a class="headerlink" href="#experimental-settings" title="Permalink to this headline">¶</a></h1>
+<p>An administrator can enable certain experimental features in <em>Settings &gt; Site administration &gt; Development &gt; Experimental &gt; Experimental settings</em>.</p>
+<p>An experimental feature is defined as a feature which require additional testing and bug-fixing.</p>
+<div class="section" id="safe-exam-browser">
+<h2>Safe exam browser<a class="headerlink" href="#safe-exam-browser" title="Permalink to this headline">¶</a></h2>
+<p>The Safe Exam Browser can work with Moodle to control what a student can do when in Moodle. To use it, it must be enabled in Settings &gt; Site administration &gt; Development &gt; Experimental &gt; Experimental settings. This adds the choice &#8216;Require Safe Exam Browser&#8217; to the &#8216;Browser security&#8217; field on the quiz settings form.</p>
+<p>The Safe Exam Browser is offered under a Mozilla Public License and uses C++ and JavaScript.</p>
+<div class="section" id="features">
+<h3>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h3>
+<p>Safe Exam Browser is a customised web browser that must be downloaded and installed on the computer that the student uses to attempt the quiz. The restrictions placed on students are similar to those in pop-up window case, but because Safe Exam Browser is software running on the student&#8217;s computer, it can do a much more effective job of restricting their actions. If you select this option:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Students will only be able to attempt the quiz if they are using Safe Exam Browser.</li>
+<li>The browser window will be fullscreen (without any navigation elements).</li>
+<li>The window cannot be closed until the test is submitted.</li>
+<li>Shortcuts keys such as Win, Ctrl+Alt+Del, Alt+F4, F1, Ctrl+P, Printscreen, are disabled.</li>
+<li>Copy and paste, and the context menu, are disabled.</li>
+<li>Switching to other applications is disabled.</li>
+<li>Surfing to other web sites is prohibited.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="group-members-only">
+<h2>Group members only<a class="headerlink" href="#group-members-only" title="Permalink to this headline">¶</a></h2>
+<p>It can be enabled by an administrator in <em>Administration &gt; Site administration &gt; Development &gt; Experimental</em>.</p>
+<div class="section" id="assigning-an-activity-to-a-grouping">
+<h3>Assigning an activity to a grouping<a class="headerlink" href="#assigning-an-activity-to-a-grouping" title="Permalink to this headline">¶</a></h3>
+<p>To assign an activity to a particular grouping:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>On the edit activity page, expand &#8220;Common module settings&#8221;.</li>
+<li>Ensure that the group mode is set to separate or visible groups.</li>
+<li>Select the grouping from the grouping dropdown menu.</li>
+<li>Check the &#8220;Available for group members only&#8221; checkbox</li>
+<li>Click the &#8220;Save changes&#8221; button at the bottom of the page.</li>
+</ol>
+</div></blockquote>
+<p>The name of the grouping will then appear in brackets after the activity name on the course page.</p>
+<p><strong>Note:</strong> If a graded activity is assigned to a particular grouping only, it will still appear in the gradebook for all users unless gradebook categories are set up in a certain way.</p>
+<p><strong>Note:</strong> You cannot make an activity visible to only one group of students without first placing them into a grouping.</p>
+</div>
+</div>
+<div class="section" id="drag-and-drop-upload-of-text-links">
+<h2>Drag and drop upload of text/links<a class="headerlink" href="#drag-and-drop-upload-of-text-links" title="Permalink to this headline">¶</a></h2>
+<p>Enable or disable the dragging and dropping of text and links onto a course page, alongside the dragging and dropping of files. Note that the dragging of text into Firefox or between different browsers is unreliable and may result in no data being uploaded, or corrupted text being uploaded.</p>
+</div>
+<div class="section" id="css-optimiser">
+<h2>CSS optimiser<a class="headerlink" href="#css-optimiser" title="Permalink to this headline">¶</a></h2>
+<p>A CSS optimiser may be enabled by an admin in <em>Settings &gt; Site administration &gt; Development &gt; Experimental &gt; Experimental settings</em>. The tool analyses and refactors CSS before caching it.</p>
+<p>When enabled CSS will be run through an optimisation process before being cached. The optimiser processes the CSS removing duplicate rules and styles, as well as white space removable and reformatting. Please note turning this on at the same time as theme designer mode is awful for performance but will help theme designers create optimised CSS.</p>
+</div>
+<div class="section" id="new-backup-format">
+<h2>New backup format<a class="headerlink" href="#new-backup-format" title="Permalink to this headline">¶</a></h2>
+<p>If you have large courses you may find it useful to turn on an experimental option, &#8216;Enable new backup format&#8217; from <em>Administration &gt; Site administration &gt; Development &gt; Experimental &gt; Experimental settings</em> .</p>
+<p>This option selects a different internal backup format. Without this option, you cannot back up courses larger than 4GB.</p>
+<p>You can change this option at any time. Whatever the option is set to, restore works for both the old and new format. The option only affects newly-created backups.</p>
+<p>When you use this option, backup files still have the .mbz extension and work the same way, but there are some differences:</p>
+<blockquote>
+<div><ul class="simple">
+<li>There is no limit on total backup size. (We have tested with courses up to about 10GB.)</li>
+<li>Files may be slightly smaller.</li>
+<li>If you need to edit this type of backup file manually, you will need to rename the .mbz file to .tar.gz, instead of .zip. You may need to use different software to extract and recompress this type of file. We have tested using GNU tar on Windows and Linux.</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +116,24 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Experimental Settings</a><ul>
+<li><a class="reference internal" href="#safe-exam-browser">Safe exam browser</a><ul>
+<li><a class="reference internal" href="#features">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#group-members-only">Group members only</a><ul>
+<li><a class="reference internal" href="#assigning-an-activity-to-a-grouping">Assigning an activity to a grouping</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#drag-and-drop-upload-of-text-links">Drag and drop upload of text/links</a></li>
+<li><a class="reference internal" href="#css-optimiser">CSS optimiser</a></li>
+<li><a class="reference internal" href="#new-backup-format">New backup format</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/experimental_settings.txt"
