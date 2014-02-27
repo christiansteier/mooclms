@@ -35,7 +35,7 @@ The list of images that will be used to replace the emoticon text can be defined
 
 Media Embedding
 -----------------
-Location : *Settings > Site administration > Appearence > Media embedding*
+An administrator can enable selected media players in *Settings > Site administration > Appearence > Media embedding*
 
 see more details :ref:`media_embedding`
 
