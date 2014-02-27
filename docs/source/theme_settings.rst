@@ -71,7 +71,7 @@ This will allow you to customize the theme selector options. For example, you ca
 
 Particular Theme Settings
 ---------------------------
-Logo, tagline, link colour, column width, custom CSS and other settings for a particular theme may be set by an administrator in Administration > Site administration > Appearance > Themes > Theme name. 
+Logo, tagline, link colour, column width, custom CSS and other settings for a particular theme may be set by an administrator in *Administration > Site administration > Appearance > Themes > Theme name*. 
 
 
 
