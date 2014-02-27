@@ -2,14 +2,40 @@ Appearance
 ===========
 There are many ways to customise the appearance of your Moodle site so that it blends in with, for example, your college site or your company's corporate brand. Below links provide more information on personalising the appearance of Moodle:
 
+
+.. _themes:
+
 Themes
 -------
 
 
 
+.. _calendar:
 
 Calendar
 ----------
+
+Prefernce settings
+^^^^^^^^^^^^^^^^^^^
+Both the daily detail screen and the monthly detail screen have the Preferences button in the upper right. Here you can set the time format, first day of the week, number of events to show in the calendar block, days to look forward for events and if the filters on this calendar should be saved as the default for all calendars. 
+
+Site administration settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The following settings can be changed by a *Site administrator in Administration > Appearance > Calendar* : 
+
+   * Admins see all - Whether admins see all calendar events or just those that apply to themselves. 
+
+   * Time display format - Whether a 12 or 24 hour format is used. This setting can be overridden by user preferences. 
+
+   * Start of week - Default is Sunday. 
+
+   * Weekend days - Weekend days are shown in a different colour.
+
+   * Days and events to look ahead - For determining how many events are listed in the Upcoming Events block. If the Upcoming Events block becomes too long you can reduce the number of days and events to lookahead.
+
+   * Calendar export days to look ahead and back - A custom range of dates, such as a school term or year, may be set as a calendar export option. 
+
+   * Calendar export salt - The calendar export salt is a random string of characters used for improving of security of authentication tokens used for exporting of calendars. 
 
 
 
@@ -45,15 +71,22 @@ Maximum number of external blogs per user - By default, the number of external b
 Enable comments - Blog comments are enabled by default, though may be disabled if required. 
 
 
+.. _navigation:
+
 Navigation
 ------------
 An administrator can change navigation settings, such as the default home page and whether to show course categories in the navigation, in *Settings > Site administration > Appearance > Navigation*.
 
 
 
+.. _html_settings:
+
+
 HTML Settings
 ---------------
 The list of images that will be used to replace the emoticon text can be defined by a site administrator in *Settings > Site administration > Appearence > HTML settings*. The images defined here are used by Display emoticons as images filter and TinyMCE HTML editor's Insert emoticon popup menu.
+
+
 
 
 
