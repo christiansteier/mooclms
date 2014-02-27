@@ -34,7 +34,7 @@ Table Of Content
    tags
    blogs
    calendar
-   installing_add_ons
+   installing_add-ons
 
 Indices and tables
 ==================
