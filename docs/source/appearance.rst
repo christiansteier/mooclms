@@ -66,7 +66,11 @@ Default My home page
 
 Default profile page
 ----------------------
+An administrator or manager (or any other user with the capability moodle/user:managesyspages) can set which blocks appear on the default profile page for new users.
 
+    1. Access *Administration > Site administration > Appearance > Default profile page*.
+    2. Select the required blocks from the "Add a block" drop-down menu. Configure each block as desired.
+    3. Reposition blocks using the arrow icons in the block headers. 
 
 
 
