@@ -16,7 +16,7 @@ My profile settings
 ^^^^^^^^^^^^^^^^^^^^
 Blog entries per page - In *Settings > My profile > Blogs > Preferences* you can set how many blog entries are displayed on a page. The default number of entries is 10. 
 
-Refer :ref:`here <blog>` for administration settings 
+Refer :ref: `here <blog>` for administration settings 
 
 
 
