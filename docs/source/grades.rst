@@ -90,6 +90,49 @@ Drops the lowest X number of grades from the report.
 
 Grade item settings
 --------------------
+Location: *Administration > Grades > Grade item settings*
+
+Grade item settings are the various settings that the administrator is able to edit for all gradebooks used by teachers. These settings will change what items are displayed for each grade. As administrator, you would turn on or off various settings and the teacher would input the actual data. 
+
+Grade display type
+^^^^^^^^^^^^^^^^^^^
+This is the type of grade that is to be shown for each individual grade. Different school districts use different grading systems so this can be changed to suit your district.
+
+    * Real - Grade from minimum to maximum range indicating total points received. Default from 0-100 but may be arbitrary.
+    * Percentage - Grade from 0 - 100% indicating the total points received divided by maximum possible amount times 100.
+    * Letter- Grade in the form of a letter representing a range of percentages. 
+
+
+Overall decimal points
+^^^^^^^^^^^^^^^^^^^^^^^^
+This setting is for display purposes only. Grade calculations are made with an accuracy of 5 decimal places and grade letters, if used, are assigned accordingly.
+
+If rounding of grades in grade calculations is required, the round(number, count) function may be used. 
+
+Advance grade item options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In Moodle 2.0 Course administration>Grades>Category & Items>Add grade item, or Simple view>edit item brings up the Grade item page with the "Show advanced" button.
+
+These features can be set or viewed:
+
+    Item info
+    ID Number
+    Grade Type
+    Scale
+    Minimum Grade
+    Maximum Grade 
+    Grade to pass
+    Offset
+    Multiplicator
+    Grade display type
+    Overall decimal places 
+    Hidden
+    Hidden until
+    Locked
+    Locked after 
+
+Both Full and Simple views have "Add category" and "Add grade item" buttons at the bottom of the page. 
+
 
 
 Scales
