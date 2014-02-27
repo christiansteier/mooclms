@@ -29,22 +29,21 @@ Navigation
 
 HTML Settings
 ---------------
-
-
+The list of images that will be used to replace the emoticon text can be defined by a site administrator in *Settings > Site administration > Appearence > HTML settings*. The images defined here are used by Display emoticons as images filter and TinyMCE HTML editor's Insert emoticon popup menu.
 
 
 
 Media Embedding
 -----------------
+Location : *Settings > Site administration > Appearence > Media embedding*
 
+see more details :ref:`media_embedding`
 
 
 
 
 Moodle Docs
 -------------
-
-
 Moodle Docs is an abbreviation for *Moodle documentation*.
 
 By default, managers, teachers and non-editing teachers (and any other users with the capability moodle/site:doclinks) have "Moodle Docs for this page" links at the bottom of each page in Moodle for accessing context-specific documentation.
