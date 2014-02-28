@@ -132,7 +132,7 @@ A user with the role of Administrator is typically in charge of a Moodle site on
 Advanced Features
 ------------------
 
-The advanced features in Administration > Site administration > Advanced features contains a number of features that may be enabled / disabled globally by the site administrator.
+The advanced features in *Administration > Site administration > Advanced features* contains a number of features that may be enabled / disabled globally by the site administrator.
 
 **Outcomes**
 
@@ -184,7 +184,7 @@ Messaging refers both to automatic alerts from Moodle about new forum posts, ass
 
 .. image:: _images/notification_email.png
 
-For allowing users to enter a different email address in Administration > My profile > Messaging .
+For allowing users to enter a different email address in *Administration > My profile > Messaging* .
 
 **Statistics**
 
