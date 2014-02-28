@@ -33,6 +33,8 @@ Recover grades default
 ^^^^^^^^^^^^^^^^^^^^^^^
 When manually enrolling a student in a course, there is an option 'Recover user's old grades if possible', however this checkbox is easy to miss. Enabling 'Recover grades default' results in 'Recover user's old grades if possible' being ticked for every course. 
 
+.. image:: _images/enrol_user_enrolment_option.png
+
 Unlimited grades
 ^^^^^^^^^^^^^^^^^^
 Teachers can enter grades over 100% directly in the gradebook if the unlimitedgrades setting is enabled. 
