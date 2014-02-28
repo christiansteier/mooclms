@@ -43,6 +43,147 @@
             
   <div class="section" id="course-settings">
 <span id="id1"></span><h1>Course Settings<a class="headerlink" href="#course-settings" title="Permalink to this headline">¶</a></h1>
+<p>A teacher, or other user with the update course settings capability, can change course settings in <em>Administration &gt; Course administration &gt; Edit settings</em>.</p>
+<div class="section" id="general">
+<h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/course_general.png" src="_images/course_general.png" />
+<div class="section" id="course-full-name">
+<h3>Course full name<a class="headerlink" href="#course-full-name" title="Permalink to this headline">¶</a></h3>
+<p>This is the name of the course. It is displayed as a link on course lists on the Front page and on My home and in reports. It is also used in the browser title bar when the course is viewed.</p>
+<p>The capability moodle/course:changefullname controls whether a user can edit the course full name.</p>
+</div>
+<div class="section" id="short-name">
+<h3>Short name<a class="headerlink" href="#short-name" title="Permalink to this headline">¶</a></h3>
+<p>Many institutions have a shorthand way of referring to a course, such as BP102 or COMMS. Even if you do not already have such a name for your course, make one up here. It will be used in several places where the long name is not appropriate, such as the Navigation block.</p>
+<p>The capability moodle/course:changeshortname controls whether a user can edit the short name field.</p>
+<p>By default, only course full names are displayed in the list of courses. However an administrator can enable short names to be displayed too if required by ticking the checkbox in <em>Administration &gt; Site administration &gt; Appearance &gt; Courses</em>.</p>
+</div>
+<div class="section" id="course-category">
+<h3>Course category<a class="headerlink" href="#course-category" title="Permalink to this headline">¶</a></h3>
+<p>The site administrator may have created course categories to help teachers and students find their courses easily. Course categories may be reflected in the Navigation block.</p>
+<p>The capability moodle/course:changecategory controls whether a user can edit the course category.</p>
+</div>
+<div class="section" id="course-start-date">
+<h3>Course start date<a class="headerlink" href="#course-start-date" title="Permalink to this headline">¶</a></h3>
+<p>This setting affects the display of logs and the weekly format topic dates.</p>
+<p>If you use the &#8220;Weekly&#8221; course format, the start date will appear in the first section of the course. For example selecting 27 July, will display &#8220;27 July - 2 August&#8221; in the first section (when default display is selected for that section).</p>
+<p>This setting will not affect courses using the &#8216;social&#8217; or &#8216;topics&#8217; formats.</p>
+<p><strong>TIP:</strong> 1. If your institution runs on a weekly schedule, you may want to consider setting the start date for courses on the first day of the week, like a Monday. Please note that the &#8216;first day of the week&#8217; is set by the langconfig file of your Language, and might be different from the default Monday of the English language pack.</p>
+<blockquote>
+<div><ol class="arabic simple" start="2">
+<li>In general, if your course does not have a real starting date then set the date to yesterday and use the availability setting to reveal the course to students.</li>
+<li>See self enrolment course settings to prevent students from entering the course before a certain date/time.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="viisible">
+<h3>Viisible<a class="headerlink" href="#viisible" title="Permalink to this headline">¶</a></h3>
+<p>Here you can &#8220;hide&#8221; your course completely. It will not appear on any course listings, except for managers, course creators, teachers and any other users with the view hidden courses capability. Even if students try to access the course URL directly, they will not be allowed to enter.</p>
+<p>The hide/show courses capability controls whether a user can hide a course.</p>
+</div>
+<div class="section" id="course-id-number">
+<h3>Course ID number<a class="headerlink" href="#course-id-number" title="Permalink to this headline">¶</a></h3>
+<p>The ID number is an alphanumeric field. It has several potential uses. Generally, it is not displayed to students. However, it can be used to match this course against an external system&#8217;s ID, as your course catalogue ID or can be used in the certificate module as a printed field.</p>
+<p>The capability moodle/course:changeidnumber controls whether a user can edit the ID number.</p>
+</div>
+</div>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/course_description.png" src="_images/course_description.png" />
+<div class="section" id="course-summary">
+<h3>Course summary<a class="headerlink" href="#course-summary" title="Permalink to this headline">¶</a></h3>
+<p>The summary appears on the course listings page. This field is searched when searching for a course and also appears in the Course/Site description block.</p>
+<p>The capability moodle/course:changesummary controls whether a user can edit the course summary.</p>
+</div>
+<div class="section" id="course-summary-files">
+<h3>Course summary files<a class="headerlink" href="#course-summary-files" title="Permalink to this headline">¶</a></h3>
+<p>An image (and if allowed by the administrator, other file types) may be attached to the course summary. They will be accessible by anyone from outside of the course just like the course name and/or summary.</p>
+<p>By default, only jpg, gif and png file types are allowed as course summary files. An administrator can change the allowed file types in <em>Administration &gt; Site administration &gt; Appearance &gt; Courses</em>.</p>
+</div>
+</div>
+<div class="section" id="course-format">
+<h2>Course Format<a class="headerlink" href="#course-format" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/course_format.png" src="_images/course_format.png" />
+<div class="section" id="format">
+<h3>Format<a class="headerlink" href="#format" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference internal" href="course_format.html#course-format"><em>Course Format</em></a></p>
+</div>
+<div class="section" id="number-of-sections">
+<h3>Number of sections<a class="headerlink" href="#number-of-sections" title="Permalink to this headline">¶</a></h3>
+<p>This setting is only used by the &#8216;weekly&#8217; and &#8216;topics&#8217; course formats. In the &#8216;weekly&#8217; format, it specifies the number of weeks that the course will run for, starting from the course starting date. In the &#8216;topics&#8217; format, it specifies the number of topics in the course. Both of these translate to the number of &#8220;boxes&#8221; down the middle of the course page.</p>
+<p>If the number of weeks/topics is changed for an existing course so that the number is less than the number of course sections containing activities (for example the course contains activities in 3 sections and the number or weeks/topics is set to 2) then when editing is turned on section(s) at the bottom of the course page will be shown with the title &#8216;Orphaned activities&#8217;.</p>
+<p>The number of weeks/topics may be set to 0, so that only the top general section is displayed on the course page and there are no numbered sections.</p>
+<p>By default, the maximum number of weeks/topics is 52, but an administrator can set a different maximum number which will apply to all courses on the site.</p>
+</div>
+<div class="section" id="hidden-sections">
+<h3>Hidden sections<a class="headerlink" href="#hidden-sections" title="Permalink to this headline">¶</a></h3>
+<p>This option allows you to decide how the hidden sections in your course are displayed to students. By default, a small area is shown (in collapsed form, usually grey) to indicate where the hidden section is, though they still cannot actually see the hidden activities and texts. This is particularly useful in the Weekly format, so that non-class weeks are clear, or if you have quizzes you don&#8217;t want your students to see.</p>
+<p><strong>TIP:</strong> If you choose, these non-available items can be completely hidden, so that students do not even know that sections or an activity in the course are hidden.</p>
+</div>
+<div class="section" id="course-layout">
+<h3>Course layout<a class="headerlink" href="#course-layout" title="Permalink to this headline">¶</a></h3>
+<p>The Course layout setting determines whether the whole course is displayed on one page or split over several pages. The setting currently applies to the topics and weekly core course formats and contributed collapsed topics course format only.</p>
+<p>Teachers choose from the dropdown whether they wish to &#8220;show all sections on one page&#8221; in the familiar scrolling format, or &#8220;show one section per page&#8221;.</p>
+<p>If one section per page is selected, the course page is abbreviated to a list of links to individual sections. If an individual section is shown, next and previous sections may be accessed via links above and below the section.</p>
+</div>
+</div>
+<div class="section" id="appearance">
+<h2>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/course_appearance.png" src="_images/course_appearance.png" />
+<div class="section" id="force-theme">
+<h3>Force theme<a class="headerlink" href="#force-theme" title="Permalink to this headline">¶</a></h3>
+<p>If the site administrator has allowed the teacher to set a course theme, this pull down menu will appear with a list of themes on the site. Teachers can use this to choose a different look for the course from the rest of the Moodle site.</p>
+</div>
+<div class="section" id="force-language">
+<h3>Force language<a class="headerlink" href="#force-language" title="Permalink to this headline">¶</a></h3>
+<p>If you force a language in a course, the interface of Moodle in this course will be in this particular language, even if a student has selected a different preferred language in his/her personal profile.</p>
+</div>
+<div class="section" id="news-items-to-show">
+<h3>News items to show<a class="headerlink" href="#news-items-to-show" title="Permalink to this headline">¶</a></h3>
+<p>How many news items should show the Latest news block. Set it to 0 and Latest news block will not appear.</p>
+<p>The Latest News block relies on the use of the associated News Forum. News posted in other forums do not display in the latest News block.</p>
+</div>
+<div class="section" id="show-gradebook-to-students">
+<h3>Show gradebook to students<a class="headerlink" href="#show-gradebook-to-students" title="Permalink to this headline">¶</a></h3>
+<p>Here you can decide whether to allow students to see the link to grades in the Administration block. If your course doesn&#8217;t use graded activities, it makes sense to disable this. If grades are used and this link is disabled, students can still see their grade from the actual activity itself, such as an assignment</p>
+</div>
+<div class="section" id="show-activity-reports">
+<h3>Show activity reports<a class="headerlink" href="#show-activity-reports" title="Permalink to this headline">¶</a></h3>
+<p>Here you can decide whether to show students their activity reports. Doing so places a load on the server however, which is why the setting is disabled by default.</p>
+</div>
+</div>
+<div class="section" id="files-and-uploads">
+<h2>Files and uploads<a class="headerlink" href="#files-and-uploads" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="maximum-upload-size">
+<h3>Maximum upload size<a class="headerlink" href="#maximum-upload-size" title="Permalink to this headline">¶</a></h3>
+<p>Here you can decide the largest size of file that students can upload to a course. The site administrator can determine sizes available for the teacher to select.</p>
+<p>Editing teachers or other users may be allowed to upload files larger than the maximum size by giving them the capability moodle/course:ignorefilesizelimits .</p>
+</div>
+</div>
+<div class="section" id="guest-access">
+<h2>Guest Access<a class="headerlink" href="#guest-access" title="Permalink to this headline">¶</a></h2>
+<p>Here you can decide whether to allow logged in users to access the course as a guest, and whether or not they need to enter a password.</p>
+</div>
+<div class="section" id="groups">
+<h2>Groups<a class="headerlink" href="#groups" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/course_groups.png" src="_images/course_groups.png" />
+<div class="section" id="group-mode">
+<h3>Group mode<a class="headerlink" href="#group-mode" title="Permalink to this headline">¶</a></h3>
+<p>Here you can define the group mode at the course level by a pull down menu. &#8220;No groups&#8221;, &#8220;Separate groups&#8221; and &#8220;Visible groups&#8221; are the choices. The selected setting will be the default group mode for all activities defined within that course. The group setting can affect what users see in the Participants list and who they can interact with in activities.</p>
+</div>
+<div class="section" id="force">
+<h3>Force<a class="headerlink" href="#force" title="Permalink to this headline">¶</a></h3>
+<p>If the group mode is &#8220;forced&#8221; at a course-level, then this particular group mode will be applied to every activity in that course. This will override any activities that may have a special group setting.</p>
+</div>
+<div class="section" id="default-grouping">
+<h3>Default grouping<a class="headerlink" href="#default-grouping" title="Permalink to this headline">¶</a></h3>
+<p>If groupings are enabled, a default grouping for course activities and resources may be set.</p>
+</div>
+</div>
+<div class="section" id="role-renaming">
+<h2>Role Renaming<a class="headerlink" href="#role-renaming" title="Permalink to this headline">¶</a></h2>
+<p>You can rename the roles used in your course. For example, you may wish to rename the Teacher role as &#8220;Facilitator&#8221;, &#8220;Tutor&#8221; or &#8220;Guide&#8221;. These new role names will appear within the course. For example on the participants and the override permissions pages.</p>
+</div>
 </div>
 
 
@@ -51,6 +192,54 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Course Settings</a><ul>
+<li><a class="reference internal" href="#general">General</a><ul>
+<li><a class="reference internal" href="#course-full-name">Course full name</a></li>
+<li><a class="reference internal" href="#short-name">Short name</a></li>
+<li><a class="reference internal" href="#course-category">Course category</a></li>
+<li><a class="reference internal" href="#course-start-date">Course start date</a></li>
+<li><a class="reference internal" href="#viisible">Viisible</a></li>
+<li><a class="reference internal" href="#course-id-number">Course ID number</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#description">Description</a><ul>
+<li><a class="reference internal" href="#course-summary">Course summary</a></li>
+<li><a class="reference internal" href="#course-summary-files">Course summary files</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#course-format">Course Format</a><ul>
+<li><a class="reference internal" href="#format">Format</a></li>
+<li><a class="reference internal" href="#number-of-sections">Number of sections</a></li>
+<li><a class="reference internal" href="#hidden-sections">Hidden sections</a></li>
+<li><a class="reference internal" href="#course-layout">Course layout</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#appearance">Appearance</a><ul>
+<li><a class="reference internal" href="#force-theme">Force theme</a></li>
+<li><a class="reference internal" href="#force-language">Force language</a></li>
+<li><a class="reference internal" href="#news-items-to-show">News items to show</a></li>
+<li><a class="reference internal" href="#show-gradebook-to-students">Show gradebook to students</a></li>
+<li><a class="reference internal" href="#show-activity-reports">Show activity reports</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#files-and-uploads">Files and uploads</a><ul>
+<li><a class="reference internal" href="#maximum-upload-size">Maximum upload size</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#guest-access">Guest Access</a></li>
+<li><a class="reference internal" href="#groups">Groups</a><ul>
+<li><a class="reference internal" href="#group-mode">Group mode</a></li>
+<li><a class="reference internal" href="#force">Force</a></li>
+<li><a class="reference internal" href="#default-grouping">Default grouping</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#role-renaming">Role Renaming</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/course_settings.txt"
