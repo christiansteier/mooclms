@@ -34,3 +34,28 @@ Moodle has two different ways to deploy cron which use different scripts within 
        This has the advantage that it can be run from *anywhere*. If you can't get cron to work on your machine it can be run somewhere else. 
        
        
+Cron Settings
+---------------
+Location: *Administration > Site administration > Security > Site Policies*
+
+Moodle has two settings where the site administrator can have some control of how the Moodle cron process is triggered. This is done from the Site Policies link. 
+
+Cron execution fron command line interface only
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The cronclionly setting will stop the browser URL Moodle cron process trigger. For example, the site administrator or others running **http:demo.moodle.net/admin/cron.php** from their web browser.
+
+    **TIP:** It is a bit misleading to use the term CLI (command line interface). It does not mean that you have to be sitting at a shell account entering the command. It does mean it you must invoke cron.php through any set of batch or script files. This can be especially frustrating for those not used to scripting via the operating system. 
+
+See the template on the right for assistance with how to create scripts in different operating systems. 
+
+
+Cron password
+^^^^^^^^^^^^^^^
+The cron process can be protected by a password with the cronremotepassword setting.
+
+
+
+
+
+
+
