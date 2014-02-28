@@ -3,7 +3,7 @@
 Upload users
 =============
 
-An administrator can upload multiple user accounts via text file in Administration > Site administration > Users > Accounts > Upload users.
+An administrator can upload multiple user accounts via text file in *Administration > Site administration > Users > Accounts > Upload users*.
 
 Upload user process
 ^^^^^^^^^^^^^^^^^^^^
@@ -11,7 +11,7 @@ Upload user process
 Steps to be followed:
 
     * Create file for uploading.
-    * Go to Settings > Site administration > Users > Accounts > Upload users
+    * Go to *Settings > Site administration > Users > Accounts > Upload users*
     * Add file to upload
     * Upload users preview - check settings and default user profile settings
     * Upload users preview - click "Upload users"
