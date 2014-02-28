@@ -143,7 +143,7 @@ An administrator or manager (or any other user with the capability moodle/user:m
 
 Courses
 ---------
-An administrator can change the following course settings in Settings > Site administration > Appearance > Courses.
+An administrator can change the following course settings in *Settings > Site administration > Appearance > Courses*.
 
    * Course contacts - Users with the selected role(s) e.g. teachers are listed in the course description. By default, users with the role of teacher in a course are listed in the course description for that course. If a course has several teachers, the course description can become rather long. In this case, you can create a role e.g. head of subject with no capabilities set and assign it to selected users in addition to their teacher role. If you then select only the head of subject role in the course managers setting, the course description will be shorter. 
 
