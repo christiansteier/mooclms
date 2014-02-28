@@ -45,7 +45,7 @@ The following defaults are included:
     * Completion tracking beings on enrolment
     * Course Tagging
 
-See :ref:`Course Settings` to learn more about these settings.
+See :ref:`course_settings` to learn more about these settings.
 
 
 
