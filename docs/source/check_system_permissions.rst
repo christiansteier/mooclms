@@ -2,7 +2,7 @@
 
 Check System permissions
 =========================
-You are here *Administration > Site administration > Users > Permissions > Check system permissions .
+You are here *Administration > Site administration > Users > Permissions > Check system permissions* .
 
 The check permissions feature provides a method to view the capabilities for a selected user based on their role assignments. These capabilities determine whether or not the selected user is allowed to perform associated tasks within the system or course. 
 
