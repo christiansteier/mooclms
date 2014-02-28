@@ -53,12 +53,118 @@
 <h1>Grades<a class="headerlink" href="#grades" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="general-settings">
 <h2>General Settings<a class="headerlink" href="#general-settings" title="Permalink to this headline">¶</a></h2>
+<p>Default values for all grade settings can be set by an administrator. The easiest way to do so is to log in as admin then browse a course gradebook and follow the &#8216;Change defaults&#8217; links.</p>
+<p>The following additional grade settings can be found in <em>Administration &gt; Site administration &gt; Grades &gt; General settings</em>. The settings will affect all gradebooks used by all teachers.</p>
+<div class="section" id="graded-roles">
+<h3>Graded Roles<a class="headerlink" href="#graded-roles" title="Permalink to this headline">¶</a></h3>
+<p>Graded roles are the type of user that will appear in the gradebook. Most of the time &#8220;student&#8221; is the only one needed.</p>
+</div>
+<div class="section" id="user-profile-report">
+<h3>User profile report<a class="headerlink" href="#user-profile-report" title="Permalink to this headline">¶</a></h3>
+<p>The default user profile report setting has just one option, &#8216;User report&#8217;, unless a custom user report has been added to the site.</p>
+<p>Teachers can view the user reports for all or selected students in the course in Administration &gt; Grades administration &gt; User report.</p>
+</div>
+<div class="section" id="include-scales-in-aggregation">
+<h3>Include scales in aggregation<a class="headerlink" href="#include-scales-in-aggregation" title="Permalink to this headline">¶</a></h3>
+<p>Scales can be included as numbers in all aggregated grades across all gradebooks in all courses. Changing this setting will force all aggregated grades to be recalculated.</p>
+<p>If this is checked (and it is by default) then all custom scales will have a corresponding value that is assigned based on the number of options in the scale (ie. three values will have values of 1,2,3) and this will be included in the grade aggregation.</p>
+</div>
+<div class="section" id="enable-publishing">
+<h3>Enable publishing<a class="headerlink" href="#enable-publishing" title="Permalink to this headline">¶</a></h3>
+<p>Grade publishing is a way of importing and exporting grades via a URL without being logged in to Moodle. Grade publishing is intended for administrators only. Security implications should be thoroughly considered before allowing non-admin users to publish grades.</p>
+<p>Grade publishing may be enabled by checking the gradepublishing box. If enabled, administrators are provided with grade export publishing settings in each course gradebook.</p>
+</div>
+<div class="section" id="recover-grades-default">
+<h3>Recover grades default<a class="headerlink" href="#recover-grades-default" title="Permalink to this headline">¶</a></h3>
+<p>When manually enrolling a student in a course, there is an option &#8216;Recover user&#8217;s old grades if possible&#8217;, however this checkbox is easy to miss. Enabling &#8216;Recover grades default&#8217; results in &#8216;Recover user&#8217;s old grades if possible&#8217; being ticked for every course.</p>
+</div>
+<div class="section" id="unlimited-grades">
+<h3>Unlimited grades<a class="headerlink" href="#unlimited-grades" title="Permalink to this headline">¶</a></h3>
+<p>Teachers can enter grades over 100% directly in the gradebook if the unlimitedgrades setting is enabled.</p>
+</div>
 </div>
 <div class="section" id="grade-category-settings">
 <h2>Grade Category Settings<a class="headerlink" href="#grade-category-settings" title="Permalink to this headline">¶</a></h2>
+<p>Grade category settings in <em>Settings &gt; Site administration &gt; Grades &gt; Grade Category Settings</em> enable administrators to choose which options appear for teachers when adding/editing a grade category in their course gradebook, and their default values. Settings are applied site-wide.</p>
+<p>There are 2 check boxes next to most features on this page. The &#8220;Force&#8221; check box eliminates any options the teacher will see. For example, the teacher will only see and be able to use the &#8220;mean of all grades&#8221; as an aggregation. The &#8220;Advanced&#8221; checkbox will hide the specific feature until the &#8220;Show advanced&#8221; button is used by the teacher. This will reduce initial menu choices for teachers but allow them to see them if they wish.</p>
+<div class="section" id="hide-forced-settings">
+<h3>Hide forced settings<a class="headerlink" href="#hide-forced-settings" title="Permalink to this headline">¶</a></h3>
+<p>The default is to show the forced settings (see below). If these are not to be used check this box to hide them. Unchecking the &#8220;Force&#8221; setting will simply restore each category&#8217;s setting to its previous state, prior to the application of the forced global setting. Administrators can thus experiment with these settings without fear of losing any specific category settings.</p>
+</div>
+<div class="section" id="aggregation-settings">
+<h3>Aggregation settings<a class="headerlink" href="#aggregation-settings" title="Permalink to this headline">¶</a></h3>
+<p>Select the type of aggregation method from a pulldown menu from 1 of 9 choices. However there are two check boxes which will effect this default, in addition to the Hide forced settings.</p>
+<p>The &#8220;Force&#8221; checkbox only allows the selected aggregation method to apply. This results in switches and drop-down elements being disabled in all course gradebooks. For example, if the Aggregation Type setting is forced as &#8220;Mean&#8221;, teachers will no longer have the option to change the aggregation type of each grade category separately, the option will not be there in the category edit form.</p>
+</div>
+<div class="section" id="available-aggregation-types">
+<h3>Available aggregation types<a class="headerlink" href="#available-aggregation-types" title="Permalink to this headline">¶</a></h3>
+<p>Administrators may reduce the number of aggregation types available for teachers to use.</p>
+<p>By default, all existing aggregation types are available (Mean of grades, Weighted mean of grades, Simple weighted mean of grades, Mean of grades (with extra credits), Median of grades, Lowest grade, Highest grade, Mode of grades, Sum of grades). This list may be reduced to only a few types, with additional types being enabled as/when teachers request them.</p>
+<p>Note that reducing the number of aggregation types simply results in disabled aggregation types not appearing in the aggregation type dropdown menu. All existing grade category calculations remain the same, regardless of whether the aggregation type is later disabled by an administrator.</p>
+</div>
+<div class="section" id="aggregate-only-non-empty-grades">
+<h3>Aggregate only non-empty grades<a class="headerlink" href="#aggregate-only-non-empty-grades" title="Permalink to this headline">¶</a></h3>
+<p>The default is no.</p>
+</div>
+<div class="section" id="include-outcomes-in-aggregation">
+<h3>Include outcomes in aggregation<a class="headerlink" href="#include-outcomes-in-aggregation" title="Permalink to this headline">¶</a></h3>
+<p>The default is no.</p>
+</div>
+<div class="section" id="aggregate-including-subcategories">
+<h3>Aggregate including subcategories<a class="headerlink" href="#aggregate-including-subcategories" title="Permalink to this headline">¶</a></h3>
+<p>The default is no. Yes will include subcategory grades in the aggregation.</p>
+</div>
+<div class="section" id="keep-the-highest">
+<h3>Keep the highest<a class="headerlink" href="#keep-the-highest" title="Permalink to this headline">¶</a></h3>
+<p>Keeps only the X number of highest grades in the report</p>
+</div>
+<div class="section" id="drop-the-lowest">
+<h3>Drop the lowest<a class="headerlink" href="#drop-the-lowest" title="Permalink to this headline">¶</a></h3>
+<p>Drops the lowest X number of grades from the report.</p>
+</div>
 </div>
 <div class="section" id="grade-item-settings">
 <h2>Grade item settings<a class="headerlink" href="#grade-item-settings" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Grades &gt; Grade item settings</em></p>
+<p>Grade item settings are the various settings that the administrator is able to edit for all gradebooks used by teachers. These settings will change what items are displayed for each grade. As administrator, you would turn on or off various settings and the teacher would input the actual data.</p>
+<div class="section" id="grade-display-type">
+<h3>Grade display type<a class="headerlink" href="#grade-display-type" title="Permalink to this headline">¶</a></h3>
+<p>This is the type of grade that is to be shown for each individual grade. Different school districts use different grading systems so this can be changed to suit your district.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Real - Grade from minimum to maximum range indicating total points received. Default from 0-100 but may be arbitrary.</li>
+<li>Percentage - Grade from 0 - 100% indicating the total points received divided by maximum possible amount times 100.</li>
+<li>Letter- Grade in the form of a letter representing a range of percentages.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="overall-decimal-points">
+<h3>Overall decimal points<a class="headerlink" href="#overall-decimal-points" title="Permalink to this headline">¶</a></h3>
+<p>This setting is for display purposes only. Grade calculations are made with an accuracy of 5 decimal places and grade letters, if used, are assigned accordingly.</p>
+<p>If rounding of grades in grade calculations is required, the round(number, count) function may be used.</p>
+</div>
+<div class="section" id="advance-grade-item-options">
+<h3>Advance grade item options<a class="headerlink" href="#advance-grade-item-options" title="Permalink to this headline">¶</a></h3>
+<p>In Moodle 2.0 <em>Course administration &gt; Grades &gt; Category &amp; Items &gt; Add grade item</em>, or Simple view&gt;edit item brings up the Grade item page with the &#8220;Show advanced&#8221; button.</p>
+<p>These features can be set or viewed:</p>
+<blockquote>
+<div>Item info
+ID Number
+Grade Type
+Scale
+Minimum Grade
+Maximum Grade
+Grade to pass
+Offset
+Multiplicator
+Grade display type
+Overall decimal places
+Hidden
+Hidden until
+Locked
+Locked after</div></blockquote>
+<p>Both Full and Simple views have &#8220;Add category&#8221; and &#8220;Add grade item&#8221; buttons at the bottom of the page.</p>
+</div>
 </div>
 <div class="section" id="scales">
 <h2>Scales<a class="headerlink" href="#scales" title="Permalink to this headline">¶</a></h2>
@@ -80,9 +186,32 @@
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Grades</a><ul>
-<li><a class="reference internal" href="#general-settings">General Settings</a></li>
-<li><a class="reference internal" href="#grade-category-settings">Grade Category Settings</a></li>
-<li><a class="reference internal" href="#grade-item-settings">Grade item settings</a></li>
+<li><a class="reference internal" href="#general-settings">General Settings</a><ul>
+<li><a class="reference internal" href="#graded-roles">Graded Roles</a></li>
+<li><a class="reference internal" href="#user-profile-report">User profile report</a></li>
+<li><a class="reference internal" href="#include-scales-in-aggregation">Include scales in aggregation</a></li>
+<li><a class="reference internal" href="#enable-publishing">Enable publishing</a></li>
+<li><a class="reference internal" href="#recover-grades-default">Recover grades default</a></li>
+<li><a class="reference internal" href="#unlimited-grades">Unlimited grades</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#grade-category-settings">Grade Category Settings</a><ul>
+<li><a class="reference internal" href="#hide-forced-settings">Hide forced settings</a></li>
+<li><a class="reference internal" href="#aggregation-settings">Aggregation settings</a></li>
+<li><a class="reference internal" href="#available-aggregation-types">Available aggregation types</a></li>
+<li><a class="reference internal" href="#aggregate-only-non-empty-grades">Aggregate only non-empty grades</a></li>
+<li><a class="reference internal" href="#include-outcomes-in-aggregation">Include outcomes in aggregation</a></li>
+<li><a class="reference internal" href="#aggregate-including-subcategories">Aggregate including subcategories</a></li>
+<li><a class="reference internal" href="#keep-the-highest">Keep the highest</a></li>
+<li><a class="reference internal" href="#drop-the-lowest">Drop the lowest</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#grade-item-settings">Grade item settings</a><ul>
+<li><a class="reference internal" href="#grade-display-type">Grade display type</a></li>
+<li><a class="reference internal" href="#overall-decimal-points">Overall decimal points</a></li>
+<li><a class="reference internal" href="#advance-grade-item-options">Advance grade item options</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#scales">Scales</a></li>
 <li><a class="reference internal" href="#letters">Letters</a></li>
 <li><a class="reference internal" href="#report-settings">Report Settings</a></li>
