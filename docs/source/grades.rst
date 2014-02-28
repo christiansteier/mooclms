@@ -167,9 +167,9 @@ The gradebook report settings determine the appearance of gradebook reports in a
 
 Teachers can use the "My report preferences" link in any course to essentially change their defaults and the way a report will display. These preferences become the new defaults for that teacher until they are changed by the teacher. 
 
-   :ref:`Grader report settings <grader_report_settings>`
-   :ref:`Overview report settings <overview_report_settings>`
-   :ref:`User report settings <user_report_settings>`
+   * :ref:`Grader report settings <grader_report_settings>`
+   * :ref:`Overview report settings <overview_report_settings>`
+   * :ref:`User report settings <user_report_settings>`
 
 
 
