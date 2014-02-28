@@ -3,7 +3,7 @@ Users
 
 Accounts
 --------
-An administrator can perform various tasks relating to user accounts in Administration > Site administration > Users > Accounts. The links below provide more information:
+An administrator can perform various tasks relating to user accounts in *Administration > Site administration > Users > Accounts*. The links below provide more information:
 
 .. toctree::
    :maxdepth: 1

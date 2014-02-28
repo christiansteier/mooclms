@@ -23,7 +23,8 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="prev" title="Grade Letters" href="grade_letters.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,6 +33,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="grade_letters.html" title="Grade Letters"
+             accesskey="P">previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -43,6 +47,51 @@
             
   <div class="section" id="cron">
 <span id="id1"></span><h1>Cron<a class="headerlink" href="#cron" title="Permalink to this headline">¶</a></h1>
+<p>The Moodle &#8216;cron&#8217; process is a PHP script (part of the standard Moodle installation) that must be run regularly in the background. The Moodle cron script runs different tasks at differently scheduled intervals.</p>
+<p><strong>IMPORTANT: Do not skip setting up the cron process on your server for your Moodle. Your site will not work properly without it</strong>.</p>
+<p>A special program (typically called - not surprisingly - &#8216;cron&#8217;) is used to run the Moodle cron script at a regular interval. The Moodle cron script runs tasks include sending mail, updating Moodle reports, RSS feeds, activity completions, posting forum messages and other tasks. Since different tasks have different schedules, not every task will run in Moodle when the cron script is triggered.</p>
+<p>The cron program (that runs the Moodle script) is a core part of Unix based systems (including Linux and OSX) being used to run all manner of time-dependent services. On Windows the simplest solution is to create a task in the Windows Task Scheduler and set it to run at regular intervals. On shared hosting, you should find the documentation (or ask support) how cron is configured.</p>
+<p>Essentially, the task involves adding a single command to the list of cron activities on your system. On Unix based systems this list is a file called a &#8216;crontab&#8217; which all users have.</p>
+<div class="section" id="working-out-the-moodle-cron-command">
+<h2>Working out the Moodle cron command<a class="headerlink" href="#working-out-the-moodle-cron-command" title="Permalink to this headline">¶</a></h2>
+<p>Moodle has two different ways to deploy cron which use different scripts within the Moodle install. These are as follows...</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">The CLI (command line interpreter) script. This will be at the path</p>
+<blockquote>
+<div><p>/path/to/moodle/admin/cli/cron.php</p>
+</div></blockquote>
+<p>If in doubt, this is the correct script to use. This needs to be run by a &#8216;PHP CLI&#8217; program on your computer. So the final command may look something like</p>
+<blockquote>
+<div><p>/usr/bin/php /path/to/moodle/admin/cli/cron.php</p>
+<p>You can (and should) try this on your command line to see if it works.</p>
+</div></blockquote>
+</li>
+<li><p class="first">The web based script. This needs to be run from a web browser and will be accessed via a web url something like <a class="reference external" href="http://your.moodle.site/admin/cron.php">http://your.moodle.site/admin/cron.php</a>. You can find command line based web browser (e.g. wget) so the final command may look like</p>
+<blockquote>
+<div><p>/usr/bin/wget <a class="reference external" href="http://your.moodle.site/admin/cron.php">http://your.moodle.site/admin/cron.php</a></p>
+<p>This has the advantage that it can be run from <em>anywhere</em>. If you can&#8217;t get cron to work on your machine it can be run somewhere else.</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="cron-settings">
+<h2>Cron Settings<a class="headerlink" href="#cron-settings" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Security &gt; Site Policies</em></p>
+<p>Moodle has two settings where the site administrator can have some control of how the Moodle cron process is triggered. This is done from the Site Policies link.</p>
+<div class="section" id="cron-execution-fron-command-line-interface-only">
+<h3>Cron execution fron command line interface only<a class="headerlink" href="#cron-execution-fron-command-line-interface-only" title="Permalink to this headline">¶</a></h3>
+<p>The cronclionly setting will stop the browser URL Moodle cron process trigger. For example, the site administrator or others running <strong>http:demo.moodle.net/admin/cron.php</strong> from their web browser.</p>
+<blockquote>
+<div><strong>TIP:</strong> It is a bit misleading to use the term CLI (command line interface). It does not mean that you have to be sitting at a shell account entering the command. It does mean it you must invoke cron.php through any set of batch or script files. This can be especially frustrating for those not used to scripting via the operating system.</div></blockquote>
+<p>See the template on the right for assistance with how to create scripts in different operating systems.</p>
+</div>
+<div class="section" id="cron-password">
+<h3>Cron password<a class="headerlink" href="#cron-password" title="Permalink to this headline">¶</a></h3>
+<p>The cron process can be protected by a password with the cronremotepassword setting.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +100,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Cron</a><ul>
+<li><a class="reference internal" href="#working-out-the-moodle-cron-command">Working out the Moodle cron command</a></li>
+<li><a class="reference internal" href="#cron-settings">Cron Settings</a><ul>
+<li><a class="reference internal" href="#cron-execution-fron-command-line-interface-only">Cron execution fron command line interface only</a></li>
+<li><a class="reference internal" href="#cron-password">Cron password</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="grade_letters.html"
+                        title="previous chapter">Grade Letters</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/cron.txt"
@@ -79,6 +144,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="grade_letters.html" title="Grade Letters"
+             >previous</a> |</li>
         <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
       </ul>
     </div>

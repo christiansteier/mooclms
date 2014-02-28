@@ -3,7 +3,7 @@
 Bulk user actions
 ==================
 
-The bulk user actions feature in Settings > Site administration > Users > Accounts > Bulk user actions enables administrators to select users by creating a filter and then perform any of the following actions:
+The bulk user actions feature in *Settings > Site administration > Users > Accounts > Bulk user actions* enables administrators to select users by creating a filter and then perform any of the following actions:
 
     * Confirm user accounts created through Email-based self-registration which are not yet confirmed by the user
     * Send a message (requires Messaging to be enabled)

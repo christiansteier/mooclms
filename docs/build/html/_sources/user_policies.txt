@@ -15,14 +15,15 @@ Users who are not logged in to the site will be treated as if they have the role
 This option specifies the role that will automatically be assigned to the guest user. This role is also temporarily assigned to non enrolled users when they enter a course that allows guests without password.
 
 **Deny Guest Access to a site altogether**
-Go to Site administration ► Plugins ► Authentication ► Manage authentication and there is a switch there that allows you to turn the Guest Access button off altogether. 
+Go to *Site administration > Plugins > Authentication > Manage authentication* and there is a switch there that allows you to turn the Guest Access button off altogether. 
 
 **Default role for all users**
 It is recommended that the default role for all users is set to Authenticated user. To set it to a custom role, the custom role must be assignable in the system context and have role archetype set to none. 
 
 **Auto-login guest**
 If not set, then visitors must click the "Login as a guest" button before entering a course which allows guest access.
-**Note:** If auto-login guest is set, the guest login button also needs to be set to show (in Administration > Site administration > Plugins > Authentication > Manage authentication), even though visitors won't necessarily use it. 
+
+**Note:** If auto-login guest is set, the guest login button also needs to be set to show (in *Administration > Site administration > Plugins > Authentication > Manage authentication*), even though visitors won't necessarily use it. 
 
 **Hide user fields**
 The following user fields appear on users' profile pages. Certain user fields are also listed on the course participants page. You can increase student privacy by hiding selected user fields.

@@ -35,6 +35,9 @@ Table Of Content
    blogs
    calendar
    installing_add-ons
+   scales
+   grade_letters
+   cron
 
 Indices and tables
 ==================

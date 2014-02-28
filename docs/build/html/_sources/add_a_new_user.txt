@@ -2,7 +2,7 @@
 
 Add a new user
 ===============
-An administrator or manager can create new user accounts in Administration > Site administration > Users > Accounts > Add a new user.
+An administrator or manager can create new user accounts in *Administration > Site administration > Users > Accounts > Add a new user*.
 
 General
 ^^^^^^^^
@@ -15,7 +15,7 @@ General
 
 **Suspended account -** Suspended user accounts cannot log in or use web services, and any outgoing messages are discarded.
 
-**Generate password and notify user -** Moodle will generate a temporary password and email the user with instructions on how to log in and change it. The email message (as in the screenshot below)may be changed in Site administration > Administration > Language > Language settings. Select 'moodle.php' and the string identifier newusernewpasswordtext
+**Generate password and notify user -** Moodle will generate a temporary password and email the user with instructions on how to log in and change it. The email message (as in the screenshot below)may be changed in *Site administration > Administration > Language > Language settings*. Select 'moodle.php' and the string identifier newusernewpasswordtext
 
 **Password -** This is the user's password.
 
@@ -30,6 +30,7 @@ General
 **Email format -** This setting can be used such that Moodle will send text-only emails to the users.
 
 **Email digest type -** This setting set whether the user will receive an email for each new forum post in subscribed forums, or if new posts should be sent once per day in a digest, and which type of digest.
+     
      * No digest (one receives individual emails),
      * Complete (a single digest daily) or
      * Subjects (a single digest daily with only the post topics included).

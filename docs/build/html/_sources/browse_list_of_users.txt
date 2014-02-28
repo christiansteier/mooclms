@@ -1,7 +1,7 @@
 Browse list of users
 =====================
 
-An administrator can browse and search the list of all user accounts in Settings > Site administration > Users > Accounts > Browse list of users.
+An administrator can browse and search the list of all user accounts in *Settings > Site administration > Users > Accounts > Browse list of users*.
 
 Administrators can search for a particular user, using their name or email address as the search term, and then edit their profile. Editing a user's profile is a way to reset the user's passwords when they are unable to log in. Another reason for needing to edit a user’s profile is to disable their email address if the site is receiving lots of undelivered mail.
 
