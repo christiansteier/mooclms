@@ -3,6 +3,8 @@
 Gradebook Report Settings
 ==========================
 
+.. _grader_report_settings:
+
 Grader report settings
 -----------------------
 Location: *Administration > SIte administration > Grades > Report settings > Grader report*
@@ -20,6 +22,7 @@ Static students column
 A static students column may be enabled so that teachers can scroll grades in the grader report using a horizontal scrollbar. (Note that this feature is not available for users who have have the screenreader setting in their profile set to Yes.) 
 
 
+.. _overview_report_settings:
 
 Overview report settings
 -------------------------
@@ -32,6 +35,7 @@ Show rank
 If the show rank checkbox is ticked, the position of a grade item in relation to the rest of the class will be shown. 
 
 
+.. _user_report_settings:
 
 User report settings
 ----------------------
