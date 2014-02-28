@@ -6,6 +6,9 @@ Grade letters, also called letter grades, are symbols used to represent a range 
 
 Displaying letter grades
 --------------------------
+
+.. image:: _images/default_grade_letters.png
+
 To change particular grade items, category and course summaries (called aggregations) in the grader report and user reports to display letter grades:
 
     1. Follow the grades link in the course administration block.
@@ -43,6 +46,8 @@ To set grade letter site defaults:
     2. Access *Administration > Site administration > Grades > Letters*.
     3. Change grade letters and/or boundaries as required.
     4. Scroll to the bottom of the page and click the "Save changes" button. 
+    
+.. image:: _images/editing_grade_letters.png
     
 Forcing grade letter site-level defaults
 ------------------------------------------
