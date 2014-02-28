@@ -141,8 +141,22 @@ Scales are a way of evaluating or rating a students' performance. Moodle offers 
 
 Read more about :ref:`scales`
 
+
+
 Letters
 --------
+Grade letters, also called letter grades, are symbols used to represent a range of grades. For example "A" could be used to represent grades of 80% and above, "B" to represent grades between 70 and 80%, and so on. Alternatively, you could have "Pass" for grades above 50% and "Fail" for grades below 50%.
+
+Setting grade letter site-level defaults
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To set grade letter site defaults :
+
+    1. Login as an administrator.
+    2. Access *Administration > Site administration > Grades > Letters*.
+    3. Change grade letters and/or boundaries as required.
+    4. Scroll to the bottom of the page and click the "Save changes" button. 
+
+Read more about :ref:`grade_letters`
 
 
 
