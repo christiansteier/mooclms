@@ -2,7 +2,7 @@
 
 Add a new user
 ===============
-An administrator or manager can create new user accounts in Administration > Site administration > Users > Accounts > Add a new user.
+An administrator or manager can create new user accounts in *Administration > Site administration > Users > Accounts > Add a new user*.
 
 General
 ^^^^^^^^
@@ -15,7 +15,7 @@ General
 
 **Suspended account -** Suspended user accounts cannot log in or use web services, and any outgoing messages are discarded.
 
-**Generate password and notify user -** Moodle will generate a temporary password and email the user with instructions on how to log in and change it. The email message (as in the screenshot below)may be changed in Site administration > Administration > Language > Language settings. Select 'moodle.php' and the string identifier newusernewpasswordtext
+**Generate password and notify user -** Moodle will generate a temporary password and email the user with instructions on how to log in and change it. The email message (as in the screenshot below)may be changed in *Site administration > Administration > Language > Language settings*. Select 'moodle.php' and the string identifier newusernewpasswordtext
 
 **Password -** This is the user's password.
 
