@@ -65,6 +65,8 @@ By default, all existing aggregation types are available (Mean of grades, Weight
 
 Note that reducing the number of aggregation types simply results in disabled aggregation types not appearing in the aggregation type dropdown menu. All existing grade category calculations remain the same, regardless of whether the aggregation type is later disabled by an administrator. 
 
+.. image:: _images/enrol_user_enrolment_option.png
+
 Aggregate only non-empty grades
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The default is no.
