@@ -8,7 +8,7 @@ For example, you may have a role called ‘Trainer’ set up to allow trainers t
 
 Permissions
 ============
-You have three permission levels for each task:t
+You have three permission levels for each task
 
 **Allow:** The role is assigned in the stipulated context.
 
