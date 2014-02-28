@@ -37,6 +37,7 @@ Table Of Content
    installing_add-ons
    scales
    grade_letters
+   cron
 
 Indices and tables
 ==================
