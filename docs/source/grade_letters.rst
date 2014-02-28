@@ -49,7 +49,7 @@ Forcing grade letter site-level defaults
 To force grade letter site-level defaults in all courses i.e. remove the ability for teachers to override site defaults and edit grade letters in their courses:
 
     1. Login as an administrator.
-    2. Access Administration > Users > Permissions > Define roles
+    2. Access *Administration > Site administration > Users > Permissions > Define roles*
     3. Edit the role of teacher and change the capability moodle/grade:manageletters from Allow to Not set.
     4. Scroll to the bottom of the page and click the "Save changes" button. 
     
