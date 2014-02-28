@@ -15,7 +15,7 @@ Editing or moving a category
     1. You can edit the details of a course category by clicking the actions icon next to its name in *Administration > Site administration > Courses > Manage courses and categories*. and selecting 'Edit'.
     2. You can move categories up or down by clicking the up/down arrow next to the category you wish to move. You can bulk move categories by checking the box to the left of their name and then by selecting from the dropdown 'Move selected categories to' 
  
-.. image:: _images/
+.. image:: _images/editmovecategories.png
     
 Adding sub-categories
 ^^^^^^^^^^^^^^^^^^^^^^
