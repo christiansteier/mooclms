@@ -22,6 +22,7 @@ It is recommended that the default role for all users is set to Authenticated us
 
 **Auto-login guest**
 If not set, then visitors must click the "Login as a guest" button before entering a course which allows guest access.
+
 **Note:** If auto-login guest is set, the guest login button also needs to be set to show (in *Administration > Site administration > Plugins > Authentication > Manage authentication*), even though visitors won't necessarily use it. 
 
 **Hide user fields**
