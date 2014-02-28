@@ -38,6 +38,8 @@ Table Of Content
    scales
    grade_letters
    cron
+   grader_report_settings
+   course_format
 
 Indices and tables
 ==================
