@@ -5,7 +5,7 @@ User profile fields
 
 .. image:: _images/profile_fields.png
 
-Administrators can create new user profile categories and fields in Administration > Site administration > Users > Accounts > User profile fields.
+Administrators can create new user profile categories and fields in *Administration > Site administration > Users > Accounts > User profile fields*.
 
 Profile fields may be a menu of choices, text area, text input or a checkbox and may be required or not.
 
@@ -52,5 +52,5 @@ If the site administrator bulk uploads user data via .csv file, it is essential 
 
 Replace 'shortname' with the actual short name used for the new profile field eg. dob. So the field should read something like profile_field_dob.
 
-Also, you will need to visit Administration > Site Administration > Users > Accounts > User Profile Fields > Create new Profile Field before attempting to upload a file using it. Creating an upload file first with custom profile fields without creating the User Profile Fields first in Site Administration **will result in the error** .
+Also, you will need to visit *Administration > Site Administration > Users > Accounts > User Profile Fields > Create new Profile Field* before attempting to upload a file using it. Creating an upload file first with custom profile fields without creating the User Profile Fields first in Site Administration **will result in the error** .
 
