@@ -163,7 +163,9 @@ Read more about :ref:`grade_letters`
 
 Report Settings
 ----------------
+The gradebook report settings determine the appearance of gradebook reports in all courses on the site. The site administrator will find the default and enabled/disabled settings in the administration area. There
 
+Teachers can use the "My report preferences" link in any course to essentially change their defaults and the way a report will display. These preferences become the new defaults for that teacher until they are changed by the teacher. 
 
 
 
