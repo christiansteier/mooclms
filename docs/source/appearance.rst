@@ -21,7 +21,7 @@ A theme sets the appearance - colours, fonts, and icons for your Moodle site.
 Calendar
 ----------
 
-Prefernce settings
+Preference settings
 ^^^^^^^^^^^^^^^^^^^
 Both the daily detail screen and the monthly detail screen have the Preferences button in the upper right. Here you can set the time format, first day of the week, number of events to show in the calendar block, days to look forward for events and if the filters on this calendar should be saved as the default for all calendars. 
 
