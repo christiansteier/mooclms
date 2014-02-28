@@ -19,6 +19,8 @@ Creating a new scale
 ----------------------
 New scales can be created by teachers with editing rights or by administrators or by any user with the manage scales role capability. 
 
+.. image:: _images/adding_scale.png
+
 Creating course scales
 ^^^^^^^^^^^^^^^^^^^^^^^^
    1. Click the "Add a new scale" button in *Settings > Grade administration > Scales* or via the gradebook Scales tab.
