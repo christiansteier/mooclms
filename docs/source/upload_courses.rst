@@ -8,11 +8,11 @@ To upload one or more courses
     2. Either drag and drop the CSV file or click the 'Choose a file' button and select the file in the file picker
     3. Select appropriate import options carefully, then click the preview button. 
     
-Note: It is also possible to use the command-line tool *admin/tool/uploadcourse/cli/uploadcourse.php*.
+**Note:** It is also possible to use the command-line tool *admin/tool/uploadcourse/cli/uploadcourse.php*.
 
 When using the web interface, use the Preview option to see if any errors were detected in the previewed rows. If you proceed with the upload and there were something wrong detected with a course, it will be ignored. 
 
-Example: 
+**Example:** 
 uploadcourse.csv :
 
 .. list-table:: Cohort
@@ -91,7 +91,7 @@ Some fields can be constructed to enable and configure enrolment methods. The fi
    * enrolment_[number]_[property] - Where property is understood by the specified enrolment method 
    * role_[shortname] - The new name of the role [shortname]. 
    
-Note: Upload courses is not yet compatible with all enrolment methods
+**Note:** Upload courses is not yet compatible with all enrolment methods
 
 Course action fields
 ^^^^^^^^^^^^^^^^^^^^^
