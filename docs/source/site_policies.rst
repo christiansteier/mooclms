@@ -113,6 +113,8 @@ Password policy
 ^^^^^^^^^^^^^^^^
 It is highly recommended that a password policy is set to force users to use stronger passwords that are less susceptible to being cracked by a intruder. 
 
+.. image:: _images/password_policy.png
+
 Group enrolment key policy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If this is enabled then when a teacher sets a group enrolment key, they will have to set a key which follows the password policy set above.
