@@ -70,7 +70,7 @@ Performance Overview
 ----------------------
 The performance overview report in Administration > Site administration > Reports > Performance overview lists issues which may affect performance of the site. 
 
-
+.. image:: _images/performance_overview.png
 
 Question Instances
 -------------------
