@@ -25,7 +25,12 @@ Installing via uploaded ZIP file
     1. Go to the `Moodle plugins directory <https://moodle.org/plugins>`_ , select your current Moodle version, then choose an add-on with a Download button and download the ZIP file.
     2. Login to your Moodle site as an admin and go to *Administration > Site administration > Plugins > Install add-ons*.
     3. Upload the ZIP file, select the appropriate plugin type, tick the acknowledgement checkbox, then click the button 'Install add-on from the ZIP file'.
+    
+       .. image:: _images/install_add-on.png
+    
     4. Check that you obtain a 'Validation passed!' message, then click the button 'Install add-on'. 
+    
+       .. image:: _images/add-on_package_validation.png
 
 For both of the above methods, after clicking the button 'Install add-on', you will then be automatically redirected to *Settings > Site administration > Notifications* and the installation process (i.e. creating required database tables etc) will happen. 
 
