@@ -13,10 +13,6 @@ Managing course badges
      Criteria : This shows how the badge is awarded
      Recipients: This shows the number of users awarded the badge
      Actions: The following actions are available 
-     
-   .. figure:: picture.png    
-      :scale: 50 %    
-      :alt: badge management
    
     +-----------------------------------+-----------------------+    
     | Symbol                            | Meaning               |    
