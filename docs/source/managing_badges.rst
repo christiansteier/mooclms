@@ -38,9 +38,18 @@ Before a badge has been issued to at least one user, all its details and setting
 Clicking on the name of a badge takes you to the screen where you can manage details of that particular badge. The following tabs are available: 
  
    * Overview - This screen provides an overview of the badge details.
+   
+   .. image:: _images/coursebadgemanagement.png
+   
    * Edit details - If you wish to change the details of a badge once you have set it up, you must first click to "disable access". Once you have edited the details, you must then click to "enable access" again.
+   
+   .. image:: _images/disableaccess.png
+   
    * Criteria - Here you can see the criteria set when :ref:`using_badges`
    * Message - This setting allows you to edit the message which goes to a badge earner. Among additional options here are "Attach badge to message" which allows adding an image file to an email and "Notify badge creator" selector which allows to set frequency of notifications sent to badge creator when this badge is issued to users.
+   
+   .. image:: _images/addmessage.png
+   
    * Recipients - This tab displays a list of users who have already earned the badge 
 
 
