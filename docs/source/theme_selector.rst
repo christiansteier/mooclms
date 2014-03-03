@@ -14,3 +14,4 @@ Different themes may be set according to 'device type' - default, legacy (for ol
 
 **Note 2:** The selected theme may be overridden if user/course or category themes have been allowed in the Theme settings. 
 
+.. image:: _images/theme_selector.png
