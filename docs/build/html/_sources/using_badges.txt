@@ -21,7 +21,14 @@ Criteria
    * For course badges, the criteria are: Manual completion by role; course completion and activity completion.
    * When selecting Manual completion by role, you can choose the role you wish to award the badge, so for example a teacher could allow a non-editing teacher to award badges in the course.
    * For badges to be awarded for course or activity completion, Completion tracking must be enabled in the site and the course. 
+   
+   .. image:: _images/coursebadgecriteria.png                    
+   
+   .. image:: _images/badgecriteria.png
+   
    * Once criteria have been set, you are returned to the Manage badges screen where you must "enable access" for the badge to be available.
+   
+   .. image:: _images/enableaccesscoursebadge.png
    
 Awarding the badge
 ^^^^^^^^^^^^^^^^^^^
