@@ -16,6 +16,9 @@ To change a word or phrase
     3. Select 'Open language pack for editing'.
     4. Select 'Continue'.
     5. Fill in the Filter strings form to locate the text you are looking for.
+    
+    .. image:: _images/languagestringfilter.png
+    
     6. Select 'Show strings' to  show the component name where the string was found.
     7. Enter the new word/s in the Local customisation box.
     8. Save your changes, edited files may either be saved in the parent language folder or, preferably, in the local language folder, parentlanguage_local.
