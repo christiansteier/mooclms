@@ -17,15 +17,15 @@ Managing course badges
     +-----------------------------------+-----------------------+    
     | Symbol                            | Meaning               |    
     +===================================+=======================+    
-    | .. image:: _images/delete.png     | Campground            |    
+    | .. image:: _images/delete.png     | Delete badge          |    
     +-----------------------------------+-----------------------+    
-    | .. image:: _images/duplicate.png  | Lake                  |    
+    | .. image:: _images/duplicate.png  | Duplicate badge       |    
     +-----------------------------------+-----------------------+    
-    | .. image:: _images/edit.png       | Mountain              |    
+    | .. image:: _images/edit.png       | Edit badge            |    
     +-----------------------------------+-----------------------+
-    | .. image:: _images/awardbadge.png | Mountain              |    
+    | .. image:: _images/awardbadge.png | Award badge to users  |    
     +-----------------------------------+-----------------------+
-    | .. image:: _images/enable.png     | Mountain              |    
+    | .. image:: _images/enable.png     | Enable/disable access |    
     +-----------------------------------+-----------------------+
 
      
