@@ -151,6 +151,8 @@ An administrator can change the following course settings in *Settings > Site ad
 
    * Course contacts - Users with the selected role(s) e.g. teachers are listed in the course description. By default, users with the role of teacher in a course are listed in the course description for that course. If a course has several teachers, the course description can become rather long. In this case, you can create a role e.g. head of subject with no capabilities set and assign it to selected users in addition to their teacher role. If you then select only the head of subject role in the course managers setting, the course description will be shorter. 
 
+     .. image:: _images/availablecourses.png
+
    * Display extended corse names - By default, only course full names are displayed in the list of courses. If you check this box, then the course short name will also be displayed. 
 
    * Course per page - You can define value for the number of courses to be displayed per page in a course listing.
@@ -178,6 +180,8 @@ Manage Tags
 Tags can be managed by a site administrator or manager (or any other user with the capability moodle/tag:manage) in Settings > Site administration > Appearance > Manage tags.
 
 The manage tags page provides a list of tags, together with information on their creators, how many times they are used, when they were last modified and which tags have been flagged as inappropriate. Inappropriate tags are shown in red when using the default theme. 
+
+.. image:: _images/managetags.png
 
 Please see :ref:`tags` to know more about tags.
 
