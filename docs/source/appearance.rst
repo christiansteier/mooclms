@@ -181,6 +181,8 @@ Tags can be managed by a site administrator or manager (or any other user with t
 
 The manage tags page provides a list of tags, together with information on their creators, how many times they are used, when they were last modified and which tags have been flagged as inappropriate. Inappropriate tags are shown in red when using the default theme. 
 
+.. image:: _images/managetags.png
+
 Please see :ref:`tags` to know more about tags.
 
 
