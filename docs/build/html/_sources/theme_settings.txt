@@ -4,6 +4,8 @@ Theme Settings
 ===============
 An administrator can change theme settings in *Settings > Site administration > Appearance > Themes > Theme settings*. 
 
+.. image:: _images/themesettings.png
+
 Theme list
 ^^^^^^^^^^^
 This lists the themes available for course and user themes. Leave this blank to allow any valid theme to be used. If you want to shorten the theme menu, you may specify a comma-separated list of names, though don't use spaces (e.g. standard,orangewhite).
@@ -55,6 +57,8 @@ The content of each item is constructed of up to three bits, each separated by a
    * label - This is the text that will be shown within the menu item. You must specify a label for every item on the menu. 
    * url - This is the URL that the user will be taken to it they click the menu item. This is optional, if not provided then the item will not link anywhere. 
    * tooltip - If you provide a URL you can also choose to provide a tooltip for the link that is created with the URL. This is optional and if not set the label is used as the tooltip for the menu item. 
+
+.. image:: _images/custom_menu.png
 
 **Note:** The custom menu does not escape characters within the label, if you want to use a special HTML character such as an ampersand you must escape it yourself within the label. e.g. use & instead of &. 
 

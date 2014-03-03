@@ -63,6 +63,6 @@ Selected tags may be have their flag reset (in other words remove the inappropri
 
 The manage tags page also allows for official tags to be added. Official tags are tags which are added by a site administrator and are displayed to all users of the Moodle site when adding a blog entry. Creating a set of official tags for commonly used topics can reduce the amount of duplication in blog tags. 
 
-
+.. image:: _images/managetags.png
 
 
