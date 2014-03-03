@@ -12,7 +12,7 @@ The site's Front page is similar to a course page. The front page settings, role
 
    * Full site name - This name appears at the top of every page above the navigation bar. 
    
-   .. image:: _images/site_fullname.png
+      .. image:: _images/site_fullname.png
    
    * Short name for site - The short name appears at the beginning of the navigation bar as a link back to your site front page. 
    
