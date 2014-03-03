@@ -33,6 +33,8 @@ Individual user settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^
     * A user can manage badges from *Navigation > My profile > My badges*.
     * A user can view available course badges from *Navigation > Current course > Badges*. 
+    
+.. image:: _images/coursebadge.png
 
 
 Manage Badges
