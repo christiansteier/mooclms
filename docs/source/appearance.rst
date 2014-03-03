@@ -64,9 +64,13 @@ Blogs have additional settings which may be changed by an administrator in *Sett
 
 Enable blog associations - If blog associations are enabled, users can blog about their course or a particular activity using the context-sensitive links for adding an entry in the Blog menu block e.g. 'Add an entry about this assignment' or 'Add an entry about this course'.
 
+.. image:: _images/blog_menu_block.png
+
 Blog visibility - This setting allows you to restrict the level to which user blogs can be viewed on this site. Note that they specify the maximum context of the VIEWER not the poster or the types of blog posts. Blogs can also be disabled completely if you don't want them at all.
 
 **Note:** Sites upgrading to 2.0 which previously had blog visibility set to "Users can only see blogs for people who share a course" or "Users can only see blogs for people who share a group" will have blogs converted into blog-like format forums. 
+
+.. image:: _images/blog_visibility.png
 
 Enable external blogs - Enables users to specify external blog feeds. Moodle regularly checks these blog feeds and copies new entries to the local blog of that user. 
 
