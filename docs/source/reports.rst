@@ -44,6 +44,8 @@ Logs
 -----
 Logs in Moodle are activity reports. Logs are available at site and course level. 
 
+.. image:: _images/logs.png
+
 To obtain course overview reports, you must first enable statistics. If you haven’t got statistics enabled you will be taken to the enable statistics settings. You can choose to view reports of the most active courses or the most participatory courses over a certain time period. Results are displayed in a bar chart and in a table.
 
 
@@ -61,6 +63,7 @@ Live logs provide the following fields:
    * Action - what they were doing
    * Information - any further information on the activity
 
+.. image:: _images/live_logs.png
 
 
 Performance Overview
