@@ -6,10 +6,30 @@ Managing Badges
 Managing course badges
 -----------------------
    * If course badges have been enabled in *Administration > Site administration > Badges > Badges settings*, then a teacher will see a link *Administration > Course administration > Badges > Managing badges*. This will show a list of badges created and available for allocation, along with actions which may be performed on them: 
+   
+   .. image:: _images/coursebadgemanagement.png
+   
    * Badge status: Badges may be made available or not by enabling or disabling with the "eye" icon or enable/disable button
      Criteria : This shows how the badge is awarded
      Recipients: This shows the number of users awarded the badge
      Actions: The following actions are available 
+   
+    +-----------------------------------+-----------------------+    
+    | Symbol                            | Meaning               |    
+    +===================================+=======================+    
+    | .. image:: _images/delete.png     | Delete badge          |    
+    +-----------------------------------+-----------------------+    
+    | .. image:: _images/duplicate.png  | Duplicate badge       |    
+    +-----------------------------------+-----------------------+    
+    | .. image:: _images/edit.png       | Edit badge            |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/awardbadge.png | Award badge to users  |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/enable.png     | Enable access         |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/disable.png    | Disable access        |    
+    +-----------------------------------+-----------------------+
+
      
 **Note:** Availability of enable and disable access actions depends on the current status of a badge (e.g. if a badge is available to users, "disable access" icon will be shown).
 
@@ -18,9 +38,18 @@ Before a badge has been issued to at least one user, all its details and setting
 Clicking on the name of a badge takes you to the screen where you can manage details of that particular badge. The following tabs are available: 
  
    * Overview - This screen provides an overview of the badge details.
+   
+   .. image:: _images/coursebadgemanagement.png
+   
    * Edit details - If you wish to change the details of a badge once you have set it up, you must first click to "disable access". Once you have edited the details, you must then click to "enable access" again.
+   
+   .. image:: _images/disableaccess.png
+   
    * Criteria - Here you can see the criteria set when :ref:`using_badges`
    * Message - This setting allows you to edit the message which goes to a badge earner. Among additional options here are "Attach badge to message" which allows adding an image file to an email and "Notify badge creator" selector which allows to set frequency of notifications sent to badge creator when this badge is issued to users.
+   
+   .. image:: _images/addmessage.png
+   
    * Recipients - This tab displays a list of users who have already earned the badge 
 
 
