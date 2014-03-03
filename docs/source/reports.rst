@@ -80,7 +80,7 @@ This report lists all the places a specific question type is used. It provides a
 
 One practical use of this report is to find questions that may have inadvertently been created in a course which should have been created at the System default or a particular category context. 
 
-
+.. image:: _images/question_instancesreport.png
 
 Security Overview
 -------------------
