@@ -6,10 +6,32 @@ Managing Badges
 Managing course badges
 -----------------------
    * If course badges have been enabled in *Administration > Site administration > Badges > Badges settings*, then a teacher will see a link *Administration > Course administration > Badges > Managing badges*. This will show a list of badges created and available for allocation, along with actions which may be performed on them: 
+   
+   .. image:: _images/coursebadgemanagement.png
+   
    * Badge status: Badges may be made available or not by enabling or disabling with the "eye" icon or enable/disable button
      Criteria : This shows how the badge is awarded
      Recipients: This shows the number of users awarded the badge
      Actions: The following actions are available 
+     
+   .. figure:: picture.png    
+      :scale: 50 %    
+      :alt: badge management
+   
+    +-----------------------------------+-----------------------+    
+    | Symbol                            | Meaning               |    
+    +===================================+=======================+    
+    | .. image:: _images/delete.png     | Campground            |    
+    +-----------------------------------+-----------------------+    
+    | .. image:: _images/duplicate.png  | Lake                  |    
+    +-----------------------------------+-----------------------+    
+    | .. image:: _images/edit.png       | Mountain              |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/awardbadge.png | Mountain              |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/enable.png     | Mountain              |    
+    +-----------------------------------+-----------------------+
+
      
 **Note:** Availability of enable and disable access actions depends on the current status of a badge (e.g. if a badge is available to users, "disable access" icon will be shown).
 
