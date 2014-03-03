@@ -37,6 +37,8 @@ The config changes report enables an Administrator to see at a glance which aspe
 
 The report is found in *Settings > Site Administration > Reports > Config changes* 
 
+.. image:: _images/configchanges.png
+
 
 Logs
 -----
