@@ -25,7 +25,9 @@ Managing course badges
     +-----------------------------------+-----------------------+
     | .. image:: _images/awardbadge.png | Award badge to users  |    
     +-----------------------------------+-----------------------+
-    | .. image:: _images/enable.png     | Enable/disable access |    
+    | .. image:: _images/enable.png     | Enable access         |    
+    +-----------------------------------+-----------------------+
+    | .. image:: _images/disable.png    | Disable access        |    
     +-----------------------------------+-----------------------+
 
      
