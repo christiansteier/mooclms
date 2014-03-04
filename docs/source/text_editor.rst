@@ -90,7 +90,7 @@ Manage Editors
 ----------------
 A site administrator can enable / disable text editors in *Administration > Site administration > Plugins > Text editors > Manage editors*. By default the TinyMCE HTML editor and plain text area are enabled. 
 
-.. _tinymce_editor_settings
+.. _tinymce_editor_settings:
 
 TinyMCE HTML editor settings
 ------------------------------
