@@ -27,10 +27,12 @@ Installing via uploaded ZIP file
     3. Upload the ZIP file, select the appropriate plugin type, tick the acknowledgement checkbox, then click the button 'Install add-on from the ZIP file'.
     
        .. image:: _images/install_add-on.png
+       
     
     4. Check that you obtain a 'Validation passed!' message, then click the button 'Install add-on'. 
     
        .. image:: _images/add-on_package_validation.png
+       
 
 For both of the above methods, after clicking the button 'Install add-on', you will then be automatically redirected to *Settings > Site administration > Notifications* and the installation process (i.e. creating required database tables etc) will happen. 
 
