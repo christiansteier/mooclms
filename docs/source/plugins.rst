@@ -102,8 +102,8 @@ Enrolments
 Text Editors
 ------------
    
-   * :ref:`<manage-editors>`
-   * :ref:`<tinymce-html-editor-settings>`
+   * :ref:`Manage editors <manage-editors>`
+   * :ref:`TinyMCE HTML editor <tinymce-html-editor-settings>`
    
 Licences
 ------------
