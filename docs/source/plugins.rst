@@ -101,12 +101,9 @@ Enrolments
    
 Text Editors
 ------------
-.. toctree::
-   :maxdepth: 1
- 
-   manage_editors
-   tinymce_html_editor
    
+   :ref:`<manage-editors>`
+   :ref:`<tinymce-html-editor-settings>`
    
 Licences
 ------------
