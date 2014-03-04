@@ -169,7 +169,7 @@ Question Types
    :maxdepth: 1
    
    manage_question_types
-   qestion_preview_defaults
+   question_preview_defaults
    
    
 Reports
@@ -203,7 +203,7 @@ Local Plugins
 .. toctree::
    :maxdepth: 1
    
-   Manage_local_plugins
+   manage_local_plugins
    
    
    
