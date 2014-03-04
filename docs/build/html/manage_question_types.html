@@ -25,7 +25,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
     <link rel="up" title="Plugins" href="plugins.html" />
-    <link rel="next" title="Manage Reports" href="manage_reports.html" />
+    <link rel="next" title="Question Preview Defaults" href="question_preview_defaults.html" />
     <link rel="prev" title="Manage Question Behaviours" href="manage_question_behaviours.html" /> 
   </head>
   <body>
@@ -36,7 +36,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="manage_reports.html" title="Manage Reports"
+          <a href="question_preview_defaults.html" title="Question Preview Defaults"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="manage_question_behaviours.html" title="Manage Question Behaviours"
@@ -53,6 +53,41 @@
             
   <div class="section" id="manage-question-types">
 <span id="id1"></span><h1>Manage Question Types<a class="headerlink" href="#manage-question-types" title="Permalink to this headline">¶</a></h1>
+<p>An administrator (or manager or any user with the capability moodle/question:config) can manage question types available across the site in <em>Administration &gt; Site administration &gt; Plugins &gt; Question types &gt; Manage question types</em>.</p>
+<img alt="_images/manage_question_types.png" src="_images/manage_question_types.png" />
+<div class="section" id="no-questions">
+<h2>No. questions<a class="headerlink" href="#no-questions" title="Permalink to this headline">¶</a></h2>
+<p>This shows the number of questions of that type in the entire Moodle site. If the number is non-zero, it will be a link to a report that shows you where in the question bank (which contexts) those questions are.</p>
+</div>
+<div class="section" id="version">
+<h2>Version<a class="headerlink" href="#version" title="Permalink to this headline">¶</a></h2>
+<p>If the question type has its own database tables, then the version of those tables is displayed here.</p>
+</div>
+<div class="section" id="requires">
+<h2>Requires<a class="headerlink" href="#requires" title="Permalink to this headline">¶</a></h2>
+<p>Some question types rely on others to operate correctly. If so, the required question types are listed here.</p>
+</div>
+<div class="section" id="available">
+<h2>Available?<a class="headerlink" href="#available" title="Permalink to this headline">¶</a></h2>
+<p>If you make a question type unavailable, then users will no longer be able to create new questions of that type. However, existing questions of that type will continue to work, so existing quizzes will continue to work, and old quiz attempts can be reviewed.</p>
+<p>The up and down arrows let you control the order of the question types in the list where teachers select which type of question they wish to create.</p>
+</div>
+<div class="section" id="delete">
+<h2>Delete<a class="headerlink" href="#delete" title="Permalink to this headline">¶</a></h2>
+<p>If</p>
+<blockquote>
+<div><ul class="simple">
+<li>there are no questions of a particular type, and</li>
+<li>if this question type is not required any any other question type, and</li>
+<li>if this question type is neither Random nor Missing type, which are required by the question type system,</li>
+</ul>
+</div></blockquote>
+<p>then you can uninstall it by clicking on the delete link.</p>
+</div>
+<div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<p>Some question types have configuration options. If so, a settings link will appear in this column.</p>
+</div>
 </div>
 
 
@@ -61,12 +96,25 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manage Question Types</a><ul>
+<li><a class="reference internal" href="#no-questions">No. questions</a></li>
+<li><a class="reference internal" href="#version">Version</a></li>
+<li><a class="reference internal" href="#requires">Requires</a></li>
+<li><a class="reference internal" href="#available">Available?</a></li>
+<li><a class="reference internal" href="#delete">Delete</a></li>
+<li><a class="reference internal" href="#settings">Settings</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="manage_question_behaviours.html"
                         title="previous chapter">Manage Question Behaviours</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="manage_reports.html"
-                        title="next chapter">Manage Reports</a></p>
+  <p class="topless"><a href="question_preview_defaults.html"
+                        title="next chapter">Question Preview Defaults</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/manage_question_types.txt"
@@ -96,7 +144,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="manage_reports.html" title="Manage Reports"
+          <a href="question_preview_defaults.html" title="Question Preview Defaults"
              >next</a> |</li>
         <li class="right" >
           <a href="manage_question_behaviours.html" title="Manage Question Behaviours"
