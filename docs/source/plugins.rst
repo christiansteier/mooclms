@@ -99,7 +99,7 @@ Enrolments
    self_enrolments
    
    
-Text Edtors
+Text Editors
 ------------
 .. toctree::
    :maxdepth: 1
