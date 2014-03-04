@@ -172,14 +172,6 @@ Question Types
    question_preview_defaults
    
    
-Reports
----------
-.. toctree::
-   :maxdepth: 1
-     
-   manage_reports
-   
-   
 Admin Tools
 -------------
 .. toctree::
