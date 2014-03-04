@@ -47,6 +47,14 @@ Row 2
 +------------------------+----------------------+---------------------+-------------------+  
 
 
+Colour pickers
+^^^^^^^^^^^^^^^
+There are four levels of selecting a font or background colour,
+
+   * A quick pick 5x8 matrix of colours
+   * "More colours" that links to Picker, Pallet and Named tabs 
+   
+
 Row 3
 ^^^^^^
 
@@ -61,13 +69,6 @@ Row 3
 +------------------------+------------------------------+------------------------------+------------------------+  
 
 
-
-Colour pickers
-^^^^^^^^^^^^^^^
-There are four levels of selecting a font or background colour,
-
-   * A quick pick 5x8 matrix of colours
-   * "More colours" that links to Picker, Pallet and Named tabs 
 
 
 Insert table
