@@ -188,17 +188,8 @@ Caching
    configuration
    test_performance
    cache_stores
-   
-   
-Local Plugins
-----------------
-.. toctree::
-   :maxdepth: 1
-   
-   manage_local_plugins
-   
-   
-   
+
+
    
    
    
