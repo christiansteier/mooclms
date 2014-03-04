@@ -6,6 +6,7 @@ An administrator can enable any/all of the following licences in *Settings > Sit
 
 .. image:: _images/manage_licences.png
 
+
    * The default licence is All Right reserved All rights reserved but this may be changed in the dropdown. The other options are explained in the links below: 
    * All rights reserved (default option)
    * Public domain
