@@ -27,7 +27,6 @@ The up and down arrows let you control the order of the question types in the li
 Delete
 ^^^^^^^
 If
-
   * there are no questions of a particular type, and
   * if this question type is not required any any other question type, and
   * if this question type is neither Random nor Missing type, which are required by the question type system, 
