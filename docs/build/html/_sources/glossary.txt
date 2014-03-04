@@ -1,12 +1,6 @@
-
-.. _Glossary:
+.. _glossary:
 
 Glossary
 ========
 
-.. glossary::
 
-   word1
-
-
-   word2

@@ -1,4 +1,4 @@
-.. _installing_add-ons
+.. _installing_add-ons:
 
 Installing add-ons
 ===================

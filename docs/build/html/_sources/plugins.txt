@@ -10,6 +10,10 @@ A list of all plugins used on the site. It also shows total number of installed 
 
 Install add-ons
 -----------------
+To install an add-on, its source code must be put (deployed) into the appropriate location inside the Moodle installation directory and the main administration page *Administration > Site administration > Notifications* must be visited. There are three ways how the add-on code can be deployed into Moodle.
+
+Read more about :ref:`installing_add-ons` .
+
 
 Activity modules
 -----------------
