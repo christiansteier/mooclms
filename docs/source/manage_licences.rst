@@ -4,7 +4,7 @@ Manage Licences
 ================
 An administrator can enable any/all of the following licences in *Settings > Site administration > Plugins > Licences > Manage licences* for user selection when publishing a course to a Community Hub or uploading a file to a File Repository. 
 
-.. image:: _images/manage_licences.png
+ .. image:: _images/manage_licences.png
 
 
    * The default licence is All Right reserved All rights reserved but this may be changed in the dropdown. The other options are explained in the links below: 
