@@ -66,13 +66,11 @@ Blocks
    
 Message outputs
 -----------------
-.. toctree::
-   :maxdepth: 1
+* :ref:`Manage Message Outputs <manage_message_outputs>`
+* :ref:`Default Message Outputs <default_message_outputs>`
+* :ref:`email <email>`
+* :ref:`Jabber Message <jabber_message>`
   
-   manage_message_outputs
-   default_message_outputs
-   email_jabber_message
-   
    
 Authentication
 -----------------
