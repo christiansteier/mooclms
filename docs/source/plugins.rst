@@ -94,14 +94,20 @@ Moodle provides a number of ways of :ref:`managing authentication <managing_auth
    
 Enrolments
 ------------
+Enrolment, or 'enrollment', is the process of marking users as participants in the course, that includes both students and teachers. At the same time users are usually give a role in the course which specifies what they are allowed to do. 
+
+Enrolment plugins
+^^^^^^^^^^^^^^^^^^
+Moodle provides a number of ways of :ref:`managing course enrolment <managing_enrolments>` , called enrolment plugins. Click the links below for further information. 
+
 .. toctree::
    :maxdepth: 1
-  
-   manage_enrol_plugins
+
+   manual_enrolments
+   self_enrolments  
    cohort_syn
    guest_access
-   manual_enrolments
-   self_enrolments
+   other_enrolment_types
    
    
 Text Editors
