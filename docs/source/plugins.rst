@@ -69,7 +69,7 @@ Message outputs
 -----------------
 * :ref:`Manage Message Outputs <manage_message_outputs>`
 * :ref:`Default Message Outputs <default_message_outputs>`
-* :ref:`email <email>`
+* :ref:`Email <email>`
 * :ref:`Jabber Message <jabber_message>`
   
    
