@@ -53,13 +53,12 @@ Row 3
 +------------------------+------------------------------+------------------------------+------------------------+       
 | 1. Font family         | 2. Font size                 | 3. Edit HTML                 | 4. Find                |
 +------------------------+------------------------------+------------------------------+------------------------+  
-| 5. Find/replace        | 6. Insert non-breaking space |	7. Insert special character  | 8. Insert table        |
+| 5. Find / replace      | 6. Insert non-breaking space |	7. Insert special character  | 8. Insert table        |
 +------------------------+------------------------------+------------------------------+------------------------+     
 | 9. Clean up messy code | 10. Remove formatting        | 11. Paste as plain text      | 12. Paste from MS Word |
 +------------------------+------------------------------+------------------------------+------------------------+     
 | 13. Toggle full screen |                              |                              |                        |
 +------------------------+------------------------------+------------------------------+------------------------+  
-
 
 
 Colour pickers
@@ -90,7 +89,7 @@ Manage Editors
 ----------------
 A site administrator can enable / disable text editors in *Administration > Site administration > Plugins > Text editors > Manage editors*. By default the TinyMCE HTML editor and plain text area are enabled. 
 
-.. _tinymce_editor_settings
+.. _tinymce_editor_settings:
 
 TinyMCE HTML editor settings
 ------------------------------
