@@ -137,7 +137,7 @@ Repositories
 
 Web Services
 --------------
-* :ref:`Mobile <mobile>`
+* :ref:`Mobile <mobile_web_services>`
 * :ref:`Overview <overview>`
 * :ref:`API Documentation <external_services>`
 * :ref:`External services <external_services>`   
