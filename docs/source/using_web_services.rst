@@ -81,7 +81,7 @@ Authorise only specific users
 Moodle indicates if some capabilities need to be assigned to an authorised user. Moreover if you click on the authorised user fullname, you can set up some specific options: IP restriction and Valid until. 
 
 
-.. _manage_tokens:
+.. _manage_token:
 
 Manage tokens
 ---------------
