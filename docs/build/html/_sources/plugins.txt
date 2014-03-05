@@ -78,7 +78,7 @@ Authentication
 Authentication is the process of allowing a user to login to a Moodle site based on their username and password. 
 
 Authentication plugins
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 Moodle provides a number of ways of :ref:`managing authentication <managing_authentication>`, called authentication plugins. 
 
 .. toctree::
