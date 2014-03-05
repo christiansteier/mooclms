@@ -42,8 +42,10 @@ You can enable only the specific functions that you need to expose, so not compr
      
     1. Access *Administration > Site administration > Plugins > Web services > External services*
     2. Click Add new custom service
+    
         * 'Authorised users only' - If enabled, you will need to select the authorised users manually. Otherwise all users with appropriate permissions are allowed
         * 'Required capability' - If enabled, any user accessing the web service will be checked against this selected capability. (This is just an additional optional security layer.) 
+   
     3. Enter a name and check Enabled
     4. Click the button 'Add service' 
 
