@@ -49,3 +49,56 @@ Using it
 
 Connecting to a Mnet hub
 --------------------------
+A Mnet hub is a Moodle server that is configured to accept connections from other Moodle servers, and to provide a set of services to users of these other servers. This guideline will direct you to connect to a Mnet hub, assess the services it has to offer, and enable those services for your users. 
+
+Setup
+^^^^^^
+
+  1. Get talking to the Hub
+        1. Ensure that the Admin > Server > Environment page indicates you have curl and openssl installed
+        2. Go to Admin > Network > Settings and turn Networking on
+        3. Go to Admin > Network > Peers and enter the URL of Mnet Hub under "Add New Host". Click Add
+        4. The host details for the Mnet Hub should appear with the Site Name field already populated. Click Save changes
+        5. The details will be written to your database and two new tabs will appear in this window: 'Services' and 'Logs'. Click Services
+        6. A list of services will appear, each with a checkbox for 'publish' and 'subscribe'. Check the checkboxes for any services you want to publish or subscribe to 
+
+Using it
+^^^^^^^^^
+If the Mnet Hub has already enabled a service for you, there will be a tick alongside the appropriate checkbox, for example: if the Hub is publishing Moodle Networked Enrolment, then a tick will appear alongside the subscribe checkbox for this service. Note that in order to enable some functionality, prominently single-sign-on, you may have to publish a service, e.g. the Identity Provider service. The Mnet Hub will access this service on your Moodle, asking it to authenticate your users. 
+
+  1. Enable Roaming
+        1. Subscribe to SSO (Service Provider) by checking the box
+        2. Publish SSO (Identity Provider) by checking the box
+        3. Click Save changes
+        4. Go to Admin > Users > Permissions > Define Roles, and grant the capability Roam to a remote Moodle moodle/site:mnetlogintoremote to an appropriate role
+        5. Go to Administration > Plugins > Authentication > Manage authentication and enable the Moodle Network authentication plugin
+        6. Go to your homepage, turn on editing, and add the 'Network Servers' block
+        7. Using a different web-browser, log on as a non-admin user who inhabits the role you granted the roaming capability to
+        8. Note that the Mnet Hub is listed in the Network Servers block on the homepage. Click on the link to that server
+        9. Some of your user details will be transferred to the Mnet Hub server, and a browsing session will be started for you as if you had logged on there directly 
+ 
+  2. Enable Networked Enrolment
+        1. Return to the web browser you've been using as the site administrator
+        2. Go to Admin > Network > Peers and click on the entry for the Mnet Hub.
+        3. Click on the Services tab
+        4. Subscribe to Moodle Networked Enrolment
+        5. Go to Site administration > Plugins > Enrolments > Manage enrol plugins and enable the Moodle Network enrolment plugin. Click Save changes
+        6. Click on edit to view the details for networked enrolments.
+        7. Go to Admin > Networking > Enrolments to see a list of Moodle servers that offer this service to you
+        8. Click on a server name to view a list of courses that the server offers to your users
+        9. Click on a course name, to view a list users that you can enrol in this course
+       10. Enrol users
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
