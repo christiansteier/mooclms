@@ -87,8 +87,29 @@ If the Mnet Hub has already enabled a service for you, there will be a tick alon
         7. Go to Admin > Networking > Enrolments to see a list of Moodle servers that offer this service to you
         8. Click on a server name to view a list of courses that the server offers to your users
         9. Click on a course name, to view a list users that you can enrol in this course
-       10. Enrol users
+        10. Enrol users
         
+        
+Running a Mnet hub
+--------------------
+A Mnet hub is a regular Moodle site that runs in a special mode. As a Moodle Administrator, when you add another Moodle site to your list of network peers, your Moodle will contact that site to find out what it is called, and to request its public key for encrypted communication. Normally, the remote server will simply provide this information without making any record of the transaction.
+
+A Mnet hub is different. As soon as you add an entry for a Mnet hub to your system, the Mnet hub will create an entry for your server in its list of hosts, and may immediately begin to offer services to the users of your site.
+
+This section will guide you to set up a Mnet hub, and select services to offer to all comers. 
+
+Setup
+^^^^^^^
+Enable Networking
+
+    1. Ensure that the *Administration > Site administration > Server > Environment* page indicates you have curl and openssl installed
+    2. Go to *Administration > Site administration > Network > Settings* and turn Networking on
+    3. Go to *Administration > Site administration > Network > Peers* and tick the checkbox for Register all hosts. Click on Save Changes
+    4. On the same page, the first entry in your list of hosts should be All hosts. Click this link
+    5. Click on Services and enable any services you want to offer to all comers 
+        
+        
+
 
 
 
