@@ -171,14 +171,6 @@ Admin Tools
    manage_admin_tools
    
    
-Caching
----------
-.. toctree::
-   :maxdepth: 1
-   
-   configuration
-   test_performance
-   cache_stores
 
 
    
