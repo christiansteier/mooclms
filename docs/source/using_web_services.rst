@@ -81,7 +81,8 @@ Authorise only specific users
 Moodle indicates if some capabilities need to be assigned to an authorised user. Moreover if you click on the authorised user fullname, you can set up some specific options: IP restriction and Valid until. 
 
 
-.. _manage_tokens:  
+.. _manage_tokens:
+
 Manage tokens
 ---------------
 
@@ -98,7 +99,9 @@ As you created a token for this user, you do not need to assign "moodle/webservi
 
 Overview
 ---------
-Overview link in *Administration > Site administration > Plugins > Web services > Overview* show details and status of 
+Overview link in *Administration > Site administration > Plugins > Web services > Overview* show details and status of web services.
+
+.. image:: _images/overview.png
 
 
 
