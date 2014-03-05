@@ -28,10 +28,10 @@ Screenshots
 
 .. image:: _images/homepage.png      
 
-   .. image:: _images/content.png     
+.. image:: _images/content.png     
 
 .. image:: _images/activity.png
 
 .. image:: _images/participant.png 
 
-   .. image:: _images/profile.png
+.. image:: _images/profile.png
