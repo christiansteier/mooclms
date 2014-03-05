@@ -43,6 +43,117 @@
             
   <div class="section" id="web-services">
 <span id="using-web-services"></span><h1>Web services<a class="headerlink" href="#web-services" title="Permalink to this headline">¶</a></h1>
+<p>Web services enable other systems to login to Moodle and perform operations.</p>
+<div class="section" id="enabling-web-services">
+<h2>Enabling web services<a class="headerlink" href="#enabling-web-services" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access <em>Administration &gt; Site administration &gt; Advanced features</em></li>
+<li>Check &#8216;Enable web services&#8217; then click &#8216;Save Changes&#8217;</li>
+</ol>
+</div></blockquote>
+<p><strong>Note:</strong> For security reasons, web services should only be enabled if you intend to make use of it.</p>
+</div>
+<div class="section" id="manage-protocols">
+<span id="id1"></span><h2>Manage protocols<a class="headerlink" href="#manage-protocols" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="enabling-protocols">
+<h3>Enabling protocols<a class="headerlink" href="#enabling-protocols" title="Permalink to this headline">¶</a></h3>
+<p>Usually external applications that users wish to use dictate which protocols should be enabled.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access <em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; Manage protocols</em></li>
+<li>Enable the protocols (SOAP, REST, XMLRPC, AMF, ...) as required</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="enabling-web-service-function-documentation">
+<h3>Enabling web service function documentation<a class="headerlink" href="#enabling-web-service-function-documentation" title="Permalink to this headline">¶</a></h3>
+<p>Enabling web service function documentation (also on the Manage protocols page) results in user-specific web service documentation being available for each user on their Security keys page. This option is mainly useful to web service client developers. If nobody is creating a web service client, there is no need to enable this feature.</p>
+</div>
+</div>
+<div class="section" id="external-services">
+<span id="id2"></span><h2>External services<a class="headerlink" href="#external-services" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="creating-a-service">
+<h3>Creating a service<a class="headerlink" href="#creating-a-service" title="Permalink to this headline">¶</a></h3>
+<p>If none of the pre-build web services match your needs, you can create a custom service i.e. select which of the standard web service functions are available via that service.</p>
+<p>You can enable only the specific functions that you need to expose, so not compromising on security.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Access <em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; External services</em></p>
+</li>
+<li><dl class="first docutils">
+<dt>Click Add new custom service</dt>
+<dd><ul class="first last simple">
+<li>&#8216;Authorised users only&#8217; - If enabled, you will need to select the authorised users manually. Otherwise all users with appropriate permissions are allowed</li>
+<li>&#8216;Required capability&#8217; - If enabled, any user accessing the web service will be checked against this selected capability. (This is just an additional optional security layer.)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Enter a name and check Enabled</p>
+</li>
+<li><p class="first">Click the button &#8216;Add service&#8217;</p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="adding-functions-to-the-service">
+<h3>Adding functions to the service<a class="headerlink" href="#adding-functions-to-the-service" title="Permalink to this headline">¶</a></h3>
+<p>Your service is currently empty and doesn&#8217;t do anything. Web service functions need to be added. Your choice will be dictated by what you allow the external application to do. For this example, select &#8216;Create group&#8217;.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Click &#8216;Add functions&#8217; link</li>
+<li>Select &#8216;create group&#8217; function and click the &#8216;Add functions&#8217; button</li>
+</ol>
+</div></blockquote>
+<p>You should be back to the service functions list. &#8216;Required capabilities&#8217; are indicated for each function. Users need the required capabilities to run a function. The function descriptions in the API Documentation can also give you more information about the required capabilities (<em>Settings &gt; Site administration &gt; Plugins &gt; Web services &gt; API Documentation</em>).</p>
+</div>
+<div class="section" id="enabling-capabilities">
+<h3>Enabling capabilities<a class="headerlink" href="#enabling-capabilities" title="Permalink to this headline">¶</a></h3>
+<p>The final step is to grant appropriate permissions. The following capabilities should be allowed:</p>
+<blockquote>
+<div><ul class="simple">
+<li>moodle/webservice:createtoken - for allowing users to generate a security key</li>
+<li>webservice/rest:use, webservice/soap:use, webservice/xmlrpc:use, webservice/amf:use which match the enabled protocols.</li>
+<li>The service Required capability if set (<em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; Manage services &gt; Edit link</em>).</li>
+<li>The required capabilities for the web service functions. These required capabilities are listed when you add a function to the service. For more information about roles and capabilities, read the Manage roles documentation.</li>
+</ul>
+</div></blockquote>
+<p>Once done, the web service should be set up. Users should be able to obtain a personal security key.</p>
+</div>
+<div class="section" id="alternate-settings">
+<h3>Alternate settings<a class="headerlink" href="#alternate-settings" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="authorise-only-specific-users">
+<h3>Authorise only specific users<a class="headerlink" href="#authorise-only-specific-users" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li><em>Administration &gt; Site Administration &gt; Plugins &gt; Web services &gt; External Services</em></li>
+<li>Select Authorised users link (the service must have been set as Authorised users only in the Edit link)</li>
+<li>Select some users and click Add</li>
+</ol>
+</div></blockquote>
+<p>Moodle indicates if some capabilities need to be assigned to an authorised user. Moreover if you click on the authorised user fullname, you can set up some specific options: IP restriction and Valid until.</p>
+</div>
+</div>
+<div class="section" id="manage-tokens">
+<span id="id3"></span><h2>Manage tokens<a class="headerlink" href="#manage-tokens" title="Permalink to this headline">¶</a></h2>
+<p>This feature allows you to create a token for specific user. It can be useful if a user doesn&#8217;t have the moodle/create:token capability. This is also the only way to create a token for an administrator. For security reason, tokens are not automatically generated in the administrator security keys page.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><em>Administration &gt; Site Administration &gt; Plugins &gt; Web services &gt; Manage tokens</em></li>
+<li>Click on Add</li>
+<li>Select the created user and service</li>
+<li>Click on Saves changes</li>
+</ol>
+</div></blockquote>
+<p>As you created a token for this user, you do not need to assign &#8220;moodle/webservice:createtoken&#8221; to him/her. Finally, note that, as for authorised users, you can also set IP restriction and Valid until on a token.</p>
+</div>
+<div class="section" id="overview">
+<span id="id4"></span><h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Overview link in <em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; Overview</em> show details and status of web services.</p>
+<img alt="_images/overview.png" src="_images/overview.png" />
+</div>
 </div>
 
 
@@ -51,6 +162,29 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Web services</a><ul>
+<li><a class="reference internal" href="#enabling-web-services">Enabling web services</a></li>
+<li><a class="reference internal" href="#manage-protocols">Manage protocols</a><ul>
+<li><a class="reference internal" href="#enabling-protocols">Enabling protocols</a></li>
+<li><a class="reference internal" href="#enabling-web-service-function-documentation">Enabling web service function documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#external-services">External services</a><ul>
+<li><a class="reference internal" href="#creating-a-service">Creating a service</a></li>
+<li><a class="reference internal" href="#adding-functions-to-the-service">Adding functions to the service</a></li>
+<li><a class="reference internal" href="#enabling-capabilities">Enabling capabilities</a></li>
+<li><a class="reference internal" href="#alternate-settings">Alternate settings</a></li>
+<li><a class="reference internal" href="#authorise-only-specific-users">Authorise only specific users</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#manage-tokens">Manage tokens</a></li>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/using_web_services.txt"
