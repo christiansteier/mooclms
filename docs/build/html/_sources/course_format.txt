@@ -39,6 +39,7 @@ This format is oriented around one main forum, the social forum, which appears l
 
 The social forum can be edited by clicking the 'Update this forum' button on the social forum page. The forum introduction is displayed at the top of the course page. 
 
+.. _single_activity_format:
 
 Single activity format
 -----------------------
