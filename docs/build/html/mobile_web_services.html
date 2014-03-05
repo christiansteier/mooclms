@@ -44,6 +44,50 @@
   <div class="section" id="mobile-web-services">
 <span id="id1"></span><h1>Mobile Web Services<a class="headerlink" href="#mobile-web-services" title="Permalink to this headline">¶</a></h1>
 <p>Moodle comes with a built-in web service designed for mobile applications. It is required to run the official Mobile app. Enable it only if you want people to use the official app or if a third party app explicitly requires it.</p>
+<div class="section" id="enabling-mobile-web-services">
+<h2>Enabling mobile web services<a class="headerlink" href="#enabling-mobile-web-services" title="Permalink to this headline">¶</a></h2>
+<p>A site administrator first must enable mobile web services:</p>
+<blockquote>
+<div>In <em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; Mobile</em>
+Check &#8220;Enable mobile web services&#8221; and then
+Click Save.</div></blockquote>
+</div>
+<div class="section" id="what-happens-when-the-service-is-enabled">
+<h2>What happens when the service is enabled<a class="headerlink" href="#what-happens-when-the-service-is-enabled" title="Permalink to this headline">¶</a></h2>
+<p>Enabling the mobile web services will automatically:</p>
+<blockquote>
+<div><ul class="simple">
+<li>enable the web services system (<em>Administration &gt; Site administration &gt; Advanced features</em>)</li>
+<li>enable the built-in external service called &#8216;Mobile web services&#8217; - you should see this new mobile service listed as enabled</li>
+<li>enable the xml-rpc protocol (for backward compatibility with unmaintained My Moodle app)</li>
+<li>enable the rest protocol</li>
+<li>allow the &#8216;webservice/xmlrpc:use&#8217; capability for authenticated user role</li>
+<li>allow the &#8216;webservice/rest:use&#8217; capability for authenticated user role</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="disabling-mobile-web-services">
+<h2>Disabling mobile web services<a class="headerlink" href="#disabling-mobile-web-services" title="Permalink to this headline">¶</a></h2>
+<p>When you uncheck &#8216;Enable mobile web services&#8217;, it will automatically:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">disable the external service called &#8216;Mobile web services&#8217;.</p>
+</li>
+<li><p class="first">if &#8216;Mobile web services&#8217; was the only external service enabled:</p>
+<blockquote>
+<div><ul class="simple">
+<li>disable the web services system</li>
+<li>disable the xml-rpc protocol</li>
+<li>disable the rest protocol</li>
+<li>remove the &#8216;webservice/xmlrpc:use&#8217; capability for authenticated user role</li>
+<li>remove the &#8216;webservice/rest:use&#8217; capability for authenticated user role</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Read about <a class="reference internal" href="mobile_app.html#mobile-app"><em>Mobile app</em></a></p>
+</div>
 </div>
 
 
@@ -52,6 +96,16 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Mobile Web Services</a><ul>
+<li><a class="reference internal" href="#enabling-mobile-web-services">Enabling mobile web services</a></li>
+<li><a class="reference internal" href="#what-happens-when-the-service-is-enabled">What happens when the service is enabled</a></li>
+<li><a class="reference internal" href="#disabling-mobile-web-services">Disabling mobile web services</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/mobile_web_services.txt"
