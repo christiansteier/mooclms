@@ -50,5 +50,32 @@ Once the user is logged in the app, there is a periodical process that retrieves
 Notice that on the first time a user opens the app, he will see the default "orange" style. Your custom styles will be applied once the user has added a site in the app. 
 
 
+Enable Mobile app
+-------------------
+Moodle 2.4 or above is mandatory.
+
+The administrator of your Moodle site must enable mobile access as follows:
+
+    In *Administration > Site administration > Plugins > Web services > Mobile* tick the 'Enable web services for mobile devices' checkbox, then click the button to save changes. 
+    
+    
+Installing the mobile app
+--------------------------
+Apps are available in Google Play and also Apple Store. You can install the app directly from your Mobile device, search for "Moodle Mobile" the author/owner must be "Moodle Pty Ltd"
+
+**Android:** https://play.google.com/store/apps/details?id=com.moodle.moodlemobile
+
+**iOS:** https://itunes.apple.com/app/moodle-mobile/id633359593?mt=8 
+
+
+Cache
+-------
+If you connect to your Moodle site and update/create/delete anything, and then go to your mobile app, the content will not be displayed. You will have to wait a couple of minutes. The cache time for the app is currently 5 minutes.
+
+You can refresh the contents of the Mobile app using the refresh button (top right in the left orange menu)
+
+There are developer options for purging the cache at any time (Site administration -> Development).
+
+
 
 
