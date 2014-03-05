@@ -29,6 +29,7 @@ When you uncheck 'Enable mobile web services', it will automatically:
 
     * disable the external service called 'Mobile web services'.
     * if 'Mobile web services' was the only external service enabled:
+    
         * disable the web services system
         * disable the xml-rpc protocol
         * disable the rest protocol
