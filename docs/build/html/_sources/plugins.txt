@@ -69,7 +69,7 @@ Message outputs
 -----------------
 * :ref:`Manage Message Outputs <manage_message_outputs>`
 * :ref:`Default Message Outputs <default_message_outputs>`
-* :ref:`email <email>`
+* :ref:`Email <email>`
 * :ref:`Jabber Message <jabber_message>`
   
    
@@ -137,15 +137,13 @@ Repositories
 
 Web Services
 --------------
-.. toctree::
-   :maxdepth: 1
-   
-   mobile
-   overview
-   api_documentation
-   external_services
-   manage_protocols
-   manage_tokens
+* :ref:`Mobile <mobile>`
+* :ref:`Overview <overview>`
+* :ref:`API Documentation <api_documentation>`
+* :ref:`External services <external_services>`   
+* :ref:`Manage protocols <manage_protocols>`
+* :ref:`Manage tokens <manage_tokens>`    
+
    
    
 Question Behaviours
