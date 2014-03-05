@@ -6,6 +6,8 @@ A course format refers to the layout of a course. The course format can be selec
 
 An administrator can enable, disable or delete course formats for courses in *Administration > Site administration > Plugins > Course formats > Manage course formats*. They can also change the order in which available course formats are displayed to teachers in the course settings. 
 
+.. image:: _images/manage_courseformat.png
+
 Weekly format
 --------------
 The course is organized week by week, with a clear start date and a finish date. Moodle will create a section for each week of your course. You can add content, forums, quizzes, and so on in the section for each week.
