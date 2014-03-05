@@ -84,7 +84,7 @@ Moodle indicates if some capabilities need to be assigned to an authorised user.
 .. _manage_tokens:
 
 Manage tokens
----------------
+--------------
 
 This feature allows you to create a token for specific user. It can be useful if a user doesn't have the moodle/create:token capability. This is also the only way to create a token for an administrator. For security reason, tokens are not automatically generated in the administrator security keys page.
 
@@ -94,6 +94,7 @@ This feature allows you to create a token for specific user. It can be useful if
     4. Click on Saves changes 
 
 As you created a token for this user, you do not need to assign "moodle/webservice:createtoken" to him/her. Finally, note that, as for authorised users, you can also set IP restriction and Valid until on a token. 
+
 
 .. _overview:
 

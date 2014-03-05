@@ -139,7 +139,7 @@ Web Services
 --------------
 * :ref:`Mobile <mobile>`
 * :ref:`Overview <overview>`
-* :ref:`API Documentation <api_documentation>`
+* :ref:`API Documentation <external_services>`
 * :ref:`External services <external_services>`   
 * :ref:`Manage protocols <manage_protocols>`
 * :ref:`Manage tokens <manage_tokens>`    
