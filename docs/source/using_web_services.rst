@@ -48,4 +48,21 @@ Your service is currently empty and doesn't do anything. Web service functions n
 You should be back to the service functions list. 'Required capabilities' are indicated for each function. Users need the required capabilities to run a function. The function descriptions in the API Documentation can also give you more information about the required capabilities (*Settings > Site administration > Plugins > Web services > API Documentation*). 
     
     
-    
+Creating a token
+------------------
+This feature allows you to create a token for specific user. It can be useful if a user doesn't have the moodle/create:token capability. This is also the only way to create a token for an administrator. For security reason, tokens are not automatically generated in the administrator security keys page.
+
+    1. *Settings > Site Administration > Plugins > Web services > Manage tokens*
+    2. Click on Add
+    3. Select the created user and service
+    4. Click on Saves changes 
+
+As you created a token for this user, you do not need to assign "moodle/webservice:createtoken" to him/her. Finally, note that, as for authorised users, you can also set IP restriction and Valid until on a token. 
+
+
+
+
+
+
+
+
