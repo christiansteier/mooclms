@@ -22,3 +22,22 @@ Usually external applications that users wish to use dictate which protocols sho
 Enabling web service function documentation
 ---------------------------------------------
 Enabling web service function documentation (also on the Manage protocols page) results in user-specific web service documentation being available for each user on their Security keys page. This option is mainly useful to web service client developers. If nobody is creating a web service client, there is no need to enable this feature.
+
+
+Creating a service
+--------------------
+If none of the pre-build web services match your needs, you can create a custom service i.e. select which of the standard web service functions are available via that service.
+
+You can enable only the specific functions that you need to expose, so not compromising on security. 
+     
+    1. *Access Settings > Site administration > Plugins > Web services > External services*
+    2. Click Add new custom service
+        * 'Authorised users only' - If enabled, you will need to select the authorised users manually. Otherwise all users with appropriate permissions are allowed
+        * 'Required capability' - If enabled, any user accessing the web service will be checked against this selected capability. (This is just an additional optional security layer.) 
+    3. Enter a name and check Enabled
+    4. Click the button 'Add service' 
+    
+    
+    
+    
+    
