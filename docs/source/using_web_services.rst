@@ -36,8 +36,16 @@ You can enable only the specific functions that you need to expose, so not compr
         * 'Required capability' - If enabled, any user accessing the web service will be checked against this selected capability. (This is just an additional optional security layer.) 
     3. Enter a name and check Enabled
     4. Click the button 'Add service' 
+
     
-    
+Adding functions to the service
+---------------------------------
+Your service is currently empty and doesn't do anything. Web service functions need to be added. Your choice will be dictated by what you allow the external application to do. For this example, select 'Create group'.
+
+    1. Click 'Add functions' link
+    2. Select 'create group' function and click the 'Add functions' button 
+
+You should be back to the service functions list. 'Required capabilities' are indicated for each function. Users need the required capabilities to run a function. The function descriptions in the API Documentation can also give you more information about the required capabilities (*Settings > Site administration > Plugins > Web services > API Documentation*). 
     
     
     
