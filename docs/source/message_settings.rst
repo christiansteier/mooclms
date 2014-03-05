@@ -60,7 +60,7 @@ SMTP stands for Simple Mail Transfer Protocol. The SMTP host is an email relay t
 Most SMTP hosts make use of the default port 25 to for listening email traffic. However, occasionally a non-default port is used. In such cases, entering an SMTP host followed by a colon (i.e. :) and the port number should work. For example, if my SMTP host is myemailserver.com and it listens on port 587 or 465 (most common) instead of port 25 I would enter the SMTP host as myemailserver.com:587. 
   
 SMTP security
----------------
+^^^^^^^^^^^^^^^
 If the SMTP server requires a secure connection, the correct protocol type, SSL or TSL, may be set.
 
 
