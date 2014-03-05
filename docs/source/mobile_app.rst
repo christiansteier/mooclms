@@ -35,3 +35,20 @@ Screenshots
 .. image:: _images/participant.png 
 
 .. image:: _images/profile.png
+
+
+Style customization
+^^^^^^^^^^^^^^^^^^^^^
+The app can also retrieve your custom styles from your Moodle site. Since the app is a HTML5 app, you can apply safely any CSS, CSS2 and CSS3 style.
+
+In your Moodle installation go to Plugins / Web services / Mobile and enter in the mobilecssurl field a valid URL pointing to a CSS file containing your custom styles. The original styles to override can be found here: https://github.com/moodlehq/moodlemobile/tree/master/css
+
+The CSS should be placed inside your Moodle installation (in your custom theme or inside a local plugin)
+
+Once the user is logged in the app, there is a periodical process that retrieves your remote CSS files for applying your custom styles.
+
+Notice that on the first time a user opens the app, he will see the default "orange" style. Your custom styles will be applied once the user has added a site in the app. 
+
+
+
+
