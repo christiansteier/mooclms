@@ -75,13 +75,21 @@ Message outputs
    
 Authentication
 -----------------
+Authentication is the process of allowing a user to login to a Moodle site based on their username and password. 
+
+Authentication plugins
+------------------------
+Moodle provides a number of ways of :ref:`managing authentication <managing_authentication>`, called authentication plugins. 
+
 .. toctree::
    :maxdepth: 1
   
-   manage_authentication
-   email-based_self_registration
    manual_accounts
    no_login
+   email-based_self_registration
+   mnet
+   no_authentication
+   other_authentication_types
    
    
 Enrolments
@@ -171,14 +179,6 @@ Admin Tools
    manage_admin_tools
    
    
-Caching
----------
-.. toctree::
-   :maxdepth: 1
-   
-   configuration
-   test_performance
-   cache_stores
 
 
    

@@ -43,6 +43,63 @@
             
   <div class="section" id="mobile-app">
 <span id="id1"></span><h1>Mobile App<a class="headerlink" href="#mobile-app" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p>Moodle Mobile is the Moodle official mobile application for Android and iOs. It&#8217;s available in Google Play and Apple Market.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Responsive design for phone and tablets</li>
+<li>Upload a picture into your private file area</li>
+<li>Record an audio file and upload it into your private file area</li>
+<li>Send a private message to a course participant (can be done offline)</li>
+<li>Take a personal note about a course participant (can be done offline)</li>
+<li>Add a course participant to your phone contact</li>
+<li>Call a course participant touching the phone number</li>
+<li>Locate a course participant address on Google map</li>
+<li>Download and view some resources</li>
+<li>Quick access to your course contents</li>
+<li>View calendar events (require Moodle 2.5.5 or Moodle 2.6.2 and onwards)</li>
+<li>Mobile notifications (Push) (from Moodle.org or any site starting Moodle 2.7)</li>
+<li>Remote layout/style customization (see below)</li>
+</ul>
+</div></blockquote>
+<p>Notice that Moodle Mobile is not a replacement of the MyMobile or Bootstrap/Simple theme. Moodle Mobile offers offline contents, camera &amp; audio features and (in a future) Push notifications. You can use Moodle Mobile app in combination with a Mobile theme.</p>
+<div class="section" id="screenshots">
+<h3>Screenshots<a class="headerlink" href="#screenshots" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/homepage.png" src="_images/homepage.png" />
+<img alt="_images/content.png" src="_images/content.png" />
+<img alt="_images/activity.png" src="_images/activity.png" />
+<img alt="_images/participant.png" src="_images/participant.png" />
+<img alt="_images/profile.png" src="_images/profile.png" />
+</div>
+<div class="section" id="style-customization">
+<h3>Style customization<a class="headerlink" href="#style-customization" title="Permalink to this headline">¶</a></h3>
+<p>The app can also retrieve your custom styles from your Moodle site. Since the app is a HTML5 app, you can apply safely any CSS, CSS2 and CSS3 style.</p>
+<p>In your Moodle installation go to Plugins / Web services / Mobile and enter in the mobilecssurl field a valid URL pointing to a CSS file containing your custom styles. The original styles to override can be found here: <a class="reference external" href="https://github.com/moodlehq/moodlemobile/tree/master/css">https://github.com/moodlehq/moodlemobile/tree/master/css</a></p>
+<p>The CSS should be placed inside your Moodle installation (in your custom theme or inside a local plugin)</p>
+<p>Once the user is logged in the app, there is a periodical process that retrieves your remote CSS files for applying your custom styles.</p>
+<p>Notice that on the first time a user opens the app, he will see the default &#8220;orange&#8221; style. Your custom styles will be applied once the user has added a site in the app.</p>
+</div>
+</div>
+<div class="section" id="enable-mobile-app">
+<h2>Enable Mobile app<a class="headerlink" href="#enable-mobile-app" title="Permalink to this headline">¶</a></h2>
+<p>Moodle 2.4 or above is mandatory.</p>
+<p>The administrator of your Moodle site must enable mobile access as follows:</p>
+<blockquote>
+<div>In <em>Administration &gt; Site administration &gt; Plugins &gt; Web services &gt; Mobile</em> tick the &#8216;Enable web services for mobile devices&#8217; checkbox, then click the button to save changes.</div></blockquote>
+</div>
+<div class="section" id="installing-the-mobile-app">
+<h2>Installing the mobile app<a class="headerlink" href="#installing-the-mobile-app" title="Permalink to this headline">¶</a></h2>
+<p>Apps are available in Google Play and also Apple Store. You can install the app directly from your Mobile device, search for &#8220;Moodle Mobile&#8221; the author/owner must be &#8220;Moodle Pty Ltd&#8221;</p>
+<p><strong>Android:</strong> <a class="reference external" href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile">https://play.google.com/store/apps/details?id=com.moodle.moodlemobile</a></p>
+<p><strong>iOS:</strong> <a class="reference external" href="https://itunes.apple.com/app/moodle-mobile/id633359593?mt=8">https://itunes.apple.com/app/moodle-mobile/id633359593?mt=8</a></p>
+</div>
+<div class="section" id="cache">
+<h2>Cache<a class="headerlink" href="#cache" title="Permalink to this headline">¶</a></h2>
+<p>If you connect to your Moodle site and update/create/delete anything, and then go to your mobile app, the content will not be displayed. You will have to wait a couple of minutes. The cache time for the app is currently 5 minutes.</p>
+<p>You can refresh the contents of the Mobile app using the refresh button (top right in the left orange menu)</p>
+<p>There are developer options for purging the cache at any time (Site administration -&gt; Development).</p>
+</div>
 </div>
 
 
@@ -51,6 +108,21 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Mobile App</a><ul>
+<li><a class="reference internal" href="#features">Features</a><ul>
+<li><a class="reference internal" href="#screenshots">Screenshots</a></li>
+<li><a class="reference internal" href="#style-customization">Style customization</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#enable-mobile-app">Enable Mobile app</a></li>
+<li><a class="reference internal" href="#installing-the-mobile-app">Installing the mobile app</a></li>
+<li><a class="reference internal" href="#cache">Cache</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/mobile_app.txt"
