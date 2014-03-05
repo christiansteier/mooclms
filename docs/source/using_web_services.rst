@@ -94,8 +94,11 @@ This feature allows you to create a token for specific user. It can be useful if
 
 As you created a token for this user, you do not need to assign "moodle/webservice:createtoken" to him/her. Finally, note that, as for authorised users, you can also set IP restriction and Valid until on a token. 
 
+.. _overview:
 
-
+Overview
+---------
+Overview link in *Administration > Site administration > Plugins > Web services > Overview* show details and status of 
 
 
 
