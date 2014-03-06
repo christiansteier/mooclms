@@ -107,7 +107,14 @@ Moodle provides a number of ways of :ref:`managing course enrolment <managing_en
    self_enrolments  
    cohort_syn
    guest_access
-   other_enrolment_types
+   category_enrolments
+   external_database
+   flat_file
+   ims_enterprise
+   ldap_enrolments
+   course_metalink
+   mnet_enrolments
+   paypal
    
    
 Text Editors
