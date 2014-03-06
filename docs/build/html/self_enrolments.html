@@ -53,6 +53,117 @@
             
   <div class="section" id="self-enrolments">
 <span id="id1"></span><h1>Self enrolments<a class="headerlink" href="#self-enrolments" title="Permalink to this headline">¶</a></h1>
+<p>Self enrolment is the method whereby users can choose to enrol themselves into a course, either immediately by clicking &#8220;enrol me in this course&#8221; or by typing in an enrolment key they have been given. The enrolment plugin needs to be enabled by the site admin in enrolment plugins and has to be enabled within the course. The manual enrolment plugin has to be enabled in the same course as well.</p>
+<div class="section" id="course-settings-for-self-enrolment">
+<h2>Course settings for self enrolment<a class="headerlink" href="#course-settings-for-self-enrolment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="checking-self-enrolment-is-enabled">
+<h3>Checking self enrolment is enabled<a class="headerlink" href="#checking-self-enrolment-is-enabled" title="Permalink to this headline">¶</a></h3>
+<p>In a course, go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em> and ensure the &#8220;eye&#8221; is opened for self enrolment.</p>
+</div>
+<div class="section" id="adding-an-enrolment-key-to-a-course">
+<h3>Adding an enrolment key to a course<a class="headerlink" href="#adding-an-enrolment-key-to-a-course" title="Permalink to this headline">¶</a></h3>
+<p>If you wish only a certain group of users to self enrol (and not anyone) then you can set an enrolment key which you then tell them to use when they access the self-enrolment screen.</p>
+</div>
+<div class="section" id="adding-a-group-enrolment-key-to-a-course">
+<h3>Adding a group enrolment key to a course<a class="headerlink" href="#adding-a-group-enrolment-key-to-a-course" title="Permalink to this headline">¶</a></h3>
+<p>If you wish your users to enrol themselves directly into a group in the course then you can set a group enrolment key which you then tell them to use when they access the self-enrolment screen.</p>
+<p>The following settings may be changed by clicking the edit (hand/pen) icon to the right of the self-enrolment option in <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em> :</p>
+</div>
+<div class="section" id="setting-the-enrolment-period">
+<h3>Setting the enrolment period<a class="headerlink" href="#setting-the-enrolment-period" title="Permalink to this headline">¶</a></h3>
+<p>Tick the &#8220;enable&#8221; box to the right of Enrolment period and then choose your dates.</p>
+</div>
+<div class="section" id="enrolment-duration">
+<h3>Enrolment duration<a class="headerlink" href="#enrolment-duration" title="Permalink to this headline">¶</a></h3>
+<p>Set the amount of time a user enrolment is valid, starting with the moment the user enrols themselves. If disabled, the enrolment duration will be unlimited.</p>
+</div>
+<div class="section" id="notifying-users-when-their-enrolment-expires">
+<h3>Notifying users when their enrolment expires<a class="headerlink" href="#notifying-users-when-their-enrolment-expires" title="Permalink to this headline">¶</a></h3>
+<p>It is possible also for students and/or teachers to be notified when enrolments expire by selecting either &#8220;Enroller only&#8221; or &#8220;Enroller and enrolled user&#8221; from the dropdown &#8220;Notify before enrolment expires&#8221; and a time in &#8220;Notification threshold&#8221;.</p>
+</div>
+<div class="section" id="editing-individual-enrolment-times">
+<h3>Editing individual enrolment times<a class="headerlink" href="#editing-individual-enrolment-times" title="Permalink to this headline">¶</a></h3>
+<p>It is possible to edit the date and hour of an individual&#8217;s enrolment from <em>Administration &gt; Course administration &gt; Users &gt; Enrolled users</em> by clicking the edit icon in the enrolment methods column for the user in question. This then brings up a screen where the date and time can be modified.</p>
+</div>
+<div class="section" id="unenrolling-students-who-haven-t-been-active-on-the-course">
+<h3>Unenrolling students who haven&#8217;t been active on the course<a class="headerlink" href="#unenrolling-students-who-haven-t-been-active-on-the-course" title="Permalink to this headline">¶</a></h3>
+<p>Choose from the dropdown to the right of &#8220;Unenrol inactive after...&#8221;</p>
+</div>
+<div class="section" id="deciding-the-maximum-number-of-users-in-your-course">
+<h3>Deciding the maximum number of users in your course<a class="headerlink" href="#deciding-the-maximum-number-of-users-in-your-course" title="Permalink to this headline">¶</a></h3>
+<p>Type the maximum number of users you want in your course in &#8220;Max enrolled users&#8221;. When this limit is reached, nobody will be able to self-enrol. If you leave the number at 0 then there will be no maximum number.</p>
+</div>
+<div class="section" id="allowing-only-cohort-members-to-self-enrol">
+<h3>Allowing only cohort members to self-enrol<a class="headerlink" href="#allowing-only-cohort-members-to-self-enrol" title="Permalink to this headline">¶</a></h3>
+<p>If you have cohorts set up, then you can restrict self enrolment to particular cohorts by selecting the name of the cohort from the drop down box, A member of the cohort can self-enrol as normal; whereas a non-member gets a message telling them they are not able to self-enrol.</p>
+</div>
+<div class="section" id="sending-a-welcome-message-to-new-users">
+<h3>Sending a welcome message to new users<a class="headerlink" href="#sending-a-welcome-message-to-new-users" title="Permalink to this headline">¶</a></h3>
+<p>If enabled, users receive the following message via email when they self-enrol in a course:</p>
+<blockquote>
+<div>Welcome to {Course name}
+If you have not done so already, you should edit your profile page so that we can learn more about you: {link to profile page}</div></blockquote>
+<p>If you want to send a different message, simply type it in the custom welcome message text box.</p>
+<p><strong>Note:</strong> An admin can customise the message for the whole site by editing the <em>welcometocoursetext</em> language string. See Language customization for further details.</p>
+</div>
+</div>
+<div class="section" id="admin-settings">
+<h2>Admin settings<a class="headerlink" href="#admin-settings" title="Permalink to this headline">¶</a></h2>
+<p>The self enrolment plugin may be enabled or disabled throughout the site in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em>.</p>
+<div class="section" id="shared-settings-for-all-courses">
+<h3>Shared settings for all courses<a class="headerlink" href="#shared-settings-for-all-courses" title="Permalink to this headline">¶</a></h3>
+<p>The page Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Self enrolment. contains options for defaults that admin can set:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Require an enrolment key - if this box is ticked then all courses with self-enrolment enabled will need to have an enrolment key. The setting won&#8217;t save until the teacher adds a key - something to be aware of as this can cause confusion:)</li>
+<li>Use password policy - tick this box if you want enrolment keys set by teachers to follow the password policy of the site.</li>
+<li>Show hint - tick this box if you are prepared to allow the first letter of a key to be given as a &#8220;hint&#8221;</li>
+<li>Enrolment expiration action - specifies what happens when user enrolments reach expiration date. Please note that option &#8220;Unenrol user from course&#8221; purges grades, group memberships, preferences and other user related data from the courses.</li>
+<li>Hour to send enrolment expiry notifications - specify hour for sending expiration notifications.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="default-enrolment-settings-in-new-courses">
+<h3>Default enrolment settings in new courses<a class="headerlink" href="#default-enrolment-settings-in-new-courses" title="Permalink to this headline">¶</a></h3>
+<p>These can be set in Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Self enrolment but teachers in individual courses can alter them to suit their needs:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Add instance to new courses - if admin selects this, then any new course created will include the self enrolment plugin</li>
+<li>Enable self enrolments- if this is enabled then users by default can self enrol into a course.</li>
+<li>Use group enrolment keys - the setting for group enrolment keys in a course will be set to &#8220;yes&#8221; by default</li>
+<li>Default role assignment - normally, when users self enrol, they have the student role. If necessary that role can be changed by default here - for example - if your Moodle has a dedicated role you wish to use instead.</li>
+<li>Enrolment duration - this sets the default enrolment length for new courses (but again, may be altered by the course teacher.)</li>
+<li>Notify before enrolment expires - specifies if teacher or optionally students should be notified before the expiration.</li>
+<li>Notification threshold - specify how many days should be users notified before the enrolment expiration.</li>
+<li>Unenrol inactive after- this sets the default time after which a student will be unenrolled if they haven&#8217;t accessed the courses. (Teachers may change this)</li>
+<li>Max enrolled users - adding a number here will specify the maximum number of users who can self-enrol into new courses. Teachers in the course can change this. If it is left at 0, there will be no maximum.</li>
+<li>Send course welcome message- if this box is checked then newly enrolled users will receive a welcome message by default.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="self-enrolment-method-options">
+<h2>Self enrolment method options<a class="headerlink" href="#self-enrolment-method-options" title="Permalink to this headline">¶</a></h2>
+<p>One course may contain multiple self enrolment methods. User may be enrolled once in each instance only.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Custom instance name - specify custom enrolment method name.</li>
+<li>Enable existing enrolments - if disabled all users enrolled via this plugin can not access course.</li>
+<li>Allow new enrolments - disable if you do not want to allow students to self enrol in the future.</li>
+<li>Enrolment key - specify key required for enrolment.</li>
+<li>Use group enrolment keys - optionally use group keys for enrolment too.</li>
+<li>Default assigned role - specify role to be assigned to suers during enrolment, this can be manually after user enrolment.</li>
+<li>Enrolment duration - specify enrolment length, this can be manually after user enrolment.</li>
+<li>Notify before enrolment expires - specifies if teacher or optionally students should be notified before the expiration.</li>
+<li>Notification threshold - specify how many days should be users notified before the enrolment expiration.</li>
+<li>Unenrol inactive after- specify time after which a student will be unenrolled if they haven&#8217;t accessed the courses.</li>
+<li>Max enrolled users - adding a number here will specify the maximum number of users who can self-enrol into this course.</li>
+<li>Only cohort members - optionally restrict this enrolment method to members of specified cohort.</li>
+<li>Send course welcome message- if this box is checked then newly enrolled users will receive a welcome message by default.</li>
+<li>Custom welcome message - specify custom message if necessary.</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -61,6 +172,33 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Self enrolments</a><ul>
+<li><a class="reference internal" href="#course-settings-for-self-enrolment">Course settings for self enrolment</a><ul>
+<li><a class="reference internal" href="#checking-self-enrolment-is-enabled">Checking self enrolment is enabled</a></li>
+<li><a class="reference internal" href="#adding-an-enrolment-key-to-a-course">Adding an enrolment key to a course</a></li>
+<li><a class="reference internal" href="#adding-a-group-enrolment-key-to-a-course">Adding a group enrolment key to a course</a></li>
+<li><a class="reference internal" href="#setting-the-enrolment-period">Setting the enrolment period</a></li>
+<li><a class="reference internal" href="#enrolment-duration">Enrolment duration</a></li>
+<li><a class="reference internal" href="#notifying-users-when-their-enrolment-expires">Notifying users when their enrolment expires</a></li>
+<li><a class="reference internal" href="#editing-individual-enrolment-times">Editing individual enrolment times</a></li>
+<li><a class="reference internal" href="#unenrolling-students-who-haven-t-been-active-on-the-course">Unenrolling students who haven&#8217;t been active on the course</a></li>
+<li><a class="reference internal" href="#deciding-the-maximum-number-of-users-in-your-course">Deciding the maximum number of users in your course</a></li>
+<li><a class="reference internal" href="#allowing-only-cohort-members-to-self-enrol">Allowing only cohort members to self-enrol</a></li>
+<li><a class="reference internal" href="#sending-a-welcome-message-to-new-users">Sending a welcome message to new users</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#admin-settings">Admin settings</a><ul>
+<li><a class="reference internal" href="#shared-settings-for-all-courses">Shared settings for all courses</a></li>
+<li><a class="reference internal" href="#default-enrolment-settings-in-new-courses">Default enrolment settings in new courses</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#self-enrolment-method-options">Self enrolment method options</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="manual_enrolments.html"
                         title="previous chapter">Manual Enrolments</a></p>

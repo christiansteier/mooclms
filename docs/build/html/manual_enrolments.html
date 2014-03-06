@@ -53,6 +53,80 @@
             
   <div class="section" id="manual-enrolments">
 <span id="id1"></span><h1>Manual Enrolments<a class="headerlink" href="#manual-enrolments" title="Permalink to this headline">¶</a></h1>
+<p>The manual enrolments plugin allows users to be enrolled manually via a link in the course administration settings. The plugin has to be enabled by the site administrator and should normally be enabled as certain other enrolment plugins, such as self enrolment, require it.</p>
+<div class="section" id="course-settings">
+<h2>Course settings<a class="headerlink" href="#course-settings" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="checking-you-have-manual-enrolment-in-your-course">
+<h3>Checking you have manual enrolment in your course<a class="headerlink" href="#checking-you-have-manual-enrolment-in-your-course" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>In a course, go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em></li>
+<li>Make sure Manual enrolments has its &#8220;eye&#8221; opened.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="editing-manual-enrolment-settings">
+<h3>Editing manual enrolment settings<a class="headerlink" href="#editing-manual-enrolment-settings" title="Permalink to this headline">¶</a></h3>
+<p>Managers (and any other users with the capability enrol/manual:config) can edit the manual enrolment method in the course and set the default enrolment period and default role in <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em>.</p>
+<p>It is possible also for students and/or teachers to be notified when enrolments expire by selecting either &#8220;Enroller only&#8221; or &#8220;Enroller and enrolled user&#8221; from the dropdown &#8220;Notify before enrolment expires&#8221; and a time in &#8220;Notification threshold&#8221;.</p>
+</div>
+</div>
+<div class="section" id="enrolling-users">
+<h2>Enrolling users<a class="headerlink" href="#enrolling-users" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Method 1</strong></dt>
+<dd><ol class="first last arabic simple">
+<li>Go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolled users</em></li>
+<li>Click the &#8216;Enrol users&#8217; button at the top right or bottom left of the page</li>
+<li>Use the &#8216;Assign roles&#8217; dropdown if you wish to change the role</li>
+<li>Select enrolment options as appropriate</li>
+<li>Browse or search for the user</li>
+<li>Click the Enrol button opposite the user. The user will indent in the list and the enrol button will disappear, indicating that the user is enrolled.</li>
+<li>When you have finished, click the &#8216;Finish enrolling users&#8217; button (or simply close the enrol users box)</li>
+</ol>
+</dd>
+</dl>
+<p>The user will then appear in the list of enrolled users.</p>
+<p><strong>Note:</strong> The enrolment option &#8216;Recover user&#8217;s old grades if possible&#8217; is not ticked by default and is easy to miss. An admin can make it so that the checkbox is ticked for all courses on the site by enabling the setting &#8216;Recover grades default&#8217; in <em>Administration &gt; Site administration &gt; Grades &gt; General settings</em>.</p>
+<dl class="docutils">
+<dt><strong>Method 2</strong></dt>
+<dd><ol class="first last arabic simple">
+<li>Go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em></li>
+<li>Click the &#8216;Enrol users&#8217; icon in the edit column opposite manual enrolment</li>
+<li>Select users from the not enrolled users list, using Ctrl + click to select multiple users</li>
+<li>Click the add button to add the users to the enrolled users list</li>
+</ol>
+</dd>
+</dl>
+<div class="section" id="editing-individual-enrolment-start-and-end-dates">
+<h3>Editing individual enrolment start and end dates<a class="headerlink" href="#editing-individual-enrolment-start-and-end-dates" title="Permalink to this headline">¶</a></h3>
+<p>Enrolment start and end dates may be edited for individual students as follows:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolled users</em></li>
+<li>Click the edit icon in the enrolment methods column for a particular user.</li>
+<li>Edit dates as required, then click the &#8216;Save changes&#8217; button.</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="admin-settings">
+<h2>Admin settings<a class="headerlink" href="#admin-settings" title="Permalink to this headline">¶</a></h2>
+<p>The manual enrolment plugin may be enabled or disabled site-wide in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em>.</p>
+<p>Site-wide settings, including default settings for manual enrolment in new courses, may be set via <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manual enrolments</em>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Enrolment expiration action - specifies what happens when user enrolments reach expiration date. Please note that option &#8220;Unenrol user from course&#8221; purges grades, group memberships, preferences and other user related data from the courses.</li>
+<li>Hour to send enrolment expiry notifications - specify hour for sending expiration notifications.</li>
+<li>Add instance to new courses- if this is enabled, then whenever a new course is created, manual enrolments will automatically added to new courses.</li>
+<li>Enable manual enrolments - this specifies if enrol instances are enabled by default in new courses, it is strongly recommended to keep this setting enabled.</li>
+<li>Default role - this sets the default role, which is normally student and may be altered by a teacher in a course.</li>
+<li>Default enrolment duration - this sets the default length of enrolment in new courses.</li>
+<li>Notify before enrolment expires - specifies if teacher or optionally students should be notified before the expiration.</li>
+<li>Notification threshold - specify how many days should be users notified before the enrolment expiration.</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -61,6 +135,23 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manual Enrolments</a><ul>
+<li><a class="reference internal" href="#course-settings">Course settings</a><ul>
+<li><a class="reference internal" href="#checking-you-have-manual-enrolment-in-your-course">Checking you have manual enrolment in your course</a></li>
+<li><a class="reference internal" href="#editing-manual-enrolment-settings">Editing manual enrolment settings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#enrolling-users">Enrolling users</a><ul>
+<li><a class="reference internal" href="#editing-individual-enrolment-start-and-end-dates">Editing individual enrolment start and end dates</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#admin-settings">Admin settings</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="other_authentication_types.html"
                         title="previous chapter">Other Authentication Types</a></p>

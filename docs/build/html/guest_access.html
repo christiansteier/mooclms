@@ -25,7 +25,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
     <link rel="up" title="Plugins" href="plugins.html" />
-    <link rel="next" title="Other enrolment types" href="other_enrolment_types.html" />
+    <link rel="next" title="Manage Licences" href="manage_licences.html" />
     <link rel="prev" title="Cohort sync" href="cohort_syn.html" /> 
   </head>
   <body>
@@ -36,7 +36,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="other_enrolment_types.html" title="Other enrolment types"
+          <a href="manage_licences.html" title="Manage Licences"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="cohort_syn.html" title="Cohort sync"
@@ -53,6 +53,56 @@
             
   <div class="section" id="guest-access">
 <span id="id1"></span><h1>Guest Access<a class="headerlink" href="#guest-access" title="Permalink to this headline">¶</a></h1>
+<p>The Guest access plugin allows users with the Guest role to view the contents of a course. This might be used, for example, if a Moodle site serves as a website where certain courses contain publicly available information, or else with a commercial Moodle site where courses with guest access can offers a &#8220;taster&#8221; of the kind of courses which may be purchased. (Note that the guest cannot participate in any activities; they can only view content.)</p>
+<div class="section" id="course-settings-for-guest-access">
+<h2>Course settings for guest access<a class="headerlink" href="#course-settings-for-guest-access" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>In <em>dministration &gt; Course administration &gt; Users &gt; Enrolment methods</em>, first ensure that you have added &#8220;guest access&#8221; as an enrollment method, and that it has its eye open.</li>
+<li>Ensure that self enrolment is also enabled.</li>
+<li>In <em>Administration &gt; Course administration &gt; Edit settings</em>, scroll to &#8220;Guest access&#8221;</li>
+<li>Set the drop down to &#8220;Yes&#8221;</li>
+<li>If you wish guests to use a password to access the course then add it here.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="admin-settings-for-guest-access">
+<h2>Admin settings for guest access<a class="headerlink" href="#admin-settings-for-guest-access" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>In <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em>,ensure Guest access is enabled (has its eye open.) This enables Guest access.</li>
+<li>In <em>Administration &gt; Site administration &gt; Plugins &gt; Manage authentication</em> set the Guest login button to Show if you want the button on the Frontpage.</li>
+<li>Also Guest accounts can be logged - check the <em>Administration&gt; Site administration &gt; Server &gt; Cleanup &gt; Log guest access</em> setting</li>
+</ul>
+</div></blockquote>
+<div class="section" id="default-settings-for-guest-access">
+<h3>Default settings for guest access<a class="headerlink" href="#default-settings-for-guest-access" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><dl class="first docutils">
+<dt>Clicking on <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Guest access</em> brings up the screen where admin can set defaults for guest access in courses. Guest access can be turned on by default in all new courses and you can also:</dt>
+<dd><ul class="first last simple">
+<li>require each course with guest access to have a password for guests. (Note: this can confuse teachers who are not aware of the requirement.)</li>
+<li>use or ignore your Moodle&#8217;s standard password policy for guest access passwords</li>
+<li>offer if needed the first letter of the password as a hint.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="auto-login-guests">
+<h3>Auto-login guests<a class="headerlink" href="#auto-login-guests" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>In <a href="#id2"><span class="problematic" id="id3">*</span></a>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; User policies8, you can tick the box so that visitors are automatically logged in as guests when accessing a course with guest access (i.e. they don&#8217;t have to click the &#8220;login as guest button&#8221;.</li>
+<li>In <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage Authentication</em>, you must have &#8220;Guest login button&#8221; set to &#8220;Show&#8221;.</li>
+<li>In <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em> you can check &#8220;Open to Google&#8221; setting so that the Google search robot will be allowed to enter your site as a Guest. In addition, people coming in to your site via a Google search will automatically be logged in as a Guest.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -61,12 +111,25 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Guest Access</a><ul>
+<li><a class="reference internal" href="#course-settings-for-guest-access">Course settings for guest access</a></li>
+<li><a class="reference internal" href="#admin-settings-for-guest-access">Admin settings for guest access</a><ul>
+<li><a class="reference internal" href="#default-settings-for-guest-access">Default settings for guest access</a></li>
+<li><a class="reference internal" href="#auto-login-guests">Auto-login guests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="cohort_syn.html"
                         title="previous chapter">Cohort sync</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="other_enrolment_types.html"
-                        title="next chapter">Other enrolment types</a></p>
+  <p class="topless"><a href="manage_licences.html"
+                        title="next chapter">Manage Licences</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/guest_access.txt"
@@ -96,7 +159,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="other_enrolment_types.html" title="Other enrolment types"
+          <a href="manage_licences.html" title="Manage Licences"
              >next</a> |</li>
         <li class="right" >
           <a href="cohort_syn.html" title="Cohort sync"
