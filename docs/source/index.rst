@@ -40,6 +40,7 @@ Table Of Content
    cron
    gradebook_report_settings
    course_format
+   filters
 
 Indices and tables
 ==================
