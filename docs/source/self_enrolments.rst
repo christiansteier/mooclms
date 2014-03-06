@@ -92,6 +92,7 @@ These can be set in Administration > Site administration > Plugins > Enrolments 
 
 
 Self enrolment method options
+-------------------------------
 One course may contain multiple self enrolment methods. User may be enrolled once in each instance only.
 
     * Custom instance name - specify custom enrolment method name.
