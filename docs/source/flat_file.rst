@@ -22,6 +22,8 @@ The file should be structured with the action, role, user id, and course ID numb
 
 Example file:
 
+   .. line-block::
+
        add, student, 5, CF101
        add, teacher, 6, CF101
        add, teacheredit, 7, CF101
