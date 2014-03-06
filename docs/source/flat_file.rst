@@ -21,7 +21,6 @@ Flat fle structure
 The file should be structured with the action, role, user id, and course ID number. Optionally a start time and end time can be added as additional fields.
 
 Example file:
-
    .. line-block::
 
        add, student, 5, CF101
