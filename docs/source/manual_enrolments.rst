@@ -9,7 +9,7 @@ Course settings
 
 Checking you have manual enrolment in your course
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    * In a course, go to *Administration > Course administration > Users > Enrolment methods8
+    * In a course, go to *Administration > Course administration > Users > Enrolment methods*
     * Make sure Manual enrolments has its "eye" opened. 
     
 Editing manual enrolment settings
