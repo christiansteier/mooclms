@@ -25,7 +25,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
     <link rel="up" title="Plugins" href="plugins.html" />
-    <link rel="next" title="Manage Licences" href="manage_licences.html" />
+    <link rel="next" title="Manual Enrolments" href="manual_enrolments.html" />
     <link rel="prev" title="No Authentication" href="no_authentication.html" /> 
   </head>
   <body>
@@ -36,7 +36,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="manage_licences.html" title="Manage Licences"
+          <a href="manual_enrolments.html" title="Manual Enrolments"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="no_authentication.html" title="No Authentication"
@@ -53,6 +53,82 @@
             
   <div class="section" id="other-authentication-types">
 <span id="id1"></span><h1>Other Authentication Types<a class="headerlink" href="#other-authentication-types" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cas-server-sso">
+<h2>CAS server (SSo)<a class="headerlink" href="#cas-server-sso" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>CAS is &#8220;Single Sign-on for the Web&#8221; and is developed by JA-SIG in an open-source, collaborative manner. CAS is very beneficial in environments where a number of different web applications share a set of common users. If all the web applications were &#8220;CASified&#8221; a user would log in once and would then be able to move between the various web applications without ever having to present authentication credentials again.</p>
+</div>
+<div class="section" id="external-database-authentication">
+<h2>External database authentication<a class="headerlink" href="#external-database-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; External database</em></p>
+<p>This method uses an external database table to check whether a given username and password is valid. If the user does not currently exist in Moodle a new account will be created and their information copied from the external database.</p>
+</div>
+<div class="section" id="firstclass-authentication">
+<h2>FirstClass authentication<a class="headerlink" href="#firstclass-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>FirstClass is a client/server groupware, email, online conferencing, voice/fax services, and bulletin-board system for Windows, Macintosh, and Linux. FirstClass authentication uses the FirstClass Server for the authentication process i.e. to check for user accounts.</p>
+</div>
+<div class="section" id="imap-authentication">
+<h2>IMAP authentication<a class="headerlink" href="#imap-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>IMAP authentication uses a mailing systems IMAP protocol to check for users accounts. This allows direct integrations with technologies such as Microsoft Exchange servers.</p>
+</div>
+<div class="section" id="ldap-authentication">
+<h2>LDAP authentication<a class="headerlink" href="#ldap-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>This document describes how to set up Lightweight Directory Access Protocol (LDAP) authentication in Moodle. We cover the basic, advanced and some trouble shooting sections to assist the user in the installation and administrating LDAP in Moodle.</p>
+</div>
+<div class="section" id="nntp-authentication">
+<h2>NNTP authentication<a class="headerlink" href="#nntp-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>NNTP authentication uses the Usenet NNTP protocol to check for users accounts. This allows direct integration with technologies such as Microsoft Exchange, INN, DNews, Diablo, etc.</p>
+</div>
+<div class="section" id="pam-pluggable-authentication-modules">
+<h2>PAM (Pluggable Authentication Modules)<a class="headerlink" href="#pam-pluggable-authentication-modules" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>With PAM you can use the same user database for different applications log ins (SSO - Single Sign On). PAM also supports different authentication processes as required.</p>
+<p>This method uses PAM to access the native usernames on this server. You have to install PAM Authentication Module in order to use this module.</p>
+</div>
+<div class="section" id="pop3-server-authentication">
+<h2>POP3 server authentication<a class="headerlink" href="#pop3-server-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>POP3 server authentication is a user authentication process i.e. enabling people to login to your Moodle site. This method uses the POP3 mail server for the authentication process ie. check for users accounts.</p>
+</div>
+<div class="section" id="radius-authentication">
+<h2>RADIUS authentication<a class="headerlink" href="#radius-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>If you get an error message saying: &#8220;Warning: The Auth_RADIUS module does not seem to be present&#8221;, you need to follow these steps:</p>
+<p>Using debian-based linux (such as Ubuntu):</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Install the following modules: php5-dev php5-auth-pam php5-radius php-pear</p>
+<blockquote>
+<div><p>sudo apt-get install php5-dev php5-auth-pam php5-radius php-pear</p>
+</div></blockquote>
+</li>
+<li><p class="first">Install Auth_RADIUS module for pear</p>
+<blockquote>
+<div><p>sudo pear install radius Auth_RADIUS</p>
+</div></blockquote>
+</li>
+<li><p class="first">Add the following line to your php.ini file</p>
+<blockquote>
+<div><p>extension=radius.so</p>
+</div></blockquote>
+</li>
+<li><p class="first">Restart apache services</p>
+<blockquote>
+<div><p>sudo /etc/init.d/apache2 restart</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="shibboleth">
+<h2>Shibboleth<a class="headerlink" href="#shibboleth" title="Permalink to this headline">¶</a></h2>
+<p>Location: <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em></p>
+<p>Shibboleth is an Internet2 Middleware Initiative project that has created an architecture and open-source implementation for federated identity-based authentication and authorization infrastructure based on SAML. Federated identity allows for information about users in one security domain to be provided to other organizations in a common federation. This allows for cross-domain single sign-on and removes the need for content providers to maintain usernames and passwords. Identity providers (IdP&#8217;s) supply user information, while service providers (SP&#8217;s) consume this information and gate access to secure content.</p>
+</div>
 </div>
 
 
@@ -61,12 +137,29 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Other Authentication Types</a><ul>
+<li><a class="reference internal" href="#cas-server-sso">CAS server (SSo)</a></li>
+<li><a class="reference internal" href="#external-database-authentication">External database authentication</a></li>
+<li><a class="reference internal" href="#firstclass-authentication">FirstClass authentication</a></li>
+<li><a class="reference internal" href="#imap-authentication">IMAP authentication</a></li>
+<li><a class="reference internal" href="#ldap-authentication">LDAP authentication</a></li>
+<li><a class="reference internal" href="#nntp-authentication">NNTP authentication</a></li>
+<li><a class="reference internal" href="#pam-pluggable-authentication-modules">PAM (Pluggable Authentication Modules)</a></li>
+<li><a class="reference internal" href="#pop3-server-authentication">POP3 server authentication</a></li>
+<li><a class="reference internal" href="#radius-authentication">RADIUS authentication</a></li>
+<li><a class="reference internal" href="#shibboleth">Shibboleth</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="no_authentication.html"
                         title="previous chapter">No Authentication</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="manage_licences.html"
-                        title="next chapter">Manage Licences</a></p>
+  <p class="topless"><a href="manual_enrolments.html"
+                        title="next chapter">Manual Enrolments</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/other_authentication_types.txt"
@@ -96,7 +189,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="manage_licences.html" title="Manage Licences"
+          <a href="manual_enrolments.html" title="Manual Enrolments"
              >next</a> |</li>
         <li class="right" >
           <a href="no_authentication.html" title="No Authentication"

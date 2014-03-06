@@ -53,6 +53,28 @@
             
   <div class="section" id="email-based-self-registration">
 <span id="id1"></span><h1>Email Based Self Registration<a class="headerlink" href="#email-based-self-registration" title="Permalink to this headline">¶</a></h1>
+<p>The email-based self-registration authentication method enables users to create their own accounts via the &#8216;Create new account&#8217; button on the login page. They then receive an email at the address they specified in their account profile to confirm their account.</p>
+<div class="section" id="enabling-email-based-self-registration">
+<h2>Enabling email-based self-registration<a class="headerlink" href="#enabling-email-based-self-registration" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can enable email-based self-registration in <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em>.</p>
+<p>In addition to enabling the plugin, email-based self-registration must be selected from the self registration drop-down menu in the common settings.</p>
+<p><strong>Warning:</strong> Enabling self registration results in the possibility of spammers creating accounts in order to use forum posts, blog entries etc. for spam. This risk can be minimized by limiting self registration to particular email domains with the allowed email domains setting in <em>Administration &gt; Site administration &gt; Plugins&gt; Authentication &gt; Manage authentication</em>. Alternatively, self registration may be enabled for a short period of time to allow users to create accounts, and then later disabled.</p>
+<p><strong>Note:</strong> The Email-based self-registration authentication plugin must be enabled to allow users who previously self-registered to login. Selecting Email-based self-registration as the self registration method allows potential users to self register.</p>
+<img alt="_images/emailbased.png" src="_images/emailbased.png" />
+</div>
+<div class="section" id="enable-recaptcha-element">
+<h2>Enable reCAPTCHA element<a class="headerlink" href="#enable-recaptcha-element" title="Permalink to this headline">¶</a></h2>
+<p>A CAPTCHA is a program that can tell whether its user is a human or a computer. CAPTCHAs are used by many websites to prevent abuse from bots, or automated programs usually written to generate spam. No computer program can read distorted text as well as humans can, so bots cannot navigate sites protected by CAPTCHAs.</p>
+</div>
+<div class="section" id="email-confirmation-message">
+<h2>Email confirmation message<a class="headerlink" href="#email-confirmation-message" title="Permalink to this headline">¶</a></h2>
+<p>An automated email confirmation message is sent to the user using the support contact email address.</p>
+<p>You can change this text in <em>Administration &gt; Site administration &gt; Language &gt; Language customization</em> by choosing the appropriate language pack. selecting &#8216;moodle.php&#8217; from &#8216;core&#8217; and searching for the string identifier name &#8216;emailconfirmation&#8217; and editing it with a local customization.</p>
+</div>
+<div class="section" id="support-contact">
+<h2>Support contact<a class="headerlink" href="#support-contact" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can specify a support name, email and/or support page in <a href="#id2"><span class="problematic" id="id3">*</span></a>Administration &gt; Site administration &gt; Server &gt; Support contact8 for including in the confirmation email.</p>
+</div>
 </div>
 
 
@@ -61,6 +83,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Email Based Self Registration</a><ul>
+<li><a class="reference internal" href="#enabling-email-based-self-registration">Enabling email-based self-registration</a></li>
+<li><a class="reference internal" href="#enable-recaptcha-element">Enable reCAPTCHA element</a></li>
+<li><a class="reference internal" href="#email-confirmation-message">Email confirmation message</a></li>
+<li><a class="reference internal" href="#support-contact">Support contact</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="no_login.html"
                         title="previous chapter">No Login</a></p>
