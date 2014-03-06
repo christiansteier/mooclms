@@ -2,9 +2,10 @@
 
 Managing Enrolments
 ====================
-To set an enrolment method:
 
 .. image:: _images/manage_enrolplugins.png
+
+To set an enrolment method:
 
   1. Click on *Administration > Site administration > Plugins > Enrolments > Manage enrol plugins*.
   2. Click on the enable checkboxes opposite your chosen enrolment plugin(s). If you wish, you may choose more than one enrolment method. For example if you have some courses which students must pay for and some free courses, you can use PayPal and self enrolment.
