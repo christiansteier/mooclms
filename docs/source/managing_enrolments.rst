@@ -14,4 +14,3 @@ To set an enrolment method:
   6. Repeat until you have edited all the plugins you have enabled. 
 
 The order in which enrolment plugins are applied can be set. This may be important for some plugins. It also affects the order of enrolment options on the course enrol page. 
-
