@@ -5,8 +5,8 @@ Category enrolments
 The category enrolments plugin allows users to be enrolled in a category as opposed to individual courses. The plugin has to be enabled by the site administrator. The category enrolment plugin will synchronise any role assignments at category context with the capability enrol/category:synchronised set to allow.
 
 
-Settings for category enrolment
----------------------------------
+Course Settings for category enrolment
+----------------------------------------
     * Go to the category into which you wish to enrol users. **Note:** You need to have category rights (manager or administrator) 
     * In the *Administration* block,click Assign roles. The list of possible roles you can assign will appear: 
     
