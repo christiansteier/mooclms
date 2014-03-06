@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="Manage Licences" href="manage_licences.html" />
+    <link rel="prev" title="MNet remote enrolments" href="mnet_enrolments.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="manage_licences.html" title="Manage Licences"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="mnet_enrolments.html" title="MNet remote enrolments"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,98 @@
             
   <div class="section" id="paypal">
 <span id="id1"></span><h1>PayPal<a class="headerlink" href="#paypal" title="Permalink to this headline">¶</a></h1>
+<p><strong>Location:</strong> PayPal edit settings link in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em></p>
+<p>The PayPal enrolment plugin allows you to set up paid courses. The plugin has to be enabled by the site administrator (see Enrolment plugins)and then added to the course by an administrator or manager. You can then set an individual price for your course if needed.</p>
+<div class="section" id="course-settings-for-paypal">
+<h2>Course settings for PayPal<a class="headerlink" href="#course-settings-for-paypal" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="checking-you-have-paypal-in-your-course">
+<h3>Checking you have Paypal in your course<a class="headerlink" href="#checking-you-have-paypal-in-your-course" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>In a course, go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em></li>
+<li>If you do not see PayPal, use the pull down menu &#8220;Add method&#8221; and select PayPal.</li>
+<li>Make sure PayPal has its &#8220;eye&#8221; opened:</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="setting-a-price-for-your-course">
+<h3>Setting a price for your course<a class="headerlink" href="#setting-a-price-for-your-course" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>In <em>Administration &gt; Course Administration &gt; Users &gt; Enrolment methods</em>, click the edit/hand/pen icon to the right of the Paypal option.</li>
+<li>Give a name to this enrolment method if you wish in &#8220;Custom Instance name&#8221;. (You don&#8217;t have to!)</li>
+<li>Ensure that &#8220;allow Paypal enrolments&#8221; is set to &#8220;yes&#8221;</li>
+<li>In &#8220;Enrol cost&#8221;, type in the cost of your course and in &#8220;Currency&#8221; choose your currency.</li>
+</ul>
+</div></blockquote>
+<p><strong>Note:</strong> In Moodle 2.5 onwards, all Paypal-supported currencies are available.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Usually you would leave the &#8220;Assign role&#8221; as &#8220;student&#8221; unless you have a very special reason for allowing your users to enrol as, say, editing teachers etc</li>
+<li>Choose an enrolment period and/or start/end dates if desired.</li>
+<li>Click the &#8220;Save changes&#8221; button.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="what-the-new-user-sees">
+<h3>What the new user sees<a class="headerlink" href="#what-the-new-user-sees" title="Permalink to this headline">¶</a></h3>
+<p>When a new user clicks on your course link, having made a login to your Moodle, they will see the following screen, inviting them to go to PayPal to purchase access to your course:</p>
+</div>
+</div>
+<div class="section" id="admin-settings">
+<h2>Admin settings<a class="headerlink" href="#admin-settings" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">If you wish to allow users to make their own accounts on your site then set up Email based self registration</p>
+</li>
+<li><p class="first">Go to <em>Administration &gt; Site Administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em> and enable (open the &#8220;eye&#8221; of Paypal)</p>
+</li>
+<li><dl class="first docutils">
+<dt>Click the blue Settings link to the right of the PayPal enrolment link. Here are the default settings and default settings for new instances in a course:</dt>
+<dd><ol class="first last arabic simple">
+<li>Add the email of your Business PayPal account. The email settings are case sensitive and must exactly match that in PayPal.</li>
+<li>Choose whether to notify students/teachers/admin.</li>
+<li>Choose whether (or not) to allow the Paypal enrolment plugin by default in new courses</li>
+<li>Choose a default cost and currency. (This may be overridden in individual courses)</li>
+<li>Choose a default role assignment. (This means the role that a new user will automatically be given in a course when they purchase access. Usually this would be &#8220;student&#8221; unless you have a special reason for choosing another role.) This may be overridden in individual courses.</li>
+<li>Choose the default enrolment period. This may be overridden in individual courses.</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="what-to-set-up-in-paypal">
+<h2>What to set up in Paypal<a class="headerlink" href="#what-to-set-up-in-paypal" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Setup your PayPal account at paypal.com</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Create a Paypal account</li>
+<li>Not required but recommended for selling: Upgrade your account to &#8220;Premier&#8221; status and get &#8220;Verified&#8221;</li>
+<li>Set the Encoding to UFT-8. In Paypal, go to &#8220;Profile &gt; Language Encoding&#8221; (under the Selling Preferences column) and set your website&#8217;s language (like select &#8220;Western European Languages (including English)&#8221; as it is the only English version). Then click on the &#8220;More Options&#8221; button and set the Encoding to &#8220;UTF-8&#8221;, select &#8220;Yes&#8221; to use the same encoding for data sent from Paypay to you, and save.</li>
+<li>Optionally setup IPN in Paypal to interact with Moodle. Log into Paypal, go to &#8220;Profile &gt; Instant Payment Notifications (IPN)”, click &#8220;Turn On IPN&#8221;, click the &#8220;Edit settings&#8221; and enter a URL that references your IPN file in your Moodle installation (for example: <a class="reference external" href="http:/">http:/</a>/&lt;domain name&gt;/moodle/enrol/paypal/ipn.php)</li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="what-the-user-sees">
+<h2>What the user sees<a class="headerlink" href="#what-the-user-sees" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>If you have allowed users to create their own accounts then when they click to login, they will be presented with a screen Is this your first time here? It will give them instructions for making an account (which may be customised in the authentication common settings in <em>Administration &gt; Site administration &gt; Plugins &gt; Authentication &gt; Manage authentication</em>) and once their account is confirmed via email they can click on a course which can be purchased and pay for it via Paypal. PayPal courses will have a dollar sign icon next to them:</li>
+<li>Once payment is made both the user/student and the teacher/admin should have received emails from Paypal confirming the purchase.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="changing-the-dollar-symbol">
+<h2>Changing the dollar symbol<a class="headerlink" href="#changing-the-dollar-symbol" title="Permalink to this headline">¶</a></h2>
+<p>The default currency symbol for Paypal is a dollar sign. If you are using GBP or Euros or another currency, you can change this by creating your own customised icon with your choice of currency. Make it 16x 16 pixels and call it icon.gif Upload your new icon via FTP to your moodle directory&gt;enrol&gt;paypal&gt;pix. Your icon.gif will override the dollar sign. Make sure you refresh your page to be sure of the changes.</p>
+</div>
 </div>
 
 
@@ -51,6 +153,29 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">PayPal</a><ul>
+<li><a class="reference internal" href="#course-settings-for-paypal">Course settings for PayPal</a><ul>
+<li><a class="reference internal" href="#checking-you-have-paypal-in-your-course">Checking you have Paypal in your course</a></li>
+<li><a class="reference internal" href="#setting-a-price-for-your-course">Setting a price for your course</a></li>
+<li><a class="reference internal" href="#what-the-new-user-sees">What the new user sees</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#admin-settings">Admin settings</a></li>
+<li><a class="reference internal" href="#what-to-set-up-in-paypal">What to set up in Paypal</a></li>
+<li><a class="reference internal" href="#what-the-user-sees">What the user sees</a></li>
+<li><a class="reference internal" href="#changing-the-dollar-symbol">Changing the dollar symbol</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="mnet_enrolments.html"
+                        title="previous chapter">MNet remote enrolments</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="manage_licences.html"
+                        title="next chapter">Manage Licences</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/paypal.txt"
@@ -79,7 +204,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="manage_licences.html" title="Manage Licences"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="mnet_enrolments.html" title="MNet remote enrolments"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">

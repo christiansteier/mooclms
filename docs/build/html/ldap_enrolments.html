@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="Course meta link" href="course_metalink.html" />
+    <link rel="prev" title="IMS Enterprise" href="ims_enterprise.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="course_metalink.html" title="Course meta link"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ims_enterprise.html" title="IMS Enterprise"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,55 @@
             
   <div class="section" id="ldap-enrolments">
 <span id="id1"></span><h1>LDAP enrolments<a class="headerlink" href="#ldap-enrolments" title="Permalink to this headline">¶</a></h1>
+<p><strong>Location:</strong> LDAP edit settings link in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em></p>
+<div class="section" id="how-to-set-up-ldap-enrollment">
+<h2>How to set up LDAP enrollment<a class="headerlink" href="#how-to-set-up-ldap-enrollment" title="Permalink to this headline">¶</a></h2>
+<p>This describes how to set up Lightweight Directory Access Protocol (LDAP) enrollment in Moodle (first written by Lars Jensen). LDAP enrolment works best in Moodle when used in conjunction with LDAP authentication, and we&#8217;re going to assume that you have already set Moodle up for LDAP authentication.</p>
+<div class="section" id="assumptions">
+<h3>Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>You are running a recent version of Moodle.</li>
+<li>You are using LDAP authentication as your primary authentication method.</li>
+<li>Each user in has a uid attribute in the users LDAP record, that matches the ID number in the same users Moodle profile (this can easily be arranged with a mapping on the Moodle LDAP Authentication setup page - for Active Directory, use &#8216;distinguishedName&#8217;, without the quotes)</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="the-course-setup">
+<h3>The Course Setup<a class="headerlink" href="#the-course-setup" title="Permalink to this headline">¶</a></h3>
+<p>Our setup involves the following course and user definitions:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Two courses, Math101 and Eng201.</li>
+<li>Two teachers, TeacherA and TeacherB.</li>
+<li>Three students, StudentD, StudentE, and StudentF.</li>
+<li>StudentD and StudentE are enrolled as students in Math101, and TeacherA is enrolled as teacher of Math101. StudentE and StudentF are enrolled as students in Eng201, and TeacherA and TeacherB are both enrolled as teachers of Eng201.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="the-ldap-container-setup">
+<h3>The LDAP Container Setup<a class="headerlink" href="#the-ldap-container-setup" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Define two LDAP containers ou=StudentEnrollment and ou=TeacherEnrollment</p>
+</li>
+<li><p class="first">For each course we define an LDAP group entry (e.g a posixGroup entry) in the StudentEnrollment and TeacherEnrollment containers. Thus, we define a Math101 posixGroup under StudentEnrollment, and we define a Math101 posixGroup under TeacherEnrollment. We define the two Eng201 groups in a similar way. Be careful, the name of the posixGroup has to match the Course ID number of the Moodle course. Do not use the course short name, it will not work.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Enroll students and teachers as members of in the LDAP-groups we just defined. This is done by entering the users uid attribute (idnumber) in the memberUid attribute of the relevant group:</dt>
+<dd><ul class="first last simple">
+<li>TeacherA is a member of the Math101 group under TeacherEnrollment.</li>
+<li>StudentD and StudentE are a members of the Math101 group under StudentEnrollment.</li>
+<li>TeacherA and TeacherB are members of the Eng201 group under TeacherEnrollment</li>
+<li>StudentE and StudentF are a members of the Eng201 group under StudentEnrollment.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +110,25 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">LDAP enrolments</a><ul>
+<li><a class="reference internal" href="#how-to-set-up-ldap-enrollment">How to set up LDAP enrollment</a><ul>
+<li><a class="reference internal" href="#assumptions">Assumptions</a></li>
+<li><a class="reference internal" href="#the-course-setup">The Course Setup</a></li>
+<li><a class="reference internal" href="#the-ldap-container-setup">The LDAP Container Setup</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ims_enterprise.html"
+                        title="previous chapter">IMS Enterprise</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="course_metalink.html"
+                        title="next chapter">Course meta link</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/ldap_enrolments.txt"
@@ -79,7 +157,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="course_metalink.html" title="Course meta link"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ims_enterprise.html" title="IMS Enterprise"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">

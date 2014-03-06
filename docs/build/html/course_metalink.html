@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="MNet remote enrolments" href="mnet_enrolments.html" />
+    <link rel="prev" title="LDAP enrolments" href="ldap_enrolments.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="mnet_enrolments.html" title="MNet remote enrolments"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ldap_enrolments.html" title="LDAP enrolments"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,48 @@
             
   <div class="section" id="course-meta-link">
 <span id="course-metalink"></span><h1>Course meta link<a class="headerlink" href="#course-meta-link" title="Permalink to this headline">¶</a></h1>
+<p>The Course meta link plugin makes it possible for one course, called a metacourse, to bring in enrolments from other courses. The Course meta link plugin needs to be enabled both on the site level by the site admin and has to be enabled within the course.</p>
+<div class="section" id="metacourse-examples">
+<h2>Metacourse examples<a class="headerlink" href="#metacourse-examples" title="Permalink to this headline">¶</a></h2>
+<p><strong>Examples:</strong> one &#8220;child&#8221; course (a course linked to a meta course) can be associated with many meta courses. Or one meta course can have many child courses associated with it. Both the child courses (non-meta courses) and the meta courses are independent and can be recycled many times, that is, each can be associated with many of the other.</p>
+<div class="section" id="course-settings-for-course-meta-link">
+<h3>Course settings for Course meta link<a class="headerlink" href="#course-settings-for-course-meta-link" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">In a course, go to <em>Administration &gt; Course administration &gt; Users &gt; Enrolment methods</em>.</p>
+</li>
+<li><p class="first">Click the dropdown menu under the enrolment methods and select &#8216;Course meta link&#8217;.</p>
+</li>
+<li><p class="first">In the screen that comes up next, select from the dropdown box the course you wish to bring enrolments from and then click &#8216;Add method&#8217;.</p>
+<p>Note 1: A teacher in a course will only be able to choose from courses they are teachers in elsewhere.
+Note 2: To add more courses, add another instance of the course meta link.</p>
+</li>
+<li><p class="first">The users from the child course will now be enrolled in the current course.</p>
+</li>
+<li><p class="first">When new users are enrolled to the child course, they will be automatically brought into the current metacourse.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="site-settings-for-course-meta-link">
+<h3>Site settings for Course meta link<a class="headerlink" href="#site-settings-for-course-meta-link" title="Permalink to this headline">¶</a></h3>
+<p>The Course meta link plugin may be enabled or disabled throughout the site in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em>.</p>
+<p>The page <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Course meta link</em> contains options for defaults that admin can set. (It can be also be accessed by clicking the Settings link on on the course meta link section of <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em>)</p>
+<p>By default all role assignments from child courses are synchronised to meta courses. However, the &#8220;Roles that are not synchronised to metacourses&#8221; setting enables administrators to exclude particular roles.</p>
+</div>
+<div class="section" id="enabling-teachers-to-add-meta-links">
+<h3>Enabling teachers to add meta links<a class="headerlink" href="#enabling-teachers-to-add-meta-links" title="Permalink to this headline">¶</a></h3>
+<p>An administrator can enable teachers to add course meta links as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Go to <em>Administration &gt; Site Administration &gt; Users &gt; Permissions &gt; Define Roles</em></li>
+<li>Select the Teacher Role and click on the Edit button</li>
+<li>Scroll down to Course Meta Link.</li>
+<li>Scroll to the bottom of the page to save your changes.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +103,25 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Course meta link</a><ul>
+<li><a class="reference internal" href="#metacourse-examples">Metacourse examples</a><ul>
+<li><a class="reference internal" href="#course-settings-for-course-meta-link">Course settings for Course meta link</a></li>
+<li><a class="reference internal" href="#site-settings-for-course-meta-link">Site settings for Course meta link</a></li>
+<li><a class="reference internal" href="#enabling-teachers-to-add-meta-links">Enabling teachers to add meta links</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ldap_enrolments.html"
+                        title="previous chapter">LDAP enrolments</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="mnet_enrolments.html"
+                        title="next chapter">MNet remote enrolments</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/course_metalink.txt"
@@ -79,7 +150,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="mnet_enrolments.html" title="MNet remote enrolments"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ldap_enrolments.html" title="LDAP enrolments"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">

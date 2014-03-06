@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="IMS Enterprise" href="ims_enterprise.html" />
+    <link rel="prev" title="External database" href="external_database.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="ims_enterprise.html" title="IMS Enterprise"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="external_database.html" title="External database"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,30 @@
             
   <div class="section" id="flat-file">
 <span id="id1"></span><h1>Flat file<a class="headerlink" href="#flat-file" title="Permalink to this headline">¶</a></h1>
+<p><strong>Location:</strong> Flat file edit settings link in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments &gt; Manage enrol plugins</em></p>
+<p>A flat file allows bulk enrolment management (enrol or unenrol) of existing users in existing course. The file is read one time by Moodle then erased. The file is located in the moodle file structure as a text file and Cron provides the timing when it is read</p>
+<div class="section" id="site-setting-for-flat-file-enrolment">
+<h2>Site setting for flat file enrolment<a class="headerlink" href="#site-setting-for-flat-file-enrolment" title="Permalink to this headline">¶</a></h2>
+<p>The site administrator should edit the settings for a flat file if it is enabled.</p>
+<p>You should specify an absolute path for the upload file (eg /var/moodledata/enrolments.txt) where it can be read and modified by the webserver process.</p>
+<p>You can choose to have an email sent to notify the Administrator, Teachers and/or students when the file has been processed.</p>
+</div>
+<div class="section" id="flat-fle-structure">
+<h2>Flat fle structure<a class="headerlink" href="#flat-fle-structure" title="Permalink to this headline">¶</a></h2>
+<p>The file should be structured with the action, role, user id, and course ID number. Optionally a start time and end time can be added as additional fields.</p>
+<dl class="docutils">
+<dt>Example file:</dt>
+<dd><div class="first last line-block">
+<div class="line">add, student, 5, CF101</div>
+<div class="line">add, teacher, 6, CF101</div>
+<div class="line">add, teacheredit, 7, CF101</div>
+<div class="line">del, student, 8, CF101</div>
+<div class="line">del, student, 17, CF101</div>
+<div class="line">add, student, 21, CF101, 1091115000, 1091215000</div>
+</div>
+</dd>
+</dl>
+</div>
 </div>
 
 
@@ -51,6 +85,21 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Flat file</a><ul>
+<li><a class="reference internal" href="#site-setting-for-flat-file-enrolment">Site setting for flat file enrolment</a></li>
+<li><a class="reference internal" href="#flat-fle-structure">Flat fle structure</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="external_database.html"
+                        title="previous chapter">External database</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ims_enterprise.html"
+                        title="next chapter">IMS Enterprise</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/flat_file.txt"
@@ -79,7 +128,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="ims_enterprise.html" title="IMS Enterprise"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="external_database.html" title="External database"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">

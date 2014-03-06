@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="External database" href="external_database.html" />
+    <link rel="prev" title="Guest Access" href="guest_access.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="external_database.html" title="External database"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="guest_access.html" title="Guest Access"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,29 @@
             
   <div class="section" id="category-enrolments">
 <span id="id1"></span><h1>Category enrolments<a class="headerlink" href="#category-enrolments" title="Permalink to this headline">¶</a></h1>
+<p>The category enrolments plugin allows users to be enrolled in a category as opposed to individual courses. The plugin has to be enabled by the site administrator. The category enrolment plugin will synchronise any role assignments at category context with the capability enrol/category:synchronised set to allow.</p>
+<div class="section" id="course-settings-for-category-enrolment">
+<h2>Course Settings for category enrolment<a class="headerlink" href="#course-settings-for-category-enrolment" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Go to the category into which you wish to enrol users. <strong>Note:</strong> You need to have category rights (manager or administrator)</li>
+<li>In the <em>Administration</em> block,click Assign roles. The list of possible roles you can assign will appear:</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="admin-settings-for-category-enrolment">
+<h2>Admin settings for category enrolment<a class="headerlink" href="#admin-settings-for-category-enrolment" title="Permalink to this headline">¶</a></h2>
+<p>The category enrolment plugin may be enabled or disabled throughout the site in <em>Administration &gt; Site administration &gt; Plugins &gt; Enrolments&gt; Manage enrol plugins</em>.</p>
+<div class="section" id="assigning-teachers-or-students-to-a-category">
+<h3>Assigning teachers or students to a category<a class="headerlink" href="#assigning-teachers-or-students-to-a-category" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>By default, only managers and course creators can be assigned category-wide. If you want to add teachers or students then the site administrator needs to tick the &#8220;category&#8221; box in their role in <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em>.</li>
+<li>To ensure they will be automatically assigned as teachers/students in any new courses you make, the administrator needs to set to &#8220;allow&#8221; the capability enrol/category:synchronised for the role in question in <em>Administration &gt; Site Administration &gt; Users &gt; Permissions &gt; Define roles</em>.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +84,24 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Category enrolments</a><ul>
+<li><a class="reference internal" href="#course-settings-for-category-enrolment">Course Settings for category enrolment</a></li>
+<li><a class="reference internal" href="#admin-settings-for-category-enrolment">Admin settings for category enrolment</a><ul>
+<li><a class="reference internal" href="#assigning-teachers-or-students-to-a-category">Assigning teachers or students to a category</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="guest_access.html"
+                        title="previous chapter">Guest Access</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="external_database.html"
+                        title="next chapter">External database</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/category_enrolments.txt"
@@ -79,7 +130,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="external_database.html" title="External database"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="guest_access.html" title="Guest Access"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">

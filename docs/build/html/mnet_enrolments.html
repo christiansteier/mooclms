@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="PayPal" href="paypal.html" />
+    <link rel="prev" title="Course meta link" href="course_metalink.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="paypal.html" title="PayPal"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="course_metalink.html" title="Course meta link"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,47 @@
             
   <div class="section" id="mnet-remote-enrolments">
 <span id="mnet-enrolments"></span><h1>MNet remote enrolments<a class="headerlink" href="#mnet-remote-enrolments" title="Permalink to this headline">¶</a></h1>
+<p>MNet remote enrolments allows a remote MNet host to enrol their users into our courses.</p>
+<div class="section" id="setting-up-enrolments">
+<h2>Setting up enrolments<a class="headerlink" href="#setting-up-enrolments" title="Permalink to this headline">¶</a></h2>
+<p>Say I want administrators on &#8216;Site A&#8217; to be able to enrol their users to courses &#8216;Site B&#8217; I need to take the following steps. Note you need to set up Site B first before enrolling users to it.</p>
+<div class="section" id="pre-requisites">
+<h3>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>At least 2 networked peers</li>
+<li>Mnet Authentication plug-in enabled</li>
+<li>Mnet Enrolment plug-in enabled</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="enabling-a-course-for-peer-enrolments-site-b">
+<h3>Enabling a course for peer enrolments (Site B)<a class="headerlink" href="#enabling-a-course-for-peer-enrolments-site-b" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Go into the course that you want to enable on &#8216;Site B&#8217;.</li>
+<li>Go to <em>Administration &gt; Course administration -&gt; Enrolment Methods</em> and add an Mnet enrolment instance linked to &#8216;Site A&#8217;</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="enrolling-users-site-a">
+<h3>Enrolling Users (Site A)<a class="headerlink" href="#enrolling-users-site-a" title="Permalink to this headline">¶</a></h3>
+<p>Note this will only work for system users with moodle/site:config capability</p>
+<blockquote>
+<div><ul class="simple">
+<li>Go to <em>Networking -&gt; Remote enrolment clients</em></li>
+<li>Choose Edit Enrolments in the action column for Site B</li>
+<li>Select Edit Enrolments in the Action column of the appropriate course (use refresh if not there)</li>
+<li>Enrol the relevant users</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="accessing-the-course">
+<h3>Accessing the course<a class="headerlink" href="#accessing-the-course" title="Permalink to this headline">¶</a></h3>
+<p>The users that were enrolled will now have access to the remote site. the links will appear in the &#8216;My Courses&#8217; area and &#8216;Course Overview&#8217; block but not in the Navigation block under &#8216;Courses&#8217;.</p>
+<p>The get_my_remotecourses() function can be used to work with these elsewhere .</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +102,26 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">MNet remote enrolments</a><ul>
+<li><a class="reference internal" href="#setting-up-enrolments">Setting up enrolments</a><ul>
+<li><a class="reference internal" href="#pre-requisites">Pre-requisites</a></li>
+<li><a class="reference internal" href="#enabling-a-course-for-peer-enrolments-site-b">Enabling a course for peer enrolments (Site B)</a></li>
+<li><a class="reference internal" href="#enrolling-users-site-a">Enrolling Users (Site A)</a></li>
+<li><a class="reference internal" href="#accessing-the-course">Accessing the course</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="course_metalink.html"
+                        title="previous chapter">Course meta link</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="paypal.html"
+                        title="next chapter">PayPal</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/mnet_enrolments.txt"
@@ -79,7 +150,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="paypal.html" title="PayPal"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="course_metalink.html" title="Course meta link"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
