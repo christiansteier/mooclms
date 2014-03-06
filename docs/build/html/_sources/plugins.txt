@@ -136,7 +136,7 @@ Filters
    :maxdepth: 1
  
    manage_filters
-   common_filter_settings
+   filter_settings
    
    
 Repositories

@@ -23,7 +23,10 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" /> 
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="Manage repositories" href="manage_repositories.html" />
+    <link rel="prev" title="Manage filters" href="manage_filters.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,7 +35,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="manage_repositories.html" title="Manage repositories"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="manage_filters.html" title="Manage filters"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -43,6 +53,25 @@
             
   <div class="section" id="common-filter-settings">
 <span id="filter-settings"></span><h1>Common filter settings<a class="headerlink" href="#common-filter-settings" title="Permalink to this headline">¶</a></h1>
+<p>A site administrator can change the following settings in Settings &gt; Site administration &gt; Filters &gt; Common filter settings:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Text cache lifetime - Text filters can take a lot of processor power to analyse. If you have a large number of courses, the filters may slow your system. The text cache lifetime determines how often the filters run. If you set them to run too frequently, your system may slow down. If you set them to run too infrequently, analysing new content will take too long and users will notice. You should experiment to find the correct amount of time for your server.</li>
+<li>Filter uploaded files - This setting enables uploaded files (HTML and text only) to be processed by the filters system. You can choose to have none, only HTML or all files filtered.</li>
+<li>Filter match once per page - This setting effects the glossary, activity and resource linking filters. If set to yes, only the first match on the complete page will be converted to a link. All others will be ignored.</li>
+<li>Filter match once per text - This setting effects the glossary, activity and resource linking filters. If set to yes, only the first match in a discrete block of text will be converted to a link. All others in that text block will be ignored.</li>
+<li>Filter all strings - The filter all strings common filter setting in Moodle 1.9 (which only worked for the multi-language filter) has been replaced by the &#8216;Apply to&#8217; setting in Manage filters.</li>
+</ul>
+</div></blockquote>
+<div class="section" id="file-activity-module-setting">
+<h2>File activity module setting<a class="headerlink" href="#file-activity-module-setting" title="Permalink to this headline">¶</a></h2>
+<p>A site administrator can change the following setting in Settings &gt; Site administration &gt; Plugins &gt; Activity modules &gt; File:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Use filters on file content - This applies to content in HTML pages.</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +80,20 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Common filter settings</a><ul>
+<li><a class="reference internal" href="#file-activity-module-setting">File activity module setting</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="manage_filters.html"
+                        title="previous chapter">Manage filters</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="manage_repositories.html"
+                        title="next chapter">Manage repositories</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/filter_settings.txt"
@@ -79,7 +122,14 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li> 
+        <li class="right" >
+          <a href="manage_repositories.html" title="Manage repositories"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="manage_filters.html" title="Manage filters"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
