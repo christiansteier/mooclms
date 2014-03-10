@@ -53,6 +53,47 @@
             
   <div class="section" id="chat">
 <span id="chat-settings"></span><h1>Chat<a class="headerlink" href="#chat" title="Permalink to this headline">¶</a></h1>
+<p>The chat module has additional settings which may be changed by an administrator in <em>Administration &gt; Site administration &gt; Plugins &gt; Activity modules &gt; Chat</em>. They depend on the chat method which has been selected.</p>
+<div class="section" id="chat-method-you-can-select-the-any-default-chat-method">
+<h2>Chat method  -  you can select the any default chat method.<a class="headerlink" href="#chat-method-you-can-select-the-any-default-chat-method" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ajax">
+<h2>Ajax<a class="headerlink" href="#ajax" title="Permalink to this headline">¶</a></h2>
+<p>This is the default method. It works everywhere but if many people are chatting it can put a large load on the server. Its particular settings are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Refresh user list - choose the number of seconds after which the user list is refreshed</li>
+<li>Disconnect timeout - choose the number of seconds after which we detect a user has disconnected.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="normal-method">
+<h2>Normal method<a class="headerlink" href="#normal-method" title="Permalink to this headline">¶</a></h2>
+<p>The particular settings for this method are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Refresh room - choose the number of seconds after which the room is refreshed</li>
+<li>Update method - choose how to update the chatroom - &#8220;Keep alive&#8221; or &#8220;Stream&#8221; strategy. Stream works better but your sever might not support it.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="chat-server-daemon">
+<h2>Chat server daemon<a class="headerlink" href="#chat-server-daemon" title="Permalink to this headline">¶</a></h2>
+<p>A daemon is a program that runs all the time in the background. In this case it&#8217;s a PHP script, listening to a particular port on your server, accepting and giving out chat information.If you intend to use the chat activity a lot, then you should consider using a chat server daemon to reduce server load.Its particular settings are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Server name</li>
+<li>Server IP address</li>
+<li>Server port</li>
+<li>Max users</li>
+</ul>
+</div></blockquote>
+<p>Then you need to start the chat daemon script from the command line:</p>
+<div class="line-block">
+<div class="line">cd moodle/mod/chat</div>
+<div class="line">php chatd.php &#8211;start &amp;</div>
+</div>
+</div>
 </div>
 
 
@@ -61,6 +102,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Chat</a><ul>
+<li><a class="reference internal" href="#chat-method-you-can-select-the-any-default-chat-method">Chat method  -  you can select the any default chat method.</a></li>
+<li><a class="reference internal" href="#ajax">Ajax</a></li>
+<li><a class="reference internal" href="#normal-method">Normal method</a></li>
+<li><a class="reference internal" href="#chat-server-daemon">Chat server daemon</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="book_settings.html"
                         title="previous chapter">Book</a></p>
