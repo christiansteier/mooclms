@@ -1,4 +1,4 @@
-.. _folder:
+.. _folder_settings:
 
 Folder
 =======
