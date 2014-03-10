@@ -24,6 +24,7 @@ The particular settings for this method are:
 Chat server daemon
 ^^^^^^^^^^^^^^^^^^^
 A daemon is a program that runs all the time in the background. In this case it's a PHP script, listening to a particular port on your server, accepting and giving out chat information.If you intend to use the chat activity a lot, then you should consider using a chat server daemon to reduce server load.Its particular settings are:
+    
     * Server name
     * Server IP address
     * Server port
