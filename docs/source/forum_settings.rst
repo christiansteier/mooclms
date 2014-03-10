@@ -30,8 +30,6 @@ With this option set, "Forced" will be an option for "Read tracking" when creati
 
 This setting can place additional load on servers. With this setting disabled, users who set their profile setting to not track read posts see faster load times of courses pages. With this setting enabled, that performance increase is lost, and all course views see the same performance as if the users personal setting was on.
 
-When disabled, any forums previously set to "Forced" (or "On" prior to Moodle 2.6) will be treated as optional. 
-
 Mark post read after 'X' days
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This setting is forum_oldpostdays and specifies the number of days after which any post is considered to be read. E.g. If this is set to 14 days then any post older than 14 days will be considered read. If you set this to 0 then ALL posts are instantly considered to be read. If you don't want any posts to be considered read without the user reading them then set a high figure (e.g. 1000) 
