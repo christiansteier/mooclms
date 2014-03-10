@@ -10,6 +10,8 @@ Site administration settings
 -----------------------------
 To aid with styling the block, an administrator can, from *Administration > Site administration > Plugins > Blocks > HTML*, toggle the ability to allow additional CSS classes to be set in individual block instances. If it is enabled, a field appears at the bottom of HTML block instance's configuration forms.
 
+.. image:: _images/html_settings.png
+
 Please note that if additional CSS classes have been added and the administration setting is then disabled, the form settings are saved in the database and will reappear if this is re-enabled. 
 
 Adding a Twitter feed block
