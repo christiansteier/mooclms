@@ -23,6 +23,8 @@ Available display options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 This setting allows you to add different ways the resource may be displayed on the course page. There are a number of defaults but you can add or change them here. Other display options are:
 
+.. image:: _images/display_setting.png
+
     * In frame - show the Moodle heading and the file description, with the file displayed in a resizeable area below
     * New window - very much like 'in pop-up', but the new window is a full browser window, with menus and address bar, etc. 
 
