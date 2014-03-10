@@ -43,6 +43,108 @@
             
   <div class="section" id="using-calendar">
 <span id="id1"></span><h1>Using Calendar<a class="headerlink" href="#using-calendar" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="adding-an-event">
+<h2>Adding an event<a class="headerlink" href="#adding-an-event" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>To add a calendar event</dt>
+<dd><ol class="first last arabic">
+<li><p class="first">Click month on Calendar to get an expanded month view.</p>
+</li>
+<li><p class="first">In Calendar view click the New Event button.</p>
+</li>
+<li><dl class="first docutils">
+<dt>On a New Event page select the type of event.</dt>
+<dd><ul class="first last simple">
+<li>A User Event will only be visible by the user currently logged in (i.e. the one creating the event).</li>
+<li>A Group Event will be visible to a particular Group on the course (chosen from a drop-down list).</li>
+<li>A Course Event will be visible to participants on the course in question. Only users with the capability to manage calendar entries at the course level can add course events.</li>
+<li>A Site Event is a &#8220;global&#8221; event - visible in every course and on the calendar on the home page. Only users with the capability to manage calendar entries at the system level can add site events.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Set the event properties.</p>
+</li>
+<li><p class="first">Click Save changes.</p>
+</li>
+</ol>
+</dd>
+</dl>
+<p>The different types of events can be visually filtered.</p>
+<p>For example, if you (as a teacher) wanted to hide Group event dates (events assigned to learner Groups you create), click &#8220;Group events&#8221; on the bottom of the Calendar. This would hide all group events, and the color code would disappear from the link on the calendar. To show the events again, click the Group Events link again. This can make the calendar easier to read (especially if there are many events on the calendar).</p>
+<p>Other features</p>
+<blockquote>
+<div><ul class="simple">
+<li>Adding closing dates to course activities — assignments, quizzes etc. will cause them to show up in the calendar block as course events.</li>
+<li>View previous or future months.</li>
+<li>Current date is outlined.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="calendar-export">
+<h2>Calendar export<a class="headerlink" href="#calendar-export" title="Permalink to this headline">¶</a></h2>
+<p>Moodle allows users to export calendars so they may be imported into other calendar programs, as a backup or to create a copy. The Moodle export process creates an ics file</p>
+<p>There are two ways to create the ics file: creating an ics file for immediate downloading to a computer, or creating a url link that will create a defined calendar from a link without actually logging into the site.</p>
+<p>At the bottom of a calendar page you will see the &#8220;Export calendar&#8221; and &#8220;iCal&#8221; links.</p>
+<div class="section" id="ical-quick-link">
+<h3>iCal quick link<a class="headerlink" href="#ical-quick-link" title="Permalink to this headline">¶</a></h3>
+<p>Click on the &#8220;iCal&#8221; link at the bottom of the Moodle calendar to show a &#8220;Opening icalexport.ics&#8221; popup window. Here you can save the file to your local computer or open it with MS Outlook.</p>
+<p><strong>Note:</strong> you cannot select individual items to include in the exported file with iCal, all events will be included.</p>
+</div>
+<div class="section" id="export-option-for-an-ics-file">
+<h3>Export option for an ics file<a class="headerlink" href="#export-option-for-an-ics-file" title="Permalink to this headline">¶</a></h3>
+<p>Click on the &#8220;Export calendar&#8221; button at the bottom of a calendar will bring you to the Export page with options.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select &#8220;All events&#8221; or &#8220;Events related to courses&#8221;</li>
+<li>Select the time frame: &#8220;This week&#8221;, &#8220;This month&#8221;, &#8220;Recent and next 60 days&#8221; or a custom range. The range can be set from <em>Administration &gt; Site administration &gt; Appearance &gt; Calendar</em>.</li>
+</ol>
+</div></blockquote>
+<p>Now you have a choice to create an icalexport.ics file or to create a url that will create the icslexport.ics file via a link.</p>
+<img alt="_images/export_calendar.png" src="_images/export_calendar.png" />
+<p>Click on the &#8220;Export&#8221; button will bring up a &#8220;Opening icalexport.ics&#8221; popup window. Either save the file or have MS Outlook open the file directly.</p>
+</div>
+<div class="section" id="url-file">
+<h3>URL file<a class="headerlink" href="#url-file" title="Permalink to this headline">¶</a></h3>
+<p>After pressing the &#8220;Export calendar&#8221; button at the bottom of the calendar page, select the events and time frames you wish. The &#8220;Get URL address&#8221; button will create a URL address. Copy and paste the url link into an email or any HTML page. This link will compile the icalexport.ics file. For example:</p>
+<blockquote>
+<div>Calendar URL: <a class="reference external" href="http://localhost:8888/mooclms/calendar/export_execute.php?userid=2&amp;authtoken=40b5b93bf6a88864de61f10066422ddc7297295f&amp;preset_what=all&amp;preset_time=weeknow">http://localhost:8888/mooclms/calendar/export_execute.php?userid=2&amp;authtoken=40b5b93bf6a88864de61f10066422ddc7297295f&amp;preset_what=all&amp;preset_time=weeknow</a></div></blockquote>
+</div>
+</div>
+<div class="section" id="importing-moodle-calendar-into-other-calendars">
+<h2>Importing Moodle calendar into other calendars<a class="headerlink" href="#importing-moodle-calendar-into-other-calendars" title="Permalink to this headline">¶</a></h2>
+<p><strong>Mozilla Thunderbird/Lightning</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>Enter into calendar mode by clicking the Calendar icon at the bottom-right of the client</li>
+<li>Click Calendar -&gt; Import... then locate the exported iCal file</li>
+</ul>
+</div></blockquote>
+<p><strong>Note:</strong> changing an event in Thunderbird/Lightning will not change the event in a Moodle calendar as well, you must do that yourself.</p>
+<p><strong>Subscribing to a calendar in Outlook 2007</strong></p>
+<p>If you use an Outlook 2007 calendar, you can have your Moodle calendar events overlaid on top (or placed side by side) by following these steps:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to the calendar view in your Moodle install and find the orange ical icon at the bottom and right click it, choosing &#8220;copy link location&#8221;. This link will permanently subscribe to the calendar events for the currently logged in user.</li>
+<li>Open Outlook 2007 and go to <em>Tools &gt; Account settings &gt; Internet calendars &gt; New</em>.</li>
+<li>Paste in the address you copied from Moodle.</li>
+<li>Click OK and close.</li>
+<li>You should now see another calendar available on the left hand calendar bar, underneath &#8216;My Calendars&#8217;. Enable this and Outlook will update the calendar every time it opens.</li>
+<li>Right-click on the tabs to choose between &#8216;side by side mode&#8217; and &#8216;overlay mode&#8217;.</li>
+</ol>
+</div></blockquote>
+<p><strong>Google calendar</strong>
+In Moodle, after pressing the &#8220;Export calendar&#8221; button at the bottom of the calendar page, select the events and time frames you wish. The &#8220;Get URL address&#8221; button will create a URL address.</p>
+<p>In Google Calendar&#8217;s &#8220;Other calendars&#8221; menu, choose &#8220;Add by URL&#8221; and supply the URL generated in the process described above. This version of the Google calendar will update whenever changes are made in the source Moodle calendar (including new, changed or deleted events), although it may take several hours for the changes to appear.</p>
+<p>Note that this may be more or less useful. The calendar will be relative to the Moodle user. That is, if the user who generates the URL is enrolled in several courses, it is this information that will appear in the calendar. There is no way (at this time) to generate a URL that only applies to one course.</p>
+<p>One-time import (future updates in Moodle won&#8217;t appear)</p>
+<p>In Moodle create an export file (icalexport.ics, as detailed above) and save it on your computer.</p>
+<p>In Google Calendar, use the settings link (usually near the sign out and help links) and select the settings tab. This will bring up the &#8220;Import Calendar&#8221; pop up window. Select the file to import and the Google Calendar the file should be imported into. Note that this method doesn&#8217;t allow new (or modified) events from the Moodle calendar to appear in the Google calendar, unless you repeat this process. See the Dynamic Link method above.</p>
+</div>
+<div class="section" id="imorting-mutiple-events">
+<h2>Imorting mutiple events<a class="headerlink" href="#imorting-mutiple-events" title="Permalink to this headline">¶</a></h2>
+<p>See <em class="xref std std-ref">Calendar import</em> for details of how to import external calendars (such as Google Calendar, or a calendar from another Moodle site) into Moodle&#8217;s calendar.</p>
+</div>
 </div>
 
 
@@ -51,6 +153,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using Calendar</a><ul>
+<li><a class="reference internal" href="#adding-an-event">Adding an event</a></li>
+<li><a class="reference internal" href="#calendar-export">Calendar export</a><ul>
+<li><a class="reference internal" href="#ical-quick-link">iCal quick link</a></li>
+<li><a class="reference internal" href="#export-option-for-an-ics-file">Export option for an ics file</a></li>
+<li><a class="reference internal" href="#url-file">URL file</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#importing-moodle-calendar-into-other-calendars">Importing Moodle calendar into other calendars</a></li>
+<li><a class="reference internal" href="#imorting-mutiple-events">Imorting mutiple events</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/using_calendar.txt"
