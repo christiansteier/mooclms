@@ -6,7 +6,7 @@ The RSS feeds block enables RSS feeds from external websites to be displayed wit
 
 One or more RSS feeds can be added to a course by selecting them from an existing list. Site and course home pages are common places to place an RSS feed block(s). 
 
-
+.. image:: _images/rss_feed_block.png
 
 Configuring RSS feeds block
 -----------------------------
