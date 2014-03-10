@@ -1,4 +1,4 @@
-.. _forum:
+.. _forum_settings:
 
 Forum
 ======
