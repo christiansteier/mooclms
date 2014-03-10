@@ -38,6 +38,8 @@ iCal quick link
 ^^^^^^^^^^^^^^^^^
 Click on the "iCal" link at the bottom of the Moodle calendar to show a "Opening icalexport.ics" popup window. Here you can save the file to your local computer or open it with MS Outlook.
 
+.. image:: _images/ical_link.png
+
 **Note:** you cannot select individual items to include in the exported file with iCal, all events will be included. 
 
 Export option for an ics file
