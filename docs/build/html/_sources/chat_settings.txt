@@ -36,3 +36,7 @@ Then you need to start the chat daemon script from the command line:
 
    cd moodle/mod/chat
    php chatd.php --start &
+   
+   
+   
+   

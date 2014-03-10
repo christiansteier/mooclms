@@ -53,6 +53,36 @@
             
   <div class="section" id="forum">
 <span id="forum-settings"></span><h1>Forum<a class="headerlink" href="#forum" title="Permalink to this headline">¶</a></h1>
+<p>The forum module has additional settings which may be changed by an administrator in Administration &gt; Site administration &gt; Plugins &gt; Activity modules &gt; Forum and, for &#8216;Maximum time to edit posts&#8217;, in <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em>.</p>
+<div class="section" id="use-email-address-in-reply">
+<h2>Use email address in reply<a class="headerlink" href="#use-email-address-in-reply" title="Permalink to this headline">¶</a></h2>
+<p>By default, a user&#8217;s email is set as the &#8216;From&#8217; address for forum notifications (unless the user has hidden their email address in their profile) so that recipients can choose to reply personally rather than via the forum. To set <a class="reference external" href="mailto:noreply&#37;&#52;&#48;yourmoodlesite&#46;org">noreply<span>&#64;</span>yourmoodlesite<span>&#46;</span>org</a> as &#8216;From&#8217; address for all forum notification emails, untick the forum_replytouser checkbox.</p>
+</div>
+<div class="section" id="long-and-short-posts">
+<h2>Long and short posts<a class="headerlink" href="#long-and-short-posts" title="Permalink to this headline">¶</a></h2>
+<p>The long and short post setting determine how forum posts on the site front page, social format course pages, and user profiles are displayed.</p>
+</div>
+<div class="section" id="enabling-timed-posts">
+<h2>Enabling timed posts<a class="headerlink" href="#enabling-timed-posts" title="Permalink to this headline">¶</a></h2>
+<p>Timed forum posts may be enabled i.e. having the option to set a display start and end date for a new discussion. Timed posts can then be created by users with the capability to view hidden timed posts (normally admins and teachers).</p>
+</div>
+<div class="section" id="maximum-time-to-edit-posts">
+<h2>Maximum time to edit posts<a class="headerlink" href="#maximum-time-to-edit-posts" title="Permalink to this headline">¶</a></h2>
+<p>This specifies the amount of time people have to re-edit forum postings, glossary comments etc. Usually 30 minutes is a good value. The setting may be changed by an administrator in <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em>.</p>
+</div>
+<div class="section" id="read-tracking">
+<h2>Read tracking<a class="headerlink" href="#read-tracking" title="Permalink to this headline">¶</a></h2>
+<p>Sets the default &#8216;Read tracking&#8217; selection when creating new forums. If &#8216;Forced&#8217; is selected, the &#8216;Allow forced read tracking&#8217; checkbox (below) must be ticked, otherwise &#8216;Optional&#8217; will be the default setting.</p>
+</div>
+<div class="section" id="allow-forced-read-tracking">
+<h2>Allow forced read tracking<a class="headerlink" href="#allow-forced-read-tracking" title="Permalink to this headline">¶</a></h2>
+<p>With this option set, &#8220;Forced&#8221; will be an option for &#8220;Read tracking&#8221; when creating or editing Forums. Forced forums have read tracking enabled regardless of user preference.</p>
+<p>This setting can place additional load on servers. With this setting disabled, users who set their profile setting to not track read posts see faster load times of courses pages. With this setting enabled, that performance increase is lost, and all course views see the same performance as if the users personal setting was on.</p>
+</div>
+<div class="section" id="mark-post-read-after-x-days">
+<h2>Mark post read after &#8216;X&#8217; days<a class="headerlink" href="#mark-post-read-after-x-days" title="Permalink to this headline">¶</a></h2>
+<p>This setting is forum_oldpostdays and specifies the number of days after which any post is considered to be read. E.g. If this is set to 14 days then any post older than 14 days will be considered read. If you set this to 0 then ALL posts are instantly considered to be read. If you don&#8217;t want any posts to be considered read without the user reading them then set a high figure (e.g. 1000)</p>
+</div>
 </div>
 
 
@@ -61,6 +91,20 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Forum</a><ul>
+<li><a class="reference internal" href="#use-email-address-in-reply">Use email address in reply</a></li>
+<li><a class="reference internal" href="#long-and-short-posts">Long and short posts</a></li>
+<li><a class="reference internal" href="#enabling-timed-posts">Enabling timed posts</a></li>
+<li><a class="reference internal" href="#maximum-time-to-edit-posts">Maximum time to edit posts</a></li>
+<li><a class="reference internal" href="#read-tracking">Read tracking</a></li>
+<li><a class="reference internal" href="#allow-forced-read-tracking">Allow forced read tracking</a></li>
+<li><a class="reference internal" href="#mark-post-read-after-x-days">Mark post read after &#8216;X&#8217; days</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="folder_settings.html"
                         title="previous chapter">Folder</a></p>
