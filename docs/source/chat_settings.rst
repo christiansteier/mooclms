@@ -1,4 +1,4 @@
-.. _chat:
+.. _chat_settings:
 
 Chat
 =====
