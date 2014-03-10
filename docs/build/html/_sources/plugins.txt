@@ -59,7 +59,6 @@ Blocks
    course_overview
    html
    online_users
-   online_users
    remote_rss_feeds
    section_links
    tags

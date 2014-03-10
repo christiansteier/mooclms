@@ -53,6 +53,48 @@
             
   <div class="section" id="manage-blocks">
 <span id="id1"></span><h1>Manage blocks<a class="headerlink" href="#manage-blocks" title="Permalink to this headline">¶</a></h1>
+<p>An administrator can manage Moodle&#8217;s blocks for the site in <em>Administration &gt; Site administration &gt; Plugins &gt; Blocks &gt; Manage blocks</em>, including any contributed blocks that have been added.</p>
+<div class="section" id="instances">
+<h2>Instances<a class="headerlink" href="#instances" title="Permalink to this headline">¶</a></h2>
+<p>The blocks page lists the number of instance for each block. Clicking on a number results in the list of courses containing that block being displayed.</p>
+</div>
+<div class="section" id="version">
+<h2>Version<a class="headerlink" href="#version" title="Permalink to this headline">¶</a></h2>
+<p>Listed with each block is its version number — in the format 2012061700. This is helpful to ensure that you have the latest version of each block.</p>
+</div>
+<div class="section" id="hiding-a-block">
+<h2>Hiding a block<a class="headerlink" href="#hiding-a-block" title="Permalink to this headline">¶</a></h2>
+<p>The hide/show column allows selected blocks to be hidden i.e. they do not appear in any course &#8220;Add a block&#8221; dropdown menu and cannot be used in any course. To hide a block, click the eye icon so that it changes to a closed eye.</p>
+<p>To reduce the length of course &#8220;Add a block&#8221; dropdown menus, you should hide blocks which will not be used, such as mentees (unless you have added a mentor role) and network servers (unless you are using Moodle Networking).</p>
+</div>
+<div class="section" id="protecting-blocks-from-deletion">
+<h2>Protecting blocks from deletion<a class="headerlink" href="#protecting-blocks-from-deletion" title="Permalink to this headline">¶</a></h2>
+<p>By clicking the padlock against a block in this column, you are preventing it from being deleted on the site. The Administration block and Navigation block are already padlocked, as major difficulties arise if these blocks are deleted. Only unlock them if you are absolutely sure you understand the consequences and have alternative settings and navigation features in place.</p>
+</div>
+<div class="section" id="block-deletion">
+<h2>Block deletion<a class="headerlink" href="#block-deletion" title="Permalink to this headline">¶</a></h2>
+<p>Blocks can be deleted using the link in the delete column. There is usually no reason for standard blocks to be deleted (they are usually hidden) However, non-standard blocks may need to be deleted before upgrading.</p>
+<p><strong>Note:</strong> To delete a block completely, in addition to deleting it on the blocks page, you also need to remove/delete the actual block folder from the moodle/blocks folder, otherwise Moodle will reinstall it next time you access the site administration.</p>
+</div>
+<div class="section" id="block-settings">
+<h2>Block settings<a class="headerlink" href="#block-settings" title="Permalink to this headline">¶</a></h2>
+<p>Certain blocks have additional settings, which can be accessed via the links in the settings column.</p>
+<div class="section" id="block-capabilities">
+<h3>Block capabilities<a class="headerlink" href="#block-capabilities" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Manage My home page blocks</li>
+<li>Edit blocks in tags pages</li>
+<li>Manage blocks on own public user profile</li>
+<li>Manage blocks on user profile of other users</li>
+<li>Edit a block&#8217;s settings</li>
+<li>View block</li>
+<li>Manage blocks on a page</li>
+</ul>
+</div></blockquote>
+<p>In addition, every block has an <em>addinstance</em> capability (e.g. block/comments:addinstance) and most blocks also have a <em>myaddinstance</em> capability (e.g. block/comments:myaddinstance) for controlling whether a user with a particular role can add the block to a page or to their My home page respectively.</p>
+</div>
+</div>
 </div>
 
 
@@ -61,6 +103,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manage blocks</a><ul>
+<li><a class="reference internal" href="#instances">Instances</a></li>
+<li><a class="reference internal" href="#version">Version</a></li>
+<li><a class="reference internal" href="#hiding-a-block">Hiding a block</a></li>
+<li><a class="reference internal" href="#protecting-blocks-from-deletion">Protecting blocks from deletion</a></li>
+<li><a class="reference internal" href="#block-deletion">Block deletion</a></li>
+<li><a class="reference internal" href="#block-settings">Block settings</a><ul>
+<li><a class="reference internal" href="#block-capabilities">Block capabilities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="workshop.html"
                         title="previous chapter">Workshop</a></p>
