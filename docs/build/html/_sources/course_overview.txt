@@ -12,5 +12,9 @@ Customising the course order
 -----------------------------
 When a user clicks the "customise this page" button, they can then rearrange their courses by dragging them into different places. They can also choose how many courses they wish to display.
 
+.. image:: _images/myhome1.png
 
+.. image:: _images/myhome2.png
+
+.. image:: _images/myhome3.png
 

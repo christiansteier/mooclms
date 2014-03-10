@@ -53,6 +53,30 @@
             
   <div class="section" id="html">
 <span id="id1"></span><h1>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h1>
+<p>A HTML block is a standard block used to add text, multimedia, widgets etc to a site front page or course page. The title bar may be left blank if desired.</p>
+<p>The block is flexible and can incorporate a variety of functions and uses in the content area. It has the standard Moodle Text editor for formatting text, adding images or creating links, switching to code view and allows any valid HTML mark-up to be used. This enables embedding video, sounds, Flash, and other files which can add unique elements to a course or site page.</p>
+<div class="section" id="site-administration-settings">
+<h2>Site administration settings<a class="headerlink" href="#site-administration-settings" title="Permalink to this headline">¶</a></h2>
+<p>To aid with styling the block, an administrator can, from <em>Administration &gt; Site administration &gt; Plugins &gt; Blocks &gt; HTML</em>, toggle the ability to allow additional CSS classes to be set in individual block instances. If it is enabled, a field appears at the bottom of HTML block instance&#8217;s configuration forms.</p>
+<img alt="_images/html_settings.png" src="_images/html_settings.png" />
+<p>Please note that if additional CSS classes have been added and the administration setting is then disabled, the form settings are saved in the database and will reappear if this is re-enabled.</p>
+</div>
+<div class="section" id="adding-a-twitter-feed-block">
+<h2>Adding a Twitter feed block<a class="headerlink" href="#adding-a-twitter-feed-block" title="Permalink to this headline">¶</a></h2>
+<p>An HTML block can be used to display the latest tweets from any Twitter account.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Log in to Twitter</li>
+<li>Go to <a class="reference external" href="https://twitter.com/settings/widgets/new">https://twitter.com/settings/widgets/new</a></li>
+<li>Enter the Twitter username e.g. moodledev then click the &#8216;Create widget&#8217; button</li>
+<li>In another tab or window add a new HTML block to your Moodle front page or course page</li>
+<li>Configure the new block, adding a title if desired</li>
+<li>Click the &#8216;Edit HTML source&#8217; button (&lt; &gt;) then copy and paste the code provided by Twitter into the HTML source</li>
+<li>Click the &#8216;Save changes&#8217; button</li>
+</ol>
+</div></blockquote>
+<img alt="_images/twitter_feed_block.png" src="_images/twitter_feed_block.png" />
+</div>
 </div>
 
 
@@ -61,6 +85,15 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">HTML</a><ul>
+<li><a class="reference internal" href="#site-administration-settings">Site administration settings</a></li>
+<li><a class="reference internal" href="#adding-a-twitter-feed-block">Adding a Twitter feed block</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="course_overview.html"
                         title="previous chapter">Course overview</a></p>
