@@ -26,6 +26,6 @@ Searching for and embedding a video from youtube
     
 Repository capabilities
 -------------------------
-There is just one capability, Use youtube in file picker, which is allowed for the default authenticated user role. 
+There is just one capability, **Use youtube in file picker**, which is allowed for the default authenticated user role. 
 
 
