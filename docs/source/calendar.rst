@@ -14,23 +14,17 @@ Site administration settings
 ------------------------------
 The following settings can be changed by a site administrator in *Administration > Appearance > Calendar*
 
-**Admins see all**
-Whether admins see all calendar events or just those that apply to themselves.
+**Admins see all** - Whether admins see all calendar events or just those that apply to themselves.
 
-**Time display format**
-Whether a 12 or 24 hour format is used. This setting can be overridden by user preferences.
+**Time display format** - Whether a 12 or 24 hour format is used. This setting can be overridden by user preferences.
 
-**Start of week**
-Default is Sunday.
+**Start of week** - Default is Sunday.
 
-**Weekend days**
-Weekend days are shown in a different colour.
+**Weekend days** - Weekend days are shown in a different colour.
 
-**Days and events to look ahead**
-For determining how many events are listed in the Upcoming Events block. If the Upcoming Events block becomes too long you can reduce the number of days and events to lookahead.
+**Days and events to look ahead** - For determining how many events are listed in the Upcoming Events block. If the Upcoming Events block becomes too long you can reduce the number of days and events to lookahead.
 
-Calendar export**
-The calendar export salt is a random string of characters used for improving of security of authentication tokens used for exporting of calendars. 
+**Calendar export salt** - The calendar export salt is a random string of characters used for improving of security of authentication tokens used for exporting of calendars. 
 
 To know how to use calendar in moodle see :ref:`Using Calendar <using_calendar>` .
 
