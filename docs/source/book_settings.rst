@@ -12,3 +12,4 @@ The administrator can set the default values for chapter formatting, the availab
 
 **Available options for chapter formatting** - site admin can set default options which teacher can choose for displaying chapters and subchapters in the table of contents.
 
+.. image:: _images/book_settings.png
