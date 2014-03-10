@@ -22,23 +22,23 @@ Activity modules
    :maxdepth: 1
    
    manage_activities
-   assignment
-   book
-   chat
-   database
-   folder
-   forum
-   glossary
-   ims_content_package
-   label
-   lesson
-   lti
-   page
-   quiz
-   file
-   scorm
-   url
-   workshop
+   assignment_settings
+   book_settings
+   chat_settings
+   database_settings
+   folder_settings
+   forum_settings
+   glossary_settings
+   ims_content_package_settings
+   label_settings
+   lesson_settings
+   lti_settings
+   page_settings
+   quiz_settings
+   file_settings
+   scorm_settings
+   url_settings
+   workshop_settings
    
    
 Course formats
