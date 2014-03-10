@@ -32,5 +32,5 @@ For determining how many events are listed in the Upcoming Events block. If the 
 Calendar export**
 The calendar export salt is a random string of characters used for improving of security of authentication tokens used for exporting of calendars. 
 
-To know how to use calendar in moodle see :re:`Using Calendar <using_calendar>` .
+To know how to use calendar in moodle see :ref:`Using Calendar <using_calendar>` .
 
