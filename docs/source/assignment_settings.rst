@@ -1,4 +1,4 @@
-.. _assignment:
+.. _assignment_settings:
 
 Assignment
 ===========
