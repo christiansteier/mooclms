@@ -49,6 +49,8 @@ Click on the "Export calendar" button at the bottom of a calendar will bring you
     
 Now you have a choice to create an icalexport.ics file or to create a url that will create the icslexport.ics file via a link.
 
+.. image:: _images/export_calendar.png
+
 Click on the "Export" button will bring up a "Opening icalexport.ics" popup window. Either save the file or have MS Outlook open the file directly. 
 
 URL file
