@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Assignment &mdash; mooclms 2.6.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.6.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="mooclms 2.6.1 documentation" href="index.html" />
+    <link rel="up" title="Plugins" href="plugins.html" />
+    <link rel="next" title="Book" href="book_settings.html" />
+    <link rel="prev" title="Manage Activities" href="manage_activities.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="book_settings.html" title="Book"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="manage_activities.html" title="Manage Activities"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" accesskey="U">Plugins</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="assignment">
+<span id="assignment-settings"></span><h1>Assignment<a class="headerlink" href="#assignment" title="Permalink to this headline">¶</a></h1>
+<p>The assignment module allows teachers to collect work from students, review it and provide feedback including grades. The work students submit is visible only to the teacher and not to the other students unless a a group assignment is selected.</p>
+<div class="section" id="site-administration-settings">
+<h2>Site administration settings<a class="headerlink" href="#site-administration-settings" title="Permalink to this headline">¶</a></h2>
+<p>The following configuration options are available for an administrator under <em>Administration &gt; Site administration &gt; Plugins &gt; Activity modules &gt; Assignment</em>.</p>
+<div class="section" id="id1">
+<h3>Assignment settings<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p><strong>Feedback plugin</strong></p>
+<p>The comments that are pushed to the gradebook from the assignment are limited to a single text only comment. An Administrator can specify which of the feedback plugins will be push comments to the gradebook. On a standard Moodle install the choices are &#8220;Feedback comments&#8221; (default) or &#8220;Feedback file&#8221; but there may be additional options if your Moodle install contains additional feedback plugins.</p>
+<p><strong>Show recent submissions</strong></p>
+<p>This option allows everyone to see notifications of submissions in Recent activity reports and the Recent Activity Block, within a course context. Note that the default for this option is No which means students will not be able to see when classmates have submitted or updated any Assignments.</p>
+<p><strong>Send submission receipt to students</strong></p>
+<p>This switch will enable submission receipts for students. Students will receive a notification every time they successfully submit an assignment.</p>
+<p><strong>Submission Statement</strong></p>
+<p>An administrator can enter text in the box here which will appear when students are about to submit their assignment. If it is left as the default &#8220;No&#8221;, then teachers will have the choice within their own assignments to force this or not.</p>
+<p><strong>Default assignment settings</strong></p>
+<p>The administrator can specify here the default assignment settings which may be set as &#8216;Advanced&#8217; (ie, they will appear when clicking &#8216;Show more&#8217;) or &#8216;Locked&#8217; (ie the teacher cannot change them.)</p>
+</div>
+<div class="section" id="submission-plugins">
+<h3>Submission plugins<a class="headerlink" href="#submission-plugins" title="Permalink to this headline">¶</a></h3>
+<p><strong>Manage assignment submission plugins</strong></p>
+<p>Here you can change the order, check the settings or uninstall a particular submission plugin.</p>
+<p><strong>File submissions</strong></p>
+<p><em>Enabled by default</em> - If set, this submission method will be enabled by default for all new assignments.</p>
+<p><em>Maximum submission size</em> - An Administrator can specify the maximum size of any individual file uploaded within the assignment module across all courses on the site. This limit may be equal to or less than course file upload limit.</p>
+<p><strong>Online text submissions</strong></p>
+<p><em>Enabled by default</em> If set, this submission method will be enabled by default for all new assignments.</p>
+<p><strong>Submission comments</strong></p>
+<p><em>Enabled by default</em> If set, students will be able to send a message to their teacher when submitting their assignment.</p>
+</div>
+<div class="section" id="feedback-plugins">
+<h3>Feedback plugins<a class="headerlink" href="#feedback-plugins" title="Permalink to this headline">¶</a></h3>
+<p><strong>Manage assignment feedback plugins</strong> - Here you can change the order, check the settings or uninstall a particular feedback plugin.</p>
+<p><strong>Feedback comments</strong> - <em>Enabled by default</em> If set, this submission method will be enabled by default for all new assignments.</p>
+<p><strong>Annotate pdf</strong> - Here you can upload stamps for teachers to use when annotating student pdfs. You can also check the ghostscript path. If the default stamps are deleted by accident, they can be found in mod/assign/feedback/editpdf/pix and re-uploaded.</p>
+<p><strong>File feedback</strong> - <em>Enabled by default</em> If set, this submission method will be enabled by default for all new assignments.</p>
+<p><strong>Offline grading worksheet</strong> - <em>Enabled by default</em> If set, this will be enabled by default for all new assignments</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Assignment</a><ul>
+<li><a class="reference internal" href="#site-administration-settings">Site administration settings</a><ul>
+<li><a class="reference internal" href="#id1">Assignment settings</a></li>
+<li><a class="reference internal" href="#submission-plugins">Submission plugins</a></li>
+<li><a class="reference internal" href="#feedback-plugins">Feedback plugins</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="manage_activities.html"
+                        title="previous chapter">Manage Activities</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="book_settings.html"
+                        title="next chapter">Book</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/assignment_settings.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="book_settings.html" title="Book"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="manage_activities.html" title="Manage Activities"
+             >previous</a> |</li>
+        <li><a href="index.html">mooclms 2.6.1 documentation</a> &raquo;</li>
+          <li><a href="plugins.html" >Plugins</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Sakshi.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>
