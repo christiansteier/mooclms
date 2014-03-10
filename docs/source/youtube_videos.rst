@@ -5,9 +5,6 @@ Youtube videos
 The Youtube repository allows users to search from within the HTML/TinyMCE editor for a youtube video which they can then embed without the need for any coding. The option needs to be enabled by the administrator before it is available for teachers and students. 
 *NOTE: If the Youtube website is blocked in your institution then the videos will not display.*
 
-
-
-
 Enabling the Youtube repository
 --------------------------------
     1. Go to *Settings > Site administration > Plugins > Repositories > Manage Repositories*
