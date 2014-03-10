@@ -2,7 +2,7 @@
 
 Section links
 ==============
-The Section links block helps the student or teacher to quickly navigate to a particular topic/week section of the course (depending on whether the course uses either the "Topics" or "Weekly" format. The numbered links displayed within the block are the numbers assigned to the course topic/week sections.(Note that if a section is hidden, its number will display in grey for the teacher and not at all for the student, as with section 5 of the screenshot below.) 
+The Section links block helps the student or teacher to quickly navigate to a particular topic/week section of the course (depending on whether the course uses either the "Topics" or "Weekly" format. The numbered links displayed within the block are the numbers assigned to the course topic/week sections.(Note that if a section is hidden, its number will display in grey for the teacher and not at all for the student, as with section 4 of the screenshot below.) 
 
 .. image:: _images/sectionlink_block.png
 
