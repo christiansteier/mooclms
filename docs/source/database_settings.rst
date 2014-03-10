@@ -1,4 +1,4 @@
-.. _database:
+.. _database_settings:
 
 Database
 =========
