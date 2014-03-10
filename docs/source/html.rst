@@ -25,5 +25,7 @@ An HTML block can be used to display the latest tweets from any Twitter account.
     5. Configure the new block, adding a title if desired
     6. Click the 'Edit HTML source' button (< >) then copy and paste the code provided by Twitter into the HTML source
     7. Click the 'Save changes' button 
+    
+.. image:: _images/twitter_feed_block.png
 
 
