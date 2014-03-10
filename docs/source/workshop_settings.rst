@@ -24,9 +24,11 @@ Grading strategy
 ^^^^^^^^^^^^^^^^^
 Default grading strategy for workshops.
 
-Mode of exaples assessment
+Mode of examples assessment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Default mode of examples assessment in workshops.
+
+.. image:: _images/assessment_mode.png
 
 Number of reviews
 ^^^^^^^^^^^^^^^^^^
