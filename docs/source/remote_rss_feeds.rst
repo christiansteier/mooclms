@@ -46,8 +46,8 @@ Site administration settings
 ------------------------------
 The RSS feeds block has some settings which may be changed by an administrator in *Administration > Site administration > Plugins > Blocks > Remote RSS feeds*.
 
-    block_rss_client_num_entries - The default number of entries to show per feed shown in the block. This can be overridden when you actually set up a block in a course.
-    block_rss_timeout - The time in minutes between a reread of the feed by Moodle. Since some feeds on busy sites can take long to load, it can slow down the load of your course page. Therefore it is wise to set this time rather high, so only every now and then a visitor of your course is the victim of the slow remote server. Time is in minutes here. 
+    * Enteries per feed - The default number of entries to show per feed shown in the block. This can be overridden when you actually set up a block in a course.
+    * Timeout - The time in minutes between a reread of the feed by Moodle. Since some feeds on busy sites can take long to load, it can slow down the load of your course page. Therefore it is wise to set this time rather high, so only every now and then a visitor of your course is the victim of the slow remote server. Time is in minutes here. 
 
 
 
