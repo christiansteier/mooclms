@@ -1,4 +1,4 @@
-.. _book:
+.. _book_settings:
 
 Book
 =====
