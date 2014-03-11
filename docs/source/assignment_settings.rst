@@ -64,6 +64,8 @@ Feedback plugins
 
 **Annotate pdf** - Here you can upload stamps for teachers to use when annotating student pdfs. You can also check the ghostscript path. If the default stamps are deleted by accident, they can be found in mod/assign/feedback/editpdf/pix and re-uploaded. 
 
+.. image:: _images/ghostscriptpath.png
+
 **File feedback** - *Enabled by default* If set, this submission method will be enabled by default for all new assignments. 
 
 **Offline grading worksheet** - *Enabled by default* If set, this will be enabled by default for all new assignments 
