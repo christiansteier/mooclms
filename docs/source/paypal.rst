@@ -27,11 +27,14 @@ Setting a price for your course
     * Usually you would leave the "Assign role" as "student" unless you have a very special reason for allowing your users to enrol as, say, editing teachers etc
     * Choose an enrolment period and/or start/end dates if desired.
     * Click the "Save changes" button. 
+    
+.. image:: _images/paypal_settings.png
 
 What the new user sees
 ^^^^^^^^^^^^^^^^^^^^^^^^
 When a new user clicks on your course link, having made a login to your Moodle, they will see the following screen, inviting them to go to PayPal to purchase access to your course: 
     
+.. image:: _images/paypal_userview.png
 
 Admin settings
 ----------------
