@@ -11,10 +11,14 @@ Checking you have manual enrolment in your course
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     * In a course, go to *Administration > Course administration > Users > Enrolment methods*
     * Make sure Manual enrolments has its "eye" opened. 
-    
+
+.. image:: _images/manual_enrolment.png
+   
 Editing manual enrolment settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Managers (and any other users with the capability enrol/manual:config) can edit the manual enrolment method in the course and set the default enrolment period and default role in *Administration > Course administration > Users > Enrolment methods*. 
+
+.. image:: _images/manual_enrolment2.png
 
 It is possible also for students and/or teachers to be notified when enrolments expire by selecting either "Enroller only" or "Enroller and enrolled user" from the dropdown "Notify before enrolment expires" and a time in "Notification threshold". 
 
@@ -28,6 +32,8 @@ Enrolling users
     5. Browse or search for the user
     6. Click the Enrol button opposite the user. The user will indent in the list and the enrol button will disappear, indicating that the user is enrolled.
     7. When you have finished, click the 'Finish enrolling users' button (or simply close the enrol users box) 
+    
+.. image:: _images/manual_enrolledusers.png
 
 The user will then appear in the list of enrolled users.
 

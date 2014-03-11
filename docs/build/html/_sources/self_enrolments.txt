@@ -10,6 +10,8 @@ Checking self enrolment is enabled
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In a course, go to *Administration > Course administration > Users > Enrolment methods* and ensure the "eye" is opened for self enrolment. 
 
+.. image:: _images/self_enrolment.png
+
 Adding an enrolment key to a course
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you wish only a certain group of users to self enrol (and not anyone) then you can set an enrolment key which you then tell them to use when they access the self-enrolment screen.
