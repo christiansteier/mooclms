@@ -4,8 +4,11 @@ Chat
 =====
 The chat module has additional settings which may be changed by an administrator in *Administration > Site administration > Plugins > Activity modules > Chat*. They depend on the chat method which has been selected.
 
-Chat method  -  you can select the any default chat method.
-^^^^^^^^^^^^ 
+Chat method  
+^^^^^^^^^^^^^
+You can select the any default chat method.
+
+.. image:: _images/chat_method.png
 
 Ajax 
 ^^^^^
