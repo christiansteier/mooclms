@@ -2,6 +2,9 @@
 
 Courses
 ========
+
+.. image:: _images/courses_block.png
+
 The Courses block lists and allows navigation between all of the courses in which the logged in user is enrolled in. The block title shows as "My courses" and allows one-click access to a course's home page. 
 
 There is a also the option to list All courses... available within the Moodle site. This will display a list of course types and a click on one of the types will reveal all the courses in that category. There is also a search all courses option on this page.
