@@ -26,7 +26,7 @@ You need to first enable Networking in *Administration > Site administration > A
         5. Do the equivalent on MoodleB. 
   2. Get user roaming going
   
-  .. image:: _images/networkserver_block.png
+.. image:: _images/networkserver_block.png
   
         1. (Although discussion exists about removing this setting, it is still required as of 2.0.1) [1] ). On both servers:
             a. Go to *Administration > Site administration > Plugins > Authentication > Manage authentication*. Enable MNet Authentication by clicking the 'enable' icon. 
