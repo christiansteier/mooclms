@@ -49,6 +49,8 @@ Single activity format
 -----------------------
 The single activity format only has 1 section, and allows the teacher to add one activity only to the course. When the single activity format is selected, a drop down menu appears for the teacher to choose the activity they wish to use.
 
+.. image:: _images/singleactivity_format.png
+
 **Note:** This course format replaces the SCORM format in earlier versions of Moodle, as it is possible here to select a SCORM package as the single activity.
 
 Single activity format with a forum as the activity and social format are very similar. The only difference is when the course contains other activities. The single activity format displays them as "orphaned" and for teachers only; the social format displays them in an activities block and available for students. 
