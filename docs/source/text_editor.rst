@@ -89,6 +89,10 @@ Insert table
 
 To add borders to a table
 
+.. image:: _images/table1.png
+
+.. image:: _images/table2.png
+
 Cell borders are crucial for helping readers to follow the rows across the screen. If they aren’t showing already you can add them as follows:
 
    1. In the Wiki page containing your table, click its Edit tab
