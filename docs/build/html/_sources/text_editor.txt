@@ -119,11 +119,14 @@ Plugins
 
    * Buttons for equations, emoticons,images, media, automatic linking, and legacy spell-checking may be enabled, disabled or uninstall here by clicking on their eye.
    * Additionally the equation, emoticon and spell check buttons have links to their Settings screens. 
+   
+.. image:: _images/tinymceplugin.png
 
 Manage embedded files
 ^^^^^^^^^^^^^^^^^^^^^^
 This plugin allows users to add, delete or override files embedded in the current text area, for example in a label or topic summary.
 
+.. image:: _images/managefile.png
 
 Insert equation
 ^^^^^^^^^^^^^^^^^
