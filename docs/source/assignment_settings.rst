@@ -33,6 +33,7 @@ An administrator can enter text in the box here which will appear when students 
 
 The administrator can specify here the default assignment settings which may be set as 'Advanced' (ie, they will appear when clicking 'Show more') or 'Locked' (ie the teacher cannot change them.)
 
+.. image:: _images/assignmentdefault.png
 
 Submission plugins
 ^^^^^^^^^^^^^^^^^^^
