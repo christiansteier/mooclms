@@ -11,6 +11,8 @@ The following configuration options are available for an administrator under *Ad
 Assignment settings
 ^^^^^^^^^^^^^^^^^^^^
 
+.. image:: _images/assignment_settings.png
+
 **Feedback plugin**
 
 The comments that are pushed to the gradebook from the assignment are limited to a single text only comment. An Administrator can specify which of the feedback plugins will be push comments to the gradebook. On a standard Moodle install the choices are "Feedback comments" (default) or "Feedback file" but there may be additional options if your Moodle install contains additional feedback plugins.
@@ -31,6 +33,7 @@ An administrator can enter text in the box here which will appear when students 
 
 The administrator can specify here the default assignment settings which may be set as 'Advanced' (ie, they will appear when clicking 'Show more') or 'Locked' (ie the teacher cannot change them.)
 
+.. image:: _images/assignmentdefault.png
 
 Submission plugins
 ^^^^^^^^^^^^^^^^^^^
@@ -60,6 +63,10 @@ Feedback plugins
 **Feedback comments** - *Enabled by default* If set, this submission method will be enabled by default for all new assignments. 
 
 **Annotate pdf** - Here you can upload stamps for teachers to use when annotating student pdfs. You can also check the ghostscript path. If the default stamps are deleted by accident, they can be found in mod/assign/feedback/editpdf/pix and re-uploaded. 
+
+.. image:: _images/ghostscriptpath.png
+
+.. image:: _images/ghostscript_test.png
 
 **File feedback** - *Enabled by default* If set, this submission method will be enabled by default for all new assignments. 
 
