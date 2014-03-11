@@ -4,6 +4,8 @@ Manage blocks
 ==============
 An administrator can manage Moodle's blocks for the site in *Administration > Site administration > Plugins > Blocks > Manage blocks*, including any contributed blocks that have been added.
 
+.. image:: _images/manage_blocks.png
+
 Instances
 ^^^^^^^^^^
 The blocks page lists the number of instance for each block. Clicking on a number results in the list of courses containing that block being displayed. 
