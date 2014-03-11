@@ -13,6 +13,8 @@ Activity modules for which files are available in the server files repository ar
     * Glossary
     * Lesson 
     
+.. image:: _images/server_repos.png
+    
 When a file from the server files repository is re-used elsewhere on Moodle, the teacher has the option to make a copy (a new, unconnected version) or to create a shortcut or alias.
 
 
