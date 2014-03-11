@@ -4,6 +4,8 @@ Moodle Network Authentication
 ==============================
 The Moodle network feature allows a Moodle administrator to establish a link with another Moodle or a Mahara site and to share some resources with the users of that Moodle. Users go from the first Moodle to the linked site via the Network servers block. 
 
+.. image:: _images/networkserver_block.png
+
 Peer to peer Network
 ----------------------
 This is the basic layout of the system. It can be very useful to run one Moodle per faculty or departments, each with its own user management, and yet permit users to roam across the Moodle installs... subject to permissions of course.
