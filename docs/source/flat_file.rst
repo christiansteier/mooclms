@@ -11,6 +11,8 @@ Site setting for flat file enrolment
 --------------------------------------
 The site administrator should edit the settings for a flat file if it is enabled. 
 
+.. image:: _images/flatfile_enrolment.png
+
 You should specify an absolute path for the upload file (eg /var/moodledata/enrolments.txt) where it can be read and modified by the webserver process.
 
 You can choose to have an email sent to notify the Administrator, Teachers and/or students when the file has been processed. 
