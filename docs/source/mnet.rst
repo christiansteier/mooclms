@@ -26,10 +26,11 @@ You need to first enable Networking in *Administration > Site administration > A
         5. Do the equivalent on MoodleB. 
   2. Get user roaming going
   
-.. image:: _images/networkserver_block.png
-  
         1. (Although discussion exists about removing this setting, it is still required as of 2.0.1) [1] ). On both servers:
             a. Go to *Administration > Site administration > Plugins > Authentication > Manage authentication*. Enable MNet Authentication by clicking the 'enable' icon. 
+            
+            .. image:: _images/networkserver_block.png
+            
         2. On MoodleA go to *Administration > Site administration > Networking > (Manage) Peers*, click on 'MoodleB', and click on the 'Services' tab. Enable SSO-IDP (SSO Identity Provider) publish and subscribe, and SSO-SP (SSO Service Provider) publish and subscribe.
         3. Do the equivalent on MoodleB. (By both publishing and subscribing you allow users to move freely between the two servers. By only publishing or subscribing between servers you create a one way traversal)
         4. On both, go to *Administration> Site administration > Users > Permissions > Define Roles*, only roles that have "Roam to a remote Moodle moodle/site:mnetlogintoremote" will be allowed to roam. Grant the privilege as appropriate.
