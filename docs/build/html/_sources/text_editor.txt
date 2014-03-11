@@ -22,6 +22,8 @@ For those who are not familiar with the tool bar, here are the buttons as groupe
 Row 1
 ^^^^^^
 
+.. image:: _images/row1.png
+
 +---------------------------+-------------------+-------------------+----------------+       
 | 1. Expand                 | 2. Formatting     | 3. Bold           | 4. Italic      |
 +---------------------------+-------------------+-------------------+----------------+  
@@ -36,6 +38,8 @@ Row 1
 Row 2
 ^^^^^^
 
+.. image:: _images/row2.png
+
 +------------------------+----------------------+---------------------+-------------------+       
 | 1. Undo                | 2. Redo              | 3. Underline        | 4. Strikethrough  |
 +------------------------+----------------------+---------------------+-------------------+  
@@ -46,9 +50,10 @@ Row 2
 | 13. Background colour  | 14. Left to Right    |  15. Right to Left  |                   |
 +------------------------+----------------------+---------------------+-------------------+  
 
-
 Row 3
 ^^^^^^
+
+.. image:: _images/row3.png
 
 +------------------------+------------------------------+------------------------------+------------------------+       
 | 1. Font family         | 2. Font size                 | 3. Edit HTML                 | 4. Find                |
@@ -57,22 +62,36 @@ Row 3
 +------------------------+------------------------------+------------------------------+------------------------+     
 | 9. Clean up messy code | 10. Remove formatting        | 11. Paste as plain text      | 12. Paste from MS Word |
 +------------------------+------------------------------+------------------------------+------------------------+     
-| 13. Toggle full screen |                              |                              |                        |
+| 13. Toggle full screen |    -                         | -                            |   -                    |
 +------------------------+------------------------------+------------------------------+------------------------+  
 
 
 Colour pickers
 ^^^^^^^^^^^^^^^
+
+.. image:: _images/colorpicker.png
+
 There are four levels of selecting a font or background colour,
 
    * A quick pick 5x8 matrix of colours
    * "More colours" that links to Picker, Pallet and Named tabs 
 
+.. image:: _images/color_selector1.png
+
+.. image:: _images/color_selector2.png
+
+.. image:: _images/color_selector3.png
+
+.. image:: _images/color_selector4.png
 
 Insert table
 ^^^^^^^^^^^^^
 
 To add borders to a table
+
+.. image:: _images/table1.png
+
+.. image:: _images/table2.png
 
 Cell borders are crucial for helping readers to follow the rows across the screen. If they aren’t showing already you can add them as follows:
 
