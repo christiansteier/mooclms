@@ -11,9 +11,13 @@ To enable/disable filters in a course or activity:
     2. Set each filter on or off as required.
     3. Click the 'Save changes' button.
     
+.. image:: _images/manage_filter2.png
 
 Managing filters at site level
 --------------------------------
+
+.. image:: _images/manage_filter1.png
+
 A site administrator can enable filters for the site in *Administration > Site administration > Plugins > Filters > Manage filters*.
 
     * Select 'On' (always available for all courses), 'Off but available' (teachers can choose whether to enable the filter for the course or activity) or 'Disabled' (always off for all courses) as required for each filter. 
