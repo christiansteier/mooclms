@@ -13,6 +13,8 @@ Course settings for guest access
     * Set the drop down to "Yes"
     * If you wish guests to use a password to access the course then add it here.
     
+.. image:: _images/course_guestaccess.png
+    
 Admin settings for guest access
 ---------------------------------
     * In *Administration > Site administration > Plugins > Enrolments > Manage enrol plugins*,ensure Guest access is enabled (has its eye open.) This enables Guest access.
