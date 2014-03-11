@@ -22,6 +22,8 @@ For those who are not familiar with the tool bar, here are the buttons as groupe
 Row 1
 ^^^^^^
 
+.. image:: _images/row1.png
+
 +---------------------------+-------------------+-------------------+----------------+       
 | 1. Expand                 | 2. Formatting     | 3. Bold           | 4. Italic      |
 +---------------------------+-------------------+-------------------+----------------+  
@@ -36,6 +38,8 @@ Row 1
 Row 2
 ^^^^^^
 
+.. image:: _images/row2.png
+
 +------------------------+----------------------+---------------------+-------------------+       
 | 1. Undo                | 2. Redo              | 3. Underline        | 4. Strikethrough  |
 +------------------------+----------------------+---------------------+-------------------+  
@@ -48,6 +52,8 @@ Row 2
 
 Row 3
 ^^^^^^
+
+.. image:: _images/row3.png
 
 +------------------------+------------------------------+------------------------------+------------------------+       
 | 1. Font family         | 2. Font size                 | 3. Edit HTML                 | 4. Find                |
@@ -62,11 +68,21 @@ Row 3
 
 Colour pickers
 ^^^^^^^^^^^^^^^
+
+.. image:: _images/colorpicker.png
+
 There are four levels of selecting a font or background colour,
 
    * A quick pick 5x8 matrix of colours
    * "More colours" that links to Picker, Pallet and Named tabs 
 
+.. image:: _images/color_selector1.png
+
+.. image:: _images/color_selector2.png
+
+.. image:: _images/color_selector3.png
+
+.. image:: _images/color_selector4.png
 
 Insert table
 ^^^^^^^^^^^^^
