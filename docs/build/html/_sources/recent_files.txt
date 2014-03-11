@@ -11,7 +11,11 @@ Using Recent files
     
 *Example 1:* A user clicks the image icon in the text (TinyMCE) editor to upload an image already used in a different course. The Recent files repository will only show image files even though the user might have uploaded files of other types previously. 
 
+.. image:: _images/recent_files1.png
+
 *Example 2:* A user clicks the Moodle media icon to upload a sound file already used in a different course. The Recent files repository will only show media files even though the user might have uploaded files of other types previously. 
+
+.. image:: _images/recent_files2.png
 
 When a recently uploaded file is re-used elsewhere in Moodle, the teacher has the option to make a copy (a new, unconnected version) or to create a shortcut or alias.
 
