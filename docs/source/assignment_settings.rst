@@ -66,6 +66,8 @@ Feedback plugins
 
 .. image:: _images/ghostscriptpath.png
 
+.. image:: _images/ghostscript_test.png
+
 **File feedback** - *Enabled by default* If set, this submission method will be enabled by default for all new assignments. 
 
 **Offline grading worksheet** - *Enabled by default* If set, this will be enabled by default for all new assignments 
