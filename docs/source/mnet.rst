@@ -25,6 +25,9 @@ You need to first enable Networking in *Administration > Site administration > A
         4. On MoodleA go to *Administration > Site administration > Network > Manage peers* - put the URL of MoodleB under "Add New Host" and click Add. The URL should include the directory where your Moodle code is located and may include the protocol as well, for example https://www.mymoodle.org/moodle.
         5. Do the equivalent on MoodleB. 
   2. Get user roaming going
+  
+  .. image:: _images/networkserver_block.png
+  
         1. (Although discussion exists about removing this setting, it is still required as of 2.0.1) [1] ). On both servers:
             a. Go to *Administration > Site administration > Plugins > Authentication > Manage authentication*. Enable MNet Authentication by clicking the 'enable' icon. 
         2. On MoodleA go to *Administration > Site administration > Networking > (Manage) Peers*, click on 'MoodleB', and click on the 'Services' tab. Enable SSO-IDP (SSO Identity Provider) publish and subscribe, and SSO-SP (SSO Service Provider) publish and subscribe.
