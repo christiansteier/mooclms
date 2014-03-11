@@ -11,6 +11,8 @@ The following configuration options are available for an administrator under *Ad
 Assignment settings
 ^^^^^^^^^^^^^^^^^^^^
 
+.. image:: _images/assignment_settings.png
+
 **Feedback plugin**
 
 The comments that are pushed to the gradebook from the assignment are limited to a single text only comment. An Administrator can specify which of the feedback plugins will be push comments to the gradebook. On a standard Moodle install the choices are "Feedback comments" (default) or "Feedback file" but there may be additional options if your Moodle install contains additional feedback plugins.
