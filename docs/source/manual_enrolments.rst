@@ -11,7 +11,9 @@ Checking you have manual enrolment in your course
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     * In a course, go to *Administration > Course administration > Users > Enrolment methods*
     * Make sure Manual enrolments has its "eye" opened. 
-    
+
+.. image:: _images/manual_enrolment.png
+   
 Editing manual enrolment settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Managers (and any other users with the capability enrol/manual:config) can edit the manual enrolment method in the course and set the default enrolment period and default role in *Administration > Course administration > Users > Enrolment methods*. 
