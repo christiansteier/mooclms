@@ -12,6 +12,8 @@ Weekly format
 --------------
 The course is organized week by week, with a clear start date and a finish date. Moodle will create a section for each week of your course. You can add content, forums, quizzes, and so on in the section for each week.
 
+.. image:: _images/weekly_format.png
+
 **TIP:** If you want all your students to work on the same materials at the same time, this would be a good format to choose. 
 
 **NOTE:** Make sure your course start date is correct. If it is not your weeks will have the wrong date on it. This is especially important if you are restoring a course to use with a new section of students. 
@@ -20,6 +22,8 @@ The course is organized week by week, with a clear start date and a finish date.
 Topic format
 --------------
 The course is organised into topic sections that a teacher can give titles to. Each topic section consists of activities, resources and labels.
+
+.. image:: _images/topic_format.png
 
 **TIP:** This is great to use if your course is objective based and each objective may take different amounts of time to complete. An example of this would be scaffolding where the students are building upon the knowledge from earlier topics.
 "Show only one section"
