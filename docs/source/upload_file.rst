@@ -4,7 +4,7 @@ Upload file
 ============
 The Upload a file repository enables users to browse and upload files from their computer into Moodle. Recently uploaded files may be accessed by clicking on the recent files link in the file picker. 
 
-.. image:: _image/uploadafile_repos.png
+.. image:: _images/uploadafile_repos.png
 
 Repository capabilities
 -------------------------
