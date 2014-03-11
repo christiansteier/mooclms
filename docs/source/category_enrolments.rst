@@ -20,3 +20,6 @@ Assigning teachers or students to a category
     * By default, only managers and course creators can be assigned category-wide. If you want to add teachers or students then the site administrator needs to tick the "category" box in their role in *Administration > Site administration > Users > Permissions > Define roles*.
     * To ensure they will be automatically assigned as teachers/students in any new courses you make, the administrator needs to set to "allow" the capability enrol/category:synchronised for the role in question in *Administration > Site Administration > Users > Permissions > Define roles*. 
     
+.. image:: _images/enrolcategorysync1.png
+
+.. image:: _images/enrolcategorysync2.png
