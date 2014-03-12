@@ -13,9 +13,11 @@ Group mode - assignment activity
 When course group mode is turned on and force is set to no, the group mode can be one of three levels on the assignment activity level: no groups, separate groups or visible groups.
 
 **No groups**
+
 There are no groups and all students submit their assignments in one Assignment area 
 
 **Separate groups**
+
 Students submit their assignments within a separate Group based submission area and teachers/trainers can sort submissions by Group or view All Participants. 
 
 **Visible groups**
