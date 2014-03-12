@@ -109,3 +109,196 @@ Note: This requires Ghostscript to be enabled on the server. This can be checked
 **Maximum number of uploaded files**
 
 Here you can decide the maximum number of files which may be uploaded by each learner. (It might be helpful to display the number in the assignment description.) 
+
+**Maximum submission size**
+
+This setting specifies the maximum size per file of each of the files that the students can upload as part of their submission. This maximum upload size may only be equal to or less than the course limit (which in turn may only be equal to or less than the site limit). The maximum size of each file is displayed to students at the point where they upload files. 
+
+Feedback Types
+^^^^^^^^^^^^^^^
+(This setting is collapsed by default) 
+
+**Feedback comments**
+Setting this to yes means that markers can leave feedback comments for each submission. It enables the Feedback Comments column in the grading table.(To access the grading table, click on the assignment activity and then View/Grade all Submissions). Feedback comments are also accessible by clicking on the green tick in the grade column on the grading table. 
+
+**Offline grading worksheet**
+If set to yes, the teacher will have a link to download the grading list as a spreadsheet. They will then be able to enter grades and feedback comments offline.
+
+When the teacher has completed their grading offline, they can then upload the spreadsheet, confirm the changes and the grades and comments will be transferred over into Moodle's gradebook
+
+**Feedback files**
+
+This allows markers to upload files with feedback when marking. These files may be the marked up student assignments, documents with comments, a completed marking guide, or spoken audio feedback. It enables the Feedback Files column in the grading table. (To access the grading table click on the assignment activity and then View/Grade all Submissions)To upload feedback files, click on the green tick in the grade column on the grading table and then upload either with drag and drop or using the File picker.
+
+Feedback is displayed to students on the assignment submission page. 
+
+Uploading multiple feedback files - It is also possible to upload multiple feedback files as a zip, from the dropdown above the grading list:
+
+   1. Download the students' assignments using the "Download all submissions" link from the same dropdown menu;
+   2. Extract the folder offline and add your comments to the student's submissions.Keep the names the same.
+   3. Select the students' submissions and zip them into a new folder. Important: Don't just edit them inside their original folder and re-zip this; it will not work. The folder name does not matter as long as the feedback files have the same names as before.
+   4. Upload this newly zipped folder.
+   5. You will be presented with a confirmation screen displaying your feedback files. 
+
+**Note:** If you zip files on a Mac, you may get a folder included in the zip called _MACOSX_ which needs to be removed otherwise moodle will not recognise the changes in the files. 
+
+Submission settings
+^^^^^^^^^^^^^^^^^^^^
+(This setting is collapsed by default) 
+
+**Require students click submit button**
+
+Students can upload draft versions of the assignment until such time as they are ready to submit.Once they click the submit button they indicate to the teacher that they have finished working on the assignment. In earlier versions of Moodle this was called *"Send for marking"* .)
+
+They can then longer edit their submission. If they need to change it, they must ask the teacher who can revert the assignment to draft status.
+
+To revert to the draft stage, click on the assignment activity and then View/Grade all Submissions. Locate the student and click the action icon in the Edit column. Select Revert the submission to draft.
+
+If this setting is No, then students do not have to to click a submit button and are able to make changes to uploaded files at any time.
+
+If this setting is No but the teacher wishes to grade students work, then you can stop students from making further changes by using Prevent submission changes. Prevent submission changes can also be used in cases where students have neglected to click the Submit button and grading has commenced. To prevent submission changes, click on the assignment activity, then click on the View/Grade all submissions button. On the grading table, locate the student and click the action icon in the Edit column. Select Prevent submission changes.
+
+To do either of these with a number of students, use the With selected menu at the bottom of the grading table
+
+To do either of these with a number of students, use the With selected menu at the bottom of the grading table. 
+
+**Require that students accept the submission statement**
+An administrator can define a "Submission statement", ie, a statement where students promise the work is their own and which they must agree to before submitting their work. This may be done via *Settings > Site administration > Plugins > Activity modules > Assignment*.
+
+If preferred, the available default statement which may be used instead: *This assignment is my own work, except where I have acknowledged the use of the works of other people*
+
+When this setting is enabled, students will have to check a button before they can submit their assignment:
+
+If the administrator has forced the statement throughout the site, a teacher will not have this option in the settings but a student will see the statement when accessing their assignment. 
+
+**Attempts reopened**
+
+This setting allows the teacher to decide how submissions are reopened. The default is "Never", in that students may only submit once. However, a teacher can set this to "Manually" and reopen it themselves for the student to resubmit, or to "Automatically until pass". The student must then keep trying and resubmitting until they get a pass grade. Passing grades are set in the Gradebook. 
+
+**Maximum attempts**
+
+If a student is allowed to resubmit, this setting will determine how many times they can resubmit before they are no longer allowed to do so. (For example, if a student has to keep trying until they get a pass grade, the teacher might decide that ten attempts is enough even though they have not yet passed!) 
+
+Groups submission settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(This setting is collapsed by default) 
+
+**Students submit in groups**
+
+If this box is ticked, then students are able to collaborate on an assignment. This might involve for example, working in the same online text area, or one student uploading an MS Powerpoint which another student downloads, improves and re-uploads to the common assignment area.
+
+When grading, the teacher may choose to give a common grade and feedback to all students in the group or to give individual grades and feedback to each member.
+
+If no groups have been made, then Moodle will make a default group of every student in the course. 
+
+**Require all group members submit**
+
+This setting will only appear if the teacher has ticked the "Require students click submit button" earlier. The assignment will not be classed as "submitted" until all members of the group have made a contribution. When one student has submitted, the other members of the group will be able to see who still has to submit.
+
+**Grouping for student groups**
+
+If a particular grouping is selected here, then the gradebook will display any other groups and non-grouped students in the "default group", while naming the group(s) that are in the chosen grouping. If "none" is selected, then the gradebook will display the names of all groups and put any non-grouped students in the "default group".
+
+Notifications
+^^^^^^^^^^^^^^
+(This setting is collapsed by default) 
+
+**Notify graders about submissions**
+
+Teachers will receive a message (of a type they choose) whenever a student submits an assignment. Please note if you are using the assignment in Groups Mode (eg Separate or Visible Groups), the teacher will need to be a member of the group in order to receive the submission notification.
+
+**Notify graders about late submission**
+
+Teachers will receive a message (of a type they choose)whenever a student submits a late assignment. Please note if you are using the assignment in Groups Mode (eg Separate or Visible Groups), the teacher will need to be a member of the group in order to receive the submission notification. 
+
+
+Grade
+^^^^^^
+(This setting is collapsed by default)
+
+**Grade**
+
+Specify the maximum grade or Scale to be applied to the assignment. If you will not be giving a grade for the assignment, choose No Grade.
+
+**Grading method**
+
+There are 3 options:
+
+  * Simple direct grading (entering a grade or scale item)
+  * :ref:`Marking guide <marking_guide>`
+  * :ref:`Rubric <rubric>` 
+
+**Grade Category**
+
+Any custom Grade Categories that have been created within your site or course will be listed here and will be available for selection. Select the required Grade Category to add this assignment as a Grade item within this Category. 
+
+
+**Blind marking**
+
+If this setting is enabled, then a teacher will not see the names of students who have submitted their assignments. Instead, they will see randomly generated Participant numbers. (The student view of the assignment does not change.) This is also the case if student comments have been enabled. Once they have graded the assignment, it is however possible for teachers to see who submitted what by clicking on "Reveal student identities" in the Assignment settings.
+
+Returning Marks to Students - Because of the nature of blind marking, the students cannot see the final grade until all of the students names have been revealed. This is found in Assignment Settings > Reveal Student Names. However, feedback comments will appear. 
+
+**Use marking workflow**
+
+When set to Yes, teachers will be able to specify the stage they are at in their grading of individual assignments.
+
+One advantage of using marking workflow is that the grades can be hidden from students until they are set to 'Released'. The actual list of steps are:
+
+  * Not marked (the marker has not yet started)
+  * In marking (the marker has started but not yet finished)
+  * Marking completed (the marker has finished but might need to go back for checking/corrections)
+  * In review (the marking is now with the teacher in charge for quality checking)
+  * Ready for release (the teacher in charge is satisfied with the marking but wait before giving students access to the marking)
+  * Released (the student can access the grades/feedback) 
+
+Example use cases
+
+One marker, Marker, wants to release all grades at the same time
+
+  * Marker enables "Use marking workflow"
+  * Marker marks each submission and transitions the grading to "Marking completed" as each submission is graded.
+  * Marker then uses the batch operations to transition all grades to "Released" at the same time. 
+
+Multiple markers,
+
+  * Marker enables "Use marking workflow"
+  * Marker marks each submission and transitions the grading to "Marking completed" as each submission is graded.
+  * Marker then uses the batch operations to transition all grades to "Released" at the same time. 
+
+**Use marking allocation**
+
+If marking workflow (see above) is set to Yes, it is possible to enable marking allocation. This means that teachers can be selected to grade or review the submitted work of specific students. Colleagues can monitor progress through the displayed marking workflow states.
+
+Common module settings
+^^^^^^^^^^^^^^^^^^^^^^^
+See :ref:`Common module settings <common_module_settings>`
+
+Restrict access settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+The :ref:`Restrict access <restrict_access_settings>` area becomes visible in Moodle activities and resource settings if :ref:`Conditional Activities <conditional_activities_settings> have been enabled. 
+
+Locally assigned roles
+^^^^^^^^^^^^^^^^^^^^^^^
+In *Administration > Assignment administration > Locally assigned roles* selected users can be given additional roles in the activity.
+
+Assignment capabilities
+^^^^^^^^^^^^^^^^^^^^^^^^
+  
+  * Export own submission
+  * Grade assignment
+  * Submit assignment
+  * view assignment
+  
+Role permissions for the activity can be changed in *Administration > Assignment administration > Permissions*.
+
+
+
+
+
+
+
+
+
+
+
