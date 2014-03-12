@@ -63,7 +63,7 @@ Availability
 
 Select here the dates you want the database to be visible to students.
 
-**Read only from / to*
+**Read only from / to**
 
 If you wish, select here the dates you want students to be able to see entries in the database but not be able to add their own. For example you could make a database 'available from' January 1st until March 1st, but 'read only' from January 1st to February 1st. This means students can only view entries for a month before being able to add their own.
 
