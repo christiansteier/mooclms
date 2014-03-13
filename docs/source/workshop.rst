@@ -141,12 +141,15 @@ Restrict access/Activity completion
 
 These settings are visible if :ref:`Conditional activities <conditional_activities_settings>` and :ref:`Activity completion <activity_completion_settings>` have been enabled in the site and the course.
 
+.. _set_up_phase:
 
 Set up phase
 --------------
 In order to set the criteria for an assignment, teachers need to fill out an assessment form during the setup phase. Students can view this assessment form in the submission phase and focus on what is important about the task when working on their assignment. In the next phase-the assessment phase, students will assess their peers’ work based on this assessment form.
 
 According to the grading strategy chosen in the grading settings, teachers will get corresponding original assessment form to edit by clicking ‘Edit assessment form’ button in the first page of the workshop setup for the assignment. The grading strategy can be one of *Accumulative grading, Comments, Number of errors or Rubrics*. Teachers can set each criterion in detail in the assessment form.
+
+.. _submission_phase:
 
 Submission phase
 ------------------
