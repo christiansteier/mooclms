@@ -43,6 +43,152 @@
             
   <div class="section" id="scorm">
 <span id="id1"></span><h1>SCORM<a class="headerlink" href="#scorm" title="Permalink to this headline">¶</a></h1>
+<p>The SCORM module enables you (the teacher) to upload any SCORM or AICC package to include in your course.</p>
+<p>SCORM 1.2 is supported in Moodle but SCORM 2004 is not.</p>
+<p>SCORM (Sharable Content Object Reference Model) is a collection of specifications that enable interoperability, accessibility and reusability of web-based learning content. SCORM content can be delivered to learners via any SCORM-compliant Learning Management System (LMS) using the same version of SCORM.</p>
+<div class="section" id="adding-a-scorm-package">
+<h2>Adding a SCORM package<a class="headerlink" href="#adding-a-scorm-package" title="Permalink to this headline">¶</a></h2>
+<p>To add a SCORM package to your course</p>
+<p><strong>Quick method:</strong> (Note - does not work with versions of Internet Explorer earlier than IE10)</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Click the &#8216;Turn editing on&#8217; button at the top right of the course page</li>
+<li>Drag and drop the SCORM package zip file onto the course section where you&#8217;d like it to appear</li>
+<li>Answer &#8216;Add a SCORM package&#8217; to the popup dialogue asking what you want to do with the zip file then click the upload button</li>
+<li>If necessary, edit the title of the file by clicking the pencil icon, or edit other options (see below) by clicking the editing icon</li>
+</ol>
+</div></blockquote>
+<p><strong>Note:</strong> It is currently not yet possible to add AICC packages using the quick method.</p>
+<p><strong>Longer method:</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Click the &#8216;Turn editing on&#8217; button at the top right of the course page</li>
+<li>Click the &#8216;Add an activity or resource&#8217; link in the section you wish to add your SCORM package, then in the activity chooser, select SCORM package then click the Add button (or select &#8216;SCORM package&#8217; from the &#8216;Add an activity&#8217; dropdown menu)</li>
+<li>Enter a name and a description (which may be required or optional according to the admin settings)</li>
+<li>Either drag and drop a SCORM package zip file into the box with an arrow or click the Add button to open the File picker menu in order to choose a file from your computer or a repository</li>
+<li>Select display and other options as required (see below)</li>
+<li>Click the button &#8216;Save and display&#8217; at the bottom of the page</li>
+</ol>
+</div></blockquote>
+<p>You can edit or update the SCORM package later by clicking on the edit icon (usually a hand/pen) or by clicking on its name and then Settings &gt; SCORM/AICC administration &gt; Edit settings.</p>
+<p><strong>Note:</strong> Moodle does not generate SCORM content. Moodle presents the content in SCORM packages to learners, and saves data from learner interactions with the SCORM package</p>
+</div>
+<div class="section" id="scorm-administration-settings">
+<h2>Scorm administration settings<a class="headerlink" href="#scorm-administration-settings" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong></p>
+<p>Whatever you type here will form the link learners click on to access the SCORM package, so it is helpful to give it a name that suggests its purpose.</p>
+<p><strong>Description</strong></p>
+<p>Add a description of your SCORM activity here. Click &#8220;Show editing tools&#8221; to display the rich text editor, and drag the bottom right of the text box out to expand it.</p>
+<p><strong>Display description on the course page</strong></p>
+<p>If this box is ticked, the description will appear on the course page just below the name of the SCORM activity.</p>
+<p><strong>Package</strong></p>
+<p>This setting determines which SCORM package is used by this SCORM activity. Drag and drop or click the icon top left to upload your SCORM package. (Note that you must not unzip the package before upload.)The default (1) is to be able to upload a file. If your admin has added additional options in Site administration&gt;Plugins&gt;Activity modules&gt;SCORM package then these will be available in a dropdown menu. (2)</p>
+<p><strong>Alias/Shortcut</strong></p>
+<p>If you access your SCORM package from a repository (such as File system repository or Private files) you can choose to create an alias/shortcut to it and then set an update frequency to set how often Moodle should check to see if there is an updated zip.</p>
+<p><strong>Selecting an imsmanifest.xml</strong></p>
+<p>It it possible to select the imsmanifest.xml file and have it as an alias/shortcut. To do this, you need to have created a File system repository and, when configuring it, allowed relative files. Extract your SCORM package into a folder there. When clicking on the Add button to add your SCORM package, select the file system repository folder with your SCORM package and browse for and select the imsmanfest.xml file, ensuring you the option to create an alias/shortcut to the file. Save and display.</p>
+<p><strong>Note:</strong> The settings (Type, URL and Auto-update frequency) are only available when configured globally.</p>
+</div>
+<div class="section" id="appearance">
+<h3>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Display package</strong></p>
+<p>Choose from current or new window. Note that if you choose a new window, students need to ensure pop ups are enabled.</p>
+<p><strong>Display course structure on entry page</strong></p>
+<p>If this is enabled then the table of contents of the package will be displayed when the students clicks to access the package.</p>
+<p><strong>Hide navigation buttons</strong></p>
+<p><strong>Display attempt status</strong></p>
+<p>You can choose whether to display a summary of the student&#8217;s attempts on the entry page, on their My home page or both. This setting is helpful when debugging grading issues - working out why a user got a certain grade.</p>
+<p><em>The following settings become visible when &#8220;Show more&#8221; is clicked:</em></p>
+<p><strong>Width</strong></p>
+<p>Stage size width as a css value, either % or pixels. Default is 100%. You can change to a different percentage by putting a % symbol after the number (ex. 80%). You can also set to a pixels value by entering a number higher than 100 (ex. 800).</p>
+<p><strong>Height</strong></p>
+<p>Stage size height as a css value, either % or pixels. Default is 500 pixels. You can change to a percentage by putting a % symbol after the number (ex. 80%). You can also set to a pixels value by entering a number higher than 100 (ex. 800).</p>
+<p><strong>Options</strong></p>
+<p>There is a series of check boxes for:Allow the window to be resized ad scrolled, displaying directory links, location bar, menu bar, toolbar and/or status.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Student skip content structure page</strong> - never, first access, always</li>
+<li><strong>Disable preview mode</strong> - If this option is set to Yes, the Preview button in the view page of a SCORM/AICC Package activity will be hidden. The student can choose to preview (browse mode) the activity or attempt it in the normal mode. When a Learning Object is completed in preview (browse) mode, it&#8217;s marked with browsed icon</li>
+<li><strong>Display course structure in player</strong></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="availability">
+<h3>Availability<a class="headerlink" href="#availability" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>Choose here the dates you wish the SCORM package to be available to students.</p>
+</div>
+<div class="section" id="grade">
+<h3>Grade<a class="headerlink" href="#grade" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Grading method</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Learning Objects</strong> - This mode shows the number of completed/passed Learning Objects for the activity. The max value is the number of Package&#8217;s Learning Objects. Tip: If your SCORM package does report cmi.core.lesson_status, and does not report cmi.core.score.raw, then you should use this setting.</li>
+<li><strong>Highest grade</strong> - The grade page will display the highest score obtained by users in all passed Learning Objects. Tip: If your SCORM package does report cmi.core.score.raw, and does not report cmi.core.lesson_status, then you should use this setting, Average grade, or Sum grade.</li>
+<li><strong>Average grade</strong> - If you choose this mode Moodle will calculate the average of all scores.</li>
+<li><strong>Sum grade</strong> - With this mode all the scores will be added.</li>
+</ul>
+</div></blockquote>
+<p><strong>Maximum grade</strong></p>
+<p>Not applicable if Grading Method is Learning objects. Usual setting is 100. If your SCO &#8216;s high score is something other than 100, you should adjust this value appropriately. When grading Method is one of the score settings, then the gradebook grade is package score divided by this number.</p>
+</div>
+<div class="section" id="attempts-management">
+<h3>Attempts management<a class="headerlink" href="#attempts-management" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p><strong>Number of attempts</strong></p>
+<p>Defines the number of attempts permitted to users. It works only with SCORM 1.2 and AICC packages. SCORM2004 has its own max attempts definition.</p>
+<blockquote>
+<div><ul class="simple">
+<li>The option to start a new attempt is provided by a checkbox above the Enter button on the content structure page, so be sure you&#8217;re providing access to that page if you want to allow more than one attempt.</li>
+<li>An attempt is not complete until the cmi.core.lesson_status for the attempt is set to either &#8216;completed&#8217; or &#8216;passed&#8217;. After that, the Start new attempt checkbox is available to the learner.</li>
+</ul>
+</div></blockquote>
+<p><strong>Attempts grading</strong></p>
+<p>When you permit multiple attempts for students, you can choose how to record the result in gradebook by first, last, average or highest settings.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Display attempt status - If enabled, scores and grades for attempts are displayed on the SCORM outline page. This setting makes the block display more info to the user on the entry page to the SCORM and in the course overview block - if you turn it off it will display less info. This setting is helpful when debugging grading issues - working out why a user got a certain grade.</li>
+</ul>
+</div></blockquote>
+<p><strong>Force new attempt</strong></p>
+<p>If this is enabled then every time the student accesses the package, it will count as a new attempt.</p>
+<p><strong>Lock after final attempt</strong></p>
+<p>If this is enabled then once a student has used up all their attempts, they can no longer access the SCORM package.</p>
+</div>
+<div class="section" id="compatibility-settings">
+<h3>Compatibility settings<a class="headerlink" href="#compatibility-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p><strong>Auto-Continue</strong></p>
+<p>If Auto-continue is set to Yes, when a Learning Object calls the &#8220;close communication&#8221; method, the next available Learning Object is launched automatically.If it is set to No, the users must use the &#8220;Continue&#8221; button to go on.</p>
+<p><strong>TIP:</strong> Auto-Continue will only to move from one SCORM to the next in the same topic.</p>
+<p><strong>Force completed</strong></p>
+<p>If this is enabled then the status of the current attempt is set to &#8220;complete&#8221;. Note that this only applies to SCORM 1.2 packages and is useful if the SCORM package does not handle revisiting an attempt correctly, in review or browse mode, or otherwise incorrectly issues the completion status.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Auto-update frequency - If not using a standard SCORM package uploaded using the filepicker and the SCORM package is hosted outside your Moodle installation the option to auto-update the package will be available - you can elect to have the package updated on every entry to the package or daily via the Moodle cron.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="common-module-settings">
+<h3>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>See <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access">
+<h3>Restrict access<a class="headerlink" href="#restrict-access" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <em class="xref std std-ref">Conditional activities</em> have been enabled.</p>
+</div>
+<div class="section" id="activity-completion-settings">
+<h3>Activity completion settings<a class="headerlink" href="#activity-completion-settings" title="Permalink to this headline">¶</a></h3>
+<p>If this has been enabled for the course, then SCORM completion may be set based on minimum score or status (e.g. &#8220;Passed&#8221;).</p>
+<p>As in most activities there are 3 save button choices. Cancel, Save and return to course and Save changes buttons. The Save changes button will take the teacher back to the SCORM &#8220;stage&#8221; page.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +197,26 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SCORM</a><ul>
+<li><a class="reference internal" href="#adding-a-scorm-package">Adding a SCORM package</a></li>
+<li><a class="reference internal" href="#scorm-administration-settings">Scorm administration settings</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#appearance">Appearance</a></li>
+<li><a class="reference internal" href="#availability">Availability</a></li>
+<li><a class="reference internal" href="#grade">Grade</a></li>
+<li><a class="reference internal" href="#attempts-management">Attempts management</a></li>
+<li><a class="reference internal" href="#compatibility-settings">Compatibility settings</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access">Restrict access</a></li>
+<li><a class="reference internal" href="#activity-completion-settings">Activity completion settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/scorm.txt"

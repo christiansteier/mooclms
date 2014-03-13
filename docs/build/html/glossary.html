@@ -43,6 +43,107 @@
             
   <div class="section" id="glossary">
 <span id="id1"></span><h1>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h1>
+<p>The glossary activity module allows participants to create and maintain a list of definitions, like a dictionary.</p>
+<p>Glossary can be used in many ways. The entries can be searched or browsed in different formats. A glossary can be a collaborative activity or be restricted to entries made by the teacher. Entries can be put in categories. The auto-linking feature will highlight any word in the course which is located in the glossary.</p>
+<div class="section" id="adding-a-glossary">
+<h2>Adding a glossary<a class="headerlink" href="#adding-a-glossary" title="Permalink to this headline">¶</a></h2>
+<p>To add a glossary:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>With the editing turned on, in the section you wish to add your glossary, click the &#8220;Add an activity or resource&#8221; link (or, if not present, the &#8220;Add an activity&#8221; drop down menu ) and choose Glossary. All settings may expanded by clicking the &#8220;Expand all&#8221; link top right.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong></p>
+<p>Give your new glossary a descriptive name.</p>
+<p><strong>Description</strong></p>
+<p>Describe the purpose of the glossary and provide instructions or background information, links etc. Click the icon top left to expand the toolbars, and drag the bottom right of the text box out to expand it.</p>
+<p><strong>Display description on course page</strong></p>
+<p>If this box is ticked, the description will appear on the course page just below the name of the glossary.</p>
+<p><strong>Is this glossary global?</strong></p>
+<p>Administrators can make a global glossary, with entries linking throughout the whole Moodle site. Any course may contain a global glossary, though the best practice is to place a global glossary on the site front page.</p>
+<p><strong>Glossary type</strong></p>
+<p>Here you can decide whether the glossary will be main or secondary. The glossary system allows you to export entries from any secondary glossary to the main one of the course. In order to do this, you should specify which glossary is the main one. You can only have one main glossary per course.</p>
+</div>
+<div class="section" id="entries">
+<h3>Entries<a class="headerlink" href="#entries" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Approved by default</strong></p>
+<p>If set to &#8220;yes&#8221; then new entries appear automatically. If not, then the teacher must approve each one first.</p>
+<p><strong>Always allow editing</strong></p>
+<p>If set to &#8220;yes&#8221;, students can edit their entries at any time. If not, then they can only edit for a certain period.</p>
+<p><strong>Duplicate entries allowed</strong></p>
+<p>This allows the entry of more than one definition for a given word.</p>
+<p><strong>Allow comments on entries</strong></p>
+<p>Students and teachers can leave comments on glossary definitions. The comments are available through a link at the bottom of the definition.</p>
+<p><strong>Automatically link glossary entries</strong></p>
+<p>If the Glossary auto-linking filter is enabled by an administrator, then turning this on allows individual entries in this glossary to be automatically linked whenever the concept words and phrases appear throughout the rest of the same course. This includes forum postings, internal resources, week summaries and so on.</p>
+<p><strong>Note:</strong> Enabling linking for the glossary does not automatically turn on linking for each entry - linking needs to be set for each entry individually. If you do not want particular text to be linked (in a forum posting, say) then you should add &lt;nolink&gt; and &lt;/nolink&gt; tags around the text. Note that category names are also linked.</p>
+</div>
+<div class="section" id="appearance">
+<h3>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Display format</strong></p>
+<p>That specifies the way that each entry will be shown within the glossary. The default formats are:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Simple, dictionary style</strong> - This looks like a conventional dictionary with separate entries. No authors are displayed and attachments are shown as links.</li>
+<li><strong>Continuous without author</strong> - Like the simple style. Shows the entries one after other without any kind of separation but the editing icons, but only if your theme supports it, you usually have to modify the theme if you want an alternative appearance to the simple setting.</li>
+<li><strong>Full with author</strong> - A forum-like display format showing author&#8217;s data. Attachments are shown as links.</li>
+<li><strong>Full without author</strong> - A forum-like display format that does not show author&#8217;s data. Attachments are shown as links.</li>
+<li><strong>Encyclopedia</strong> - Like &#8216;Full with author&#8217; but attached images are shown inline.</li>
+<li><strong>Entry list</strong> - This lists the concepts as links.</li>
+<li><strong>FAQ</strong> - Useful for displaying lists of frequently asked questions. It automatically appends the words QUESTION and ANSWER in the concept and definition respectively.</li>
+</ul>
+</div></blockquote>
+<p><strong>Approval display format</strong></p>
+<p>It is possible to set an alternative display format for when entries are approved that can differ from the display format on the course page. This could be useful for instance if a tutor wants to see who made a particular glossary entry before approving it but doesn&#8217;t want the students&#8217; name to be displayed for others on the course page.</p>
+<p><strong>Entries shown per page</strong></p>
+<p>Decid here how many entries to show per page.</p>
+<p><strong>Show alphabet links</strong></p>
+<p>If set to &#8220;yes&#8221;, users can browse the glossary by letters of the alphabet.</p>
+<p><strong>Show &#8216;ALL&#8217; link</strong></p>
+<p>If set to &#8220;yes&#8221;, users can browse all the entries at once</p>
+<p><strong>Show &#8216;Special&#8217; link</strong></p>
+<p>If set to &#8220;yes&#8221;, users can can browse the glossary by special characters, such as &#64; and #.</p>
+<p><strong>Allow print view</strong></p>
+<p>This provides a printer-friendly version link for students. (Teachers are always provided with a printer-friendly version link.)</p>
+</div>
+<div class="section" id="rss">
+<h3>RSS<a class="headerlink" href="#rss" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default and only visible if RSS has been enabled on the site and for the glossary.)</p>
+<p><strong>RSS feed for this activity</strong></p>
+<p>This turns RSS on or off. When set to “None,” the RSS feed is disabled. When set to “Concepts with authors,” the RSS feed will send out the glossary entries with the name of the author. When set to “Concepts without authors,” the RSS feed sends out glossary entries without the name of the author.</p>
+<p><strong>Number of RSS recent articles</strong></p>
+<p>This number sets the number of entries that go out via RSS. If this number is set to 5, then the 5 most recent articles will be sent to subscribers. As new entries get added, the oldest entry gets replaced on the RSS feed. If your glossary gets a lot of posts every day, you will want to set this number high.</p>
+<p>When RSS is enabled for your glossary, an orange RSS button appears on the main page (in the upper right-hand side). When a user clicks on the RSS button, they see the XML code displayed, needed by the news-reader. Once a user has the RSS news-feed link, adding it to a reader is simple and will then display Glossary aggregated information, along with other information they subscribe to.</p>
+</div>
+<div class="section" id="grade">
+<h3>Grade<a class="headerlink" href="#grade" title="Permalink to this headline">¶</a></h3>
+<p>(This setting is collapsed by default) Choose the category in which this glossary will appear if ratings are enabled.</p>
+</div>
+<div class="section" id="ratings">
+<h3>Ratings<a class="headerlink" href="#ratings" title="Permalink to this headline">¶</a></h3>
+<p>(This setting is collapsed by default)</p>
+<p><strong>Roles with permissions to rate</strong></p>
+<p>Glossary entries can be rated using a scale. By default, only teachers can rate glossary entries, though students can be given permission to do so if desired from Administration&gt;Glossary administration. This is a useful tool for giving students participation grades. Any ratings given are recorded in the gradebook.</p>
+</div>
+<div class="section" id="common-module-settings">
+<h3>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>See <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access-activity-completion">
+<h3>Restrict access/Activity completion<a class="headerlink" href="#restrict-access-activity-completion" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <em class="xref std std-ref">Conditional activities</em> and <em class="xref std std-ref">Activity completion</em> have been enabled in the site and the course.</p>
+</div>
+<div class="section" id="glossary-permissions">
+<h3>Glossary permissions<a class="headerlink" href="#glossary-permissions" title="Permalink to this headline">¶</a></h3>
+<p>Role permissions for the activity can be changed in <em>Administration &gt; Glossary administration &gt; Permissions</em>.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +152,25 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Glossary</a><ul>
+<li><a class="reference internal" href="#adding-a-glossary">Adding a glossary</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#entries">Entries</a></li>
+<li><a class="reference internal" href="#appearance">Appearance</a></li>
+<li><a class="reference internal" href="#rss">RSS</a></li>
+<li><a class="reference internal" href="#grade">Grade</a></li>
+<li><a class="reference internal" href="#ratings">Ratings</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access-activity-completion">Restrict access/Activity completion</a></li>
+<li><a class="reference internal" href="#glossary-permissions">Glossary permissions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/glossary.txt"

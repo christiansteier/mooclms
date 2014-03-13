@@ -43,6 +43,124 @@
             
   <div class="section" id="lesson">
 <span id="id1"></span><h1>Lesson<a class="headerlink" href="#lesson" title="Permalink to this headline">¶</a></h1>
+<p>The lesson module presents a series of HTML pages to the student who is usually asked to make some sort of choice underneath the content area. The choice will send them to a specific page in the Lesson. In a Lesson page&#8217;s simplest form, the student can select a continue button at the bottom of the page, which will send them to the next page in the Lesson.</p>
+<p>There are 2 basic Lesson page types that the student will see: question pages and content pages. There are also several advanced navigational pages which can meet more specialized needs of the Teacher. The Lesson module was designed to be adaptive and to use a student&#8217;s choices to create a self directed lesson.</p>
+<p>The main difference between a Lesson and other activity modules available in Moodle comes from its adaptive ability. With this tool, each choice the students makes can show a different teacher response/comment and send the student to a different page in the lesson. Thus with planning, the Lesson module can customize the presentation of content and questions to each student with no further action required by the teacher.</p>
+<div class="section" id="lesson-administration-settings">
+<h2>Lesson administration settings<a class="headerlink" href="#lesson-administration-settings" title="Permalink to this headline">¶</a></h2>
+<p>This page explains the settings involved when first creating a lesson. To add a lesson to your Moodle course page:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>With the editing turned on, in the section you wish to add your lesson, click the &#8220;Add an activity or resource&#8221; link (or, if not present, the &#8220;Add an activity&#8221; drop down menu) and choose Lesson All settings may expanded by clicking the &#8220;Expand all&#8221; link top right.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong></p>
+<p>Whatever you type here will form the link learners click on to view the lesson so it is helpful to give it a name that suggests its purpose.</p>
+</div>
+<div class="section" id="appearance">
+<h3>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline">¶</a></h3>
+<p><strong>File pop</strong></p>
+<p>If you want to include a link to a file on the lesson page for students to refer to, upload it here.</p>
+<p><strong>Progress bar</strong></p>
+<p>Choose this to show a bar at the bottom of the page showing how far into the lesson the student has got.</p>
+<p><strong>Display ongoing score</strong></p>
+<p>Choose this to let students see their score as they work through the lesson.</p>
+<p><strong>Display left menu</strong></p>
+<p>Choose this if you want to show a list of the pages in the Lesson so a student can see what is coming up.</p>
+<p><strong>Minimum grade to display menu</strong></p>
+<p>Choose this if you want the student to go through the lesson once and get a grade before they can (on review) see and navigate through all the different pages.</p>
+<p><strong>Slideshow</strong></p>
+<p>Please note that slideshow mode currently does not work for Moodle 2.</p>
+<p><strong>Maximum Number of Answers</strong></p>
+<p>Here you can set the default number of answer boxes available when you add your question or content pages. For instance, if you are only going to use True/False, you would only need 2. You can change this at any time so it&#8217;s not crucial.</p>
+<p><strong>Use default feedback</strong></p>
+<p>Choose this if you want to show a set phrase regardless of their answer. If you have set your own default feedback such as &#8220;well done; correct&#8221; or &#8220;never mind; better luck next time&#8221; etc it will appear. If you have not, then Moodle&#8217;s default feedback will appear.</p>
+<p><strong>Link to next activity</strong></p>
+<p>Choose this to give students a link to another activity when they reach the end of the lesson. (Note: this can also be achieved using Conditional activities)</p>
+</div>
+<div class="section" id="availability">
+<h3>Availability<a class="headerlink" href="#availability" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Available from/Deadline</strong></p>
+<p>Here you can set a start and end date and time for your Lesson.</p>
+<p><strong>Time limit</strong></p>
+<p>This allows you to set a time limit on the lesson. Students will see a countdown counter as they work. The timer does not stop them doing the lesson when the time is up, but correct answers are no longer scored.</p>
+<p><strong>Password protected lesson</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>Change to &#8220;Yes&#8221; and enter the password if you want students only to access it when they know the password.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="prerequisite-lesson">
+<h3>Prerequisite lesson<a class="headerlink" href="#prerequisite-lesson" title="Permalink to this headline">¶</a></h3>
+<p>(These setings are collapsed by default)</p>
+<p><strong>Dependent on</strong></p>
+<p>This allows access to the lesson to be dependent on students&#8217; performance in another lesson in the same course. (Note: this can also be achieved with Conditional activities)</p>
+<p><strong>Time spent</strong></p>
+<p>Decide here how long you want the student to have spent in the chosen previous lesson</p>
+<p><strong>Completed</strong></p>
+<p>Check this box if you want the student to have completed a previous lesson (according to Activity completion settings)</p>
+<p><strong>Grade better than</strong></p>
+<p>Enter the grade from the previous lesson which you want the student to have exceeded before they can attempt the current lesson.</p>
+</div>
+<div class="section" id="flow-control">
+<h3>Flow control<a class="headerlink" href="#flow-control" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Allow Student Review</strong></p>
+<p>This puts a &#8220;Review Lesson&#8221; button on the last screen of the lesson to encourage the student to navigate through the lesson again from the start.  Be sure to check other settings to allow them to change their answers.</p>
+<p><strong>Provide option to try a question again</strong></p>
+<p>This displays a button after an incorrectly answered question so that the student can try again (but not get credit for it)</p>
+<p><strong>TIP:</strong> Leave this off if you are using essay questions.</p>
+<p><strong>Maximum Number of Attempts</strong></p>
+<p>Decide here how many times you want students to be able to attempt each question. When they reach the maximum, they will be taken automatically to the next page.</p>
+<p><strong>Action after a Correct Answer</strong></p>
+<p>Choose here where you want a student to be sent to if they get a question right. See Using Lesson for more details on this setting. The options are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>the next part of the Lesson (default setting)</li>
+<li>a random, unexpected page</li>
+<li>a random page which they have not yet answered.</li>
+</ul>
+</div></blockquote>
+<p><strong>Number of pages to show</strong></p>
+<p>You only need this if you have set &#8220;Action after a correct answer&#8221; to show an unseen or unanswered page. Otherwise, all pages will be seen</p>
+</div>
+<div class="section" id="grade">
+<h3>Grade<a class="headerlink" href="#grade" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>Set a grade and grade category here.</p>
+<p><strong>Practice lesson</strong></p>
+<p>Use this if you don&#8217;t need the lesson to be scored/graded but just need students to work through some pages. Set this to Yes to have the same ungraded type Lesson in earlier versions of Moodle.</p>
+<p><strong>Custom Scoring</strong></p>
+<p>Use this to give a particular number score (negative or positive) to each answer</p>
+<p><strong>Re-takes allowed</strong></p>
+<p>Choose this if you want your students to be able to do the lesson more than once.</p>
+<p><strong>Handling of re-take</strong></p>
+<p>If you allow your students to re-take the lesson, then decide here if the grade for all lesson attempts is the mean or the maximum.</p>
+<p>Note that the Question Analysis always uses the answers from the first tries of the lesson. Re-takes by students are ignored.</p>
+<p><strong>Minimum Number of Questions</strong></p>
+<p>Set here the minimum number of questions that will be used to calculate a student&#8217;s score. Students will be told how many they have answered and how many more they need to answer.</p>
+<blockquote>
+<div><ul class="simple">
+<li>If you are using Content pages, then set this to 0.</li>
+<li>If you use this setting, then add some explanatory text at the start of the lesson so the student knows how many questions they must answer as a minimum. (They may answer more.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="common-module-settings">
+<h3>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>See <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access-activity-completion">
+<h3>Restrict access/Activity completion<a class="headerlink" href="#restrict-access-activity-completion" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <em class="xref std std-ref">Conditional activities</em> and <em class="xref std std-ref">Activity completion</em> have been enabled in the site and the course.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +169,24 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Lesson</a><ul>
+<li><a class="reference internal" href="#lesson-administration-settings">Lesson administration settings</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#appearance">Appearance</a></li>
+<li><a class="reference internal" href="#availability">Availability</a></li>
+<li><a class="reference internal" href="#prerequisite-lesson">Prerequisite lesson</a></li>
+<li><a class="reference internal" href="#flow-control">Flow control</a></li>
+<li><a class="reference internal" href="#grade">Grade</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access-activity-completion">Restrict access/Activity completion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/lesson.txt"
