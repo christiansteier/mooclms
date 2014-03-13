@@ -84,6 +84,7 @@ Once you unlock options and then click 'Save changes', all completion informatio
 
   * If the new completion option is manual, everyone will be set to 'not completed' regardless of any previous setting.
   * If it is automatic then, depending on the options chosen, the system may or may not be able to construct a correct current value for everyone.
+      
       * The 'viewed' requirement will not work - even if a student has viewed the activity before, it will not be marked completed until they view it again.
       * Most other options will be recalculated successfully. 
 
@@ -102,7 +103,7 @@ To use activity completion, the feature needs to be enabled for the site by an a
 
 Required course settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Administration > Course administration > Edit settings and look for the Completion tracking section. You must enable this setting. 
+*Administration > Course administration > Edit settings* and look for the Completion tracking section. You must enable this setting. 
 
 
 
