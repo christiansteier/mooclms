@@ -159,20 +159,20 @@ This section controls what information students will be shown when they review t
 
 The various pieces of information that can be controlled are:
 
-**The attempt** - Will show how the student responded to each question. 
-**Whether correct** - Displays whether the students response to each question is correct or incorrect. 
-**Marks** - Reveals the marks awarded to the student and the grade for the quiz. 
-**Specific feedback** - Will show the feedback for the response to the answer as set when adding the question to the quiz. Each response to a question can have feedback for both correct and incorrect answers. 
-**General feedback** - Displays the general feedback for the whole question as set when adding the question to the quiz. You can use the general feedback to give students some background to what knowledge the question was testing. 
-**Right answer** - Reveals the correct answer to each question, whether the student answered correctly or not. 
-**Overall feedback** - Displays feedback for the entire quiz as set in the quiz settings.
+  * **The attempt** - Will show how the student responded to each question. 
+  * **Whether correct** - Displays whether the students response to each question is correct or incorrect. 
+  * **Marks** - Reveals the marks awarded to the student and the grade for the quiz. 
+  * **Specific feedback** - Will show the feedback for the response to the answer as set when adding the question to the quiz. Each response to a question can have feedback for both correct and incorrect answers. 
+  * **General feedback** - Displays the general feedback for the whole question as set when adding the question to the quiz. You can use the general feedback to give students some background to what knowledge the question was testing. 
+  * **Right answer** - Reveals the correct answer to each question, whether the student answered correctly or not. 
+  * **Overall feedback** - Displays feedback for the entire quiz as set in the quiz settings.
 
 For each of the above items, you can determine the timeframe when the students will see them:
 
-**During the attempt** - is only available when ‘How questions behave’ has been set to ‘Immediate feedback’, ‘Immediate feedback with CBM’ and ‘Interactive with multiple tries’. If set to one of these options then a ‘Check’ button will appear below the answer and when clicked the student will submit that response and then receive immediate feedback. 
-**Immediately after the attempt** - means within 2 minutes of the student clicking "submit all and finish". 
-**Later, while the quiz is still open** - means after 2 minutes, but before the close date (if the quiz does not have a close date, this phase never ends). 
-**After the quiz is closed** - means what it says (you never get here for quizzes without a close date). 
+  * **During the attempt** - is only available when ‘How questions behave’ has been set to ‘Immediate feedback’, ‘Immediate feedback with CBM’ and ‘Interactive with multiple tries’. If set to one of these options then a ‘Check’ button will appear below the answer and when clicked the student will submit that response and then receive immediate feedback. 
+  * **Immediately after the attempt** - means within 2 minutes of the student clicking "submit all and finish". 
+  * **Later, while the quiz is still open** - means after 2 minutes, but before the close date (if the quiz does not have a close date, this phase never ends). 
+  * **After the quiz is closed** - means what it says (you never get here for quizzes without a close date). 
 
 **Tip:** Checking any of the boxes in the timeframe row, will reveal the test to the student. For example, to allow students to see their quiz immediately after taking it but not later, make sure none of the boxes in "Later" or "After" rows are checked. The student will be able to see their grade but not get into the quiz. 
 
@@ -270,29 +270,5 @@ To change a quiz setting for a particular group, click the "add group override" 
 User overrides
 ^^^^^^^^^^^^^^^
 To change a quiz setting for a particular user or users, click the "add user override"button in Quiz Administration>Group overrides, make the changes you wish and save or enter another override. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
