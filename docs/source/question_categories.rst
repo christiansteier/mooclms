@@ -53,7 +53,7 @@ You can also arrange the categories in a hierarchy so that they are easier to ma
   * The right arrow icon allows you to move a category to be a child category of the category listed immediately above it.
   * The left arrow icon allows you to move a category up one category level (to be a peer of it's parent category). 
 
-**See the tool tip that appears when you place the mouse pointer above these icons if you're not sure what action an icon will perform.** You cannot move the last category in any context, there must always be at least one category left in all contexts.
+*See the tool tip that appears when you place the mouse pointer above these icons if you're not sure what action an icon will perform.* You cannot move the last category in any context, there must always be at least one category left in all contexts.
 
 
 
