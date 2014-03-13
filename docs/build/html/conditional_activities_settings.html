@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Conditional activities settings &mdash; mooclms 2.6.1 documentation</title>
+    <title>Conditional activities &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,8 +41,41 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="conditional-activities-settings">
-<span id="id1"></span><h1>Conditional activities settings<a class="headerlink" href="#conditional-activities-settings" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="conditional-activities">
+<span id="conditional-activities-settings"></span><h1>Conditional activities<a class="headerlink" href="#conditional-activities" title="Permalink to this headline">¶</a></h1>
+<p>Conditional activities enable teachers to restrict the availability of any activity or even a course section (in Moodle 2.3 onwards) according to certain conditions such as dates, grade obtained, or <a class="reference internal" href="activity_completion_settings.html#activity-completion-settings"><em>activity completion</em></a> . When it is enabled by the administrator, a &#8220;Restrict access&#8221; setting appears in the settings of activities or resources and also when editing a course section.</p>
+<div class="section" id="id1">
+<h2>Conditional activities settings<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="enabling-the-use-of-conditional-activities">
+<h3>Enabling the use of conditional activities<a class="headerlink" href="#enabling-the-use-of-conditional-activities" title="Permalink to this headline">¶</a></h3>
+<p>To use conditional activities, the feature must be enabled by an administrator by checking the enable availability box in <em>Administration &gt; Site administration &gt; Advanced features</em>. A restrict access section will then appear for teachers on the edit activity page.</p>
+</div>
+<div class="section" id="restricting-access">
+<h3>Restricting access<a class="headerlink" href="#restricting-access" title="Permalink to this headline">¶</a></h3>
+<p>The restrict access section asks for the conditions when the activity (or resource) should be visible. This can be based upon dates, and/or score ranges of other activities and/or if other activities are considered completed (see <a class="reference internal" href="activity_completion_settings.html#activity-completion-settings"><em>Activity completion</em></a>).</p>
+<p>Note that ALL access restrictions (date, grade condition, activity completion condition) have to be met in order for the activity to be made available and that access may be restricted to an actual time and not just a date.</p>
+<p>Generally access is prevented <em>before</em> the conditions are met, however if &#8216;Allow access until&#8217; is enabled, then access is prevented <em>after</em> the specified date.</p>
+<p><strong>Restricting access to course sections</strong></p>
+<p>It is possible to restrict access to activities within a whole course section by specifying the conditions in the settings for that particular section.</p>
+<p><strong>Restricting access by user profile fields</strong></p>
+<p>It is possible to restrict access to activities based on a custom user profile field. You can select a field type, condition and name. For more information please see <a class="reference internal" href="conditional_user_fields.html#conditional-user-fields"><em>Conditional user fields</em></a>.</p>
+<p><strong>Grade condition</strong></p>
+<p>You can specify a condition on any grade in the course: the full course grade, the grade for any activity, or a custom grade that you create manually. You can enter either a minimum value (at least percentage), a maximum value (less than percentage), both, or neither. The activity will only appear if the student has a value for the specified grade, and if it falls within any specified number range. You can add more than one grade condition. All conditions must be met in order for the activity to appear.</p>
+<blockquote>
+<div><ul class="simple">
+<li>The range numbers can be fractional (with up to five decimal places) if necessary.</li>
+<li>Be careful with the maximum value; if the maximum is 7, a student who scores exactly 7 will not see the activity. You could set it to 7.01 if you really wanted to include 7.</li>
+<li>If creating several different activities that appear according to grade ranges, use the same number for the maximum of one activity, and the minimum of the next. For example, you might create one activity with a maximum of 7 and another with a minimum of 7. The first would appear to everyone scoring between 0 and 6.99999, and the second would appear to everyone scoring 7.00000 to 10. This guarantees that everyone with a grade will see one or other.</li>
+</ul>
+</div></blockquote>
+<p><strong>Removing a grade condition</strong></p>
+<p>To remove a grade condition, set the assessment name to &#8216;none&#8217; and remove the range number values.</p>
+</div>
+</div>
+<div class="section" id="using-conditional-activities">
+<h2>Using conditional activities<a class="headerlink" href="#using-conditional-activities" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+</div>
 </div>
 
 
@@ -51,6 +84,19 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Conditional activities</a><ul>
+<li><a class="reference internal" href="#id1">Conditional activities settings</a><ul>
+<li><a class="reference internal" href="#enabling-the-use-of-conditional-activities">Enabling the use of conditional activities</a></li>
+<li><a class="reference internal" href="#restricting-access">Restricting access</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-conditional-activities">Using conditional activities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/conditional_activities_settings.txt"
