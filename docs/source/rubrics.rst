@@ -1,4 +1,4 @@
-.. _rubric:
+.. _rubrics:
 
 Rubric
 =======
