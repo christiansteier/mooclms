@@ -236,9 +236,10 @@ Overall feedback
 
 Overall feedback is shown to a student after they have completed an attempt at the quiz. The text that is shown can depend on the grade the student got. Click "Show editing tools" to display the rich text editor, and drag the bottom right of the text box out to expand it.
 
+For example, if you entered:
+
 .. line-block::
 
-For example, if you entered:
     Grade boundary: 100% 
     Feedback: "Well done" 
     Grade boundary: 40% 
