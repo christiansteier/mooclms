@@ -106,4 +106,38 @@ Required course settings
 *Administration > Course administration > Edit settings* and look for the Completion tracking section. You must enable this setting. 
 
 
+Using Activiy Completion
+--------------------------
+  * If this feature is enabled, it is a helpful way for students to be able to track their progress in a course. The student has an easy to see checklist of what they have done so far.
+  * It can also be linked to :ref:`Course completion <course_completion>` in order to allow both students and teachers to watch progress through a course. As each activity is checked off as "complete", the student moves futher towards final completion of the course.
+  * It can also be linked to :ref:`Conditional activities <conditional_activities_settings>` in order to allow the teacher to set criteria upon which a student is allowed to progress through a course and access materials. 
+
+Activity completion icons
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon1.png | manual - not yet marked as complete   |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon2.png | manual - enabled                      |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon3.png | manually completed                    |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon4.png | automatically completed               |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon5.png | automatically failed                  |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon6.png | automatic - not completed             |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon7.png | automatically passed                  |
+ +------------------------------+---------------------------------------+
+ | .. image:: _images/icon8.png | automatic - enabled                   |
+ +------------------------------+---------------------------------------+
+
+Activity completion report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Activity completion info can be viewed by managers, teachers and non-editing teachers (and any other users with the capability report/progress:view) in *Administration> Course administration> Reports > Activity completion*. 
+
+
+
+
 
