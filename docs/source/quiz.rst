@@ -141,6 +141,141 @@ If set to 'yes', then each time the student takes a quiz the parts of the questi
 
 **Note:** There is also an option "Manual grading" which can be enabled from Administration>Site administration>Plugins>Question behaviour This causes all questions in the quiz to require manual grading. 
 
+**Certainty-based marking**
+
+When a student answers a question they also have to state how sure they are of the answer: not very (less than 67%); fairly (more than 67%) or very (more than 80%). Their grading is then ajusted according to how certain they are, which means that for example if they answered correctly but were only guessing, their mark is adjusted from 1 to 0.33. If they answered wrongly but were very sure, their mark is adjusted from 0 to -2. 
+
+**Each attempt builds on the last** (available by clicking "Show more")
+
+If multiple attempts are allowed and this setting is set to Yes, then each new attempt contains the results of the previous attempt. This allows the student on the new attempt to concentrate on just those questions that were answered incorrectly on the previous attempt. If this option is chosen then each attempt by a particular student uses the same questions in the same order, independent of randomization settings. To show a fresh quiz on every attempt, select No for this setting. 
+
+
+Review options
+^^^^^^^^^^^^^^^^
+(These settings are collapsed by default) 
+
+This section controls what information students will be shown when they review their past attempts at the quiz, and during the attempt in adaptive mode. It is a matrix with check boxes.
+
+The various pieces of information that can be controlled are:
+
+**The attempt** - Will show how the student responded to each question. 
+**Whether correct** - Displays whether the students response to each question is correct or incorrect. 
+**Marks** - Reveals the marks awarded to the student and the grade for the quiz. 
+**Specific feedback** - Will show the feedback for the response to the answer as set when adding the question to the quiz. Each response to a question can have feedback for both correct and incorrect answers. 
+**General feedback** - Displays the general feedback for the whole question as set when adding the question to the quiz. You can use the general feedback to give students some background to what knowledge the question was testing. 
+**Right answer** - Reveals the correct answer to each question, whether the student answered correctly or not. 
+**Overall feedback** - Displays feedback for the entire quiz as set in the quiz settings.
+
+For each of the above items, you can determine the timeframe when the students will see them:
+
+**During the attempt** - is only available when ‘How questions behave’ has been set to ‘Immediate feedback’, ‘Immediate feedback with CBM’ and ‘Interactive with multiple tries’. If set to one of these options then a ‘Check’ button will appear below the answer and when clicked the student will submit that response and then receive immediate feedback. 
+**Immediately after the attempt** - means within 2 minutes of the student clicking "submit all and finish". 
+**Later, while the quiz is still open** - means after 2 minutes, but before the close date (if the quiz does not have a close date, this phase never ends). 
+**After the quiz is closed** - means what it says (you never get here for quizzes without a close date). 
+
+**Tip:** Checking any of the boxes in the timeframe row, will reveal the test to the student. For example, to allow students to see their quiz immediately after taking it but not later, make sure none of the boxes in "Later" or "After" rows are checked. The student will be able to see their grade but not get into the quiz. 
+
+**Note:** Currently, the Answers display is a bit inconsistent between different question types. For example, the matching question type shows students which of their responses are correct, but does not tell them the right answer for the ones they got wrong. The short answer and multiple choices question types do tell the student what the correct answer is.
+
+Users with the capability 'View hidden grades' moodle/grade:viewhidden (typically teachers and administrators) are not affected by these settings and will always by able to review all information about a student's attempt at any time.
+
+In your list of review options, you must have 'The attempt' (the first option in the lists) selected before you can enable the options to show 'Whether correct', 'Specific feedback', 'General feedback', and 'Right answer'. If you choose not to let the students review the attempt, your only options are to display 'Marks' and 'Overall feedback'. 
+
+
+Display
+^^^^^^^^
+(These settings are collapsed by default) 
+
+**Show the user's picture**
+
+It is now possible, when displaying the user's profile picture for proctoring purposes, to choose whether a large image or thumbnail will be displayed. 
+
+**Decimal places in grades**
+
+This option determines how many digits will be shown after the decimal separator when the grade is displayed. A setting of 0 for example means that the grades are displayed as integers. This setting is only used for the display of grades, not for the display or marking of answers. 
+
+Extra restrictions on attempts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(These settings are collapsed by default and are available by clicking "Show more") 
+
+**Require password** (This field is optional.)
+
+If you specify a password in here then participants must enter the same password before they are allowed to make an attempt on the quiz. This is useful to give only a selected group of students access to the quiz. 
+
+**Require network address** (This field is optional.) 
+
+You can restrict access for a quiz to particular subnets on the LAN or Internet by specifying a comma-separated list of partial or full IP address numbers. This is especially useful for a proctored (invigilated) quiz, where you want to be sure that only people in a certain room are able to access the quiz. For example: 192.168. , 231.54.211.0/20, 231.3.56.211 
+
+**Enforced delay between attempts** (These two fields are optional.)
+
+You can set a time (from seconds to weeks) between the first and second attempt of a quiz. You can also (or alternatively) set a time from seconds to weeks for subsequent attempts after the second attempt. Thus, you might allow a student to take the quiz twice immediately with no delay, but if they want to improve their score with a third attempt, they are forced to wait a week and use the time for extra revision. 
+
+**Browser security**
+    
+The options in this section offer various ways to try to restrict how students may try to 'cheat' while attempting a quiz. However, this is not a simple issue, and what in one situation is considered 'cheating' may, in another situation, just be effective use of information technology. (For example, the ability to quickly find answers using a search engine.) 
+
+    **Full screen pop-up with some JavaScript security**
+
+    There is a limit to what the quiz, which runs on a web server, can do to restrict what the student sitting at their computer can do while attempting the quiz. However, this option does what is possible: 
+
+       * The quiz will only start if the student has a JavaScript-enabled web-browser.
+       * The quiz appears in a fullscreen popup window that covers all the other windows and has no course navigation controls. 
+       * The students are prevented, as far as is possible, from using facilities like copy and paste.
+       * This setting does not work well with the MyMobile theme for mobile devices included in the standard installation. In particular, quiz time limits do not function correctly 
+
+     **Require the use of Safe Exam Browser**
+
+    This option will only appear if your administrator has enabled it in *Administration > Site administration > Development > Experimental > Experimental settings*. 
+
+    *Safe Exam Browser* is a customised web browser that must be downloaded and installed on the computer that the student uses to attempt the quiz. It restricts student use more effectively than a pop up window option. Features include full screen, without web navigation options, shortcut keys including copy and paste are disabled and of course surfing the web during an exam. 
+
+Overall feedback
+^^^^^^^^^^^^^^^^^
+(These setttings are collapsed by default) 
+
+Overall feedback is shown to a student after they have completed an attempt at the quiz. The text that is shown can depend on the grade the student got. Click "Show editing tools" to display the rich text editor, and drag the bottom right of the text box out to expand it.
+
+.. line-block::
+
+For example, if you entered:
+    Grade boundary: 100% 
+    Feedback: "Well done" 
+    Grade boundary: 40% 
+    Feedback: "Please study this week's work again" 
+    Grade boundary: 0% 
+
+Common module settings
+^^^^^^^^^^^^^^^^^^^^^^^
+(These settings are collapsed by default.)
+
+See :ref:`Common module settings <common_module_settings>`
+
+Restrict access/Activity completion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(These settings are collapsed by default)
+
+These settings are visible if :ref:`Conditional activities <conditional_activities_settings>` and :ref:`Activity completion <activity_completion_settings>` have been enabled in the site and the course.
+
+
+Group and User overrides
+--------------------------
+Dates, timing and number of allowed attempts may be changed for individual users or groups by following the links Group Overrides or User Overrides in the Quiz Administration settings block.
+
+Group overrides
+^^^^^^^^^^^^^^^^
+To change a quiz setting for a particular group, click the "add group override" button in Quiz Administration>Group overrides, make the changes you wish and save or enter another override.
+
+User overrides
+^^^^^^^^^^^^^^^
+To change a quiz setting for a particular user or users, click the "add user override"button in Quiz Administration>Group overrides, make the changes you wish and save or enter another override. 
+
+
+
+
+
+
+
+
 
 
 
