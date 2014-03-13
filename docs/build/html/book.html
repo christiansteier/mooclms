@@ -43,6 +43,85 @@
             
   <div class="section" id="book">
 <span id="id1"></span><h1>Book<a class="headerlink" href="#book" title="Permalink to this headline">¶</a></h1>
+<p>The Book module makes it easy to create multi-page resources with a book-like format.</p>
+<p>Previously created websites can be imported directly into the Book module. Books can be printed entirely or by chapter.</p>
+<p>The book module allows you to have main chapters and sub chapters, but it goes no deeper. In other words, sub chapters cannot have their own sub chapters, as the module is intended to be a simple resource for teachers and students.</p>
+<p>The book module is not interactive. You can, however, link to choices, forums etc., from within a book. Also, Flash movies and other multimedia may be included in a book</p>
+<div class="section" id="adding-a-book">
+<h2>Adding a book<a class="headerlink" href="#adding-a-book" title="Permalink to this headline">¶</a></h2>
+<p>A teacher can add a book by choosing it from the &#8220;Add an activity or resource&#8221; link (or, if not present, the &#8220;Add a resource&#8221; drop down menu in course.) All settings may expanded by clicking the &#8220;Expand all&#8221; link top right.</p>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong></p>
+<p>Use a descriptive name for your book as it will form the link the students will click on to access it.</p>
+<p><strong>Description</strong></p>
+<p>Provide information for your students here so they are clear what the book is about. Click &#8220;Show editing tools&#8221; to display the rich text editor and drag the bottom right of the text box out to expand it.</p>
+<p><strong>Display description on course page</strong></p>
+<p>Enabling this will display the description on the course page just below the link to the book.</p>
+</div>
+<div class="section" id="appearance">
+<h3>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p><strong>Chapter formatting</strong></p>
+<p>The options are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>None - chapter and subchapter titles are not formatted at all, use if you want to define special numbering styles. For example letters: in chapter title type &#8220;A First Chapter&#8221;, &#8220;A.1 Some Subchapter&#8221;,...</li>
+<li>Numbers - chapters and subchapters are numbered (1, 1.1, 1.2, 2, ...)</li>
+<li>Bullets - subchapters are indented and displayed with bullets.</li>
+<li>Indented - subchapters are indented.</li>
+</ul>
+</div></blockquote>
+<p><strong>Custom titles</strong></p>
+<p>If you disallow custom titles, the chapter title (the one that appears on the table of contents) will appear as a header at the top of your content (1 below) If you enable custom titles, you will be able to create a title different from the one that appears in the ToC or display no title at all (2 below) If you enable custom titles, you will need to enter the chapter title as part of the page content.</p>
+</div>
+<div class="section" id="common-module-settings">
+<h3>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>See <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access-activity-completion">
+<h3>Restrict access/Activity completion<a class="headerlink" href="#restrict-access-activity-completion" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <a class="reference internal" href="conditional_activities_settings.html#conditional-activities-settings"><em>Conditional activities</em></a> and <a class="reference internal" href="activity_completion_settings.html#activity-completion-settings"><em>Activity completion</em></a> have been enabled in the site and the course.</p>
+</div>
+</div>
+<div class="section" id="adding-chapters-and-subchapters">
+<h2>Adding chapters and subchapters<a class="headerlink" href="#adding-chapters-and-subchapters" title="Permalink to this headline">¶</a></h2>
+<p>Titles of chapters appear as links in the table of contents to the left of your content. Keep your titles short.</p>
+<p>To add another chapter, click on the red cross in the Table of Contents or first chapter. The new chapter will be inserted directly after the chapter whose title is on the same line as the red cross you click (Screenshot 1).</p>
+<p>Note that the sub chapter box is checked. A chapter may have many sub chapters, but sub chapters cannot have subchapters. In order to keep this resource simple, you are limited to two levels (Screenshot 2).</p>
+<p>You now see a chapter and a sub chapter. Because we did not elect to number chapters, the fact that the second chapter is a sub chapter cannot be seen in the table of contents. Note that you do, however, see this in the title above the content.</p>
+<p>By the way, the items in the table of contents are neither numbered nor are they indented only because that is the option we chose when setting up the book. We can always go back and change that (Screenshot 3).</p>
+</div>
+<div class="section" id="importing-chapters">
+<h2>Importing chapters<a class="headerlink" href="#importing-chapters" title="Permalink to this headline">¶</a></h2>
+<p>To import chapters</p>
+<blockquote>
+<div><ul class="simple">
+<li>Create a zip file of HTML files and optional multimedia files and folders. If you wish to upload subchapters, add &#8220;_sub&#8221; to the end of HTML file or folder names.</li>
+<li>Go to <em>Administration &gt; Book administration &gt; Import chapter</em>.</li>
+<li>Choose whether each HTML file or folder represents one chapter.</li>
+<li>Browse for and select the zip file, either using the Add button or the drag and drop method.</li>
+<li>Click the import button.</li>
+</ul>
+</div></blockquote>
+<p><strong>Note:</strong> Relative file links are converted to absolute chapter links. Images, Flash and Java are re-linked too. Remember to upload images and multimedia files as well as HTML files.</p>
+</div>
+<div class="section" id="book-capabilities">
+<h2>Book capabilities<a class="headerlink" href="#book-capabilities" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Edit book chapters</li>
+<li>Read book</li>
+<li>View hidden book chapters</li>
+<li>Export book as IMS content package</li>
+<li>Import chapters</li>
+<li>Print book</li>
+<li>Add a new book</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +130,23 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Book</a><ul>
+<li><a class="reference internal" href="#adding-a-book">Adding a book</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#appearance">Appearance</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access-activity-completion">Restrict access/Activity completion</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-chapters-and-subchapters">Adding chapters and subchapters</a></li>
+<li><a class="reference internal" href="#importing-chapters">Importing chapters</a></li>
+<li><a class="reference internal" href="#book-capabilities">Book capabilities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/book.txt"
