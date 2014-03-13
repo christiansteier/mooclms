@@ -43,6 +43,242 @@
             
   <div class="section" id="quiz">
 <span id="id1"></span><h1>Quiz<a class="headerlink" href="#quiz" title="Permalink to this headline">¶</a></h1>
+<p>The Quiz activity module allows the teacher to design and build quizzes consisting of a large variety of <em class="xref std std-ref">Question types</em> , including multiple choice, true-false, and short answer questions. These questions are kept in the <em class="xref std std-ref">Question bank</em> and can be re-used in different quizzes.</p>
+<div class="section" id="features-of-quiz">
+<h2>Features of quiz<a class="headerlink" href="#features-of-quiz" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Quizzes can be configured to allow multiple attempts. Each attempt at a question is automatically marked, and the teacher can choose whether to give feedback and/or show the correct answers.</li>
+</ul>
+</div></blockquote>
+<p>There are many ways to use a quiz.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Feedback about performance and self-assessment are important parts of a learning environment. There are several ways to give feedback to students: on each question or overall. The quiz module can display feedback and scores at different times during the quiz, using the review options in the Quiz settings.</li>
+<li>A wide variety of Quiz reports (in addition to Grades) are available for use by the teacher. Quiz reports not only can focus on a single student&#8217;s attempt to answer each question, but also can perform a robust item analysis of a question&#8217;s validity based upon aggregated student responses.</li>
+<li>A single quiz can automatically select random and/or specific questions from different categories of questions.</li>
+<li>There are different options for scoring (marks-grades) individual questions in a specific quiz, grading attempts for a quiz and each question type.</li>
+<li>The quiz settings allow different display methods. They can randomize the questions for each student and or randomize the answers for each student.</li>
+<li>The teacher can determine the number of questions on each page of questions the student sees. The teacher can change the position of any question in the quiz. It is possible to put a label with information any place between questions.</li>
+<li>The teacher can choose how questions behave during the quiz. It can be like a classic test, where the student gets no feedback while attempting the test, only later. Alternatively, Moodle can reveal the grades and/or feedback to the student during the quiz, and perhaps even give them another chance to answer the question (for fewer marks) having read the feedback.</li>
+</ul>
+</div></blockquote>
+<p>Creating a new quiz is a two-step process. In the first step, you create the quiz activity and set its options which specify the rules for interacting with the quiz. In the second step you add questions to the quiz. This page describes the options you can set for the quiz activity. The page Building Quiz describes how to set up the questions for the quiz.</p>
+</div>
+<div class="section" id="quiz-administration">
+<h2>Quiz administration<a class="headerlink" href="#quiz-administration" title="Permalink to this headline">¶</a></h2>
+<p>When you first set up your quiz from <em>Add an activity or resource &gt; Quiz</em>, (or, if you don&#8217;t have this link, the dropdown <em>Add an activity &gt; Quiz</em>) you will get the following settings, (which can also be changed later in the Edit Settings link of the Quiz administration settings block) All settings may expanded by clicking the &#8220;Expand all&#8221; link top right.</p>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p><strong>Name</strong></p>
+<p>This is the standard name field. This name will appear on the home page of the course, navigation menu and other places which will show or provide links to this quiz.</p>
+<p><strong>Description</strong></p>
+<p>Describe the purpose of the glossary and provide instructions or background information, links etc. Click the icon top left to expand the toolbars, and drag the bottom right of the text box out to expand it.</p>
+<p><strong>Display description on course page</strong></p>
+<p>If ticked, the quiz description will appear on the course page directly under the quiz name.</p>
+</div>
+<div class="section" id="timing">
+<h3>Timing<a class="headerlink" href="#timing" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Open the quiz</strong></p>
+<p>You can specify times when the quiz is accessible for people to make attempts. Before the opening time the quiz will be unavailable to students. They will be able to view the quiz introduction but will not be able to view the questions. Quizzes with start times in the future diasplay both the open and close date for students.</p>
+<p><strong>Note:</strong> You can make the quiz available at different times for different groups or users in the Group or User override sections of the Quiz Administration settings block.</p>
+<p><strong>Close the quiz</strong></p>
+<p>After the closing time, the students will not be able to start new attempts. Answers that the student submits after the quiz closing date will be saved but they will not be marked.</p>
+<p>Even after the quiz has closed students will still be able to see the quiz description and review their attempts. What exactly they will see depends on the settings you choose for review options (see below).</p>
+<p><strong>Time limit</strong></p>
+<p>By default, quizzes do not have a time limit, which allows students as much time as they need to complete the quiz. If you do specify a time limit, several things are done to try and ensure that quizzes are completed within that time.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>A countdown timer is shown in the quiz navigation block</li>
+<li>When the timer has run out, the quiz is submitted automatically with whatever answers have been filled in so far</li>
+<li>If a student manages to cheat and goes over the allotted time, no marks are awarded for any answers entered after the time ran out</li>
+</ol>
+</div></blockquote>
+<p><strong>Note:</strong> You can make the quiz available last a different period of time for different groups or users in the Group or User override sections of the Quiz Administration settings block</p>
+<p><strong>When time expires</strong></p>
+<p>There are three options as to what will happen when the time limit is up. Choose the one you need from the dropdown menu:</p>
+<p><strong>Submission grace period</strong></p>
+<p>If you select &#8220;there is a grace period...&#8221; then you can check the box to enable the &#8220;Submission grace period&#8221; and specify a period of time during which learners may still submit the quiz after the time is up.</p>
+</div>
+<div class="section" id="examples-of-how-timing-is-handled">
+<h3>Examples of how timing is handled<a class="headerlink" href="#examples-of-how-timing-is-handled" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>A student starts a quiz at noon. The quiz has a one-hour time-limit, and a 1 hour delay between attempts. The student gets distracted, and so actually does not submit (using the overdue handling) until 1:30pm. <em>They are allowed to start their second attempt at 2. pm</em></li>
+<li>The quiz count-down timer submits a student&#8217;s quiz attempt at the last second when time expires. Because the server is heavily loaded, it takes 30 seconds to process the student&#8217;s attempt. <em>The submission is accepted nonetheless</em>.</li>
+<li>Same situation as above but with a 120 second delay: <em>The submission is rejected</em>.</li>
+<li>The delay is not because of server load but because the student found a way to cheat the timer. <em>Moodle cannot know what causes a delay.The behaviour is controlled by the admin setting(quiz | graceperiodmin), 60 seconds by default</em>.</li>
+<li>A student is a member of 3 groups,all of which have different override settings. Which limits will apply to this student? <em>If there is any user-specific override, then that is used, and the group overrides for that setting are not used at all. Otherwise, if there are multiple group overrides, the most generous values are used (the earliest open date, the latest close date, the longest time limit, the most number of attempts, and the student can type any of the passwords)</em>.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="grade">
+<h3>Grade<a class="headerlink" href="#grade" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Grade category</strong></p>
+<p>If you have categories in your gradebook, select the one you wish the quiz to be in here.</p>
+<p><strong>Attempts allowed</strong></p>
+<p>Students may be allowed to have multiple attempts at a quiz. This can help make the process of taking the quiz more of an educational activity rather than simply an assessment. If the quiz is randomized then the student will get a new version for each attempt. This is useful for practice purposes.</p>
+<p><strong>Note:</strong> You can change the allowed number of attempts for different groups or users in the Group or User override sections of the Quiz Administration settings block.</p>
+<p><strong>Grading method</strong></p>
+<p>When multiple attempts are allowed, there are different ways you can use the grades to calculate the student&#8217;s final grade for the quiz.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Highest grade - the final grade is the highest (best) grade in any attempt</li>
+<li>Average grade - the final grade is the average (simple mean) grade of all attempts</li>
+<li>First grade - the final grade is the grade earned on the first attempt (other attempts are ignored)</li>
+<li>Last grade - the final grade is the grade earned on the most recent attempt only</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="layout">
+<h3>Layout<a class="headerlink" href="#layout" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Question order</strong></p>
+<p>If &#8216;Shuffled randomly&#8217; is selected, then the order of questions in the quiz will be randomly shuffled each time a student starts a new attempt at the quiz. The intention is to make it a little harder for students to copy from each other.</p>
+<p><strong>New page</strong></p>
+<p>For longer quizzes it makes sense to stretch the quiz over several pages by limiting the number of questions per page. When adding questions to the quiz, page breaks will automatically be inserted according to the setting you choose here. However, you will also be able to move page breaks around by hand later on the editing page. <strong>Note that changing this setting has no effect on questions you have already added to the quiz</strong>. The setting will only apply to questions you add subsequently. To change the page breaks in an existing quiz, you need to go to the quiz editing screen, tick the &#8216;Show page breaks&#8217; checkbox, then use the repaginate control.</p>
+<p><strong>Navigation method</strong> (available by clicking Show More)</p>
+<p>By choosing Sequential instead of Free, the teacher is forcing the student to progress through the questions in order without being able to go back to a previous question or skip to a later one.</p>
+</div>
+<div class="section" id="question-behaviour">
+<h3>Question behaviour<a class="headerlink" href="#question-behaviour" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Shuffle within questions</strong></p>
+<p>If set to &#8216;yes&#8217;, then each time the student takes a quiz the parts of the question will be shuffled randomly.</p>
+<p><strong>How questions behave</strong></p>
+<blockquote>
+<div><ul>
+<li><p class="first"><strong>Deferred feedback</strong> - Students must enter an answer to each question and then submit the entire quiz, before anything is graded or they get any feedback.</p>
+</li>
+<li><p class="first"><strong>Adaptive mode and Adaptive mode (no penalties)</strong> - Allows students to have multiple attempts at the question before moving on to the next question.</p>
+</li>
+<li><p class="first"><strong>Interactive mode</strong> - After submitting one answer, and reading the feedback, the student has to click a &#8216;Try again&#8217; button before they can try a new response. Once the student has got the question right, they can no longer change their response. Once the student has got the question wrong too many times, they are just graded wrong (or partially correct) and get shown the feedback and can no longer change their answer.</p>
+<blockquote>
+<div><ul class="simple">
+<li>There can be different feedback after each try the student makes.</li>
+<li>The question can adapt itself to the student&#8217;s answer, for example by giving some hints before asking the student to try again.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Immediate feedback</strong> - Similar to interactive mode in that the student can submit their response immediately during the quiz attempt, and get it graded. However, they can only submit one response, they cannot change it later.</p>
+</li>
+<li><p class="first"><strong>Deferred feedback or Immediate feedback with Certainty-based marking (CBM)</strong> - With CBM, the student does not only answer the question, but they also indicate how sure they are they got the question right. The grading is adjusted by the choice of certainty, so that students have to reflect honestly on their own level of knowledge in order to get the best mark. See the See Also section below for an example quiz using CBM and a blog post explaining the philosophy.</p>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Note:</strong> There is also an option &#8220;Manual grading&#8221; which can be enabled from Administration&gt;Site administration&gt;Plugins&gt;Question behaviour This causes all questions in the quiz to require manual grading.</p>
+<p><strong>Certainty-based marking</strong></p>
+<p>When a student answers a question they also have to state how sure they are of the answer: not very (less than 67%); fairly (more than 67%) or very (more than 80%). Their grading is then ajusted according to how certain they are, which means that for example if they answered correctly but were only guessing, their mark is adjusted from 1 to 0.33. If they answered wrongly but were very sure, their mark is adjusted from 0 to -2.</p>
+<p><strong>Each attempt builds on the last</strong> (available by clicking &#8220;Show more&#8221;)</p>
+<p>If multiple attempts are allowed and this setting is set to Yes, then each new attempt contains the results of the previous attempt. This allows the student on the new attempt to concentrate on just those questions that were answered incorrectly on the previous attempt. If this option is chosen then each attempt by a particular student uses the same questions in the same order, independent of randomization settings. To show a fresh quiz on every attempt, select No for this setting.</p>
+</div>
+<div class="section" id="review-options">
+<h3>Review options<a class="headerlink" href="#review-options" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>This section controls what information students will be shown when they review their past attempts at the quiz, and during the attempt in adaptive mode. It is a matrix with check boxes.</p>
+<p>The various pieces of information that can be controlled are:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>The attempt</strong> - Will show how the student responded to each question.</li>
+<li><strong>Whether correct</strong> - Displays whether the students response to each question is correct or incorrect.</li>
+<li><strong>Marks</strong> - Reveals the marks awarded to the student and the grade for the quiz.</li>
+<li><strong>Specific feedback</strong> - Will show the feedback for the response to the answer as set when adding the question to the quiz. Each response to a question can have feedback for both correct and incorrect answers.</li>
+<li><strong>General feedback</strong> - Displays the general feedback for the whole question as set when adding the question to the quiz. You can use the general feedback to give students some background to what knowledge the question was testing.</li>
+<li><strong>Right answer</strong> - Reveals the correct answer to each question, whether the student answered correctly or not.</li>
+<li><strong>Overall feedback</strong> - Displays feedback for the entire quiz as set in the quiz settings.</li>
+</ul>
+</div></blockquote>
+<p>For each of the above items, you can determine the timeframe when the students will see them:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>During the attempt</strong> - is only available when ‘How questions behave’ has been set to ‘Immediate feedback’, ‘Immediate feedback with CBM’ and ‘Interactive with multiple tries’. If set to one of these options then a ‘Check’ button will appear below the answer and when clicked the student will submit that response and then receive immediate feedback.</li>
+<li><strong>Immediately after the attempt</strong> - means within 2 minutes of the student clicking &#8220;submit all and finish&#8221;.</li>
+<li><strong>Later, while the quiz is still open</strong> - means after 2 minutes, but before the close date (if the quiz does not have a close date, this phase never ends).</li>
+<li><strong>After the quiz is closed</strong> - means what it says (you never get here for quizzes without a close date).</li>
+</ul>
+</div></blockquote>
+<p><strong>Tip:</strong> Checking any of the boxes in the timeframe row, will reveal the test to the student. For example, to allow students to see their quiz immediately after taking it but not later, make sure none of the boxes in &#8220;Later&#8221; or &#8220;After&#8221; rows are checked. The student will be able to see their grade but not get into the quiz.</p>
+<p><strong>Note:</strong> Currently, the Answers display is a bit inconsistent between different question types. For example, the matching question type shows students which of their responses are correct, but does not tell them the right answer for the ones they got wrong. The short answer and multiple choices question types do tell the student what the correct answer is.</p>
+<p>Users with the capability &#8216;View hidden grades&#8217; moodle/grade:viewhidden (typically teachers and administrators) are not affected by these settings and will always by able to review all information about a student&#8217;s attempt at any time.</p>
+<p>In your list of review options, you must have &#8216;The attempt&#8217; (the first option in the lists) selected before you can enable the options to show &#8216;Whether correct&#8217;, &#8216;Specific feedback&#8217;, &#8216;General feedback&#8217;, and &#8216;Right answer&#8217;. If you choose not to let the students review the attempt, your only options are to display &#8216;Marks&#8217; and &#8216;Overall feedback&#8217;.</p>
+</div>
+<div class="section" id="display">
+<h3>Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p><strong>Show the user&#8217;s picture</strong></p>
+<p>It is now possible, when displaying the user&#8217;s profile picture for proctoring purposes, to choose whether a large image or thumbnail will be displayed.</p>
+<p><strong>Decimal places in grades</strong></p>
+<p>This option determines how many digits will be shown after the decimal separator when the grade is displayed. A setting of 0 for example means that the grades are displayed as integers. This setting is only used for the display of grades, not for the display or marking of answers.</p>
+</div>
+<div class="section" id="extra-restrictions-on-attempts">
+<h3>Extra restrictions on attempts<a class="headerlink" href="#extra-restrictions-on-attempts" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default and are available by clicking &#8220;Show more&#8221;)</p>
+<p><strong>Require password</strong> (This field is optional.)</p>
+<p>If you specify a password in here then participants must enter the same password before they are allowed to make an attempt on the quiz. This is useful to give only a selected group of students access to the quiz.</p>
+<p><strong>Require network address</strong> (This field is optional.)</p>
+<p>You can restrict access for a quiz to particular subnets on the LAN or Internet by specifying a comma-separated list of partial or full IP address numbers. This is especially useful for a proctored (invigilated) quiz, where you want to be sure that only people in a certain room are able to access the quiz. For example: 192.168. , 231.54.211.0/20, 231.3.56.211</p>
+<p><strong>Enforced delay between attempts</strong> (These two fields are optional.)</p>
+<p>You can set a time (from seconds to weeks) between the first and second attempt of a quiz. You can also (or alternatively) set a time from seconds to weeks for subsequent attempts after the second attempt. Thus, you might allow a student to take the quiz twice immediately with no delay, but if they want to improve their score with a third attempt, they are forced to wait a week and use the time for extra revision.</p>
+<p><strong>Browser security</strong></p>
+<p>The options in this section offer various ways to try to restrict how students may try to &#8216;cheat&#8217; while attempting a quiz. However, this is not a simple issue, and what in one situation is considered &#8216;cheating&#8217; may, in another situation, just be effective use of information technology. (For example, the ability to quickly find answers using a search engine.)</p>
+<blockquote>
+<div><p><strong>Full screen pop-up with some JavaScript security</strong></p>
+<blockquote>
+<div><p>There is a limit to what the quiz, which runs on a web server, can do to restrict what the student sitting at their computer can do while attempting the quiz. However, this option does what is possible:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The quiz will only start if the student has a JavaScript-enabled web-browser.</li>
+<li>The quiz appears in a fullscreen popup window that covers all the other windows and has no course navigation controls.</li>
+<li>The students are prevented, as far as is possible, from using facilities like copy and paste.</li>
+<li>This setting does not work well with the MyMobile theme for mobile devices included in the standard installation. In particular, quiz time limits do not function correctly</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<p><strong>Require the use of Safe Exam Browser</strong></p>
+<blockquote>
+<div><p>This option will only appear if your administrator has enabled it in <em>Administration &gt; Site administration &gt; Development &gt; Experimental &gt; Experimental settings</em>.</p>
+<p><em>Safe Exam Browser</em> is a customised web browser that must be downloaded and installed on the computer that the student uses to attempt the quiz. It restricts student use more effectively than a pop up window option. Features include full screen, without web navigation options, shortcut keys including copy and paste are disabled and of course surfing the web during an exam.</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="overall-feedback">
+<h3>Overall feedback<a class="headerlink" href="#overall-feedback" title="Permalink to this headline">¶</a></h3>
+<p>(These setttings are collapsed by default)</p>
+<p>Overall feedback is shown to a student after they have completed an attempt at the quiz. The text that is shown can depend on the grade the student got. Click &#8220;Show editing tools&#8221; to display the rich text editor, and drag the bottom right of the text box out to expand it.</p>
+<p>For example, if you entered:</p>
+<div class="line-block">
+<div class="line">Grade boundary: 100%</div>
+<div class="line">Feedback: &#8220;Well done&#8221;</div>
+<div class="line">Grade boundary: 40%</div>
+<div class="line">Feedback: &#8220;Please study this week&#8217;s work again&#8221;</div>
+<div class="line">Grade boundary: 0%</div>
+</div>
+</div>
+<div class="section" id="common-module-settings">
+<h3>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default.)</p>
+<p>See <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access-activity-completion">
+<h3>Restrict access/Activity completion<a class="headerlink" href="#restrict-access-activity-completion" title="Permalink to this headline">¶</a></h3>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <em class="xref std std-ref">Conditional activities</em> and <em class="xref std std-ref">Activity completion</em> have been enabled in the site and the course.</p>
+</div>
+</div>
+<div class="section" id="group-and-user-overrides">
+<h2>Group and User overrides<a class="headerlink" href="#group-and-user-overrides" title="Permalink to this headline">¶</a></h2>
+<p>Dates, timing and number of allowed attempts may be changed for individual users or groups by following the links Group Overrides or User Overrides in the Quiz Administration settings block.</p>
+<div class="section" id="group-overrides">
+<h3>Group overrides<a class="headerlink" href="#group-overrides" title="Permalink to this headline">¶</a></h3>
+<p>To change a quiz setting for a particular group, click the &#8220;add group override&#8221; button in Quiz Administration&gt;Group overrides, make the changes you wish and save or enter another override.</p>
+</div>
+<div class="section" id="user-overrides">
+<h3>User overrides<a class="headerlink" href="#user-overrides" title="Permalink to this headline">¶</a></h3>
+<p>To change a quiz setting for a particular user or users, click the &#8220;add user override&#8221;button in Quiz Administration&gt;Group overrides, make the changes you wish and save or enter another override.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +287,34 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Quiz</a><ul>
+<li><a class="reference internal" href="#features-of-quiz">Features of quiz</a></li>
+<li><a class="reference internal" href="#quiz-administration">Quiz administration</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#timing">Timing</a></li>
+<li><a class="reference internal" href="#examples-of-how-timing-is-handled">Examples of how timing is handled</a></li>
+<li><a class="reference internal" href="#grade">Grade</a></li>
+<li><a class="reference internal" href="#layout">Layout</a></li>
+<li><a class="reference internal" href="#question-behaviour">Question behaviour</a></li>
+<li><a class="reference internal" href="#review-options">Review options</a></li>
+<li><a class="reference internal" href="#display">Display</a></li>
+<li><a class="reference internal" href="#extra-restrictions-on-attempts">Extra restrictions on attempts</a></li>
+<li><a class="reference internal" href="#overall-feedback">Overall feedback</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access-activity-completion">Restrict access/Activity completion</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#group-and-user-overrides">Group and User overrides</a><ul>
+<li><a class="reference internal" href="#group-overrides">Group overrides</a></li>
+<li><a class="reference internal" href="#user-overrides">User overrides</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/quiz.txt"
