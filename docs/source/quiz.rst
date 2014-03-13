@@ -134,6 +134,7 @@ If set to 'yes', then each time the student takes a quiz the parts of the questi
   * **Deferred feedback** - Students must enter an answer to each question and then submit the entire quiz, before anything is graded or they get any feedback.
   * **Adaptive mode and Adaptive mode (no penalties)** - Allows students to have multiple attempts at the question before moving on to the next question.
   * **Interactive mode** - After submitting one answer, and reading the feedback, the student has to click a 'Try again' button before they can try a new response. Once the student has got the question right, they can no longer change their response. Once the student has got the question wrong too many times, they are just graded wrong (or partially correct) and get shown the feedback and can no longer change their answer.
+      
       * There can be different feedback after each try the student makes.
       * The question can adapt itself to the student's answer, for example by giving some hints before asking the student to try again. 
   * **Immediate feedback** - Similar to interactive mode in that the student can submit their response immediately during the quiz attempt, and get it graded. However, they can only submit one response, they cannot change it later.
@@ -214,7 +215,7 @@ You can set a time (from seconds to weeks) between the first and second attempt 
     
 The options in this section offer various ways to try to restrict how students may try to 'cheat' while attempting a quiz. However, this is not a simple issue, and what in one situation is considered 'cheating' may, in another situation, just be effective use of information technology. (For example, the ability to quickly find answers using a search engine.) 
 
-    **Full screen pop-up with some JavaScript security**
+   **Full screen pop-up with some JavaScript security**
 
     There is a limit to what the quiz, which runs on a web server, can do to restrict what the student sitting at their computer can do while attempting the quiz. However, this option does what is possible: 
 
@@ -223,7 +224,7 @@ The options in this section offer various ways to try to restrict how students m
        * The students are prevented, as far as is possible, from using facilities like copy and paste.
        * This setting does not work well with the MyMobile theme for mobile devices included in the standard installation. In particular, quiz time limits do not function correctly 
 
-     **Require the use of Safe Exam Browser**
+   **Require the use of Safe Exam Browser**
 
     This option will only appear if your administrator has enabled it in *Administration > Site administration > Development > Experimental > Experimental settings*. 
 
