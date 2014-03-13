@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Activity completion settings &mdash; mooclms 2.6.1 documentation</title>
+    <title>Activity completion &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,8 +41,101 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="activity-completion-settings">
-<span id="id1"></span><h1>Activity completion settings<a class="headerlink" href="#activity-completion-settings" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="activity-completion">
+<span id="activity-completion-settings"></span><h1>Activity completion<a class="headerlink" href="#activity-completion" title="Permalink to this headline">¶</a></h1>
+<p>Activity completion allows the teacher to set completion criteria in a specific activity&#8217;s settings. A check (tick) appears against the activity when the student meets this criterion. The criterion might be viewing, receiving a certain score or a student marking it as complete.</p>
+<p><em>Site administration &gt; Advanced features &gt; Completion tracking</em> must be enabled on the site.</p>
+<p><strong>Note:</strong> If Completion tracking has been enabled, the teacher will see the Activity completion group in their course settings. However, it is possible to track activity completion without using the <em class="xref std std-ref">Course completion</em> feature. It is also possible to use this feature with the <a class="reference internal" href="conditional_activities_settings.html#conditional-activities-settings"><em>Conditional activities</em></a> feature. These 3 features can be used separately or in various combinations in an activity.</p>
+<div class="section" id="id1">
+<h2>Activity completion settings<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="activity-settings">
+<h3>Activity settings<a class="headerlink" href="#activity-settings" title="Permalink to this headline">¶</a></h3>
+<p>Depending on the type of activity, there are different completion requirements. For example, a Page might have the requirement to require view; a Quiz might have the requirement to require grade while a Forum might have the requirement to require posts/discussions/replies.</p>
+<p><strong>Completion tracking</strong></p>
+<p>There are three options:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Do not indicate activity completion</em> - this will not show checks(ticks)next to the activity</li>
+<li><em>Students can manually mark the activity as completed</em> - students press the check(tick) to change it. (Note: they can do this even without doing the activity!)</li>
+<li><em>Show activity as complete when conditions are met</em> - the selected completion criteria must be met before the check(tick) will change style</li>
+</ul>
+</div></blockquote>
+<p><strong>Require view</strong></p>
+<p>When this option is turned on, students have to view the activity in order to complete it.</p>
+<blockquote>
+<div><ul class="simple">
+<li>In most cases, clicking the link is enough to &#8216;view&#8217; the activity.</li>
+<li>You should usually not turn on the &#8216;view&#8217; condition if you have other requirements - this makes extra work for the server and it&#8217;s unlikely that a student could meet any other conditions without viewing the activity.</li>
+</ul>
+</div></blockquote>
+<p><strong>Require grade</strong></p>
+<p>When this option is turned on, students have to get a grade on the activity in order to complete it. For example, a quiz would be marked completed as soon as the user submits it (so long as it doesn&#8217;t contain any &#8220;essay&#8221; questions).</p>
+<p>It does not matter how well the student did. Getting any grade will mark the activity completed.</p>
+<p>It is possible to distinguish between &#8216;pass&#8217; and &#8216;fail&#8217; grades so that the activity becomes &#8216;completed, passed&#8217; or &#8216;completed, not passed&#8217; instead of just &#8216;completed&#8217;. These results show a different icon and alternative text.</p>
+<p>To set this up, you need to specify the pass value for this activity&#8217;s individual grade:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to the course gradebook by clicking the &#8216;Grades&#8217; link on the course administration block.</li>
+<li>From the &#8216;Choose an action&#8217; dropdown, pick &#8216;Categories and items&#8217;.</li>
+<li>Click the Edit icon next to the grade item for this activity.</li>
+<li>Turn on &#8216;Show Advanced&#8217;.</li>
+<li>Type a grade value (e.g. 5.0) in the &#8216;Grade to pass&#8217; box.</li>
+</ol>
+</div></blockquote>
+<p>Once you have done this, anybody submitting the quiz will receive either the pass or fail completion icon. If the quiz can be taken multiple times, the completion icon will automatically update whenever the grade does.</p>
+<p>There is one limitation: this only works if grades are immediately visible to students. The grade must be neither permanently hidden, nor hidden until a certain date. If a grade is hidden then only the standard &#8216;completed&#8217; state will be displayed - even once the hidden date has passed.</p>
+<p><strong>Require submission</strong></p>
+<p>This setting appears in assignments and means that an assignment may be considered as completed once the student has submitted - but before the teacher has had time to grade it.</p>
+<p><strong>Expect completed on</strong></p>
+<p>The date is not shown to students and is only displayed in the Activity completion report.</p>
+<p><strong>Require posts</strong></p>
+<p>This setting is seen in forums. For the forum to be classed as &#8220;complete&#8221; the student must either start a discussion or reply to a discussion. The number of posts they must make can be specified in the box.</p>
+<p><strong>Require discussions</strong></p>
+<p>This setting is seen in forums. For the forum to be classed as &#8220;complete&#8221;, the student must start a discussion topic. The number of posts they must make can be specified in the box.</p>
+<p><strong>Require replies</strong></p>
+<p>This setting is seen in forums. For the forum to be classed as &#8220;complete&#8221; the student must reply to a discussion. The number of posts they must make can be specified in the box.</p>
+</div>
+<div class="section" id="locked-completion-options">
+<h3>Locked completion options<a class="headerlink" href="#locked-completion-options" title="Permalink to this headline">¶</a></h3>
+<p>If at least one person has completed an activity, completion options are &#8216;locked&#8217;. This is because changing these options may result in unexpected behaviour. For example, if somebody has ticked an activity as manually completed, and you then set it to automatic completion, the activity will become unticked - very confusing for the student who had already ticked it!</p>
+<p><strong>Tip:</strong> It is best not to unlock options unless you are sure it won&#8217;t cause problems - for example, if you know that students don&#8217;t have access to the course yet, so it will only be staff who have marked the activity completed when testing.</p>
+</div>
+<div class="section" id="what-happens-when-you-unlock">
+<h3>What happens when you unlock<a class="headerlink" href="#what-happens-when-you-unlock" title="Permalink to this headline">¶</a></h3>
+<p>Once you unlock options and then click &#8216;Save changes&#8217;, all completion information for the activity will be deleted and, if possible, regenerated according to the new settings.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">If the new completion option is manual, everyone will be set to &#8216;not completed&#8217; regardless of any previous setting.</p>
+</li>
+<li><p class="first">If it is automatic then, depending on the options chosen, the system may or may not be able to construct a correct current value for everyone.</p>
+<blockquote>
+<div><ul class="simple">
+<li>The &#8216;viewed&#8217; requirement will not work - even if a student has viewed the activity before, it will not be marked completed until they view it again.</li>
+<li>Most other options will be recalculated successfully.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>If you change completion options while a student is logged in, they may not see the changes for some minutes.</p>
+</div>
+<div class="section" id="required-site-settings">
+<h3>Required site settings<a class="headerlink" href="#required-site-settings" title="Permalink to this headline">¶</a></h3>
+<p>To use activity completion, the feature needs to be enabled for the site by an administrator as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li>In <em>Administration &gt; Site administration &gt; Advanced features</em> check the &#8220;Enable completion tracking&#8221; box.</li>
+<li>The admin may also set the default completion tracking setting when adding new activities, choosing from &#8216;Do not indicate completion&#8217; or &#8216; Use activity default&#8217;</li>
+<li>Click the &#8216;Save changes&#8217; button</li>
+</ul>
+</div></blockquote>
+<p><strong>Tip:</strong> The default Cron trigger for activity completion is every 10 minutes. Students and Teachers often think any course completion should instantly show up in a report.</p>
+</div>
+<div class="section" id="required-course-settings">
+<h3>Required course settings<a class="headerlink" href="#required-course-settings" title="Permalink to this headline">¶</a></h3>
+<p><em>Administration &gt; Course administration &gt; Edit settings</em> and look for the Completion tracking section. You must enable this setting.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +144,21 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Activity completion</a><ul>
+<li><a class="reference internal" href="#id1">Activity completion settings</a><ul>
+<li><a class="reference internal" href="#activity-settings">Activity settings</a></li>
+<li><a class="reference internal" href="#locked-completion-options">Locked completion options</a></li>
+<li><a class="reference internal" href="#what-happens-when-you-unlock">What happens when you unlock</a></li>
+<li><a class="reference internal" href="#required-site-settings">Required site settings</a></li>
+<li><a class="reference internal" href="#required-course-settings">Required course settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/activity_completion_settings.txt"
