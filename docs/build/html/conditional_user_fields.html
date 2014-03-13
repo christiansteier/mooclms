@@ -43,6 +43,63 @@
             
   <div class="section" id="conditional-user-fields">
 <span id="id1"></span><h1>Conditional user fields<a class="headerlink" href="#conditional-user-fields" title="Permalink to this headline">¶</a></h1>
+<p>This page explains how to restrict an activity, resource or course section via user fields and/or custom profile fields.</p>
+<div class="section" id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Conditional access must be enabled (see <a class="reference internal" href="conditional_activities_settings.html#conditional-activities-settings"><em>Conditional activities</em></a> for instructions on how to enable this for your site).</li>
+<li>When adding or editing an activity, resource or course section scroll to the user fields in the &#8216;Restrict Access&#8217; section.</li>
+<li>Choose which fields you want to restrict by (adding more if needed), select the restriction you want to put in place and then enter a value.</li>
+<li>Save the settings.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>This is an example of the interface in Moodle when adding an activity to a course with the conditional functionality enabled.</p>
+<p>This is how it will appear to users who fail to meet the restrictions set in place.</p>
+</div>
+<div class="section" id="user-fields">
+<h2>User fields<a class="headerlink" href="#user-fields" title="Permalink to this headline">¶</a></h2>
+<p>You can restrict by using one of the user fields that are located in the Moodle user table. Not all the user fields are included, as not all of them would make sense in this context. The ones included are listed below.</p>
+<blockquote>
+<div><ul class="simple">
+<li>AIM ID - This is the value in the &#8216;aim&#8217; column</li>
+<li>Address - This is the value in the &#8216;address&#8217; column</li>
+<li>City/town - This is the value in the &#8216;city&#8217; column</li>
+<li>Country - This is the value in the &#8216;country&#8217; column</li>
+<li>Department - This is the value in the &#8216;department&#8217; column</li>
+<li>Email Address - This is the value in the &#8216;email&#8217; column</li>
+<li>First name - This is the value in the &#8216;firstname&#8217; column</li>
+<li>ICQ number - This is the value in the &#8216;icq&#8217; column</li>
+<li>ID number - This is the value in the &#8216;idnumber&#8217; column</li>
+<li>Institution - This is the value in the &#8216;institution&#8217; column</li>
+<li>Interests - This is the value in the &#8216;interests&#8217; column</li>
+<li>MSN ID - This is the value in the &#8216;msn&#8217; column</li>
+<li>Mobile phone - This is the value in the &#8216;phone2&#8217; column</li>
+<li>Phone - This is the value in the &#8216;phone1&#8217; column</li>
+<li>Skype ID - This is the value in the &#8216;skype&#8217; column</li>
+<li>Surname - This is the value in the &#8216;lastname&#8217; column</li>
+<li>Web page - This is the value in the &#8216;url&#8217; column</li>
+<li>Yahoo ID - This is the value in the &#8216;yahoo&#8217; column</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="custom-profile-fields">
+<h2>Custom profile fields<a class="headerlink" href="#custom-profile-fields" title="Permalink to this headline">¶</a></h2>
+<p>These are all the custom profile fields that have been created on the Moodle site. See <a class="reference internal" href="user_profile_fields.html#user-profile-fields"><em>User profile fields</em></a>.</p>
+</div>
+<div class="section" id="operators">
+<h2>Operators<a class="headerlink" href="#operators" title="Permalink to this headline">¶</a></h2>
+<p>The operators define the relationship between the field chosen and the value entered. For example, when the user&#8217;s email must contain &#64;school.com, the field chosen is &#8216;Email address&#8217;, the operator is &#8216;contains&#8217; and the value is <a class="reference external" href="mailto:'&#37;&#52;&#48;school&#46;com">'<span>&#64;</span>school<span>&#46;</span>com</a>&#8216;.</p>
+<p><strong>Contains</strong> - This operator restricts access to those whose chosen field contains the value provided.</p>
+<p><strong>Does not contain</strong> - This operator restricts access to those whose chosen field does not contain the value provided.</p>
+<p><strong>Is Equal To</strong> - This operator restricts access to those whos chosen field equals the value provided.</p>
+<p><strong>Starts With</strong> - This operator restricts access to the activity to those whos chosen field starts with the value provided.</p>
+<p><strong>Ends With</strong> - This operator restricts access to the activity to those whos chosen field ends with the value provided.</p>
+<p><strong>Is Empty</strong> - This operator restricts access to the activity to those whos chosen field is empty. Note, if any value is provided in this case, it is ignored.</p>
+</div>
 </div>
 
 
@@ -51,6 +108,18 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Conditional user fields</a><ul>
+<li><a class="reference internal" href="#instructions">Instructions</a></li>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#user-fields">User fields</a></li>
+<li><a class="reference internal" href="#custom-profile-fields">Custom profile fields</a></li>
+<li><a class="reference internal" href="#operators">Operators</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/conditional_user_fields.txt"
