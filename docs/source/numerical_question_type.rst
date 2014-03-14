@@ -10,10 +10,12 @@ You are able to
 
   * grade independently the number and the unit,
   * choose to handle the unit response either as
+  
       * a text input element or as
       * a multichoice radio element, 
   * just grade the number with the option to write the unit close to the input element,
   * put the unit either
+  
       * at right of the number as the most common occurence
       * or at left as in $ 100,00. 
 
