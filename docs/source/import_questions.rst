@@ -19,6 +19,7 @@ The question bank allows you a great deal of flexibility when importing question
   * General: pick the category, determine if the context and category information that maybe contained in a GIFT or XML file should be used.
   * Select what should happen if there are no grades or an error is detected in the import process.
   * Determine the file to import
+  
       * Import from file upload. Use the browse function to import a file from your computer. Use the "Upload this file" button to import the questions.
       * Import from file already in course files. A popup window will take you to the course files start page. Use the "Import from this file" button. 
 
