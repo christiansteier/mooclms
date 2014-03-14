@@ -36,7 +36,7 @@ Lesson can only import from a file located on the teachers computer.
   * Click on the Import question link between the pages.
   * Select the file type
   * Use the browse function to find the file on your computer
-  *Import the selected file. 
+  * Import the selected file. 
 
 Questions import formats
 ^^^^^^^^^^^^^^^^^^^^^^^^^
