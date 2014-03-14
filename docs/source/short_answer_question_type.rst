@@ -55,30 +55,13 @@ Here is an example:
 
 What is a rabbit?
 
+answer1: animal, feedback: right, grade: 100%
 
-.. line-block::
+answer2: mammal, feedback: right, grade: 100%
 
-answer1: animal
-feedback: right
-grade: 100%
+answer3: vertebrate, feedback: right, grade: 100%
 
-.. line-block::    
-
-answer2: mammal
-feedback: right
-grade: 100%
-
-.. line-block::      
-
-answer3: vertebrate
-feedback: right
-grade: 100%
-
-.. line-block::
-
-answer4: *
-feedback: ouch! that was wrong
-grade: none
+answer4: * , feedback: ouch! that was wrong , grade: none
 
 Remember: you cannot do negative marking in this type and ANYTHING other than your right answer will be treated as option 4 due to the wildcard and given that feedback and zero marks. 
 
