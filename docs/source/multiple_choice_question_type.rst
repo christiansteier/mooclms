@@ -6,12 +6,12 @@ Moodle provides teachers with a lot of flexibility when creating this common que
 
 There are two types of multiple choice questions - single answer and multiple answer. 
 
-Single-answer questions
-^^^^^^^^^^^^^^^^^^^^^^^^
+**Single-answer questions**
+
 These questions allow one and only one answer to be chosen by providing radio buttons next to the answers. You will specify non-negative marks for each answer, usually zero marks for wrong answers, maximum marks for correct answers and partial marks for partially correct answers. 
 
-Multiple-answer questions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Multiple-answer questions**
+
 The teacher can select "multiple answers are allowed" in a Multiple Choice question type. "Multiple answers" questions types in a quiz allow one or more answers to be chosen by providing check boxes next to the answers. Each answer may carry a positive or negative grade, so that choosing ALL the options will not necessarily result in good grade. If the total grade is negative then the total grade for this question will be zero.
 
 Feedback can be associated either with specific answers, or with the question as a whole. 
@@ -37,7 +37,7 @@ Question set-up
   15. Select the "Save Changes" button at the bottom of the screen. 
   
 Penalty factor
-^^^^^^^^^^^^^^^^
+---------------
 The 'penalty factor' only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points. 
 
 General feedback
