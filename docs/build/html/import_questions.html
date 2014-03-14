@@ -43,6 +43,175 @@
             
   <div class="section" id="import-questions">
 <span id="id1"></span><h1>Import questions<a class="headerlink" href="#import-questions" title="Permalink to this headline">¶</a></h1>
+<p>Moodle has a number of different formats that can be used to import questions into <em class="xref std std-ref">Question bank</em> categories and as lesson question pages. These include some proprietary quiz software formats, as well as text files and Moodle formats.</p>
+<div class="section" id="importing-questions-from-an-existing-file">
+<h2>Importing questions from an existing file<a class="headerlink" href="#importing-questions-from-an-existing-file" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to import questions from a file on your network/computer or from a file that has been saved or uploaded into your course files. The underlying character encoding of this file is important.</p>
+<p><strong>Note:</strong> Moodle XML format is the recommended import question type format as it enables the maximum amount of question data (such as question feedback) to be imported.</p>
+<div class="section" id="question-bank-import-process">
+<h3>Question bank import process<a class="headerlink" href="#question-bank-import-process" title="Permalink to this headline">¶</a></h3>
+<p>The question bank allows you a great deal of flexibility when importing questions. To import questions into Moodle&#8217;s Question bank, use the Questions link in the course administration and select the import tab. In most versions of Moodle it is also possible to get to this screen (produced by ../question/import.php) while editing an existing quiz.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Select import tab</p>
+</li>
+<li><p class="first">Select the question type to import</p>
+</li>
+<li><p class="first">General: pick the category, determine if the context and category information that maybe contained in a GIFT or XML file should be used.</p>
+</li>
+<li><p class="first">Select what should happen if there are no grades or an error is detected in the import process.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Determine the file to import</dt>
+<dd><ul class="first last simple">
+<li>Import from file upload. Use the browse function to import a file from your computer. Use the &#8220;Upload this file&#8221; button to import the questions.</li>
+<li>Import from file already in course files. A popup window will take you to the course files start page. Use the &#8220;Import from this file&#8221; button.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="lesson-moule-process">
+<h3>Lesson moule process<a class="headerlink" href="#lesson-moule-process" title="Permalink to this headline">¶</a></h3>
+<p>The question types that can be imported from the Quiz questions bank into a lesson are the following: Matching, Multichoice, Numerical, Short answer, True/false.</p>
+<p>The Description and Cloze questions can <strong>not</strong> be imported from Quiz questions bank into a lesson.</p>
+<p>Lesson can only import from a file located on the teachers computer.</p>
+<blockquote>
+<div><ul class="simple">
+<li>In edit, using the expanded view</li>
+<li>Select the position where questions should be inserted into the lesson</li>
+<li>Click on the Import question link between the pages.</li>
+<li>Select the file type</li>
+<li>Use the browse function to find the file on your computer</li>
+</ul>
+<p><a href="#id2"><span class="problematic" id="id3">*</span></a>Import the selected file.</p>
+</div></blockquote>
+</div>
+<div class="section" id="questions-import-formats">
+<h3>Questions import formats<a class="headerlink" href="#questions-import-formats" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="gift">
+<h3>GIFT<a class="headerlink" href="#gift" title="Permalink to this headline">¶</a></h3>
+<p>Moodle &#8216;proprietary&#8217; text format for import and export. Reasonably comprehensive.</p>
+</div>
+<div class="section" id="moodle-xml">
+<h3>Moodle XML<a class="headerlink" href="#moodle-xml" title="Permalink to this headline">¶</a></h3>
+<p>Moodle &#8216;proprietary&#8217; xml format for import and export. Very comprehensive.</p>
+</div>
+<div class="section" id="aiken">
+<h3>Aiken<a class="headerlink" href="#aiken" title="Permalink to this headline">¶</a></h3>
+<p>This format is an easy way of writing multiple-choice questions for import.</p>
+</div>
+<div class="section" id="blackboard">
+<h3>Blackboard<a class="headerlink" href="#blackboard" title="Permalink to this headline">¶</a></h3>
+<p>It&#8217;s possible to import both .dat files containing just questions text or zip archives containing questions and associated medias (images, sounds, ...).</p>
+<p>If your questions contains images they are imported too.</p>
+<p>Also both Blackboard POOL and QTI files are supported.</p>
+<p>Questions produced with TestGen and Examview softwares and saved as Blackboard files are imported.</p>
+<p>If the zip archives contains several resources files all questions from all files are imported. &#8220;Undeployed&#8221; Blackboard quiz are also supported.</p>
+<p>Follow these steps to import questions:</p>
+<ol class="arabic simple">
+<li>Create a quiz with questions in Examview Test Generator v. 6.2.1 or another question generator able to save questions as Blackboard files like TestGen.</li>
+<li>Export the quiz to Blackboard 6.0-7.0 format.</li>
+<li>From the Settings tab for your course choose Question bank and then Import. Make sure you use the Blackboard format.</li>
+</ol>
+<p><strong>NOTE:</strong> Some tutorials on the web explain that you need to edit files to re-link images. This is no more needed. Images are imported without any editing.
+Importing questions in different categories</p>
+<p>If you check the &#8220;Get category from file&#8221; option during import, the category name for each resource file will be extracted for the resource file and created if necessary.</p>
+<p>If &#8220;Get category from file&#8221; is unchecked, all questions will be imported in the current category.</p>
+</div>
+<div class="section" id="embedded-answers-cloze">
+<h3>Embedded Answers (Cloze)<a class="headerlink" href="#embedded-answers-cloze" title="Permalink to this headline">¶</a></h3>
+<p>This format is a multiple question, multiple answer question with embedded answers. They can be a bit tricky to develop, but they are a unique way of asking questions.</p>
+</div>
+<div class="section" id="examview">
+<h3>Examview<a class="headerlink" href="#examview" title="Permalink to this headline">¶</a></h3>
+<p>ExamView 4 supported an XML export format that Moodle can import.</p>
+<p>Follow these steps to import questions from ExamView 4.0.8</p>
+<ol class="arabic simple">
+<li>Create a new test using ExamView</li>
+<li>After selecting the types of questions and how many of each Click on File - Export – Change Save As Type to ExamView XML</li>
+<li>After creating the export of your ExamView test login to your Moodle site</li>
+<li>Go to the course you wish to add the quiz to and Turn Editing On</li>
+<li>Scroll down to the topic or week you wish to add a Quiz Click add an activity – highlight quiz, Enter a name and introduction for the quiz and any other applicable information.</li>
+<li>Click save and display</li>
+<li>Editing quiz - click Edit then Import, click the radio button next to ExamView</li>
+<li>Browse to the location you saved the file highlight and click open, then click the upload this file button.</li>
+<li>Review the questions imported, click continue, click on Quiz, select all and click add to quiz</li>
+<li>Save Changes, click on the preview tab view the test and the quiz is ready.</li>
+</ol>
+<p>If you are using a newer version of ExamView, you should export your questions from Examview choosing the Blackboard format:</p>
+<ol class="arabic simple">
+<li>In ExamView choose one of the two Blackboard export options, either Blackboard option can be imported into Moodle, however it is recommended to choose the Blackboard 7.1+ option</li>
+<li>Save the zip archive ExamView creates</li>
+<li>Import this zip file in Moodle using &#8220;Blackboard V6+&#8221; format. see the above paragraph about the Blackboard V6+ import format for more informations.</li>
+</ol>
+</div>
+<div class="section" id="learnwise">
+<h3>Learnwise<a class="headerlink" href="#learnwise" title="Permalink to this headline">¶</a></h3>
+<p>This format can import multiple choice questions saved in Learnwise&#8217;s XML format.</p>
+</div>
+<div class="section" id="missing-word">
+<h3>Missing word<a class="headerlink" href="#missing-word" title="Permalink to this headline">¶</a></h3>
+<p>This format is only used for multiple choice questions and short answer questions, similar to GIFT.</p>
+</div>
+<div class="section" id="webct-format">
+<h3>WebCT format<a class="headerlink" href="#webct-format" title="Permalink to this headline">¶</a></h3>
+<p>This format supports importing multiple choice and short answers questions from WebCT&#8217;s text format.</p>
+<p><strong>Caution:</strong> Keep in mind that WebCT allows more than one &#8220;blank&#8221; per short answer question; whereas, Moodle will only accommodate one blank per question. Questions that used multiple short answers in a question will not convert successfully.</p>
+</div>
+<div class="section" id="word-table-format">
+<h3>Word table format<a class="headerlink" href="#word-table-format" title="Permalink to this headline">¶</a></h3>
+<p>This format supports importing all question types (except calculated) from structured tables in Microsoft Word files. Creating, editing and managing large numbers of questions is much easier in an external Word file than maintaining them one at a time inside Moodle.</p>
+</div>
+</div>
+<div class="section" id="hot-potatoes">
+<h2>Hot Potatoes<a class="headerlink" href="#hot-potatoes" title="Permalink to this headline">¶</a></h2>
+<p>A freeware program that can export questions into Moodle.</p>
+<p><strong>Note 1</strong> - All types of Hot Potatoes question types can be imported into Moodle, but JCross and JMix questions will be changed to Short Answer questions.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Can be imported into the Quiz questions bank:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Cloze questions (JCloze);</li>
+<li>Match questions (JMatch);</li>
+<li>Multiple Choice questions (JQuiz)</li>
+<li>Short Answer questions (JQuiz, JCross and JMix)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Can be imported into Moodle&#8217;s Lesson module:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Match questions (JMatch);</li>
+<li>Multiple Choice questions (JQuiz)</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Note 2</strong> - For Hot Potatoes&#8217; Multiple Choice question type (JQuiz), the Multiple-choice Short answer and Multi-select question-type will imported as they are. Hybrid questions will be imported as MultiChoice questions, i.e. they will not start as Short Answer questions and then change to Multiple Choice questions after several wrong responses.</p>
+</div>
+<div class="section" id="importing-from-other-programs">
+<h2>Importing from other programs<a class="headerlink" href="#importing-from-other-programs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="diploma-6">
+<h3>Diploma 6<a class="headerlink" href="#diploma-6" title="Permalink to this headline">¶</a></h3>
+<p>Diploma 6 also supports an XML export format that Moodle can import. If you are using a newer version of Diploma, here are the steps to export from Diploma and import to Moodle. The steps are the same as those for Blackboard(see above).</p>
+<blockquote>
+<div><ul class="simple">
+<li>Export from Diploma with the Blackboard LS 6.0 – 6.2 format.</li>
+<li>Import the .zip file using the Blackboard format. The images are imported at the same time.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="old-formats">
+<h3>Old formats<a class="headerlink" href="#old-formats" title="Permalink to this headline">¶</a></h3>
+<p>AON -This format is the same as the missing word format, except it creates matching questions from the multiple choice questions. Please note that from Moodle 1.8 it will no longer be part of the standard Moodle.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +220,35 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Import questions</a><ul>
+<li><a class="reference internal" href="#importing-questions-from-an-existing-file">Importing questions from an existing file</a><ul>
+<li><a class="reference internal" href="#question-bank-import-process">Question bank import process</a></li>
+<li><a class="reference internal" href="#lesson-moule-process">Lesson moule process</a></li>
+<li><a class="reference internal" href="#questions-import-formats">Questions import formats</a></li>
+<li><a class="reference internal" href="#gift">GIFT</a></li>
+<li><a class="reference internal" href="#moodle-xml">Moodle XML</a></li>
+<li><a class="reference internal" href="#aiken">Aiken</a></li>
+<li><a class="reference internal" href="#blackboard">Blackboard</a></li>
+<li><a class="reference internal" href="#embedded-answers-cloze">Embedded Answers (Cloze)</a></li>
+<li><a class="reference internal" href="#examview">Examview</a></li>
+<li><a class="reference internal" href="#learnwise">Learnwise</a></li>
+<li><a class="reference internal" href="#missing-word">Missing word</a></li>
+<li><a class="reference internal" href="#webct-format">WebCT format</a></li>
+<li><a class="reference internal" href="#word-table-format">Word table format</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hot-potatoes">Hot Potatoes</a></li>
+<li><a class="reference internal" href="#importing-from-other-programs">Importing from other programs</a><ul>
+<li><a class="reference internal" href="#diploma-6">Diploma 6</a></li>
+<li><a class="reference internal" href="#old-formats">Old formats</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/import_questions.txt"
