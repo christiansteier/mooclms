@@ -22,7 +22,8 @@ Question set-up
   2. Give the question a descriptive name. You'll use the name to track your questions later so "Question 1" isn't a good idea. The name will be used in the question lists on the quiz editing page or in the lesson as a page title. It will not be shown to the students, so you can choose any name that makes sense to you and possibly other teachers.
   3. Create the question text. If you're using the HTML Editor, you can format the question just like a word processing document.
   4. Select an image to display if you want to add a picture to the question. The available images are those you have uploaded to the main Moodle files area (they cannot be in folders). For the student, the image appears immediately after the question text and before the answer options.
-        * Alternatively, if you used the HTML editor to create the question text, you can click the image icon. This will pop up the Insert Image window. You can choose to upload an image into your files area from this window, or you can add the URL of an image on the web. If you add a file to your files area, click the name of the file after you upload it to insert the link into the URL text entry at the top of the screen. Then click OK. 
+       
+       * Alternatively, if you used the HTML editor to create the question text, you can click the image icon. This will pop up the Insert Image window. You can choose to upload an image into your files area from this window, or you can add the URL of an image on the web. If you add a file to your files area, click the name of the file after you upload it to insert the link into the URL text entry at the top of the screen. Then click OK. 
   5. Set the 'default question grade' (i.e. the maximum number of marks for this question).
   6. Set the 'Penalty factor' (see Penalty factor below).
   7. Moodle 1.7+: If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.
