@@ -8,7 +8,7 @@ Standard question types
 ------------------------
 * :ref:`Calculated <calculated_question_type>`
 * :ref:`Calculated multi-choice <calculated_multichoice_question_type>`
-* :ref:`Calculated simple <calculated_simple_question_type>`
+* :ref:`Simple Calculated <calculated_simple_question_type>`
 * :ref:`Description <description_question_type>`
 * :ref:`Essay <essay_question_type>`
 * :ref:`Matching <matching_question_type>`
