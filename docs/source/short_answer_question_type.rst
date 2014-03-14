@@ -56,18 +56,25 @@ Here is an example:
 What is a rabbit?
 
 
-.. line-block::          
+.. line-block:: 
+
 answer1: animal
 feedback: right
 grade: 100%
+
+.. line-block::          
 
 answer2: mammal
 feedback: right
 grade: 100%
 
+.. line-block::          
+
 answer3: vertebrate
 feedback: right
 grade: 100%
+
+.. line-block::          
 
 answer4: *
 feedback: ouch! that was wrong
