@@ -49,13 +49,14 @@ You can use the general feedback to give students some background to what knowle
 
 Overall feedback
 -----------------
+The option *overall feedback* for correct/partially correct/incorrect responses is particularly useful for multiple-response questions, where it is difficult to control what feedback students see just using the answer-specific feedback.
 
+So, when the student submits the question, they will see the answer-specific feedback next to the option(s) they selected, the overall feedback in a box below the options, and if applicable, the general feedback underneath everything else. 
 
+Lesson module multiple choice questions
+-----------------------------------------
+This page was created for the Quiz module. A Lesson Multiple Choice or Multianswer question type looks the same to the student but is very different in the teacher's edit mode. A lesson question offers the teacher the chance to both grade a student's answer, give feedback and also to send the student to another specific page based upon the student's choice.
 
-
-
-
-
-
+There are other differences. Quiz has a more robust scoring system that is similar to "Custom Scoring" in the Lesson module. Even with custom scoring turned on, Lesson will not give percentage credit of a question's score for an answer. And students must select all the correct answers to receive any credit for the multianswer question in the Lesson module. 
 
 
