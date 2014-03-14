@@ -41,18 +41,18 @@ Page 1. Editing a Calculated question
   7. Set the **Penalty factor** (see Penalty factor below). 
   8. Moodle 1.7+: If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.
   9. Next add the **formula for the answer**. This formula must contain at least the wildcards that appear in the question text. See Correct answer formula syntax below.
-  10 Choose the **grade** that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. **One of the answers must have a 100% grade**.
-  11 Determine the **tolerance** for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user's answer and the correct answer is dx, then the tolerance types are as follows:
+  10. Choose the **grade** that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. **One of the answers must have a 100% grade**.
+  11. Determine the **tolerance** for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user's answer and the correct answer is dx, then the tolerance types are as follows:
 
        * Nominal - mark correct if dx <= t
        * Relative - mark correct if dx / x <= t
        * Geometric - mark correct if dx² / x² <= t² 
 
-  12 The next 2 settings, "Correct answer shows" and "Format" determine the **precision** of the answer. Use these to select the number of decimal places or significant figures you want to use.
-  13 Add some **feedback** which the student will see if they enter this answer.
-  14 You can specify as many answer formulae as you like - click "Add another answer blank" to add more.
-  15 You can also specify units for the answers. For example, if you enter a unit of 'cm' here, and the accepted answer is 15, then the answers '15cm' and '15' are both accepted as correct. If you add more than one unit, you can also specify a multiplier. So, if your main answer was 5500 with unit W, you can also add the unit kW with a multiplier of 0.001. This means that the answers '5500', '5500W' or '5.5kW' would all be marked correct. Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW.
-  16 Finally (!) you can click "Next page" to save what you've done and move on. If you are editing an existing question, you can click "Next page (new question)" to create a completely new question based on an existing one. 
+  12. The next 2 settings, "Correct answer shows" and "Format" determine the **precision** of the answer. Use these to select the number of decimal places or significant figures you want to use.
+  13. Add some **feedback** which the student will see if they enter this answer.
+  14. You can specify as many answer formulae as you like - click "Add another answer blank" to add more.
+  15. You can also specify units for the answers. For example, if you enter a unit of 'cm' here, and the accepted answer is 15, then the answers '15cm' and '15' are both accepted as correct. If you add more than one unit, you can also specify a multiplier. So, if your main answer was 5500 with unit W, you can also add the unit kW with a multiplier of 0.001. This means that the answers '5500', '5500W' or '5.5kW' would all be marked correct. Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW.
+  16. Finally (!) you can click "Next page" to save what you've done and move on. If you are editing an existing question, you can click "Next page (new question)" to create a completely new question based on an existing one. 
 
 **Penalty factor**
 
