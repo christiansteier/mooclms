@@ -44,6 +44,7 @@ To safeguard against unpredictable, ugly, and inaccessible results, it's importa
   1. Open the document containing the text you want to paste into your new Page, and copy that text ready to paste.
   2. Follow steps 1-6 for the section above on 'Typing directly into the editor'.
   3. When you are ready to paste the content into Moodle, you have two choices:
+  
        * If you want to keep the original formatting then click the Paste From Word icon; a pane loads containing an empty text field and you can press your keyboard's Control and V keys to paste what you copied into the text field; then click the Insert button; your text appears and can be edited within learn.gold. N.b. if the original formatting does not conform to Web accessibility requirements, it won't be transferred.
        * Alternatively, if you want to strip away all formatting, rather than the Paste From Word icon you instead click the Paste As Plain Text icon and proceed to paste directly. 
   4. Follow steps 8-9 for the section above on 'Typing directly into the editor'. 
