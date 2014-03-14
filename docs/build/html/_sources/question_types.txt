@@ -17,7 +17,7 @@ Standard question types
 * :ref:`Short Answer <short_answer_question_type>`
 * :ref:`Numerical <numerical_question_type>`
 * :ref:`Random short-answer matching <short-answer_question_type>`
-* :ref:`True / False <true/false_question_type>`
+* :ref:`True / False <true-false_question_type>`
 
 Third-party question types
 ---------------------------
