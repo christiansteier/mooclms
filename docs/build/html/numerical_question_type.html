@@ -43,6 +43,66 @@
             
   <div class="section" id="numerical-question-type">
 <span id="id1"></span><h1>Numerical question type<a class="headerlink" href="#numerical-question-type" title="Permalink to this headline">¶</a></h1>
+<p>From the student perspective, a numerical question looks just like a short-answer question. The difference is that numerical answers are allowed to have an accepted error. This allows a fixed range of answers to be evaluated as one answer.</p>
+<p>For example, if the answer is 30 with an accepted error of 5, then any number between 25 and 35 will be accepted as correct.</p>
+<p>You are able to</p>
+<blockquote>
+<div><ul>
+<li><p class="first">grade independently the number and the unit,</p>
+</li>
+<li><p class="first">choose to handle the unit response either as</p>
+<blockquote>
+<div><ul class="simple">
+<li>a text input element or as</li>
+<li>a multichoice radio element,</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">just grade the number with the option to write the unit close to the input element,</p>
+</li>
+<li><p class="first">put the unit either</p>
+<blockquote>
+<div><ul class="simple">
+<li>at right of the number as the most common occurence</li>
+<li>or at left as in $ 100,00.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Furthermore your valid number formats and specific intructions on how to answer will be put near the answer input element. An example</p>
+<p>Questions may have different answers with different levels of accuracy. That lets you create questions like &#8220;What is a root of x^2 - 3x + 2?&#8221; and award different levels of credit depending on the accuracy of the answer.</p>
+<p>Text answers are no longer allowed - Short-Answer question type should be used instead.</p>
+<div class="section" id="numerical-question-set-up">
+<h2>Numerical question set-up<a class="headerlink" href="#numerical-question-set-up" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>In Quiz or Question bank</li>
+<li>Select the question category</li>
+<li>Give the question a descriptive name - this allows you to identify it in the question bank.</li>
+<li>Enter a question in the &#8216;question text&#8217; field. This can include an equation - Moodle has a couple of text filters that allow you to type an equation and have it properly typeset when displayed. The Algebra filter is very good for writing common mathematical expressions in a simple way. More complicated expressions may be written using the TeX filter. Filters contains information for administrators on how to enable these filters. Alternatively, select an image to display if you want to add a picture to the question.</li>
+<li>Select an image to display if you want to add a picture to the question. For the student, it appears immediately after the question text and before the choices.</li>
+<li>Set the &#8216;default question grade&#8217; (i.e. the maximum number of marks for this question).</li>
+<li>Set the &#8216;Penalty factor&#8217; (see Penalty factor below).</li>
+<li>Add general feedback. This is text that appears to the student after he/she has answered the question.</li>
+<li>Now enter the first accepted answer(s). Note: Floating point numbers, e.g. 23.4, may also be written as 23,4 or 2.34E+1.</li>
+<li>Enter an accepted error for this answer. This is the range above or below the answer that Moodle will accept as a match. For example, if the correct answer is 5, but you will accept 4 or 6 as answers, your accepted error is 1.</li>
+<li>Enter a grade for this answer.</li>
+<li>Enter feedback for the accepted answer. This is the text that the student will see if they enter a number within the accepted error of the answer.</li>
+<li>Repeat for each of the answers you want to accept. You can provide feedback for all wrong answers by using a wildcard, i.e. the asterisk character (*), as an answer with grade &#8216;None&#8217;.</li>
+<li>Units can also be specified. For example, if you enter a unit of &#8216;cm&#8217; here, and the accepted answer is 15, then the answers &#8216;15cm&#8217; and &#8216;15&#8217; are both accepted as correct. You can also specify a multiplier. So, if your main answer was 5500 with unit W, you can also add the unit kW with a multiplier of 0.001. This means that the answers &#8216;5500&#8217;, &#8216;5500W&#8217; or &#8216;5.5kW&#8217; would all be marked correct. Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW.</li>
+<li>Click &#8216;Save changes&#8217; to add the question to the category.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="penalty-factor">
+<h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
+<p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
+</div>
+</div>
+<div class="section" id="tips-and-tricks">
+<h2>Tips and tricks<a class="headerlink" href="#tips-and-tricks" title="Permalink to this headline">¶</a></h2>
+<p>Remember that numerical questions in the Quiz module are slightly different than those in the Lesson module.</p>
+</div>
 </div>
 
 
@@ -51,6 +111,18 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Numerical question type</a><ul>
+<li><a class="reference internal" href="#numerical-question-set-up">Numerical question set-up</a><ul>
+<li><a class="reference internal" href="#penalty-factor">Penalty factor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tips-and-tricks">Tips and tricks</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/numerical_question_type.txt"

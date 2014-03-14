@@ -43,6 +43,83 @@
             
   <div class="section" id="short-answer-question-type">
 <span id="id1"></span><h1>Short Answer question type<a class="headerlink" href="#short-answer-question-type" title="Permalink to this headline">¶</a></h1>
+<p>In a short answer question, the student types in a word or phrase in response to a question (that may include a image). Answers may or may not be case sensitive. The answer could be a word or a phrase, but it must match one of your acceptable answers exactly. It&#8217;s a good idea to keep the required answer as short as possible to avoid missing a correct answer that&#8217;s phrased differently.</p>
+<p>The Quiz and Lesson modules both have short answer question types. The analysis of the question given below works for both modules.</p>
+<div class="section" id="question-set-up">
+<h2>Question set-up<a class="headerlink" href="#question-set-up" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Select the question category</p>
+</li>
+<li><p class="first">Give your question a descriptive name.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Create the question text. If you&#8217;re using the HTML Editor, you can format the question just like a word processing document.</dt>
+<dd><p class="first last"><strong>Tip:</strong> if the answer is intended to fill a gap in the text, use underscores (5 or more) to indicate where the gap is.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Select an image to display if you want to add a picture to the question.</p>
+</li>
+<li><p class="first">Set the &#8216;default question grade&#8217; (i.e. the maximum number of marks for this question).</p>
+</li>
+<li><p class="first">Set the &#8216;Penalty factor&#8217; (see Penalty factor below).</p>
+</li>
+<li><p class="first">If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.</p>
+</li>
+<li><p class="first">Choose whether the answers are case-sensitive. Case sensitivity can be tricky where capitalization is important. Will you accept Ban Ki-moon as well as ban ki-moon as an answer?</p>
+</li>
+<li><p class="first">Next, fill in the answers you will accept. You could give common misspellings partial credit with this option. For example will you accept &#8220;Ban Ki moon&#8221;? Use wildcards to allow for variants on a word pr phrase.</p>
+</li>
+<li><p class="first">Add grade for each answer.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Create feedback for any and all answers. This will appear if the student enters that answer.</dt>
+<dd><p class="first last">Note: It is good practice to add a single wild card * for the last answer, so you can create a feedback response and a score for all other answers students might have.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Click Save Changes to add the question to the category.</p>
+</li>
+</ol>
+</div></blockquote>
+<div class="section" id="penalty-factor">
+<h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
+<p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
+</div>
+</div>
+<div class="section" id="wildcard-usage">
+<h2>Wildcard usage<a class="headerlink" href="#wildcard-usage" title="Permalink to this headline">¶</a></h2>
+<p>You can use the asterisk character (*) as a wildcard to match any series of characters. For example, use ran*ing to match any word or phrase starting with ran and ending with ing. If you really do want to match an asterisk then use a backslash like this: *</p>
+<p>If you want one question with the two answers fuel and oxygen, you ought to be able to limit the number of variants by writing fuel*oxygen 100%. This would accept <strong>&#8220;fuel oxygen&#8221;, &#8220;fuel, oxygen&#8221;, &#8220;fuel; oxygen&#8221;, &#8220;fuel and oxygen&#8221;, &#8220;fuel &amp; oxygen&#8221; &#8220;fuel oxygen&#8221;, &#8220;fuel und oxygen&#8221; &#8220;fuel&amp;&amp;oxygen&#8221;</strong>. It would even accept <strong>&#8220;fuel or oxygen&#8221;, &#8220;fuel but not oxygen&#8221; &#8220;fuel|oxygen&#8221;</strong> which might not be so good but you can never be completely safe!</p>
+<p>Here are some answers and scores for a question &#8220;What does a rocket burn?&#8221;.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>oxygen*fuel with a score 100%</li>
+<li><em>fuel</em> with a score 50%</li>
+<li><em>oxygen</em> with a score 50%</li>
+<li><em>air</em> with a score 40%</li>
+<li><ul class="first">
+<li>with a score of 0%</li>
+</ul>
+</li>
+</ol>
+</div></blockquote>
+<p>The order of the answers is important. The answers are evaluated from 1st to last. When a match is found the process stops. If no match is found the question is scored wrong and the general response is used. It is a good practice to put a wild card as the last answer so the evaluation process knows what to do when nothing above it matches.</p>
+<p>Without wildcards, the answers are compared exactly, so be careful with your spelling!</p>
+</div>
+<div class="section" id="feedback-for-wrong-answers">
+<h2>Feedback for wrong answers<a class="headerlink" href="#feedback-for-wrong-answers" title="Permalink to this headline">¶</a></h2>
+<p>When you wish to have short answer type questions, you naturally have a limited number of variations that would be acceptable. So in case you wish to give a feedback in case of a wrong answer, you must spell out the right answers exactly and then use * as a final answer which will have grade as zero, and feedback will be the one for wrong answer.</p>
+<p>Effectively, ANYTHING other than the specific answers mentioned by you will be treated as this option due to wildcard and will be deemed wrong; it&#8217;ll give 0 marks and show the feedback for a wrong answer.</p>
+<p>Here is an example:</p>
+<p>What is a rabbit?</p>
+<p>answer1: animal, feedback: right, grade: 100%</p>
+<p>answer2: mammal, feedback: right, grade: 100%</p>
+<p>answer3: vertebrate, feedback: right, grade: 100%</p>
+<p>answer4: * , feedback: ouch! that was wrong , grade: none</p>
+<p>Remember: you cannot do negative marking in this type and ANYTHING other than your right answer will be treated as option 4 due to the wildcard and given that feedback and zero marks.</p>
+</div>
 </div>
 
 
@@ -51,6 +128,19 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Short Answer question type</a><ul>
+<li><a class="reference internal" href="#question-set-up">Question set-up</a><ul>
+<li><a class="reference internal" href="#penalty-factor">Penalty factor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wildcard-usage">Wildcard usage</a></li>
+<li><a class="reference internal" href="#feedback-for-wrong-answers">Feedback for wrong answers</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/short_answer_question_type.txt"

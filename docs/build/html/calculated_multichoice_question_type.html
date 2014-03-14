@@ -43,6 +43,15 @@
             
   <div class="section" id="calculated-mutichoice-question-type">
 <span id="calculated-multichoice-question-type"></span><h1>Calculated Mutichoice question type<a class="headerlink" href="#calculated-mutichoice-question-type" title="Permalink to this headline">¶</a></h1>
+<p>Calculated multichoice questions are like multichoice questions with the additonal property that the elements to select can include formula results from numeric values that are selected randomly from a set when the quiz is taken. They use the same wildcards than Calculated questions and their wildcards can be shared with other Calculated multichoice or regular Calculated questions.</p>
+<p>The main difference is that the formula is included in the answer choice as {=...} i.e if you calculate the surface of a rectangle {={l}*{w}}.</p>
+<p>The value will be displayed as set by the <strong>Correct answer shows</strong> (0,1,2 etc) and <strong>Format</strong> (decimals, significant figures).</p>
+<p>So a Choice text could be</p>
+<p>The rectangle surface is {={l}*{w}} cm2.</p>
+<p>If {l} = 4,0 , {w} = 2,5 , <strong>Correct answer shows</strong> 1 and <strong>Format</strong> decimals</p>
+<p>The choice will display as</p>
+<p>The rectangle surface is 10.0 cm2</p>
+<p>Handling of the wild cards, and the available functions is similar to the calculated question type.</p>
 </div>
 
 
