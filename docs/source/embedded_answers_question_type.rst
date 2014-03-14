@@ -21,3 +21,29 @@ Penalty factor
 ^^^^^^^^^^^^^^^
 The 'penalty factor' only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points. 
 
+Format
+-------
+Questions consist of a passage of text (in Moodle format) that has various sub-questions embedded within it, including
+
+  * short answers (SHORTANSWER or SA or MW), case is unimportant,
+  * short answers (SHORTANSWER_C or SAC or MWC), case must match,
+  * numerical answers (NUMERICAL or NM),
+  * multiple choice (MULTICHOICE or MC), represented as a dropdown menu in-line in the text
+  * multiple choice (MULTICHOICE_V or MCV), represented a vertical column of radio buttons, or
+  * multiple choice (MULTICHOICE_H or MCH), represented as a horizontal row of radio-buttons. 
+
+The structure of each cloze sub-question is identical:
+
+.. line-block:
+
+    { start the cloze sub-question with a bracket (AltGr+7) 
+    1 define a grade for each cloze by a number (optional). This used for calculation of question grading. 
+    :SHORTANSWER: define the type of cloze sub-question. Definition is bounded by ':'. 
+    ~ is a seperator between answer options 
+    = marks a correct answer 
+    # marks the beginning of an (optional) feedback message 
+    } close the cloze sub-question at the end with a bracket (AltGr+0) 
+    
+    
+    
+    
