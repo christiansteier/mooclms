@@ -23,3 +23,63 @@ An example that doesn't work - suppose the category contains 2 short-answer ques
 |  Correct answer: Onion                                        |
 |  Other recognised answers: Leek, *                            |
 +---------------------------------------------------------------+
+
+   The result will appear as follows:
+   
++---------------------------------------------------------------+
+| What is the capital of France?                                |
+|  - Options: Paris, Onion.                                     |
+| What vegetable is called 'løk' in Norway?                     |
+|  - Options: Paris, Onion.                                     | 
++---------------------------------------------------------------+
+
+
+An example that does work - suppose the category contains 2 short-answer questions, as follows:
+
++---------------------------------------------------------------+
+| 1. What is the capital of France?                             |
+|  Correct answer: Paris                                        |
+|  Other recognised answers: Lyon, Marseilles, *                |
+| 2. In what city is Le Corbusier's "Unite d'Habitation"?       |
+|  Correct answer: Marseilles                                   |
+|  Other recognised answers: Paris, Lyon *                      |
++---------------------------------------------------------------+
+
+   The result will appear as follows:
+   
++---------------------------------------------------------------+
+| What is the capital of France?                                |
+|  - Options: Paris, Marseilles.                                |
+| In what city is Le Corbusier's "Unite d'Habitation"?          |
+|  - Options: Paris, Marseilles.                                | 
++---------------------------------------------------------------+
+
+
+Question set-up
+----------------
+  1. Select the question category.
+  2. Give the question a descriptive name - this allows you to identify it in the question bank.
+  3. Enter the question text to tell the students what they are matching. 
+  4. Set the 'default question grade' (i.e. the maximum number of marks for this question).
+  5. Set the 'Penalty factor' (see Penalty factor below).
+  6. If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.
+  7. Select the number of questions you want to add to the matching question - make sure this is less than or equal to the number of short-answer questions available in this category (a verification will be done when the question is saved).
+  8. Select if you want questions to be drawn also from subcategories of the current category
+  9. Click Save changes. 
+
+Penalty factor
+^^^^^^^^^^^^^^^
+The 'penalty factor' only applies when the question is used in a quiz using adaptive behaviour - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points. 
+
+
+
+
+
+
+
+
+
+
+
+
+
