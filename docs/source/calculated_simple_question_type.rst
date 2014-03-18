@@ -81,12 +81,46 @@ Enter the result you have calculated yourself or click on the Fill with Correct 
 The values should be identical... 
 
 
+Editing a Simple Calculated question: Additional comments
+-----------------------------------------------------------
+    
+  1. Set the **default question grade** (i.e. the maximum number of marks for this question).
+  2. Set the **Penalty factor** (see Penalty factor below). 
+
+:ref:`Correct answer formula syntax <correct_answer_formula> for further details.
+
+  1. Choose the **grade** that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. **One of the answers must have a 100% grade**.
+  2. Determine the **tolerance** for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user's answer and the correct answer is dx, then the tolerance types are as follows:
+        1. Nominal - mark correct if dx <= t
+        2. Relative - mark correct if dx / x <= t 
+  3. The next 2 settings, "Correct answer shows" and "Format" determine the **precision** of the Correct answer shown. They are not used for grading.
+  4. Add some **feedback** which the student will see if they enter this answer.
+  5. You can specify as many answer formulae as you like - click "Add another answer blank" to add more.
+  6. You can also specify units for the answers. For example, if you enter a unit of 'cm' here, and the accepted answer is 15, then the answers '15cm' and '15' are both accepted as correct. If you add more than one unit, you can also specify a multiplier. So, if your main answer was 5500 with unit W, you can also add the unit kW with a multiplier of 0.001. This means that the answers '5500', '5500W' or '5.5kW' would all be marked correct. Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW. 
+
+Penalty factor
+^^^^^^^^^^^^^^^
+The 'penalty factor' only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the **maximum** grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points. 
 
 
+.. _correct_answer_formula:
 
+Correct answer formula syntax
+-------------------------------
+**DO NOT PUT THE = sign in the formula**
 
+  * In the recent versions of the calculated question type, you could have more than one answer formula and applied a specific grading value to each of them as long as there is at least one 100% correct answer formula. 
 
+    +---------------------------------------------------------------------------------------+
+    | If more than one correct answer formula input field are displayed when editing,       |
+    | your site has the multiple answer feature.                                            |
+    +---------------------------------------------------------------------------------------+
 
+  * As a general rule, write these formulas like you would in a calculator e.g. 3 + 5 * sin(3/{x}) A notable exception is exponentiation, where x3 cannot be entered as {x}^3, but instead should be entered as pow(x, 3).
+  * Each function's placeholders and other arguments should be in parentheses (brackets). For example, if you want students to calculate the sine of one angle and cosine of two times of another angle, you would enter sin({a}) + cos({b}*2).
+  * It's usually better to have too many parentheses (brackets) than too few. The server won't care, and the more specific you are about what you mean, the more likely it will like your complex formulas.
+  * There is no implicit multiplication. To you, the human editor, "5(23)" or "5x" may seem perfectly obvious. To the server doing the math, it's crazy talk and won't be understood. Always use the "*" for multiplication.
+  * Any special mathematical function must have parentheses around its values. Take the sine function in the first bullet point for instance. Notice that the 3 / x is wrapped in parentheses (brackets)--this is so the server can understand it properly. Without those parentheses, the server won't know if you mean "(sin 3) / x" or "sin (3 / x)" and will reject the entire formula accordingly. 
 
 
 
