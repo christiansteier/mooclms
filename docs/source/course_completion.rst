@@ -17,7 +17,7 @@ General
 ^^^^^^^^
 Choose here how you wish to mark the course complete -whether you want *Any* or *All* of the requirements that follow to count towards completion. 
 
-All other settings below are collapsed by default.**
+**All other settings below are collapsed by default.**
 
 Condition: Activity completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
