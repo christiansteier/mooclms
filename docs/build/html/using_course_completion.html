@@ -43,6 +43,47 @@
             
   <div class="section" id="using-course-completion">
 <span id="id1"></span><h1>Using course completion<a class="headerlink" href="#using-course-completion" title="Permalink to this headline">¶</a></h1>
+<p>Course completion can be used in many ways. It is important to remember that this feature is only a reporting feature.</p>
+<p>While course completion will not lock a student out of another course, it will allow a teacher to see if a student has completed the recommended prerequisite courses.</p>
+<p>It can also work with Activity completion to show students the activities they have completed. This can be via a check mark next to the activity on the course&#8217;s home page, or by looking at the <a class="reference internal" href="course_completion_status_block.html#course-completion-status-block"><em>Course completion status block</em></a>.</p>
+<p>It is a way to ensure that the teaching team&#8217;s members sign off that a student has completed the course. For example, Teacher B is the instructor for Course2, which has a recommended prerequisite for completing Course1. Teacher B, is the non-editing teacher in Course1 and must check the box that indicates the student has completed the course.</p>
+<p>In the above Example, the teacher has not checked off that &#8220;Test User1&#8221; has finished this course.</p>
+<p>Courses can be linked via their course completion criterion.</p>
+<p><strong>Note:</strong> The course completion feature works with Cron. Thus changes in reports may not appear until after cron.php has run.</p>
+<div class="section" id="manual-completions">
+<h2>Manual completions<a class="headerlink" href="#manual-completions" title="Permalink to this headline">¶</a></h2>
+<p>Depending upon the settings, course completion can require that an activity or the entire course be manually marked as complete. The settings will allow any number of combinations. For example, an activity might require the student to receive a minimum score and have the non-editing teacher manually check complete. Or merely require the student to check an activity or the course as complete.</p>
+<p><strong>Manual marking by student examples</strong></p>
+<p>A course completion setting may require the student to confirm they have completed the course. Students do this by using the <a class="reference internal" href="self_completion_block.html#self-completion-block"><em>Self completion block</em></a>.</p>
+<p>A course completion setting may require a student to manually mark an activity when they believe they have finished it. On the course homepage, the student may see a box to check as a self completion of the activity.</p>
+<p><strong>Manual marking by teacher examples</strong></p>
+<p>In order for a teacher (or non editing teacher, Manager or other role) to mark a course as complete, the appropriate box in the Manual Completion by.. section must be checked in the completion tracking settings.</p>
+<p>The teacher then accesses the <a class="reference internal" href="course_completion_status_block.html#course-completion-status-block"><em>Course completion status block</em></a> and checks the names of the students who are deemed to have completed the course.</p>
+</div>
+<div class="section" id="course-completion-based-on-specified-criteria">
+<h2>Course completion based on specified criteria<a class="headerlink" href="#course-completion-based-on-specified-criteria" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to have a course marked as complete dependent on a combination of specified criteria such as activities completed, grade achieved or length of time spent in the course. This is decided in the <em>overall criteria type aggregation</em>.</p>
+<p>The settings for automatic course completion are described in more detail in Course completion settings and these include:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">activities completed</p>
+</li>
+<li><p class="first">date</p>
+</li>
+<li><p class="first">duration after enrolment</p>
+</li>
+<li><p class="first">grade</p>
+</li>
+<li><p class="first">unenrolment</p>
+<p>See Example 1, Example 2 and Example 4.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="course-completion-report">
+<h2>Course completion report<a class="headerlink" href="#course-completion-report" title="Permalink to this headline">¶</a></h2>
+<p>Course completion info can be viewed by managers, teachers and non-editing teachers (and any other users with the capability report/completion:view) in <em>Administration&gt; Course administration &gt; Course completion</em> or via a link in the Course completion status block.</p>
+</div>
 </div>
 
 
@@ -51,6 +92,16 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using course completion</a><ul>
+<li><a class="reference internal" href="#manual-completions">Manual completions</a></li>
+<li><a class="reference internal" href="#course-completion-based-on-specified-criteria">Course completion based on specified criteria</a></li>
+<li><a class="reference internal" href="#course-completion-report">Course completion report</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/using_course_completion.txt"
