@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Short-answer Matching question type &mdash; mooclms 2.6.1 documentation</title>
+    <title>Random Short-answer Matching question type &mdash; mooclms 2.6.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -41,8 +41,130 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="short-answer-matching-question-type">
-<span id="id1"></span><h1>Short-answer Matching question type<a class="headerlink" href="#short-answer-matching-question-type" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="random-short-answer-matching-question-type">
+<span id="short-answer-matching-question-type"></span><h1>Random Short-answer Matching question type<a class="headerlink" href="#random-short-answer-matching-question-type" title="Permalink to this headline">¶</a></h1>
+<p>Note: The Random Short-Answer Matching question type is broken in Moodle versions 2.6 and 2.6.1, and can be used again starting from Moodle 2.6.2.</p>
+<blockquote>
+<div><ul class="simple">
+<li>From the student perspective, this looks just like a Matching question. The difference is that the sub-questions are drawn randomly from the Short Answer questions in the current category (including or not subcategories from the current category).</li>
+<li>After an optional introduction, the respondent is presented with two or more sub-questions, each with a drop-down menu box opposite listing the same number (or fewer if several sub-questions have the same answer) of available answer options.</li>
+<li>The respondent must select an answer option to match each sub-question.</li>
+<li>Each sub-question is equally weighted to contribute towards the grade for the total question.</li>
+<li>The questions and answers are randomly drawn from the pool of short-answer questions in the current category (and in its subcategories if this option was selected).</li>
+<li>You must make sure that the category contains enough short-answer questions, otherwise the student will get an error message. The more short-answer questions you add to the category, the more likely it is that students will see a new selection on each attempt. Short answers questions used in a previous attempt to the same question or in another Random Short-Answer question of the same quiz are not excluded, so you should ensure there are enough Short Answer questions in the category to mitigate the risk of a student getting the same questions and answers.</li>
+<li>Note that the answer options are taken from the correct (having a 100% grade) answers of each contributing short-answer question. If there are several answers to the sort-answer question with a 100% grade, the first one is used. Therefore, if the short-answer questions in this category are on different topics, this question type will not be useful, as the correct option will be obvious.</li>
+</ul>
+</div></blockquote>
+<p>An example that doesn&#8217;t work - suppose the category contains 2 short-answer questions, as follows:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ol class="first arabic simple">
+<li>What is the capital of France?</li>
+</ol>
+<blockquote>
+<div>Correct answer: Paris
+Other recognised answers: Lyon, Marseilles, *</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>What vegetable is called &#8216;løk&#8217; in Norway?</li>
+</ol>
+<blockquote class="last">
+<div>Correct answer: Onion
+Other recognised answers: Leek, *</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div>The result will appear as follows:</div></blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><dl class="first last docutils">
+<dt>What is the capital of France?</dt>
+<dd><ul class="first last simple">
+<li>Options: Paris, Onion.</li>
+</ul>
+</dd>
+<dt>What vegetable is called &#8216;løk&#8217; in Norway?</dt>
+<dd><ul class="first last simple">
+<li>Options: Paris, Onion.</li>
+</ul>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<p>An example that does work - suppose the category contains 2 short-answer questions, as follows:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ol class="first arabic simple">
+<li>What is the capital of France?</li>
+</ol>
+<blockquote>
+<div>Correct answer: Paris
+Other recognised answers: Lyon, Marseilles, *</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>In what city is Le Corbusier&#8217;s &#8220;Unite d&#8217;Habitation&#8221;?</li>
+</ol>
+<blockquote class="last">
+<div>Correct answer: Marseilles
+Other recognised answers: Paris, Lyon *</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div>The result will appear as follows:</div></blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><dl class="first last docutils">
+<dt>What is the capital of France?</dt>
+<dd><ul class="first last simple">
+<li>Options: Paris, Marseilles.</li>
+</ul>
+</dd>
+<dt>In what city is Le Corbusier&#8217;s &#8220;Unite d&#8217;Habitation&#8221;?</dt>
+<dd><ul class="first last simple">
+<li>Options: Paris, Marseilles.</li>
+</ul>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="question-set-up">
+<h2>Question set-up<a class="headerlink" href="#question-set-up" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select the question category.</li>
+<li>Give the question a descriptive name - this allows you to identify it in the question bank.</li>
+<li>Enter the question text to tell the students what they are matching.</li>
+<li>Set the &#8216;default question grade&#8217; (i.e. the maximum number of marks for this question).</li>
+<li>Set the &#8216;Penalty factor&#8217; (see Penalty factor below).</li>
+<li>If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.</li>
+<li>Select the number of questions you want to add to the matching question - make sure this is less than or equal to the number of short-answer questions available in this category (a verification will be done when the question is saved).</li>
+<li>Select if you want questions to be drawn also from subcategories of the current category</li>
+<li>Click Save changes.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="penalty-factor">
+<h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
+<p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive behaviour - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +173,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Random Short-answer Matching question type</a><ul>
+<li><a class="reference internal" href="#question-set-up">Question set-up</a><ul>
+<li><a class="reference internal" href="#penalty-factor">Penalty factor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/short-answer_matching_question_type.txt"

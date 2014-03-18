@@ -43,6 +43,42 @@
             
   <div class="section" id="embedded-answer-question-type">
 <span id="embedded-answers-question-type"></span><h1>Embedded Answer question type<a class="headerlink" href="#embedded-answer-question-type" title="Permalink to this headline">¶</a></h1>
+<p>Embedded answers (Cloze) questions consist of a passage of text (in Moodle format) that has various answers embedded within it, including multiple choice, short answers and numerical answers.</p>
+<div class="section" id="question-set-up">
+<h2>Question set-up<a class="headerlink" href="#question-set-up" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select the question category</li>
+<li>Give the question a descriptive name - this allows you to identify it in the question bank.</li>
+<li>Enter the passage of text (in Moodle format - see Format below) into the &#8216;question text&#8217; field.</li>
+<li>Select an image to display if you want to add a picture to the question. For the student, it appears immediately above the question text.</li>
+<li>Set the &#8216;default question grade&#8217; (i.e. the maximum number of marks for this question).</li>
+<li>Set the &#8216;Penalty factor&#8217; (see Penalty factor below).</li>
+<li>If you wish, add general feedback. This is text that appears to the student after he/she has answered the question.</li>
+<li>The editor has been modified and allows you to test if your syntax is good. The different questions elements decoded will be displayed and syntax errors pinpoint. However, it cannot check if the question decoded is two questions in one because of an error syntax.</li>
+<li>Click Save changes to add the question to the category.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="penalty-factor">
+<h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
+<p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
+</div>
+</div>
+<div class="section" id="format">
+<h2>Format<a class="headerlink" href="#format" title="Permalink to this headline">¶</a></h2>
+<p>Questions consist of a passage of text (in Moodle format) that has various sub-questions embedded within it, including</p>
+<blockquote>
+<div><ul class="simple">
+<li>short answers (SHORTANSWER or SA or MW), case is unimportant,</li>
+<li>short answers (SHORTANSWER_C or SAC or MWC), case must match,</li>
+<li>numerical answers (NUMERICAL or NM),</li>
+<li>multiple choice (MULTICHOICE or MC), represented as a dropdown menu in-line in the text</li>
+<li>multiple choice (MULTICHOICE_V or MCV), represented a vertical column of radio buttons, or</li>
+<li>multiple choice (MULTICHOICE_H or MCH), represented as a horizontal row of radio-buttons.</li>
+</ul>
+</div></blockquote>
+<p>The structure of each cloze sub-question is identical:</p>
+</div>
 </div>
 
 
@@ -51,6 +87,18 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Embedded Answer question type</a><ul>
+<li><a class="reference internal" href="#question-set-up">Question set-up</a><ul>
+<li><a class="reference internal" href="#penalty-factor">Penalty factor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#format">Format</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/embedded_answers_question_type.txt"
