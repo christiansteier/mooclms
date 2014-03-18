@@ -67,7 +67,12 @@ You can set Completion tracking as On or Off in new courses as a course default 
 
 **Tip:** The Cron trigger default for course completion is every 10 minutes. This is not usually what the Teachers and Students expect. The length of time can be impacted by the server cron schedule and by the code found in /lib/completionlib.php under "Cache expiry time". 
 
+Course completion capabilities
+-------------------------------
+There are two capabilities, both of which are allowed for the default roles of manager, teacher and non-editing teacher:
 
+  * View course completion report
+  * Mark users as complete in course completion 
 
 
 
