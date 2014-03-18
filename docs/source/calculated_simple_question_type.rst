@@ -22,11 +22,15 @@ Go to the Question bank, select "create a new question" and in the pop-up window
 
 2. The question text
 ^^^^^^^^^^^^^^^^^^^^^
-Fill the question text (note that the {param} names can be chosen at will. 
+Fill the question text (note that the {param} names can be chosen at will). 
+
+.. image:: _images/simplequestion_text.png
 
 3. The Correct Answer Formula
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Fill the Correct Answer Formula using the {param} names used in the question text. 
+
+.. image:: _images/answer_formula.png
 
 4. Other answer and response parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,6 +46,8 @@ In the question text , the {param} that are in the formula will appear with ther
 
 Any other {enclosed text} will appear as is i.e. {enclosed text}. 
 
+.. image:: _images/wildcards_parameters.png
+
 **Click on the button**
 
 On reload the two {b} and {h} will be displayed. 
@@ -49,6 +55,8 @@ On reload the two {b} and {h} will be displayed.
 6. Set the minimum and maximum values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Here the {b} range has been set to a 15-20 range and the {h} range has been set to a 5-10 range as we want a rectangle with a larger base than height. 
+
+.. image:: _images/wildcards_values.png
 
 7. Select the number of sets to generate (here 10) and to display (here 2)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -72,13 +80,15 @@ The 2 decimals where defined are the default values defined as the last paramete
 10. Click on the Save button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Test your first Sinple calculated question**
+**Test your first Simple calculated question**
 
 On the question bank click on the preview icon.
 
-Enter the result you have calculated yourself or click on the Fill with Correct button.
+Enter the result you have calculated yourself or click on the Fill with Correct button. The values should be identical... 
 
-The values should be identical... 
+Click on the submit button.
+
+.. image:: _images/question_preview.png
 
 
 Editing a Simple Calculated question: Additional comments
