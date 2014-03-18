@@ -43,8 +43,141 @@
             
   <div class="section" id="simple-calculated-question-type">
 <span id="calculated-simple-question-type"></span><h1>Simple Calculated question type<a class="headerlink" href="#simple-calculated-question-type" title="Permalink to this headline">¶</a></h1>
-<p>Simple calculated questions offer a way to create individual numerical questions whose response is the result of a numerical formula which contain variable numerical values by the use of wildcards (i.e <tt class="docutils literal"><span class="pre">{x}</span> <span class="pre">,</span> <span class="pre">{y}</span></tt>) that are substituted with random values when the quiz is taken.</p>
+<p>Simple calculated questions offer a way to create individual numerical questions whose response is the result of a numerical formula which contain variable numerical values by the use of wildcards (i.e <strong>{x} , {y}</strong>) that are substituted with random values when the quiz is taken.</p>
 <p>The simple calculated questions offers the most used features of the calculated question with a much simpler creation interface.</p>
+<div class="section" id="my-first-simple-calculated-question">
+<h2>My first Simple calculated question<a class="headerlink" href="#my-first-simple-calculated-question" title="Permalink to this headline">¶</a></h2>
+<p>As a first example you will create a question asking for the surface of a rectangle. Here are the quick steps we will go over in detail:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Create the question content with variables shown in {}</li>
+<li>Enter the formula using the variables and set the tolerance</li>
+<li>Determine the range of the generated set of variables that will appear in the question content</li>
+<li>Review the generated set of question contents</li>
+<li>Since it is your first, check your work from a student&#8217;s view</li>
+</ul>
+</div></blockquote>
+<div class="section" id="initiating-the-creation-process">
+<h3>1. Initiating the creation process<a class="headerlink" href="#initiating-the-creation-process" title="Permalink to this headline">¶</a></h3>
+<p>Go to the Question bank, select &#8220;create a new question&#8221; and in the pop-up window select the Simple calculated. The Simple calculated question interface will appear. Give a name to your question in the title.</p>
+</div>
+<div class="section" id="the-question-text">
+<h3>2. The question text<a class="headerlink" href="#the-question-text" title="Permalink to this headline">¶</a></h3>
+<p>Fill the question text (note that the {param} names can be chosen at will).</p>
+<img alt="_images/simplequestion_text.png" src="_images/simplequestion_text.png" />
+</div>
+<div class="section" id="the-correct-answer-formula">
+<h3>3. The Correct Answer Formula<a class="headerlink" href="#the-correct-answer-formula" title="Permalink to this headline">¶</a></h3>
+<p>Fill the Correct Answer Formula using the {param} names used in the question text.</p>
+<img alt="_images/answer_formula.png" src="_images/answer_formula.png" />
+</div>
+<div class="section" id="other-answer-and-response-parameters">
+<h3>4. Other answer and response parameters<a class="headerlink" href="#other-answer-and-response-parameters" title="Permalink to this headline">¶</a></h3>
+<p>You will set the Grade to 100%, as this is the only answer in this question.</p>
+<p>Leave the other parameters as they appears ( 0.01 relative means ±1% tolerance).</p>
+</div>
+<div class="section" id="find-the-param-in-the-formula">
+<h3>5. Find the {param} in the formula<a class="headerlink" href="#find-the-param-in-the-formula" title="Permalink to this headline">¶</a></h3>
+<p>In simple calculated only the {param} that are in the formula will be used.</p>
+<p>In the question text , the {param} that are in the formula will appear with there numerical values i.e 6.7 .</p>
+<p>Any other {enclosed text} will appear as is i.e. {enclosed text}.</p>
+<img alt="_images/wildcards_parameters.png" src="_images/wildcards_parameters.png" />
+<p><strong>Click on the button</strong></p>
+<p>On reload the two {b} and {h} will be displayed.</p>
+</div>
+<div class="section" id="set-the-minimum-and-maximum-values">
+<h3>6. Set the minimum and maximum values<a class="headerlink" href="#set-the-minimum-and-maximum-values" title="Permalink to this headline">¶</a></h3>
+<p>Here the {b} range has been set to a 15-20 range and the {h} range has been set to a 5-10 range as we want a rectangle with a larger base than height.</p>
+<img alt="_images/wildcards_values.png" src="_images/wildcards_values.png" />
+</div>
+<div class="section" id="select-the-number-of-sets-to-generate-here-10-and-to-display-here-2">
+<h3>7. Select the number of sets to generate (here 10) and to display (here 2)<a class="headerlink" href="#select-the-number-of-sets-to-generate-here-10-and-to-display-here-2" title="Permalink to this headline">¶</a></h3>
+<p>Just to illustrate that you can control the number of values displayed which is useful if you create 100 sets.</p>
+<p>Also note the (red) warning that a valid question needs at least one set of {wild card} values. You will not be allowed to save the question if you don&#8217;t do the next step.</p>
+</div>
+<div class="section" id="click-on-the-generate-button">
+<h3>8. Click on the generate button<a class="headerlink" href="#click-on-the-generate-button" title="Permalink to this headline">¶</a></h3>
+<p>Note the sets are shown in reverse order so the the number indicates how many sets were created.</p>
+<p>The two sets illustrate that the variability defined by the Min and Max values.</p>
+<p>Note that the formula result is analyzed and the tolerance limit (here 1% relative) is shown</p>
+<p>The correct response that will be shown to the student is also shown.</p>
+<p>The 2 decimals where defined are the default values defined as the last parameter under the Correct formula.</p>
+</div>
+<div class="section" id="click-on-the-save-button">
+<h3>10. Click on the Save button<a class="headerlink" href="#click-on-the-save-button" title="Permalink to this headline">¶</a></h3>
+<p><strong>Test your first Simple calculated question</strong></p>
+<p>On the question bank click on the preview icon.</p>
+<p>Enter the result you have calculated yourself or click on the Fill with Correct button. The values should be identical...</p>
+<p>Click on the submit button.</p>
+<img alt="_images/question_preview.png" src="_images/question_preview.png" />
+</div>
+</div>
+<div class="section" id="editing-a-simple-calculated-question-additional-comments">
+<h2>Editing a Simple Calculated question: Additional comments<a class="headerlink" href="#editing-a-simple-calculated-question-additional-comments" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Set the <strong>default question grade</strong> (i.e. the maximum number of marks for this question).</li>
+<li>Set the <strong>Penalty factor</strong> (see Penalty factor below).</li>
+</ol>
+</div></blockquote>
+<p><a class="reference internal" href="#correct-answer-formula"><em>Correct answer formula syntax</em></a> for further details.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Choose the <strong>grade</strong> that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. <strong>One of the answers must have a 100% grade</strong>.</p>
+</li>
+<li><p class="first">Determine the <strong>tolerance</strong> for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user&#8217;s answer and the correct answer is dx, then the tolerance types are as follows:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Nominal - mark correct if dx &lt;= t</li>
+<li>Relative - mark correct if dx / x &lt;= t</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">The next 2 settings, &#8220;Correct answer shows&#8221; and &#8220;Format&#8221; determine the <strong>precision</strong> of the Correct answer shown. They are not used for grading.</p>
+</li>
+<li><p class="first">Add some <strong>feedback</strong> which the student will see if they enter this answer.</p>
+</li>
+<li><p class="first">You can specify as many answer formulae as you like - click &#8220;Add another answer blank&#8221; to add more.</p>
+</li>
+<li><p class="first">You can also specify units for the answers. For example, if you enter a unit of &#8216;cm&#8217; here, and the accepted answer is 15, then the answers &#8216;15cm&#8217; and &#8216;15&#8217; are both accepted as correct. If you add more than one unit, you can also specify a multiplier. So, if your main answer was 5500 with unit W, you can also add the unit kW with a multiplier of 0.001. This means that the answers &#8216;5500&#8217;, &#8216;5500W&#8217; or &#8216;5.5kW&#8217; would all be marked correct. Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW.</p>
+</li>
+</ol>
+</div></blockquote>
+<div class="section" id="penalty-factor">
+<h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
+<p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the <strong>maximum</strong> grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
+</div>
+</div>
+<div class="section" id="correct-answer-formula-syntax">
+<span id="correct-answer-formula"></span><h2>Correct answer formula syntax<a class="headerlink" href="#correct-answer-formula-syntax" title="Permalink to this headline">¶</a></h2>
+<p><strong>DO NOT PUT THE = sign in the formula</strong></p>
+<blockquote>
+<div><ul>
+<li><p class="first">In the recent versions of the calculated question type, you could have more than one answer formula and applied a specific grading value to each of them as long as there is at least one 100% correct answer formula.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>If more than one correct answer formula input field are displayed when editing,
+your site has the multiple answer feature.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p class="first">As a general rule, write these formulas like you would in a calculator e.g. 3 + 5 * sin(3/{x}) A notable exception is exponentiation, where x3 cannot be entered as {x}^3, but instead should be entered as pow(x, 3).</p>
+</li>
+<li><p class="first">Each function&#8217;s placeholders and other arguments should be in parentheses (brackets). For example, if you want students to calculate the sine of one angle and cosine of two times of another angle, you would enter sin({a}) + cos({b}*2).</p>
+</li>
+<li><p class="first">It&#8217;s usually better to have too many parentheses (brackets) than too few. The server won&#8217;t care, and the more specific you are about what you mean, the more likely it will like your complex formulas.</p>
+</li>
+<li><p class="first">There is no implicit multiplication. To you, the human editor, &#8220;5(23)&#8221; or &#8220;5x&#8221; may seem perfectly obvious. To the server doing the math, it&#8217;s crazy talk and won&#8217;t be understood. Always use the &#8220;*&#8221; for multiplication.</p>
+</li>
+<li><p class="first">Any special mathematical function must have parentheses around its values. Take the sine function in the first bullet point for instance. Notice that the 3 / x is wrapped in parentheses (brackets)&#8211;this is so the server can understand it properly. Without those parentheses, the server won&#8217;t know if you mean &#8220;(sin 3) / x&#8221; or &#8220;sin (3 / x)&#8221; and will reject the entire formula accordingly.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -53,6 +186,30 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Simple Calculated question type</a><ul>
+<li><a class="reference internal" href="#my-first-simple-calculated-question">My first Simple calculated question</a><ul>
+<li><a class="reference internal" href="#initiating-the-creation-process">1. Initiating the creation process</a></li>
+<li><a class="reference internal" href="#the-question-text">2. The question text</a></li>
+<li><a class="reference internal" href="#the-correct-answer-formula">3. The Correct Answer Formula</a></li>
+<li><a class="reference internal" href="#other-answer-and-response-parameters">4. Other answer and response parameters</a></li>
+<li><a class="reference internal" href="#find-the-param-in-the-formula">5. Find the {param} in the formula</a></li>
+<li><a class="reference internal" href="#set-the-minimum-and-maximum-values">6. Set the minimum and maximum values</a></li>
+<li><a class="reference internal" href="#select-the-number-of-sets-to-generate-here-10-and-to-display-here-2">7. Select the number of sets to generate (here 10) and to display (here 2)</a></li>
+<li><a class="reference internal" href="#click-on-the-generate-button">8. Click on the generate button</a></li>
+<li><a class="reference internal" href="#click-on-the-save-button">10. Click on the Save button</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#editing-a-simple-calculated-question-additional-comments">Editing a Simple Calculated question: Additional comments</a><ul>
+<li><a class="reference internal" href="#penalty-factor">Penalty factor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#correct-answer-formula-syntax">Correct answer formula syntax</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/calculated_simple_question_type.txt"
