@@ -91,6 +91,7 @@ Editing a Simple Calculated question: Additional comments
 
   1. Choose the **grade** that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. **One of the answers must have a 100% grade**.
   2. Determine the **tolerance** for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user's answer and the correct answer is dx, then the tolerance types are as follows:
+        
         1. Nominal - mark correct if dx <= t
         2. Relative - mark correct if dx / x <= t 
   3. The next 2 settings, "Correct answer shows" and "Format" determine the **precision** of the Correct answer shown. They are not used for grading.
