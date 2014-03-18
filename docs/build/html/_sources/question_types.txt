@@ -8,21 +8,20 @@ Standard question types
 ------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    Calculated <calculated_question_type>
    Calculated multi-choice <calculated_multichoice_question_type>
-   
-* :ref:`Simple Calculated <calculated_simple_question_type>`
-* :ref:`Description <description_question_type>`
-* :ref:`Essay <essay_question_type>`
-* :ref:`Matching <matching_question_type>`
-* :ref:`Embedded Answers <embedded_answers_question_type>` 
-* :ref:`Multiple choice <multiple_choice_question_type>`
-* :ref:`Short Answer <short_answer_question_type>`
-* :ref:`Numerical <numerical_question_type>`
-* :ref:`Random short-answer matching <short-answer_matching_question_type>`
-* :ref:`True / False <true-false_question_type>`
+   Simple Calculated <calculated_simple_question_type>
+   Description <description_question_type>
+   Essay <essay_question_type>
+   Matching <matching_question_type>
+   Embedded Answers <embedded_answers_question_type>
+   Multiple choice <multiple_choice_question_type>
+   Short Answer <short_answer_question_type>
+   Numerical <numerical_question_type>
+   Random short-answer matching <short-answer_matching_question_type>
+   True / False <true-false_question_type>
 
 Third-party question types
 ---------------------------
