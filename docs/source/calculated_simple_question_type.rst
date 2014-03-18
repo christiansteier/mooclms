@@ -87,7 +87,7 @@ Editing a Simple Calculated question: Additional comments
   1. Set the **default question grade** (i.e. the maximum number of marks for this question).
   2. Set the **Penalty factor** (see Penalty factor below). 
 
-:ref:`Correct answer formula syntax <correct_answer_formula> for further details.
+:ref:`Correct answer formula syntax <correct_answer_formula>` for further details.
 
   1. Choose the **grade** that the student will get for this question if they give this answer. This should be a percentage of the total marks available. For example, you could give 100% for a correct answer, and 50% for an answer that is nearly right. **One of the answers must have a 100% grade**.
   2. Determine the **tolerance** for error that you will accept in the answer. The tolerance and tolerance type settings combine to give a range of acceptable scores. So, if tolerance = t, correct answer = x and the difference between the user's answer and the correct answer is dx, then the tolerance types are as follows:
