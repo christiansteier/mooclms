@@ -46,18 +46,18 @@ Any other {enclosed text} will appear as is i.e. {enclosed text}.
 
 On reload the two {b} and {h} will be displayed. 
 
-Set the minimum and maximum values
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6. Set the minimum and maximum values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Here the {b} range has been set to a 15-20 range and the {h} range has been set to a 5-10 range as we want a rectangle with a larger base than height. 
 
-Select the number of sets to generate (here 10) and to display(here 2)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7. Select the number of sets to generate (here 10) and to display (here 2)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Just to illustrate that you can control the number of values displayed which is useful if you create 100 sets.
 
 Also note the (red) warning that a valid question needs at least one set of {wild card} values. You will not be allowed to save the question if you don't do the next step.
 
-Click on the generate button
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+8. Click on the generate button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Note the sets are shown in reverse order so the the number indicates how many sets were created.
 
@@ -69,9 +69,10 @@ The correct response that will be shown to the student is also shown.
 
 The 2 decimals where defined are the default values defined as the last parameter under the Correct formula. 
 
-Click on the Save button
+10. Click on the Save button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Test your first Sinple calculated question
+**Test your first Sinple calculated question**
 
 On the question bank click on the preview icon.
 
