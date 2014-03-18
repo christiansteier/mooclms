@@ -6,8 +6,13 @@ You may add a variety of different types of questions in the Quiz and Lesson mod
 
 Standard question types
 ------------------------
-* :ref:`Calculated <calculated_question_type>`
-* :ref:`Calculated multi-choice <calculated_multichoice_question_type>`
+
+.. toctree::
+   :maxdepth: 2
+   
+   Calculated <calculated_question_type>
+   Calculated multi-choice <calculated_multichoice_question_type>
+   
 * :ref:`Simple Calculated <calculated_simple_question_type>`
 * :ref:`Description <description_question_type>`
 * :ref:`Essay <essay_question_type>`
