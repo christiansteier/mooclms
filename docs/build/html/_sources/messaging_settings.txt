@@ -1,0 +1,4 @@
+.. _messaging_settings:
+
+Messaging settings
+===================
