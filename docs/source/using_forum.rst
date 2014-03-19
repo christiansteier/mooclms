@@ -85,11 +85,11 @@ Teachers and other users with the capability to move discussions can move a disc
   
 Forum subscription
 -------------------
-When a person is subscribed to a forum it means that they will be notified (according to their :ref:`Messaging settings <messaging_settings>` preferences) of every subsequent post in that forum. Posters have 30 minutes by default to edit their post before it is sent though this time limit can be changed by an administrator.
+When a person is subscribed to a forum it means that they will be notified (according to their :ref:`Messaging settings <message_settings>` preferences) of every subsequent post in that forum. Posters have 30 minutes by default to edit their post before it is sent though this time limit can be changed by an administrator.
 
 People can usually choose whether or not they want to be subscribed to each forum. However, if a teacher forces subscription on a particular forum then this choice is taken away and everyone in the class will get notified.This is especially useful in the News forum and in forums towards the beginning of the course (before everyone has worked out that they can subscribe to these emails themselves).
 
-Note that even if you force subscriptions every user can elect not to be notified in :ref:`Messaging settings <messaging_settings>`, or elect to have all email sent once a day in a digest contain either all posts or simply the subject headings.
+Note that even if you force subscriptions every user can elect not to be notified in :ref:`Messaging settings <message_settings>`, or elect to have all email sent once a day in a digest contain either all posts or simply the subject headings.
 
 Choosing *Everyone* can choose to be *subscribed* enables you to check (and modify) the number of subscribers (*Administration > Forum administration > Show/edit current subscribers*) and to subscribe to (or unsubscribe from) the forum ('Subscribe to this forum' / 'Unsubscribe from this forum'). 
 
