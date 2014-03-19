@@ -43,12 +43,11 @@ Why use a chat?
 ----------------
  * Chat has an advantage over a Forum in that it takes place in Real Time. It is especially beneficial when the group chatting is not able to meet face to face. Examples might be:
 
-     * Regular meetings of staff on large or split campuses to discuss student or curriculum issues;
-     * Regular meetings of students doing online courses to enable them to share experiences with others on the same course but potentially in a different city (or country)
-     * A teacher working with his students even though he is out of school
-     * A student temporarily unable to attend in person chatting with their tutor to catch up with work.
-     * Students out on work experience getting together to discuss their experiences with each other and their tutor
-     * Younger children using chat at home in the evenings as a controlled(monitored) introduction to the world of social networking 
+    * Regular meetings of staff on large or split campuses to discuss student or curriculum issues;
+    * Regular meetings of students doing online courses to enable them to share experiences with others on the same course but potentially in a different city (or country)
+    * A teacher working with his students even though he is out of school
+    * A student temporarily unable to attend in person chatting with their tutor to catch up with work.
+    * Students out on work experience getting together to discuss their experiences with each other and their tutor.     * Younger children using chat at home in the evenings as a controlled(monitored) introduction to the world of social networking 
  
 Why NOT use chat?
 ------------------
