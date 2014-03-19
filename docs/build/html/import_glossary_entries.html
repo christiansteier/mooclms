@@ -43,6 +43,39 @@
             
   <div class="section" id="import-glossary-entries">
 <span id="id1"></span><h1>Import glossary entries<a class="headerlink" href="#import-glossary-entries" title="Permalink to this headline">¶</a></h1>
+<p>Glossary entries can be exported and then imported into another glossary via an XML file.</p>
+<blockquote>
+<div><ul class="simple">
+<li>As an editing teacher, access your glossary.</li>
+<li>Go to <em>Administration &gt; Glossary administration &gt; Import entries</em>.</li>
+<li>Click the &#8220;Choose a file&#8221; button and browse for the exported entries XML file on your computer</li>
+<li>Select the destination for the new entries: either the current glossary or a new one</li>
+<li>If you want to import category information, click the checkbox.</li>
+<li>Click the &#8220;Submit&#8221; button.</li>
+</ul>
+</div></blockquote>
+<p>You&#8217;ll then see a report of the entries and categories added to the glossary. If you enabled duplicate entries when you created the glossary, the import process will add all of the new definitions. Otherwise, it will not allow you to import any duplicate entries.</p>
+<p>You will be listed as author of all the entries.</p>
+<div class="section" id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<p>Possible causes of problems importing entries:</p>
+<blockquote>
+<div><ul class="simple">
+<li>If there are mistakes in the XML file such as the &lt;entries&gt; tag being missing or the &lt;info&gt; tag being in the wrong place. May happen if you have constructed the XML file manually or with some sort of tool like mailmerge in Word and your template is wrong.</li>
+<li>If there are top bit set characters in the text of the entities like concepts, definitions or keywords. Replace things like &amp; with &amp;amp;</li>
+<li>If there are tabs or spaces between entries. Not sure if spaces cause problems but best to remove any between the end of one tag and start of the next. e.g. Search and replace &gt; &lt; with &gt;&lt; via a text editor.</li>
+<li>In most cases the import is halted if any of these errors occur.</li>
+<li>Duplicates in the entries which clash with entries already when merging a glossary is usually not a problem.</li>
+<li>Warnings like Warning: exec() has been disabled for security reasons in /moodle/lib/uploadlib.php on line 603 may not be the problem when importing but may distract one from dealing with problems with the format of the XML file.</li>
+<li>HTML and XHTML tags written within CONCEPT or DEFINITION elements will fail on import, showing &#8220;Array&#8221; instead of the desired content. To remedy this, try writing the (X)HTML tags within &lt;![CDATA[ ]]&gt; markup.</li>
+<li>If the glossary entries contain images, image paths will need amending by doing a search and replace in the XML file in order for the images to be displayed when the file is imported.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="restoring-a-glossary-activity-backup">
+<h2>Restoring a glossary activity backup<a class="headerlink" href="#restoring-a-glossary-activity-backup" title="Permalink to this headline">¶</a></h2>
+<p>An alternative method of importing glossary entries is to restore a glossary activity backup containing enrolled users. This method includes categories, images and attachments within glossary entries. When the glossary is restored, the authors of the entries will be the same as in the original glossary.</p>
+</div>
 </div>
 
 
@@ -51,6 +84,15 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Import glossary entries</a><ul>
+<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
+<li><a class="reference internal" href="#restoring-a-glossary-activity-backup">Restoring a glossary activity backup</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/import_glossary_entries.txt"
