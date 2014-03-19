@@ -43,6 +43,75 @@
             
   <div class="section" id="building-database">
 <span id="id1"></span><h1>Building Database<a class="headerlink" href="#building-database" title="Permalink to this headline">¶</a></h1>
+<p>After creating a database,</p>
+<blockquote>
+<div><ul class="simple">
+<li>Next you define the kind of fields that define the information you wish to collect. For example a database of famous paintings may have a picture field called <em>painting</em>, for uploading an image file showing the painting, and two text fields called <em>artist</em> and <em>title</em> for the name of the artist and the painting. Alternatively, you can use a database preset.</li>
+<li>It is then optional to edit the database templates to alter the way in which the database displays entries.</li>
+</ul>
+</div></blockquote>
+<div class="section" id="database-fields">
+<h2>Database fields<a class="headerlink" href="#database-fields" title="Permalink to this headline">¶</a></h2>
+<p>A <strong>field</strong> is a named unit of information. Each entry in a database activity module can have multiple fields of multiple types e.g. a text field called &#8216;favourite color&#8217; which allows you to type in your favourite shade, or a menu called &#8216;state&#8217; that lets you choose one from a list of the 50 that make up the United States of America. By combining several fields with appropriate names and types you should be able to capture all the relevant information about the items in your database.</p>
+<p>Note that if you later edit the fields in the databases you must use the Reset template button, or manually edit the template, to ensure the new fields are added to the display.</p>
+<p><strong>Field name and description</strong></p>
+<p>The name is what is shown when an entry is added. It must be unique and short. The description is for your benefit to help identify that field.</p>
+<p><strong>Field types</strong></p>
+<p>The following screenshots show &#8220;before&#8221; and &#8220;afters&#8221; of setting up fields. The selection in orange shows the field as it is displayed for the user when they add an entry.</p>
+<ul class="simple">
+<li><em>Checkbox</em> - This allows you to offer checkboxes for the user to select. Add the options one under the other. The word will appear next to a checkbox when the user clicks to add an entry. They can check more than one box.</li>
+<li><em>Date</em> - This allows a user to enter a date by picking a day, month and year from a drop down list.</li>
+<li><em>File</em> - Users can upload a file from their computer. If it is an image file then the picture field may be a better choice.</li>
+<li><em>Latitude/longitude</em> - Users can enter a geographic location using latitude and longitude. For example, Moodle HQ is at latitude -31.9545, longitude 115.877. When viewing the record, links are automatically generated linking to geographic data services such as Google Earth, OpenStreetMap, GeaBios,Mapstars and more.</li>
+<li><em>Menu</em> - The text entered in the options area will be presented as a drop-down list for the user to choose from. Each line become a different option.</li>
+<li><em>Menu (Multi-select)</em> - The text entered in the <em>options</em> area will be presented as a list for the user to choose from and each line become a different option. By holding down control or shift as they click, users will be able to select multiple options. This is a fairly advanced computer skill so it may be wise to use multiple checkboxes instead.</li>
+<li><em>Number</em> - This allows users to enter any number. For example: 42, -1000, 0, 0.123, 3.0e8</li>
+<li><em>Picture</em> - This allows a user to upload and display an image file. &#8220;Single view&#8221; is when the image is viewed on its own; &#8220;list view&#8221; is when it is viewed in with other images. Single view can be larger than list view.</li>
+<li><em>Radio buttons</em> - The user gets radio buttons and can choose only one. They can only submit the entry when they have clicked on one button.</li>
+<li><em>Text</em> - Users can enter text up to 60 characters in length. For longer text, or for text that requires formatting such as headers and bullet points, you can use a text area field.</li>
+<li><em>Text area</em> - This allows users to enter a long piece of text using the text editor.</li>
+<li><em>URL</em> - The user can add a link to a website here. If you select autolink then the URL becomes clickable.. If you also enter a forced name for the link then that text will be used for the hyperlink.</li>
+</ul>
+</div>
+<div class="section" id="presets">
+<h2>Presets<a class="headerlink" href="#presets" title="Permalink to this headline">¶</a></h2>
+<p>To avoid the necessity of always having to create a new database from scratch, the database activity module has a presets feature. An image gallery preset is currently included in the database module to help get you started. You can create your own presets as well and share them with others.</p>
+<div class="section" id="importing-a-preset">
+<h3>Importing a preset<a class="headerlink" href="#importing-a-preset" title="Permalink to this headline">¶</a></h3>
+<p>To use a preset:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>On the database page, click the Presets tab.</li>
+<li>The usual way to import a preset is clicking the &#8220;Choose file&#8221; button and browsing to the ZIP file containing the preset (eg. &#8220;preset.zip&#8221;) stored on the server. If there does not yet exist a preset ZIP file on the server, upload it from your local machine. Choose the desired preset file by clicking on its action &#8220;Choose&#8221;. Finally, press the &#8220;Import&#8221; button.</li>
+<li>Alternatively, you can choose a previously loaded preset.</li>
+<li>After the import, you can start to add or import entries. All the hard work of setting up the fields and templates has been done for you. If you desire, you can still customize the fields and templates.</li>
+</ol>
+</div></blockquote>
+<p>You will see a &#8220;Overwrite current settings&#8221; checkbox after the &#8220;Import&#8221; button has been pressed. If checked, the database activity overwrites some of its current general settings by those stored in the preset:</p>
+<blockquote>
+<div><ul class="simple">
+<li>the &#8220;Introduction&#8221; HTML text</li>
+<li>Required entries</li>
+<li>Entries required before viewing</li>
+<li>Maximum entries</li>
+<li>Comments</li>
+<li>Require approval?</li>
+<li>rssarticles</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="exporting-a-preset">
+<h3>Exporting a preset<a class="headerlink" href="#exporting-a-preset" title="Permalink to this headline">¶</a></h3>
+<p>If you wish to share your database presets with others, you have two options:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Export as a ZIP file, which can then be imported to another course or Moodle site.</li>
+<li>Save as a preset, which publishes the database for other teachers on your site to use. It will then appear in the preset list. (You can delete it from the list at any time.)</li>
+</ol>
+</div></blockquote>
+<p><strong>Note:</strong> Only the fields and templates of the database are copied when exporting or saving it as a preset, not the entries.</p>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +120,19 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Building Database</a><ul>
+<li><a class="reference internal" href="#database-fields">Database fields</a></li>
+<li><a class="reference internal" href="#presets">Presets</a><ul>
+<li><a class="reference internal" href="#importing-a-preset">Importing a preset</a></li>
+<li><a class="reference internal" href="#exporting-a-preset">Exporting a preset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/building_database.txt"
