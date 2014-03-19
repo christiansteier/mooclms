@@ -48,7 +48,7 @@ Map
 Files
 ------
     
-  * The Files tab at the top or link in the navigation block allows users to access any files which have been added to the wiki. 
+  * The **Files** tab at the top or link in the navigation block allows users to access any files which have been added to the wiki. 
   * By default, the Teacher role can add and manage files to the Files tab, but the Student role can only view them. You could change this though with a permissions override to the Manage wiki files capability (mod/wiki:managefiles) in any particular wiki. 
 
 Administration
