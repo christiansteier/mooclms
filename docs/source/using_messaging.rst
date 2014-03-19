@@ -5,9 +5,10 @@ Using Messaging
 
 Sending messages
 -----------------
-**To send a message to an individual**
 
-From the Messages block or from your profile
+To send a message to an individual
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**From the Messages block or from your profile**
 
   * Click on the blue link *Messages* in the Messages block or click the *Messages* link from *Navigation > My profile* and then type a name into the *Search people and messages* box. To narrow the search down further, click the blue *Advanced* link to search for a person "only in my courses" or with keywords in messages.
   * Type the message in the box and click the *Send a message* button.
@@ -35,14 +36,14 @@ From the Messages block or from your profile
 
   * See :ref:Bulk user actions <bulk_user_actions>`
   
-**Managing contacts**
-
+Managing contacts
+^^^^^^^^^^^^^^^^^^^
 People may be added to your list of contacts (or blocked from contacting you) by clicking the *Add contact(or Block contact)* icon under their name in the Messages window.
 
 By default the contact list is empty. In order to send a message or to create a shortcut to the person you are sending, search for them in the search box.
 
-**Message history**
-
+Message history
+^^^^^^^^^^^^^^^^
 A record of messages sent to/from a person may be obtained by clicking the "History" icon by their name or by clicking *Recent messages/All messages* when they are displayed on the page.
 
 
