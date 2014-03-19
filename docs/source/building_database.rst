@@ -21,18 +21,18 @@ The name is what is shown when an entry is added. It must be unique and short. T
 
 The following screenshots show "before" and "afters" of setting up fields. The selection in orange shows the field as it is displayed for the user when they add an entry. 
 
-* Checkbox - This allows you to offer checkboxes for the user to select. Add the options one under the other. The word will appear next to a checkbox when the user clicks to add an entry. They can check more than one box. 
-* Date - This allows a user to enter a date by picking a day, month and year from a drop down list. 
-* File - Users can upload a file from their computer. If it is an image file then the picture field may be a better choice. 
-* Latitude/longitude - Users can enter a geographic location using latitude and longitude. For example, Moodle HQ is at latitude -31.9545, longitude 115.877. When viewing the record, links are automatically generated linking to geographic data services such as Google Earth, OpenStreetMap, GeaBios,Mapstars and more.
-* Menu - The text entered in the options area will be presented as a drop-down list for the user to choose from. Each line become a different option. 
-* Menu (Multi-select) - The text entered in the *options* area will be presented as a list for the user to choose from and each line become a different option. By holding down control or shift as they click, users will be able to select multiple options. This is a fairly advanced computer skill so it may be wise to use multiple checkboxes instead. 
-* Number - This allows users to enter any number. For example: 42, -1000, 0, 0.123, 3.0e8 
-* Picture - This allows a user to upload and display an image file. "Single view" is when the image is viewed on its own; "list view" is when it is viewed in with other images. Single view can be larger than list view. 
-* Radio buttons - The user gets radio buttons and can choose only one. They can only submit the entry when they have clicked on one button.
-* Text - Users can enter text up to 60 characters in length. For longer text, or for text that requires formatting such as headers and bullet points, you can use a text area field.
-* Text area - This allows users to enter a long piece of text using the text editor. 
-* URL - The user can add a link to a website here. If you select autolink then the URL becomes clickable.. If you also enter a forced name for the link then that text will be used for the hyperlink.
+* *Checkbox* - This allows you to offer checkboxes for the user to select. Add the options one under the other. The word will appear next to a checkbox when the user clicks to add an entry. They can check more than one box. 
+* *Date* - This allows a user to enter a date by picking a day, month and year from a drop down list. 
+* *File* - Users can upload a file from their computer. If it is an image file then the picture field may be a better choice. 
+* *Latitude/longitude* - Users can enter a geographic location using latitude and longitude. For example, Moodle HQ is at latitude -31.9545, longitude 115.877. When viewing the record, links are automatically generated linking to geographic data services such as Google Earth, OpenStreetMap, GeaBios,Mapstars and more.
+* *Menu* - The text entered in the options area will be presented as a drop-down list for the user to choose from. Each line become a different option. 
+* *Menu (Multi-select)* - The text entered in the *options* area will be presented as a list for the user to choose from and each line become a different option. By holding down control or shift as they click, users will be able to select multiple options. This is a fairly advanced computer skill so it may be wise to use multiple checkboxes instead. 
+* *Number* - This allows users to enter any number. For example: 42, -1000, 0, 0.123, 3.0e8 
+* *Picture* - This allows a user to upload and display an image file. "Single view" is when the image is viewed on its own; "list view" is when it is viewed in with other images. Single view can be larger than list view. 
+* *Radio buttons* - The user gets radio buttons and can choose only one. They can only submit the entry when they have clicked on one button.
+* *Text* - Users can enter text up to 60 characters in length. For longer text, or for text that requires formatting such as headers and bullet points, you can use a text area field.
+* *Text area* - This allows users to enter a long piece of text using the text editor. 
+* *URL* - The user can add a link to a website here. If you select autolink then the URL becomes clickable.. If you also enter a forced name for the link then that text will be used for the hyperlink.
 
 
 Presets
