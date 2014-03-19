@@ -67,20 +67,3 @@ If you wish to share your database presets with others, you have two options:
 
 **Note:** Only the fields and templates of the database are copied when exporting or saving it as a preset, not the entries. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
