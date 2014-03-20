@@ -54,11 +54,13 @@ Flow control settings
   * Slideshow **No** 
 
 Student selects wrong answer and will see:
+ 
   * "Response for the wrong answer" (if any is shown) 
   * "Yes, I'd like to try again" button 
   * "Continue" button. 
 
 Student selects correct answer and will see:
+ 
   * "Response for the correct answer" (if any is shown) 
   * "Continue" button 
 
