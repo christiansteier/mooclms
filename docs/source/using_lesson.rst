@@ -44,44 +44,74 @@ Case 1
 ^^^^^^^
 The teacher wants the student to be able to attempt any question no more than 3 times and be given the chance to answer the question again. The teacher wants the student to see the response attached to their answer.
 
-.. line-block:
+Flow control settings
 
-   Flow control settings
-      Allow student review Yes 
-      Provide option to try a question again No 
-      Maximum number of attempts 3 
-      Display default feedback No 
-      Number of pages to show 0 
-      Slideshow No 
+  * Allow student review **Yes** 
+  * Provide option to try a question again **No** 
+  * Maximum number of attempts **3** 
+  * Display default feedback **No** 
+  * Number of pages to show **0** 
+  * Slideshow **No** 
 
-   Student selects wrong answer and will see:
-      "Response for the wrong answer" (if any is shown) 
-      "Yes, I'd like to try again" button 
-      "Continue" button. 
+Student selects wrong answer and will see:
+  * "Response for the wrong answer" (if any is shown) 
+  * "Yes, I'd like to try again" button 
+  * "Continue" button. 
 
-   Student selects correct answer and will see:
-      "Response for the correct answer" (if any is shown) 
-      "Continue" button 
+Student selects correct answer and will see:
+  * "Response for the correct answer" (if any is shown) 
+  * "Continue" button 
 
+Case 2
+^^^^^^^
+The teacher wants to allow the student 3 attempts at all questions but not see any feedback except the site default feedback for wrong answers. 
 
+Flow control settings 
 
+  * Allow student review **No** 
+  * Provide option to try a question again **Yes** 
+  * Maximum number of attempts **3** 
+  * Display default feedback **No** 
+  * Number of pages to show **0** 
+  * Slideshow **No** 
 
+Student selects wrong answer and will see: 
 
+  * Not quite. Would you like to try again? as text over the 
+  * "Yes, I'd like to try again" button 
+  * '"No, I just want to go on to the next question" button 
 
+  **Note**: If the wrong answer jump is set to "This page" and the number of attempts is under the maximum, then the student will return to the question, regardless if they select "No, I just want to go on". 
 
+Student selects correct answer and will see: 
 
+  * "Your answer: {gives the student's answer)" 
+  * Response attached to the correct answer (if any) 
 
+Case 3
+^^^^^^^
+"Speed bump for speed clickers". Teacher only wants the student to get once chance to record an answer on any question. They will only see the response the teacher provides for any question, or the default feedback if no response has been set for the answer the student selected.
 
+Flow control settings 
 
+  * Allow student review **No** 
+  * Provide option to try a question again **No** 
+  * Maximum number of attempts **1** 
+  * Display default feedback **Yes** 
+  * Number of pages to show **0** 
+  * Slideshow **No** 
 
+Student selects wrong answer and will see: 
 
+  * "Response for the wrong answer" (if any is shown) 
+  * "Yes, I'd like to try again" button 
+  * "Continue" button. 
 
+  **Note:** When teacher sets the Jump to "This page" for a wrong answer, they will return to the page but their score will not change. 
 
+Student 
 
-
-
-
-
-
+  * "Response for the correct answer" (if any is show) 
+  * "Continue" button 
 
 
