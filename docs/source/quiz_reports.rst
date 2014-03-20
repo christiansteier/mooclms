@@ -39,5 +39,24 @@ The Quiz manual grading report makes it easy to manually grade questions in the 
 The first screen of the report lists all the questions in the quiz that need to be, or have been, manually graded (for example essay questions) with the number of attempts. There is an option to also show the questions that have been automatically graded, which if useful if you ever need to edit the grades by hand.
 
 
+.. _grading_quiz:
+
+Grading Quiz
+==============
+Some questions auto mark. Some need manual grading.
+
+Quiz overview
+^^^^^^^^^^^^^^
+This enables you to grade one question at a time.
+
+Manual Grading Report
+^^^^^^^^^^^^^^^^^^^^^^^
+This enables you to grade all of one question on one page.
+
+For more information see Manual Grading Report above.
+
+
+
+
 
 
