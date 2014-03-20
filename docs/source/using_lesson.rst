@@ -44,24 +44,24 @@ Case 1
 ^^^^^^^
 The teacher wants the student to be able to attempt any question no more than 3 times and be given the chance to answer the question again. The teacher wants the student to see the response attached to their answer.
 
- .. line-block:
+.. line-block:
 
-    Flow control settings
-        Allow student review Yes 
-        Provide option to try a question again No 
-        Maximum number of attempts 3 
-        Display default feedback No 
-        Number of pages to show 0 
-        Slideshow No 
+   Flow control settings
+      Allow student review Yes 
+      Provide option to try a question again No 
+      Maximum number of attempts 3 
+      Display default feedback No 
+      Number of pages to show 0 
+      Slideshow No 
 
-    Student selects wrong answer and will see:
-        "Response for the wrong answer" (if any is shown) 
-        "Yes, I'd like to try again" button 
-        "Continue" button. 
+   Student selects wrong answer and will see:
+      "Response for the wrong answer" (if any is shown) 
+      "Yes, I'd like to try again" button 
+      "Continue" button. 
 
-    Student selects correct answer and will see:
-        "Response for the correct answer" (if any is shown) 
-        "Continue" button 
+   Student selects correct answer and will see:
+      "Response for the correct answer" (if any is shown) 
+      "Continue" button 
 
 
 
