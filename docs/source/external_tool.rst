@@ -17,6 +17,7 @@ General settings
  * **External tool type** - this is how Moodle communicates with the tool provider. If in doubt, leave as default. If your administrator has made a tool available sitewide, you will be able to select it here.
  * **Launch URL** - This is the URL for connecting to site.
  * **Launch container** - this is how the external tool will be displayed.
+      
       * Default -if in doubt; leave as default
       * Embed - the external tool will be embedded in the Moodle course page with blocks and navigation bar
       * Embed without blocks - the external tool will be embedded in the Moodle course page but without blocks
