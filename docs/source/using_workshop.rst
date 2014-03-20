@@ -92,7 +92,7 @@ Then we try to find those assessments that are closest to this theoretically obj
 The same logic applies to all other grading strategies, adequately. The conclusion is that the grade given by the best assessor does not need to be the one closest to the average as the assessment are compared at the level of individual responses, not the final grades. 
 
 
-Ggroups and Workshop
+Groups and Workshop
 ----------------------
 When a workshop is used in a course using separate or visible groups and groupings, it is possible to filter by group in a drop-down menu at the Assessment phase, manual allocation page, grades report and so on. 
 
