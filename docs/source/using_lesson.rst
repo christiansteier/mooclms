@@ -44,7 +44,7 @@ Case 1
 ^^^^^^^
 The teacher wants the student to be able to attempt any question no more than 3 times and be given the chance to answer the question again. The teacher wants the student to see the response attached to their answer.
 
-.. line-block:
+ .. line-block:
 
     Flow control settings
         Allow student review Yes 
