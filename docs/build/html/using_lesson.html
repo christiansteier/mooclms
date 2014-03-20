@@ -43,6 +43,134 @@
             
   <div class="section" id="using-lesson">
 <span id="id1"></span><h1>Using Lesson<a class="headerlink" href="#using-lesson" title="Permalink to this headline">¶</a></h1>
+<p>This page outlines how students and teachers interact with Moodle lessons once they have been created. For details on how to set up and then organise a lesson, see <a class="reference internal" href="lesson.html#lesson"><em>Lesson settings</em></a> and <a class="reference internal" href="building_lesson.html#building-lesson"><em>Building Lesson</em></a>.</p>
+<div class="section" id="what-the-student-sees">
+<h2>What the student sees<a class="headerlink" href="#what-the-student-sees" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>A student clicking on a Lesson will see an introductory page with one or more buttons which they choose from to select the path they wish to take.</li>
+<li>The display may vary according to how the teacher has set up the lesson in Lesson settings. For example; there may or may not be a list of pages down the side; there may or may not be an ongoing score.</li>
+<li>Students progress through the lesson with either content pages (of information, which is not graded) or various types of question pages(which may be graded) When a question page is used, the following page gives the answer and feedback if offered.</li>
+<li>The lesson is ended when the student has met the criteria set by the teacher. This could be answering a certain number of questions correctly, accessing a certain number of pages with content (text, audio or video) or following a certain navigational path. A final page appears where the student can check their score, if applicable, and return to the main course page.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="what-the-teacher-sees">
+<h2>What the teacher sees<a class="headerlink" href="#what-the-teacher-sees" title="Permalink to this headline">¶</a></h2>
+<p>A teacher clicking on a lesson will see tabs at the top offering them the chance to preview, edit, view reports or grade essays in the lesson.</p>
+<p><strong>Preview</strong> - The lesson opens up in preview mode for the teacher. However, it will not show the score unless the teacher switches their role to a student.</p>
+<p><strong>Edit</strong> - The Edit tab allows teachers to alter the lesson once it has been set up. There are two views - Collapsed and Expanded. See <a class="reference internal" href="building_lesson.html#building-lesson"><em>Building Lesson</em></a> for more details on editing the lesson.</p>
+<p><strong>Reports</strong> - The reports tab shows the performance of students taking the lesson. There is a general &#8220;Overview&#8221; and a &#8220;Detailed Statistics&#8221; tab.</p>
+<p><strong>Overview</strong> - By clicking on the specific attempt, the teacher can view the student&#8217;s answers to specific questions. It is also possible to delete a student attempt by checking the attempt and using the pull down menu to change &#8220;Choose&#8221; to &#8220;Delete&#8221;. Below the &#8220;Overview&#8221; can also be seen general statistics: Average score, Average time, High score, Low score, High time, Low time.</p>
+<p><strong>Detailed statistics</strong> - More detailed reports on individual questions are available from this tab.</p>
+<p><strong>Grade essays</strong> - Any essay questions which have been set in the lesson can be accessed and graded here.</p>
+</div>
+<div class="section" id="grading-lessons">
+<h2>Grading lessons<a class="headerlink" href="#grading-lessons" title="Permalink to this headline">¶</a></h2>
+<p>Note that for a lesson to be graded, it must have at least one question where a student can receive a score and the lesson can not be a practice lesson. Grades are calculated when the student has completed a lesson. Grades are kept for every student attempt.</p>
+</div>
+<div class="section" id="understanding-flow-control">
+<h2>Understanding Flow control<a class="headerlink" href="#understanding-flow-control" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><em>Administration &gt; Lesson administration &gt; Edit settings &gt; Flow control group</em></li>
+<li>Here are some examples to help you understand the Lesson flow control settings. Please note:</li>
+<li>&#8220;Allow student review&#8221; setting applies to the review of a whole Lesson, whereas</li>
+<li>&#8220;Provide option to try a question again&#8221; setting applies to the review of an individual question page. When the student does not select the correct answer, &#8216;Provide option to try a question again&#8221; setting will display 2 buttons. One will direct the student back to the question and the other to continue.</li>
+<li>&#8220;Maximum number of attempts&#8221; is designed to prevent a student from being stuck on &#8220;This page&#8221; where they continually put or select the wrong answer. It will override other settings, such as review or the option to try the question again. When exceeded, it will not allow a score to be recorded for that question.</li>
+</ol>
+<div class="section" id="case-1">
+<h3>Case 1<a class="headerlink" href="#case-1" title="Permalink to this headline">¶</a></h3>
+<p>The teacher wants the student to be able to attempt any question no more than 3 times and be given the chance to answer the question again. The teacher wants the student to see the response attached to their answer.</p>
+<p>Flow control settings</p>
+<blockquote>
+<div><ul class="simple">
+<li>Allow student review <strong>Yes</strong></li>
+<li>Provide option to try a question again <strong>No</strong></li>
+<li>Maximum number of attempts <strong>3</strong></li>
+<li>Display default feedback <strong>No</strong></li>
+<li>Number of pages to show <strong>0</strong></li>
+<li>Slideshow <strong>No</strong></li>
+</ul>
+</div></blockquote>
+<p>Student selects wrong answer and will see:</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8220;Response for the wrong answer&#8221; (if any is shown)</li>
+<li>&#8220;Yes, I&#8217;d like to try again&#8221; button</li>
+<li>&#8220;Continue&#8221; button.</li>
+</ul>
+</div></blockquote>
+<p>Student selects correct answer and will see:</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8220;Response for the correct answer&#8221; (if any is shown)</li>
+<li>&#8220;Continue&#8221; button</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="case-2">
+<h3>Case 2<a class="headerlink" href="#case-2" title="Permalink to this headline">¶</a></h3>
+<p>The teacher wants to allow the student 3 attempts at all questions but not see any feedback except the site default feedback for wrong answers.</p>
+<p>Flow control settings</p>
+<blockquote>
+<div><ul class="simple">
+<li>Allow student review <strong>No</strong></li>
+<li>Provide option to try a question again <strong>Yes</strong></li>
+<li>Maximum number of attempts <strong>3</strong></li>
+<li>Display default feedback <strong>No</strong></li>
+<li>Number of pages to show <strong>0</strong></li>
+<li>Slideshow <strong>No</strong></li>
+</ul>
+</div></blockquote>
+<p>Student selects wrong answer and will see:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Not quite. Would you like to try again? as text over the</li>
+<li>&#8220;Yes, I&#8217;d like to try again&#8221; button</li>
+<li>&#8216;&#8220;No, I just want to go on to the next question&#8221; button</li>
+</ul>
+<p><strong>Note</strong>: If the wrong answer jump is set to &#8220;This page&#8221; and the number of attempts is under the maximum, then the student will return to the question, regardless if they select &#8220;No, I just want to go on&#8221;.</p>
+</div></blockquote>
+<p>Student selects correct answer and will see:</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8220;Your answer: {gives the student&#8217;s answer)&#8221;</li>
+<li>Response attached to the correct answer (if any)</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="case-3">
+<h3>Case 3<a class="headerlink" href="#case-3" title="Permalink to this headline">¶</a></h3>
+<p>&#8220;Speed bump for speed clickers&#8221;. Teacher only wants the student to get once chance to record an answer on any question. They will only see the response the teacher provides for any question, or the default feedback if no response has been set for the answer the student selected.</p>
+<p>Flow control settings</p>
+<blockquote>
+<div><ul class="simple">
+<li>Allow student review <strong>No</strong></li>
+<li>Provide option to try a question again <strong>No</strong></li>
+<li>Maximum number of attempts <strong>1</strong></li>
+<li>Display default feedback <strong>Yes</strong></li>
+<li>Number of pages to show <strong>0</strong></li>
+<li>Slideshow <strong>No</strong></li>
+</ul>
+</div></blockquote>
+<p>Student selects wrong answer and will see:</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8220;Response for the wrong answer&#8221; (if any is shown)</li>
+<li>&#8220;Yes, I&#8217;d like to try again&#8221; button</li>
+<li>&#8220;Continue&#8221; button.</li>
+</ul>
+<p><strong>Note:</strong> When teacher sets the Jump to &#8220;This page&#8221; for a wrong answer, they will return to the page but their score will not change.</p>
+</div></blockquote>
+<p>Student</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8220;Response for the correct answer&#8221; (if any is show)</li>
+<li>&#8220;Continue&#8221; button</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -51,6 +179,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using Lesson</a><ul>
+<li><a class="reference internal" href="#what-the-student-sees">What the student sees</a></li>
+<li><a class="reference internal" href="#what-the-teacher-sees">What the teacher sees</a></li>
+<li><a class="reference internal" href="#grading-lessons">Grading lessons</a></li>
+<li><a class="reference internal" href="#understanding-flow-control">Understanding Flow control</a><ul>
+<li><a class="reference internal" href="#case-1">Case 1</a></li>
+<li><a class="reference internal" href="#case-2">Case 2</a></li>
+<li><a class="reference internal" href="#case-3">Case 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/using_lesson.txt"

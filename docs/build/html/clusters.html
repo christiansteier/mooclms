@@ -43,6 +43,38 @@
             
   <div class="section" id="clusters">
 <span id="id1"></span><h1>Clusters<a class="headerlink" href="#clusters" title="Permalink to this headline">¶</a></h1>
+<p>Clusters are special group of pages in a Lesson module. A &#8220;cluster&#8221; is formed by placing a special navigational &#8220;cluster&#8221; page at the start of the group and an &#8220;end cluster&#8221; page after the last page in the group. Clusters can be considered an advanced feature of Lesson.</p>
+<div class="section" id="what-are-clusters">
+<h2>What are clusters?<a class="headerlink" href="#what-are-clusters" title="Permalink to this headline">¶</a></h2>
+<p>The typical cluster group (or series of pages) contains question pages and we will focus our attention on this kind of cluster. It is a good practice to first add most of the content (branch table) and question pages in a lesson, then consider where to place the special navigation pages that define a cluster.</p>
+<p>Consider a series of question pages: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8. This represents 8 questions in a Lesson.</p>
+<p>A cluster is started in the logical order with a cluster page. Clusters should be completed with an End of Cluster page for best results (otherwise they treat the End of Lesson as the End of Cluster).</p>
+<p>The teacher might put some of them in a cluster, where C1 is the first &#8220;cluster&#8221; page and EC1 is the first &#8220;end cluster&#8221; page in the lesson.</p>
+<blockquote>
+<div>Q1, <strong>C1</strong>, Q2, Q3, Q4, Q5, Q6, Q7, <strong>EC1</strong>, Q8.</div></blockquote>
+<p>A cluster represents a set of pages from which one or more may be randomly chosen. Questions within a cluster are randomly selected by choosing &#8220;Random Question within a Cluster&#8221; as the jump in the &#8220;Start Cluster&#8221; page. Questions within a cluster may either link to the End of Cluster to exit the cluster, or jump to any other page in the lesson. They may also jump to an unseen question within the cluster but most commonly are directed back to the &#8220;Start Cluster&#8221; page.</p>
+</div>
+<div class="section" id="sub-clusters">
+<h2>Sub-Clusters<a class="headerlink" href="#sub-clusters" title="Permalink to this headline">¶</a></h2>
+<p>Clusters can contain sub-clusters by using Branch Tables and End of Branches. To implement this advanced feature, set up a cluster as normal with a Cluster page followed by question pages (with the jumps set up the same as above) and ended with an End of Cluster page.</p>
+<blockquote>
+<div>Q1, <strong>C1</strong>, Q2, Q3, Q4, Q5, Q6, Q7, <strong>EC1</strong>, Q8</div></blockquote>
+<p>To set up a sub-cluster, wrap a group of questions with a Branch Table and an End of Branch.</p>
+<blockquote>
+<div>Q1, <strong>C1</strong>, Q2, Q3, <strong>B1</strong>, Q4, Q5, Q6, <strong>EB1</strong>, Q7, <strong>EC1</strong>, Q8</div></blockquote>
+<p>Neither the content nor the jumps of the Branch Table and the End of Branch are seen by the student. Rather the two pages act as markers for the sub-cluster within the main cluster. When the student attempts the lesson, only one random question page within the sub-cluster will be displayed to the student.</p>
+</div>
+<div class="section" id="when-to-use-a-cluster">
+<h2>When to use a cluster?<a class="headerlink" href="#when-to-use-a-cluster" title="Permalink to this headline">¶</a></h2>
+<p>A cluster is used when the teacher wants a series of questions in a lesson to appear in a different random order for each student.</p>
+<p>In the example: Q1, Q2, C1, Q3, Q4, Q5, EC1, Q6, Q7, Q8, when the student reaches C1, the teacher might set the jump to &#8220;go to an unseen question in the cluster&#8221;. When a jump in Q3, Q4 and Q5 is set to go back to C1, the student will see a &#8220;new&#8221; question in the cluster. When the student has seen all the questions in the cluster, they will be sent to EC1. The student will never see EC1, just be redirected by the jump in EC1.</p>
+<p>Any or all of the question answers inside a cluster, could exit the student from the cluster. For example, specific jumps in Q3, Q4 and Q5 could be set to Q6, thus the student would pass over EC1 and leave the cluster.</p>
+</div>
+<div class="section" id="tips-and-tricks">
+<h2>Tips and tricks<a class="headerlink" href="#tips-and-tricks" title="Permalink to this headline">¶</a></h2>
+<p>Remember clusters have their own adaptive logic. It is always a good idea to test a cluster when logged in as a student. New users of a cluster, might do well to create a simple lesson so they understand how clusters work when applied in a more complex adaptive lesson.</p>
+<p><strong>TIP:</strong> Setting an answer&#8217;s jump to &#8220;Unseen question&#8221; may cause problems. For example, when a student has seen all the questions and is allowed to re-enter the cluster in the same lesson attempt. Clusters are an advanced feature and should be checked in a student role.</p>
+</div>
 </div>
 
 
@@ -51,6 +83,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Clusters</a><ul>
+<li><a class="reference internal" href="#what-are-clusters">What are clusters?</a></li>
+<li><a class="reference internal" href="#sub-clusters">Sub-Clusters</a></li>
+<li><a class="reference internal" href="#when-to-use-a-cluster">When to use a cluster?</a></li>
+<li><a class="reference internal" href="#tips-and-tricks">Tips and tricks</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/clusters.txt"
