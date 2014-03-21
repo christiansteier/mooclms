@@ -43,6 +43,89 @@
             
   <div class="section" id="file-system-repository">
 <span id="id1"></span><h1>File System repository<a class="headerlink" href="#file-system-repository" title="Permalink to this headline">¶</a></h1>
+<p>The file system repository allows access to files which have been uploaded (e.g. via FTP) into designated folders on the server. (<em>Note that these folders are not created inside the Moodle site, but on the server where Moodle is hosted.</em>)</p>
+<p>A file system repository may be available site wide for everyone or within an individual course (set up by admin) or for an individual administrator. This must be done by a systems admin who has write permissions to the server directories.</p>
+<p>When a file from the file system repository is re-used elsewhere on Moodle, the teacher has the option to make a copy (a new, unconnected version) or to create a shortcut or alias. See <a class="reference internal" href="working_with_files.html#working-with-files"><em>Working with files</em></a> for more details.</p>
+<p>Once a repository has been created and files uploaded to it, the files can be made available within the file picker for use within a course. There are several steps to take to implement this feature:-</p>
+<p>These must be done by a systems admin who has write permissions to the server directories and admin permissions within Moodle.</p>
+<div class="section" id="creating-folders-for-your-file-system-repositories">
+<h2>Creating folders for your file system repositories<a class="headerlink" href="#creating-folders-for-your-file-system-repositories" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Find the moodledata folder on the server</li>
+<li>Inside it, create a folder called &#8220;repository&#8221;</li>
+<li>Inside that folder, create as many folders as you need, named appropriately.</li>
+<li>Copy into the appropriate folder the files you want (using FTP, SFTP, shared folder etc.). (The folders can hold all types of files).</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="enabling-the-file-system-repository-plugin">
+<h2>Enabling the File System repository plugin<a class="headerlink" href="#enabling-the-file-system-repository-plugin" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Plugins &gt; Repositories &gt; Manage Repositories</em>.</li>
+<li>Select from the drop down next to File system &#8220;Enabled and visible&#8221;</li>
+</ul>
+</div></blockquote>
+<p>Note: Ignore the similarly named repository &#8216;Server Files&#8217; (enabled by default).</p>
+</div>
+<div class="section" id="setting-up-a-site-wide-file-system-repository">
+<h2>Setting up a site-wide file system repository<a class="headerlink" href="#setting-up-a-site-wide-file-system-repository" title="Permalink to this headline">¶</a></h2>
+<p>Having clicked the &#8220;Settings&#8221; link as above:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Scroll down to Repositories instances of the site.</li>
+<li>Click <em>Create a repository instance</em>.</li>
+<li>Give it a name and (if there are several folders on the server) choose from the dropdown the one you want. Click Save.</li>
+<li>It will now be available in the file picker in all courses.</li>
+</ul>
+</div></blockquote>
+<p><strong>NOTE:</strong> Just repeat the process to get more than one site wide file system repository.</p>
+</div>
+<div class="section" id="setting-up-a-repository-inside-a-course">
+<h2>Setting up a repository inside a course<a class="headerlink" href="#setting-up-a-repository-inside-a-course" title="Permalink to this headline">¶</a></h2>
+<p><em>NOTE: only Moodle admins can do this</em></p>
+<p>Enable repositories as in the instructions above. On the Settings page:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Check the top box allowing users to add a repository instance to the course (1 below).</li>
+<li>Go to the desired course and click on “repositories” in the administration block(2 below).</li>
+<li>Scroll down and click &#8220;Create File System instance&#8221; (3 below).</li>
+<li>Follow the same process as below.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="setting-up-an-individual-file-system-repository-instance">
+<h2>Setting up an individual file system repository instance<a class="headerlink" href="#setting-up-an-individual-file-system-repository-instance" title="Permalink to this headline">¶</a></h2>
+<p><em>NOTE: Only Moodle admins can do this</em></p>
+<p>Enable repositories as in the instructions above. On the Settings page:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Check the top box allowing users to add a repository instance to the user context (1 below)</li>
+<li>In the navigation block, click on “my profile”</li>
+<li>Click on “Repositories” (2 below)</li>
+<li>Click “Create File System instance”</li>
+<li>Follow the same process as here</li>
+<li>This will create a personal file system repository connecting just you to a folder on the server (3 below)</li>
+<li>Upload any files required by course creators to the appropriate folders</li>
+</ul>
+</div></blockquote>
+<p>Server permissions are needed here to add via FTP (or other method) the required files.</p>
+<p>From this point on the check boxes need not be set - leaving them set just invites people to create a repository instance and then advises them that they do not have sufficient privilges.</p>
+<div class="section" id="using-a-file-syetem-repository-file">
+<h3>Using a File Syetem repository file<a class="headerlink" href="#using-a-file-syetem-repository-file" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>A user can now make use of the uploaded files by accessing the repository from within the file picker, creating a resource link to a document, for example. This process copies the uploaded file into Moodle and students may access the resource.</li>
+<li>Note that file types are respected (based on file extensions), so if you are adding an image in the editor, then you won&#8217;t see Office docs (for example) appear in the File Picker.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="repository-capabilities">
+<h2>Repository capabilities<a class="headerlink" href="#repository-capabilities" title="Permalink to this headline">¶</a></h2>
+<p>There is just one capability, View file system repository, which is allowed for the default authenticated user role. This means that if a student is required to upload a file - upload assignment, for example, then the repository files may be browsed. It may be more appropriate for this permission to be changed so that course creators have the capabilty, but not students.</p>
+</div>
 </div>
 
 
@@ -51,6 +134,22 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">File System repository</a><ul>
+<li><a class="reference internal" href="#creating-folders-for-your-file-system-repositories">Creating folders for your file system repositories</a></li>
+<li><a class="reference internal" href="#enabling-the-file-system-repository-plugin">Enabling the File System repository plugin</a></li>
+<li><a class="reference internal" href="#setting-up-a-site-wide-file-system-repository">Setting up a site-wide file system repository</a></li>
+<li><a class="reference internal" href="#setting-up-a-repository-inside-a-course">Setting up a repository inside a course</a></li>
+<li><a class="reference internal" href="#setting-up-an-individual-file-system-repository-instance">Setting up an individual file system repository instance</a><ul>
+<li><a class="reference internal" href="#using-a-file-syetem-repository-file">Using a File Syetem repository file</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#repository-capabilities">Repository capabilities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/file_system_repository.txt"
