@@ -43,6 +43,73 @@
             
   <div class="section" id="user-profiles">
 <span id="id1"></span><h1>User Profiles<a class="headerlink" href="#user-profiles" title="Permalink to this headline">¶</a></h1>
+<p>A user&#8217;s profile may be viewed by clicking on their name. See <a class="reference internal" href="view_profile.html#view-profile"><em>View profile</em></a> for more information on how the profile information is displayed and <a class="reference internal" href="edit_profile.html#edit-profile"><em>Edit profile</em></a> for information on updating profiles.</p>
+<div class="section" id="site-administration-settings">
+<h2>Site administration settings<a class="headerlink" href="#site-administration-settings" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="site-policies">
+<h3>Site policies<a class="headerlink" href="#site-policies" title="Permalink to this headline">¶</a></h3>
+<p>An administrator can force users to login for profiles and select which roles are visible in user profiles (by default teacher, non-editing teacher and student) in <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em>.</p>
+</div>
+<div class="section" id="default-profile-page">
+<h3>Default profile page<a class="headerlink" href="#default-profile-page" title="Permalink to this headline">¶</a></h3>
+<p>An administrator or manager (or any other user with the capability moodle/user:managesyspages) can set which blocks appear on the default profile page for new users.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Access Administration &gt; Site administration &gt; Appearance &gt; Default profile page.</li>
+<li>Select the required blocks from the &#8220;Add a block&#8221; drop-down menu. Configure each block as desired.</li>
+<li>Reposition blocks using the arrow icons in the block headers.</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="adding-a-block-to-all-profile-pages">
+<h2>Adding a block to all profile pages<a class="headerlink" href="#adding-a-block-to-all-profile-pages" title="Permalink to this headline">¶</a></h2>
+<p>An administrator can add a new block to all profile pages as follows:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Turn editing on for the front page</li>
+<li>Add the block to the front page</li>
+<li>Edit where the block appears and set the page contexts to &#8216;Display throughout the entire site&#8217;</li>
+<li>Go to your profile page and again edit where the block appears and set &#8216;Display on page types&#8217; to &#8216;Only user profile pages&#8217;.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="preventing-users-from-customizing-their-profile-page">
+<h3>Preventing users from customizing their profile page<a class="headerlink" href="#preventing-users-from-customizing-their-profile-page" title="Permalink to this headline">¶</a></h3>
+<p>By default, users can customize their public profile page and add blocks. To prevent this</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em></li>
+<li>Edit the authenticated user role and untick the capability moodle/user:manageownblocks</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="user-profile-capabilities">
+<h2>User profile capabilities<a class="headerlink" href="#user-profile-capabilities" title="Permalink to this headline">¶</a></h2>
+<p>System:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Edit own user profile</li>
+<li>Manage blocks on own public user profile</li>
+<li>Configure default page layout for public user profiles</li>
+<li>Update user profiles</li>
+</ul>
+</div></blockquote>
+<p>Users:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Edit user profile</li>
+<li>Manage blocks on user profile of other users</li>
+<li>View user full information</li>
+</ul>
+</div></blockquote>
+<p>Course:</p>
+<blockquote>
+<div><ul class="simple">
+<li>View user profiles</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +118,23 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">User Profiles</a><ul>
+<li><a class="reference internal" href="#site-administration-settings">Site administration settings</a><ul>
+<li><a class="reference internal" href="#site-policies">Site policies</a></li>
+<li><a class="reference internal" href="#default-profile-page">Default profile page</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-a-block-to-all-profile-pages">Adding a block to all profile pages</a><ul>
+<li><a class="reference internal" href="#preventing-users-from-customizing-their-profile-page">Preventing users from customizing their profile page</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#user-profile-capabilities">User profile capabilities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/user_profiles.txt"
