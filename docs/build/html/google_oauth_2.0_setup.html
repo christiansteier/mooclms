@@ -43,6 +43,55 @@
             
   <div class="section" id="google-oauth-2-0-setup">
 <span id="id1"></span><h1>Google OAuth 2.0 Setup<a class="headerlink" href="#google-oauth-2-0-setup" title="Permalink to this headline">¶</a></h1>
+<p>Prior to Moodle 2.3, the Google Drive repository and Picasa web album repository and the Google Docs portfolio and Picasa portfolio could be used without any configuration or registration with Google. In April 2012, Google announced to web application developers that they would be deprecating the service which Moodle was using to communicate with Google and strongly advised developers to move away from it. As a response to this change with Google&#8217;s service, Moodle switched to use a new system for communicating with Google called &#8216;OAuth 2.0&#8217;. The OAuth 2.0 system provides a better security system and more friendly experience to Moodle users, though it requires some additional configuration in Moodle.</p>
+<div class="section" id="registering-with-google">
+<h2>Registering with Google<a class="headerlink" href="#registering-with-google" title="Permalink to this headline">¶</a></h2>
+<p>Each Moodle site now needs to be registered with Google in order to use the Google Drive, Docs or Picasa plugins. As part of the registration process, you will need to enter a URL (something like <a class="reference external" href="http://yourmoodlesite.org/admin/oauth2callback.php">http://yourmoodlesite.org/admin/oauth2callback.php</a>) which is provided on all Google Drive, Docs and Picasa plugins configuration pages in Moodle e.g. <em>Administration &gt; Site administration &gt; Plugins &gt; Repositories &gt; Google Drive</em>.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Visit the <a class="reference external" href="https://code.google.com/apis/console#access">Google APIs Console</a> (or the new URL Google Cloud APIs Console) and sign into your google account. You will be asked to create a project if this is your first time using this form.</li>
+<li>Click the link on the left &#8220;API Access&#8221;</li>
+<li>Click the button &#8216;Create an OAuth 2.0 client ID&#8217;</li>
+<li>Enter the branding information &#8216;Product name&#8217; (i.e. the name of your Moodle site) and &#8216;Product logo&#8217; (i.e. the URL of your site logo). By providing a descriptive name and link to distinct image then your users will know they are signing into the correct place.</li>
+<li>Click the Next button</li>
+<li>In &#8216;Client ID Settings&#8217; select &#8216;Web application&#8217; as application type.</li>
+<li>Click the &#8216;(more options)&#8217; link next to &#8216;Your site or hostname&#8217; then in &#8216;Authorized Redirect URIs&#8217; enter the URL (something like <a class="reference external" href="http://yourmoodlesite.org/admin/oauth2callback.php">http://yourmoodlesite.org/admin/oauth2callback.php</a>) from the plugin configuration page in Moodle, and leave the &#8216;Authorized JavaScript Origins&#8217; field blank</li>
+<li>Click the button &#8216;Create client ID&#8217;</li>
+</ol>
+</div></blockquote>
+<p>The Google Drive repository plugin also requires the Drive API to be enabled as follows:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>In the <a class="reference external" href="https://code.google.com/apis/console#access">Google APIs Console</a> click the link on the left &#8220;Services&#8221;</li>
+<li>Click the button opposite Drive API to turn it on</li>
+</ol>
+</div></blockquote>
+<p>Your site will then be registered with Google and you will be provided with a client ID and secret to configure all Google Drive, Docs and Picasa plugins.</p>
+<p><strong>Tip:</strong> If you have more than one Moodle site to register with Google, you can add an authorized redirect URI for each site in step 7. The same name and logo would then be displayed on the authorisation screen for each Moodle site.</p>
+</div>
+<div class="section" id="configuring-the-google-docs-and-picasa-repositories">
+<h2>Configuring the Google Docs and Picasa repositories<a class="headerlink" href="#configuring-the-google-docs-and-picasa-repositories" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Plugins &gt; Repositories &gt; Manage Repositories</em>.</li>
+<li>Activate the Google Docs and/or Picasa repositories by selecting &#8216;Enable and visible&#8217; in the dropdown menu.</li>
+<li>Configure each repository by entering the client ID and secret. Make sure you don&#8217;t include any white space in the text boxes.</li>
+<li>Save changes.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="configuring-the-google-docs-and-picasa-portfolios">
+<h2>Configuring the Google Docs and Picasa portfolios<a class="headerlink" href="#configuring-the-google-docs-and-picasa-portfolios" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to Settings &gt; Site administration &gt; Plugins &gt; Portfolios &gt; Manage Portfolios</li>
+<li>Activate the Google Docs and/or Picasa portfolios by selecting &#8216;Enable and visible&#8217; in the dropdown menu</li>
+<li>Configure each portfolio by entering the client ID and secret</li>
+<li>Save changes</li>
+</ol>
+</div></blockquote>
+<p>Once configured, Google will present Moodle users with a nice authorisation screen with your Moodle site name and logo for your users to authorise.</p>
+</div>
 </div>
 
 
@@ -51,6 +100,16 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Google OAuth 2.0 Setup</a><ul>
+<li><a class="reference internal" href="#registering-with-google">Registering with Google</a></li>
+<li><a class="reference internal" href="#configuring-the-google-docs-and-picasa-repositories">Configuring the Google Docs and Picasa repositories</a></li>
+<li><a class="reference internal" href="#configuring-the-google-docs-and-picasa-portfolios">Configuring the Google Docs and Picasa portfolios</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/google_oauth_2.0_setup.txt"
