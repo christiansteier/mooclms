@@ -46,7 +46,7 @@ Privacy settings
 
 Common module settings
 ------------------------
-see :ref:`Common module settings <common_module_settings>`
+See :ref:`Common module settings <common_module_settings>`
 
 Restrict access / Activity completion
 ---------------------------------------
@@ -63,7 +63,9 @@ External tool capabilities
   * View external tool activities
   * Add a new external tool activity 
 
-
-
+Why use an external tool?
+---------------------------
+  * Many websites provide materials and interactive learning excercises different from and complementary to Moodle's own resources and activities. The External tool module offers a way for teachers to link to these activities from within their Moodle course page and where available to have grades sent back into Moodle. Students only need to log in to Moodle; they do not have to log in a second time to the connecting site.
+  * Sites which allow connection to Moodle in this way are known as LTI compliant and are called Tool providers. The "tools" are the exercises or materials which Moodle can connect to. 
 
 
