@@ -13,7 +13,7 @@ Note: In order to use either the Google Drive or Picasa repositories (also the G
   3. Configure the Google Docs repository by entering the client ID and secret.
   4. Save changes.
   
-Getting ("pulling") your fles from Google Drive
+Getting ("pulling") your files from Google Drive
 -------------------------------------------------
   * From the file picker, click on the Google Drive link and a prompt to log in will appear. 
   * If it is your first time, the click the "Allow access" button to log in.
