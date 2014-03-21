@@ -21,7 +21,7 @@ Setting the default My home page for new users
 An administrator or manager (or other user with the capability moodle/my:configsyspages) can set which content (course overview, calendar, blocks) appears on the My home page for new users as follows:
 
  1. Access *Administration > Site administration > Appearance > Default My home page*.
- 2. Select the required blocks from the "Add a block" drop-down menu. Configure each block as desired.
+ 2. Select the required blocks from the "Add a block" drop-down menu. :ref:`Configure <block_settings>` each block as desired.
  3. Reposition blocks using the arrow icons in the block headers.
  
 Adding a block to the My home page for all users
