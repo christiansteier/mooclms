@@ -43,6 +43,107 @@
             
   <div class="section" id="block-settings">
 <span id="id1"></span><h1>Block Settings<a class="headerlink" href="#block-settings" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="adding-a-block-to-a-page">
+<h2>Adding a block to a page<a class="headerlink" href="#adding-a-block-to-a-page" title="Permalink to this headline">¶</a></h2>
+<p>Blocks can be added to a page by turning editing on then using the &#8216;Add a block&#8217; drop-down menu.</p>
+<p>Note: The ability to add a particular block to a page is controlled by an <em>addinstance capability</em> (e.g. block/comments:addinstance), which is allowed for the default role of teacher.</p>
+</div>
+<div class="section" id="block-configuration">
+<h2>Block configuration<a class="headerlink" href="#block-configuration" title="Permalink to this headline">¶</a></h2>
+<p>After adding a block, click the edit icon in the block header to configure it.</p>
+<div class="section" id="id2">
+<h3>Block settings<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Certain blocks, such as the HTML block, allow a block title and more to be set.</p>
+</div>
+<div class="section" id="where-this-block-appears">
+<h3>Where this block appears<a class="headerlink" href="#where-this-block-appears" title="Permalink to this headline">¶</a></h3>
+<p>Depending upon the context and users permissions, this area determines where this block will appear.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Original block location: provides information about where the block was initially created.</li>
+<li>Display on page types: allows the user to set the context that the block can appear in. These options will vary depending upon the permissions of the user. For example a site administrator might see a setting that will allow the block to appear on Any page, or any type of course main page, while a teacher may only see the option to place it on every page in the course.</li>
+<li>Default region: Usually a right column or left column option.</li>
+<li>Default weight: Where in the column do you want it to appear if there are other blocks in that column. -10 will put it at the top, 10 will put it at the bottom. A zero is neutral.</li>
+</ul>
+</div></blockquote>
+<p>See <a class="reference internal" href="user_profiles.html#user-profiles"><em>User profiles</em></a> for instructions on how to make a block appear on all user profile pages.</p>
+</div>
+<div class="section" id="on-this-page">
+<h3>On this page<a class="headerlink" href="#on-this-page" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Visible - Yes or No.</li>
+<li>Region - Here you can override the column preference on this page.</li>
+<li>Weight - Here you can override the default setting on this page.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="sticky-blocks">
+<h2>&#8216;Sticky blocks&#8217;<a class="headerlink" href="#sticky-blocks" title="Permalink to this headline">¶</a></h2>
+<p>The term &#8216;sticky&#8217; block was used in older versions of Moodle to mean blocks which the admin added either site-wide or to the <a class="reference internal" href="my_home.html#my-home"><em>My home</em></a> page and which could not be deleted by regular users. Although the term is no longer used, it is still possible to make blocks &#8216;sticky&#8217; and in a wider variety of locations.</p>
+<p>If an admin deletes a &#8220;sticky&#8221; block in a course, they receive a warning of the site-wide consequences of this action before it is deleted.</p>
+<p>Here are a few examples:</p>
+<div class="section" id="making-a-block-sticky-throughout-the-whole-site">
+<h3>Making a block sticky throughout the whole site<a class="headerlink" href="#making-a-block-sticky-throughout-the-whole-site" title="Permalink to this headline">¶</a></h3>
+<p>The Moodle administrator might wish for example to display support contact details sitewide using an HTML block called &#8216;Helpdesk&#8217;:</p>
+<blockquote>
+<div><ul class="simple">
+<li>As an administrator, turn on the editing on the front page and add the block you wish to make sticky.</li>
+<li>For Where this block appears &gt; Page contexts, choose &#8216;Display throughout the entire site&#8217;.</li>
+<li>Decide other settings according to your preference and save.</li>
+<li>The block will now appear on all pages of your Moodle.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="making-a-block-sticky-throughout-a-course">
+<h3>Making a block sticky throughout a course<a class="headerlink" href="#making-a-block-sticky-throughout-a-course" title="Permalink to this headline">¶</a></h3>
+<p>The teacher might wish for example to display the Messages block everywhere in the course. This would allow students easily to message each other and their tutors not only on the course from the main page but also on individual activities. The block would be available on admin pages too.</p>
+<blockquote>
+<div><ul class="simple">
+<li>As a teacher in the course, turn on the editing on the course main page and add the block you wish to make sticky.</li>
+<li>For <em>Display on page types</em>, choose &#8216;Any page&#8217;</li>
+<li>Decide other settings according to your preferences and save.</li>
+<li>The block will now appear on all pages of the course.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="making-a-block-sticky-in-a-category">
+<h3>Making a block sticky in a category<a class="headerlink" href="#making-a-block-sticky-in-a-category" title="Permalink to this headline">¶</a></h3>
+<p>A user with category rights might for instance wish to display a Remote RSS feeds block in all of the courses within a particular category, such as a Head of Science adding Science news feeds to the Physics, Biology and Chemistry courses. While this should be possible, there are currently problems with blocks on category pages not saving the required page context.</p>
+</div>
+<div class="section" id="making-a-block-sticky-in-a-resource-or-an-activity">
+<h3>Making a block sticky in a resource or an activity<a class="headerlink" href="#making-a-block-sticky-in-a-resource-or-an-activity" title="Permalink to this headline">¶</a></h3>
+<p>A teacher might wish to display a block in one particular resource or activity, for example a Head of Faculty might make create a Book for departmental policies and wish to add the comments block to every chapter/page of a book so colleagues can give quick feedback. (Note that such a comments block would be the same block on each chapter/page)</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>As a teacher in the course, turn on the editing and click into the resource/activity -in this case a Book and add the block.</li>
+<li>For <em>Display on page types</em>, you will see (for example) &#8216;mod-book*&#8217;</li>
+<li>Decide other settings according to your preferences and save.</li>
+<li>The block will now appear on all related screens.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="adding-a-block-to-all-user-profile-pages">
+<h3>Adding a block to all user profile pages<a class="headerlink" href="#adding-a-block-to-all-user-profile-pages" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference internal" href="user_profiles.html#user-profiles"><em>User profiles</em></a></p>
+</div>
+<div class="section" id="adding-a-block-to-my-home-page-for-all-users">
+<h3>Adding a block to My home page for all users<a class="headerlink" href="#adding-a-block-to-my-home-page-for-all-users" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference internal" href="my_home.html#my-home"><em>My home</em></a> Note that such a block would not be truly &#8216;sticky&#8217;, in that users can customise their My home page and could, if wished, delete the block.</p>
+</div>
+</div>
+<div class="section" id="block-permissions">
+<h2>Block permissions<a class="headerlink" href="#block-permissions" title="Permalink to this headline">¶</a></h2>
+<p>To change role permissions for a block</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Turn editing on in the course</li>
+<li>Click the Assign roles icon (a face and mask) in the header of the block</li>
+<li>In the administration block, go to <em>Block administration &gt; Permissions</em> (ignore the message &#8216;You are not able to assign any roles here&#8217;, which is to be expected, since roles are not generally assigned in the block context)</li>
+</ol>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +152,30 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Block Settings</a><ul>
+<li><a class="reference internal" href="#adding-a-block-to-a-page">Adding a block to a page</a></li>
+<li><a class="reference internal" href="#block-configuration">Block configuration</a><ul>
+<li><a class="reference internal" href="#id2">Block settings</a></li>
+<li><a class="reference internal" href="#where-this-block-appears">Where this block appears</a></li>
+<li><a class="reference internal" href="#on-this-page">On this page</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sticky-blocks">&#8216;Sticky blocks&#8217;</a><ul>
+<li><a class="reference internal" href="#making-a-block-sticky-throughout-the-whole-site">Making a block sticky throughout the whole site</a></li>
+<li><a class="reference internal" href="#making-a-block-sticky-throughout-a-course">Making a block sticky throughout a course</a></li>
+<li><a class="reference internal" href="#making-a-block-sticky-in-a-category">Making a block sticky in a category</a></li>
+<li><a class="reference internal" href="#making-a-block-sticky-in-a-resource-or-an-activity">Making a block sticky in a resource or an activity</a></li>
+<li><a class="reference internal" href="#adding-a-block-to-all-user-profile-pages">Adding a block to all user profile pages</a></li>
+<li><a class="reference internal" href="#adding-a-block-to-my-home-page-for-all-users">Adding a block to My home page for all users</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#block-permissions">Block permissions</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/block_settings.txt"
