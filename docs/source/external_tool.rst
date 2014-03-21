@@ -46,7 +46,7 @@ Privacy settings
 
 Common module settings
 ------------------------
-see :ref:`Common module settings <common_module_settings>`
+See :ref:`Common module settings <common_module_settings>`
 
 Restrict access / Activity completion
 ---------------------------------------
