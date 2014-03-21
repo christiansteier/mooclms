@@ -43,6 +43,88 @@
             
   <div class="section" id="external-tool">
 <span id="id1"></span><h1>External tool<a class="headerlink" href="#external-tool" title="Permalink to this headline">¶</a></h1>
+<p>The external tool enables Moodle users to interact with LTI-compliant learning resources and activities on other web sites. For instance, an external tool could provide access to a new activity type or learning materials from a publisher.</p>
+<div class="section" id="adding-a-new-external-tool-to-a-course">
+<h2>Adding a new external tool to a course<a class="headerlink" href="#adding-a-new-external-tool-to-a-course" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>With the editing turned on,in the section you wish to add your external tool, click the &#8220;Add an activity or resource&#8221; link (or, if not present, the &#8220;Add an activity&#8221; drop down menu )and choose <em>External tool</em></li>
+<li>This will take you to the settings page titled &#8220;Adding a new external tool&#8221;. All settings may expanded by clicking the &#8220;Expand all&#8221; link top right.</li>
+<li>If the external tool has not been configured by the administrator, you will need to have in advance the correct URL, consumer key and secret. These should have been provided to you by the managers of the LTI compliant website you are going to be connecting to. Click &#8220;Show more&#8221; to access the consumer key and secret fields.</li>
+</ol>
+</div></blockquote>
+<div class="section" id="general-settings">
+<h3>General settings<a class="headerlink" href="#general-settings" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first"><strong>Activity name</strong> - give the title you wish the students to see on the course page</p>
+</li>
+<li><p class="first"><strong>External tool type</strong> - this is how Moodle communicates with the tool provider. If in doubt, leave as default. If your administrator has made a tool available sitewide, you will be able to select it here.</p>
+</li>
+<li><p class="first"><strong>Launch URL</strong> - This is the URL for connecting to site.</p>
+</li>
+<li><p class="first"><strong>Launch container</strong> - this is how the external tool will be displayed.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Default -if in doubt; leave as default</li>
+<li>Embed - the external tool will be embedded in the Moodle course page with blocks and navigation bar</li>
+<li>Embed without blocks - the external tool will be embedded in the Moodle course page but without blocks</li>
+<li>New Window - the external tool will open in a new window. (A new window or tab will open with the External tool and the old browser window containing the course page will not change.)</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><em>The following settings are available by clicking &#8220;&#8221;Show more&#8221;:</em></p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Activity description</strong> - give a short description here</li>
+<li><strong>Display description on course page</strong> - choose to show the description along with the activity name</li>
+<li><strong>Display activity name when launched</strong> - have this appear when the student clicks the link.</li>
+<li><strong>Display activity description when launched</strong> - have this appear when the student clicks the link.</li>
+<li><strong>Secure launch URL</strong></li>
+<li><strong>Consumer key</strong> -this tells the connecting LTI compliant site that your Moodle is allowed to connect. The &#8220;tool provider&#8221;, ie the manger of the connecting LTI compliant site will issue you with this key. If you are merely linking to a tool with no secure access or gradebook sharing then you won&#8217;t need a consumer key.</li>
+<li><strong>Shared secret</strong> - this is the &#8220;password&#8221; to connect to the tool - the LTI compliant site.</li>
+<li><strong>Custom parameters</strong> - most times you can leave this blank. The tool provider might use this to allow you to display a specific resource.</li>
+<li><strong>Icon URL</strong> - you can display a different icon from the default External Tool icon by entering its URL here</li>
+<li><strong>Secure Icon URL</strong> - enter the URL of a different icon here if your students are accessing Moodle securely via SSL.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="privacy-settings">
+<h2>Privacy settings<a class="headerlink" href="#privacy-settings" title="Permalink to this headline">¶</a></h2>
+<p>(These settings are collapsed by default)</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Share launcher&#8217;s name with the tool</strong> - this means that the student&#8217;s name will be displayed on the connected site as in this example</li>
+<li><strong>Share launcher&#8217;s email with the tool</strong> - this means that the student&#8217;s email will be displayed on the connected site as in this example</li>
+<li><strong>Accept grades from the tool</strong> - if this is checked, the connecting site will send back grades to Moodle&#8217;s gradebook. See Using External tool for more information on this.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="common-module-settings">
+<h2>Common module settings<a class="headerlink" href="#common-module-settings" title="Permalink to this headline">¶</a></h2>
+<p>see <a class="reference internal" href="common_module_settings.html#common-module-settings"><em>Common module settings</em></a></p>
+</div>
+<div class="section" id="restrict-access-activity-completion">
+<h2>Restrict access / Activity completion<a class="headerlink" href="#restrict-access-activity-completion" title="Permalink to this headline">¶</a></h2>
+<p>(These settings are collapsed by default)</p>
+<p>These settings are visible if <em class="xref std std-ref">Conditional activities</em> have been enabled in the site and the course.</p>
+</div>
+<div class="section" id="external-tool-capabilities">
+<h2>External tool capabilities<a class="headerlink" href="#external-tool-capabilities" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Add external tool</li>
+<li>Submit a tool to admins for configuration</li>
+<li>Grade external tool activities</li>
+<li>Edit external tool activities</li>
+<li>View external tool activities</li>
+<li>Add a new external tool activity</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +133,21 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">External tool</a><ul>
+<li><a class="reference internal" href="#adding-a-new-external-tool-to-a-course">Adding a new external tool to a course</a><ul>
+<li><a class="reference internal" href="#general-settings">General settings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#privacy-settings">Privacy settings</a></li>
+<li><a class="reference internal" href="#common-module-settings">Common module settings</a></li>
+<li><a class="reference internal" href="#restrict-access-activity-completion">Restrict access / Activity completion</a></li>
+<li><a class="reference internal" href="#external-tool-capabilities">External tool capabilities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/external_tool.txt"
