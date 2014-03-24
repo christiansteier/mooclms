@@ -17,6 +17,8 @@ In an existing forum, the following settings can be found in *Settings > Forum a
 General
 ^^^^^^^^
 
+.. image:: _images/forum1.png
+
 **Forum name**
 
 A short name of the forum (e.g. "Moodle"), which will be displayed on the course homepage.
@@ -44,6 +46,8 @@ Attachments and word count
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/forum2.png
+
 **Maximum attachment size**
 
 The maximum file size that may be attached to a forum post will first be determined by the Moodle site settings. The teacher may want a smaller size limit for the forum. Server file capacity, student downloading speeds and discouraging images in a document centered discussion are a few reasons to limit file size.
@@ -59,6 +63,8 @@ If "Display word count" is enabled, then the number of words in forum posts will
 Subscription and tracking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
+
+.. image:: _images/forum3.png
 
 **Subscription mode**
 
