@@ -13,6 +13,8 @@ With the editing turned on,in the section you wish to add your chat, click the "
 General
 ^^^^^^^^
 
+.. image:: _images/chat_1.png
+
 **Name of this chat room**
 
 Whatever you type here will form the link learners click on to enter the chat so it is helpful to give it a name that suggests its purpose - for example "Student council discussion" or "Field trip planning meeting". 
@@ -28,6 +30,8 @@ If this box is ticked, the description will appear on the course page just below
 Chat sessions
 ^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/chat_2.png
 
 **Next chat time**
 
@@ -58,6 +62,8 @@ There are four options for scheduling future chat sessions:
 Common module settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.)
+
+.. image:: _images/chat_3.png
 
 See :ref:`Common module settings <common_module_settings>`
 
