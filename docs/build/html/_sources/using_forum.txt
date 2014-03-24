@@ -13,13 +13,21 @@ Students will see the text you have placed in the Forum introduction setting as 
 
 **Each person posts one discussion**
 
+.. image:: _images/forum11.png
+
 The view will be basically the same as in the previous case, the only difference being the 'Add a new discussion' option. Viewing a forum page, the student will see the text you have written at the 'Forum introduction' space while creating the forum, and, if there are any, the discussions that have been started. 
 
 **Standard forum for general use**
 
+.. image:: _images/forum12.png
+
 In this forum type, students will see the introduction text in a separate space above the discussion field, in which you will see the information such as the title of the discussion (which means the forum's title), its author, the number of replies and the date of the last post. 
 
 **Question and Answer forum**
+
+.. image:: _images/forum13.png
+
+.. image:: _images/forum10.png
 
 The Q & A forum is best used when you have a particular question that you wish to have answered. In a Q and A forum, teachers post the question and students respond with possible answers. By default a Q and A forum requires students to post once before viewing other students' postings.
 
