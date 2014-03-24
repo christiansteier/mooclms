@@ -237,6 +237,8 @@ Users can choose whether or not to track unread posts in their profile settings 
 
 If the user chooses 'Yes: highlight new posts for me' and the forum administrator has set the 'Read tracking for this forum?' to On or Optional then the user will have new posts highlighted for them. 
 
+.. image:: _images/forum8.png
+
 The posts will be highlighted in the following places:
 
   * My home page
@@ -244,7 +246,7 @@ The posts will be highlighted in the following places:
   * Within the forum itself
   * In forum discussion threads 
   
-
+.. image:: _images/forum9.png
 
 
 
