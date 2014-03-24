@@ -3,6 +3,8 @@
 SCORM
 ======
 
+.. image:: _images/scorm_1.png
+
 The SCORM module enables you (the teacher) to upload any SCORM or AICC package to include in your course.
 
 SCORM 1.2 is supported in Moodle but SCORM 2004 is not.
@@ -40,6 +42,8 @@ Scorm administration settings
 
 General
 ^^^^^^^^
+
+.. image:: _images/scorm_2.png
  
 **Name**
 
@@ -54,6 +58,8 @@ Add a description of your SCORM activity here. Click "Show editing tools" to dis
 If this box is ticked, the description will appear on the course page just below the name of the SCORM activity.
 
 **Package**
+
+.. image:: _images/scorm_3.png
 
 This setting determines which SCORM package is used by this SCORM activity. Drag and drop or click the icon top left to upload your SCORM package. (Note that you must not unzip the package before upload.)The default (1) is to be able to upload a file. If your admin has added additional options in Site administration>Plugins>Activity modules>SCORM package then these will be available in a dropdown menu. (2) 
 
@@ -71,6 +77,8 @@ It it possible to select the imsmanifest.xml file and have it as an alias/shortc
 Appearance
 ^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/scorm_4.png
 
 **Display package**
 
@@ -106,7 +114,9 @@ There is a series of check boxes for:Allow the window to be resized ad scrolled,
   
 Availability
 ^^^^^^^^^^^^^
-(These settings are collapsed by default.) 
+(These settings are collapsed by default.)
+
+.. image:: _images/scorm_5.png
 
 Choose here the dates you wish the SCORM package to be available to students. 
 
@@ -128,6 +138,8 @@ Not applicable if Grading Method is Learning objects. Usual setting is 100. If y
 Attempts management
 ^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/scorm_6.png
 
 **Number of attempts**
 
@@ -153,6 +165,8 @@ If this is enabled then once a student has used up all their attempts, they can 
 Compatibility settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/scorm_7.png
 
 **Auto-Continue**
 
@@ -180,6 +194,9 @@ These settings are visible if :ref:`Conditional activities <conditional_activiti
 
 Activity completion settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/scorm_8.png
+
 If this has been enabled for the course, then SCORM completion may be set based on minimum score or status (e.g. "Passed"). 
 
 As in most activities there are 3 save button choices. Cancel, Save and return to course and Save changes buttons. The Save changes button will take the teacher back to the SCORM "stage" page. 
