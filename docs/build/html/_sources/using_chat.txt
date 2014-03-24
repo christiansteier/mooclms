@@ -5,17 +5,27 @@ Using Chat
 
 Entering the chat
 ------------------
+
+.. image:: _images/chat_4.png
+
  * As you click the chat link on the course page you see two or three options:
 
     * Click here to enter the chat now - this takes you to the chat using the chosen site default chat method - for example Ajax.
     * Use more accessible interface - this gives a simpler chat room without frames and javascript.
+
+.. image:: _images/chat_5.png
 
  * View past sessions - if this has been enabled and the user is allowed to view past chat sessions, this takes them to a list of past sessions with links to the chat. 
 
 Joining in a chat session
 --------------------------
  * In normal view, the screen is in two parts with the participants on the right, the messages on the left and a box at the bottom into which users type their message and press "Send" to make their contribution.
+ 
+ .. image:: _images/chat_6.png
+ 
  * Users can change the appearance of the messages by clicking on "Themes" next to the "Send" button. *Bubbles* appears thus.
+ 
+ .. image:: _images/chat_7.png
  
 *The chat module contains some features to make chatting a little nicer.*
 
@@ -31,6 +41,9 @@ Joining in a chat session
 
 Chat reports
 --------------
+
+.. image:: _images/chat_8.png
+
  * To view previous chats (if you have permission) click on the 'View past chat sessions' link. Teachers can also access past chat sessions from the Chat administration in the Settings block. 
  * This will bring up a listing of each chat session under the current chat topic. The listings include the time the chat started and ended, which users participated, and how many messages each user sent. 
  * In order for students to see past sessions, the teacher or an administrator must setup the chat to allow everyone to view past chat sessions. Please refer to the :ref:`Chat settings <chat>` page. 
