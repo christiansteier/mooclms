@@ -17,6 +17,8 @@ In an existing forum, the following settings can be found in *Settings > Forum a
 General
 ^^^^^^^^
 
+.. image:: _images/forum1.png
+
 **Forum name**
 
 A short name of the forum (e.g. "Moodle"), which will be displayed on the course homepage.
@@ -44,6 +46,8 @@ Attachments and word count
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/forum2.png
+
 **Maximum attachment size**
 
 The maximum file size that may be attached to a forum post will first be determined by the Moodle site settings. The teacher may want a smaller size limit for the forum. Server file capacity, student downloading speeds and discouraging images in a document centered discussion are a few reasons to limit file size.
@@ -59,6 +63,8 @@ If "Display word count" is enabled, then the number of words in forum posts will
 Subscription and tracking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
+
+.. image:: _images/forum3.png
 
 **Subscription mode**
 
@@ -82,6 +88,8 @@ The subscription mode and subscribe or unsubscribe links appear in the Settings 
   * There is also a "Subscriptions not allowed" setting which prevents Students from subscribing to a Forum. Teachers may choose to subscribe to a forum if they wish. 
 
 **Read tracking for this forum?**
+
+.. image:: _images/forum4.png
 
 "Read tracking" for a forum allows users to track read and unread forum posts.
 
@@ -109,7 +117,9 @@ The administrative cron (admin/cron.php) must run after the forum is created and
 
 Post threshold for blocking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(This setting is collapsed by default) 
+(This setting is collapsed by default)
+
+.. image:: _images/forum5.png
 
 **Time period for blocking**
 
@@ -131,6 +141,8 @@ Ratings
 ^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/forum6.png
+
 **Roles with permissions to rate**
 
 Forum posts can be rated using a scale. By default, only teachers can rate forum posts, though students can be given permission to do so if desired (see Forum permissions below). This is a useful tool for giving students participation grades. Any ratings given in the forum are recorded in the gradebook.
@@ -146,6 +158,8 @@ The teacher can allow only posts within a certain date range to be rated. This i
 Common module settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/forum7.png
 
 See :ref:`Common module settings <common_module_settings> for more information, but note the details below relating specifically to use of forums with groups. 
 
