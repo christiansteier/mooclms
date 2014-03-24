@@ -2,6 +2,9 @@
 
 Choice
 =======
+
+.. image:: _images/choice_1.png
+
 A choice activity is very simple – the teacher asks a question and specifies a choice of multiple responses. It can be useful as a quick poll to stimulate thinking about a topic; to allow the class to vote on a direction for the course; or to gather research consent. 
 
 Choice requires some preparation time for creating your activity and thinking about what results you would like to achieve, but your participation with activity itself is likely to be minimal.
@@ -12,6 +15,8 @@ With the editing turned on, choose from the"Add an activity or resource" link (o
 
 General
 ^^^^^^^^
+
+.. image:: _images/choice_2.png
 
 **Choice name**
 
@@ -26,6 +31,8 @@ Display mode for the options
     
 Options
 ^^^^^^^^
+
+.. image:: _images/choice_3.png
 
 **Allow choice to be updated**
 
@@ -55,6 +62,8 @@ Availability
 Results
 ^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/choice_4.png
 
 **Publish results**
 

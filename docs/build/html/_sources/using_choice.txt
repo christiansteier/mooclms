@@ -8,10 +8,14 @@ What the student sees
  * When a teacher has created a Choice activity, the student is presented with a number of radio buttons. They click one to make their selection.
  * Depending on the teacher's settings, the student may then be able to see the results either anonymously or with names (via the "View xxx responses" link) or not see anything. 
  
+ .. image:: _images/choice_1.png
+ 
 What the teacher sees
 ----------------------
  * Regardless of how it's been set for students, a teacher will always see user names and choices, via the "View xxx responses" link.
  * The teacher is also able to delete selected choices or download them in various formats as in the screenshot below.
+ 
+ .. image:: _images/choice_5.png
  
 Examples of using choice
 --------------------------
