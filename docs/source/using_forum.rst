@@ -40,10 +40,18 @@ Display options
 A discussion thread may be displayed in four ways. Use the pull down menu at the top of each forum discussion to select a display type.
 
   * Display replies flat, with oldest first
+  
+      .. image:: _images/forum14.png
+  
   * Display replies flat, with newest first - The discussion will be displayed in one line and the chronological order from the newest to the oldest. This is the same as the above, just a different sort order.
   * Display replies in threaded form - Only the post starting the discussion will be displayed in its full form; replies will be reduced to the headlines (including information about its author and date of release) and organized chronologically; moreover, replies will be shifted towards the right so that only replies to the same post were in the same line.
+ 
+      .. image:: _images/forum15.png
+ 
   * Display replies in nested form - All posts are displayed in their full forms; replies will be reduced to the headlines (including information about its author and date of release) and organized chronologically; moreover, replies will be shifted towards the right so that only replies to the same post were in the same line. 
-  
+    
+      .. image:: _images/forum16.png
+      
 Forum posting
 --------------
 The default content of Subject is usually 'Re: <the name of the 'parent' post>'. You can change it though.
