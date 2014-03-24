@@ -6,14 +6,14 @@ Using Chat
 Entering the chat
 ------------------
 
-.. image:: _images/chat_4.png
+   .. image:: _images/chat_4.png
 
  * As you click the chat link on the course page you see two or three options:
 
     * Click here to enter the chat now - this takes you to the chat using the chosen site default chat method - for example Ajax.
     * Use more accessible interface - this gives a simpler chat room without frames and javascript.
 
-.. image:: _images/chat_5.png
+   .. image:: _images/chat_5.png
 
  * View past sessions - if this has been enabled and the user is allowed to view past chat sessions, this takes them to a list of past sessions with links to the chat. 
 
