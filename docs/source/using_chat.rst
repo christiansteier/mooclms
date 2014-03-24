@@ -6,7 +6,7 @@ Using Chat
 Entering the chat
 ------------------
 
-.. image:: _images/chat_4.png
+ .. image:: _images/chat_4.png
 
  * As you click the chat link on the course page you see two or three options:
 
@@ -42,7 +42,7 @@ Joining in a chat session
 Chat reports
 --------------
 
-.. image:: _images/chat_8.png
+ .. image:: _images/chat_8.png
 
  * To view previous chats (if you have permission) click on the 'View past chat sessions' link. Teachers can also access past chat sessions from the Chat administration in the Settings block. 
  * This will bring up a listing of each chat session under the current chat topic. The listings include the time the chat started and ended, which users participated, and how many messages each user sent. 
