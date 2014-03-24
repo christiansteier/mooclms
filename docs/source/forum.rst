@@ -117,7 +117,9 @@ The administrative cron (admin/cron.php) must run after the forum is created and
 
 Post threshold for blocking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(This setting is collapsed by default) 
+(This setting is collapsed by default)
+
+.. image:: _images/forum5.png
 
 **Time period for blocking**
 
@@ -139,6 +141,8 @@ Ratings
 ^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/forum6.png
+
 **Roles with permissions to rate**
 
 Forum posts can be rated using a scale. By default, only teachers can rate forum posts, though students can be given permission to do so if desired (see Forum permissions below). This is a useful tool for giving students participation grades. Any ratings given in the forum are recorded in the gradebook.
@@ -154,6 +158,8 @@ The teacher can allow only posts within a certain date range to be rated. This i
 Common module settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/forum7.png
 
 See :ref:`Common module settings <common_module_settings> for more information, but note the details below relating specifically to use of forums with groups. 
 
