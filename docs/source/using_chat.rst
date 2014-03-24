@@ -6,7 +6,7 @@ Using Chat
 Entering the chat
 ------------------
 
-   .. image:: _images/chat_4.png
+.. image:: _images/chat_4.png
 
  * As you click the chat link on the course page you see two or three options:
 
