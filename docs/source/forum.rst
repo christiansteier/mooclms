@@ -89,6 +89,8 @@ The subscription mode and subscribe or unsubscribe links appear in the Settings 
 
 **Read tracking for this forum?**
 
+.. image:: _images/forum4.png
+
 "Read tracking" for a forum allows users to track read and unread forum posts.
 
 There are three options for this setting:
