@@ -43,6 +43,58 @@
             
   <div class="section" id="edit-profile">
 <span id="id1"></span><h1>Edit profile<a class="headerlink" href="#edit-profile" title="Permalink to this headline">¶</a></h1>
+<p>Administrators can update user profiles via <em>Administration &gt; Users &gt; Accounts &gt; Add a new user or Browse list of users</em> and individual users may update their profiles by choosing the Edit profile link from <em>Settings &gt; My profile settings</em></p>
+<p>The fields are divided into 3 sections - General, Picture &amp; Optional which are all explained below. Note that some settings are &#8216;advanced&#8217;, so you may need to click the &#8216;Show Advanced&#8217; button on the right to see all the settings. The advanced settings are indicated below.</p>
+<p>Remember to click &#8216;Update profile&#8217; when you have finished.</p>
+<div class="section" id="general">
+<h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
+<p>The first section contains fields that must be completed:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>First name &amp; Surname</strong> - These are self-explanatory. These names will identify you everywhere in your Moodle courses.</li>
+<li><strong>Email address</strong> - The email address should be an address that you check regularly. It is used for acknowledgements and announcements from Moodle, including messages from Forums that you are subscribed to. It is also the address that is displayed to other users of Moodle, depending on your &#8216;Email display&#8217; setting (below).</li>
+<li><strong>Email display</strong> - This controls the visibility of your email address to others. The three settings are self-explanatory but please note &#8216;Hide my email address from everyone&#8217; only hides it from students. Teaching staff and other staff with editing access will always be able to see your email address.</li>
+<li><strong>Email format</strong> - There are two formats: &#8220;Pretty HTML format&#8221; (messages will be formatted) and &#8220;Plain text format&#8221; (plain text with no formatting).</li>
+<li><strong>Email digest type</strong> - This setting determines how you receive any posts from Forums to which you are subscribed, allowing you to receive messages individually or on a daily basis.</li>
+<li><strong>Forum auto-subscribe</strong> - This setting lets you decide if you want email copies of posts that are added to forums. If you set this to subscribe, the system will automatically email you copies of new posts in forums that you post in, unless you manually override it when posting.</li>
+<li><strong>Forum tracking</strong> - Enabling forum tracking means highlighting the posts you have not read yet, which should improve your forum navigation.</li>
+<li><strong>Text editor</strong> - This can usually be left as &#8216;Default editor&#8217;. If you find your browser is not letting you edit text, change this setting to &#8216;Plain text editor&#8217;. If other editors have been enabled by the site administrator, you can select them here.</li>
+<li><strong>City/town &amp; Country</strong> - Add your location if desired and if the admin has required it.</li>
+<li><strong>Timezone</strong> - This field is used to convert time-related messages on the system (such as assignment deadlines) from the local timezone (the time in London) to the correct time in whichever zone you have selected.</li>
+<li><strong>Preferred language and theme</strong> - You can view Moodle in several different languages and colour themes, which you can select via these two options. Note: changing the preferred language only affects the Moodle interface, not the course content!</li>
+<li><strong>Description</strong> - In this field you can enter some text about yourself, be it information about your studies, hobbies, qualifications or anything else.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="user-picture">
+<h2>User picture<a class="headerlink" href="#user-picture" title="Permalink to this headline">¶</a></h2>
+<p>This section is optional and allows you to choose your own profile picture. Your current picture is shown, if you have already chosen one.</p>
+<p>Note: If the admin has enabled it in <em>Administration &gt; Site Administration &gt; Users &gt; Permissions &gt; User policies</em>, a gravatar you might have attached to your email account will appear as your profile image if you don&#8217;t upload a different one.</p>
+<p><strong>New picture</strong></p>
+<p>The &#8220;Choose a file&#8221; button allows you to choose a new picture for your profile. The picture must be in JPG or PNG format (ie the names will usually end in .jpg or .png).</p>
+<p>To upload an image, click the &#8220;Upload a file&#8221; button from the list in the File_picker, and select the image from your hard disk.</p>
+<p>NOTE: Make sure that the file is not larger than the maximum size listed, or it will not be uploaded.</p>
+<p>Then click &#8220;Update Profile&#8221; at the bottom - the image file will be cropped to a square and resized down to 100x100 pixels.</p>
+<p>When you are taken back to your profile page, the image might not appear to have changed. If this is so, just use the &#8220;Reload&#8221; button in your browser.</p>
+</div>
+<div class="section" id="interests">
+<h2>Interests<a class="headerlink" href="#interests" title="Permalink to this headline">¶</a></h2>
+<p>Use tags here to display your interests on your profile page.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Optional</strong> - There are several optional fields (all advanced) allowing you to add further details to your profile such as contact details and your website.</li>
+<li><strong>Custom Profile Categories</strong> - If any custom user profile categories and fields have been created on your Moodle site, they will be listed at the bottom of the <em>Admin &gt; Accounts &gt; User profile fields</em></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="updating-a-user-profile">
+<h2>Updating a user profile<a class="headerlink" href="#updating-a-user-profile" title="Permalink to this headline">¶</a></h2>
+<p>Users with the capability moodle/user:update are able to update another user&#8217;s profile i.e. in addition to being able to edit the profile, all settings (username, password, authentication method, force new password etc.) may be changed.</p>
+</div>
+<div class="section" id="account-disabling">
+<h2>Account disabling<a class="headerlink" href="#account-disabling" title="Permalink to this headline">¶</a></h2>
+<p>An account may be disabled by setting the authentication method to &#8220;No login&#8221;. The account email may not be used to create another account.</p>
+</div>
 </div>
 
 
@@ -51,6 +103,18 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Edit profile</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#user-picture">User picture</a></li>
+<li><a class="reference internal" href="#interests">Interests</a></li>
+<li><a class="reference internal" href="#updating-a-user-profile">Updating a user profile</a></li>
+<li><a class="reference internal" href="#account-disabling">Account disabling</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/edit_profile.txt"

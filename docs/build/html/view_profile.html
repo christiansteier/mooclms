@@ -43,6 +43,45 @@
             
   <div class="section" id="view-profile">
 <span id="id1"></span><h1>View profile<a class="headerlink" href="#view-profile" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li>A user may view their own full profile by clicking <em>My profile &gt; View profile</em> in the Navigation block. They may then personalise the display by clicking the &#8220;customise this page&#8221; link at the top right of the screen.</li>
+<li>A student or course teacher may see the course profiles of users by clicking their names in <em>Navigation &gt; My courses (name of course)&gt;Participants</em> Teachers can then access the full profile by clicking the link &#8220;full profile&#8221; at the bottom of the course profile.</li>
+<li>An administrator may additionally access and view full profiles via <em>Administration &gt; Site administration &gt; Users &gt; Accounts &gt; Browse list of users</em>.</li>
+</ul>
+</div></blockquote>
+<div class="section" id="full-site-profile">
+<h2>Full (site) profile<a class="headerlink" href="#full-site-profile" title="Permalink to this headline">¶</a></h2>
+<p>Depending on what the user has added to their profile, this gives information such as first and last access, general interests and links to individual course profiles. Users may be messaged from the link at the bottom of their full profile.</p>
+</div>
+<div class="section" id="course-profile">
+<h2>Course profile<a class="headerlink" href="#course-profile" title="Permalink to this headline">¶</a></h2>
+<p>A shorter version of users&#8217; profiles is available in the course and includes their role(s) and groups in the course and a link to message them. Those the relevant permissions are also able to access the full profile from here.</p>
+</div>
+<div class="section" id="viewing-full-profiles">
+<h2>Viewing full profiles<a class="headerlink" href="#viewing-full-profiles" title="Permalink to this headline">¶</a></h2>
+<p>By default, only admins and managers can view full profiles.</p>
+<p>To allow everyone i.e. all authenticated users to view full profiles:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em>.</li>
+<li>Click the edit icon for authenticated user</li>
+<li>Enter <em>moodle/user:viewdetails</em> in the filter box, then tick the checkbox to allow this capability</li>
+<li>Click the &#8216;Save changes&#8217; button</li>
+</ol>
+</div></blockquote>
+<p>To allow teachers to view full profiles:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Go to <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Define roles</em> and click the &#8216;Add a new role&#8217; button</li>
+<li>Give the role a name, such as &#8216;Full profile viewer&#8217; and tick System as the context type where the role may be assigned</li>
+<li>Copy and paste <em>moodle/user:viewdetails</em> into the filter box then tick the box to allow the capability</li>
+<li>Click the &#8216;Create this role&#8217; button</li>
+<li>Go to <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Assign system roles</em> and click &#8216;Full profile viewer&#8217;</li>
+<li>Assign teachers the role of &#8216;Full profile viewer&#8217; by selecting them in the list of potential users on the right and then adding them to the list on the left</li>
+</ol>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +90,16 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">View profile</a><ul>
+<li><a class="reference internal" href="#full-site-profile">Full (site) profile</a></li>
+<li><a class="reference internal" href="#course-profile">Course profile</a></li>
+<li><a class="reference internal" href="#viewing-full-profiles">Viewing full profiles</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/view_profile.txt"
