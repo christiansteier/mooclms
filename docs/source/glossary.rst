@@ -2,6 +2,9 @@
 
 Glossary
 =========
+
+.. image:: _images/glossary_1.png
+
 The glossary activity module allows participants to create and maintain a list of definitions, like a dictionary.
 
 Glossary can be used in many ways. The entries can be searched or browsed in different formats. A glossary can be a collaborative activity or be restricted to entries made by the teacher. Entries can be put in categories. The auto-linking feature will highlight any word in the course which is located in the glossary. 
@@ -14,6 +17,8 @@ To add a glossary:
     
 General
 ^^^^^^^^
+
+.. image:: _images/glossary_2.png
 
 **Name**
 
@@ -38,6 +43,8 @@ Here you can decide whether the glossary will be main or secondary. The glossary
 Entries
 ^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/glossary_3.png
 
 **Approved by default**
 
@@ -64,6 +71,8 @@ If the Glossary auto-linking filter is enabled by an administrator, then turning
 Appearance
 ^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/glossary_4.png
 
 **Display format**
 
@@ -123,6 +132,8 @@ Grade
 Ratings
 ^^^^^^^^
 (This setting is collapsed by default) 
+
+.. image:: _images/glossary_5.png
 
 **Roles with permissions to rate**
 
