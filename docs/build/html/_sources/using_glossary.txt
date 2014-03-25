@@ -7,10 +7,19 @@ Adding a glossary entry
 ------------------------
   * When you first create a glossary, click "Save and display" to be taken to the "Add a new entry" screen.
   * Alternatively,click on the glossary link and click the "Add a new entry" button in the centre of the screen or the Administration block. 
+  
+   .. image:: _images/glossary_6.png
+  
   * Enter the word you want to define in the Concept text field.
   * Add the definition of the word or concept.
   * If you want to add an attachment, such as a picture or an article, you can either drag/drop it or click the "Add" button to upload via the :ref:`File picker <file_picker>` 
+  
+   .. image:: _images/glossary_7.png
+  
   * You can add or edit categories by clicking the "Browse by category" tab
+ 
+   .. image:: _images/glossary_8.png
+ 
   * If there are synonyms you want to include with the entry, add them to the Keyword(s) text area. Enter one word per line.
   * Select the auto-linking options (see below) and save the changes. 
 
@@ -56,6 +65,9 @@ You can also search for a given word using the Search field. Checking the 'Searc
 
 Waiting approval
 ------------------
+
+.. image:: _images/glossary_9.png
+
 If entries require teacher approval before being publicly posted, the number of entries will appear in a link.
 
 To approve the teacher clicks the link and then the 'approve' tick/checkmark icon.
@@ -77,6 +89,9 @@ To print the glossary:
 
 Glossary comments
 -------------------
+
+.. image:: _images/glossary_10.png
+
 If you enabled comments on the glossary entries, users can annotate the definitions in the word list. When you look at a word in the glossary list, you'll see a blue "Comments" link in the lower left-hand corner.
 
 When you click the link, a comments box opens up. Add your comment then click the "Save changes" button.
