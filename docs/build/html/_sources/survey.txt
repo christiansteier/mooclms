@@ -4,6 +4,8 @@ Survey
 =======
 The Survey module is a course activity that provides a number of verified survey instruments, including COLLES (Constructivist On-Line Learning Environment Survey) and ATTLS (Attitudes to Thinking and Learning Survey), which have been found useful in assessing and stimulating learning in online environments. Teachers can use these to gather data from their students that will help them learn about their class and reflect on their own teaching. 
 
+.. image:: _images/survey_1.png
+
 **Note:** Moodle's survey module uses pre-made questions. If you wish to create your own questions, use the Feedback module or contributed Questionnaire module.
 
 Adding a survey
@@ -12,6 +14,8 @@ With the editing turned on, in the section you wish to add your survey, click th
 
 General
 ^^^^^^^^
+
+.. image:: _images/survey_2.png
 
 **Name**
 
@@ -32,6 +36,8 @@ If this box is ticked, the description will appear on the course page just below
 Common module settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.)
+
+.. image:: _images/survey_3.png
 
 See :ref:`Common module settings <common_module_settings>`
 
