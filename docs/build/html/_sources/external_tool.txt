@@ -13,6 +13,8 @@ Adding a new external tool to a course
 General settings
 ^^^^^^^^^^^^^^^^^^
 
+  .. image:: _images/external_tool1.png
+
  * **Activity name** - give the title you wish the students to see on the course page
  * **External tool type** - this is how Moodle communicates with the tool provider. If in doubt, leave as default. If your administrator has made a tool available sitewide, you will be able to select it here.
  * **Launch URL** - This is the URL for connecting to site.
@@ -39,6 +41,8 @@ General settings
 Privacy settings
 ------------------
 (These settings are collapsed by default) 
+
+  .. image:: _images/external_tool2.png
 
   * **Share launcher's name with the tool** - this means that the student's name will be displayed on the connected site as in this example
   * **Share launcher's email with the tool** - this means that the student's email will be displayed on the connected site as in this example
