@@ -7,13 +7,19 @@ This section outlines how to use wikis after the teacher has added a wiki acivit
 Creating the first page
 -------------------------
   * Once the wiki is set up, a user will click the link and reach the following screen
+  
+  .. image:: _images/wiki_4.png
  
 Adding more pages
 ------------------
   * Type the name of your page inside double brackets. (1 in screenshot below) You can preview it by clicking the "preview" button towards the bottom of the screen.
   * Press the "save" button.
-  * Now click the (red) link for one of the pages (2 in screenshot below) and you will be prompted to create it in the same way you create the first page.
+  * Now click the (red) link for one of the pages and you will be prompted to create it in the same way you create the first page.
   * A page once created has a blue link.
+  
+  .. image:: _images/wiki_8.png
+  
+  .. image:: _images/wiki_1.png
   
 **Hint:** If you use the New option from the navigation block you will still need to copy and paste the name of the new page onto the immediate parent page and surround it with double brackets. This creates a link to your new page and makes it accessible from the main Wiki page. Otherwise nobody will recognise the so called lost new page. 
 
@@ -36,12 +42,19 @@ The **Comments** tab at the top or link in the navigation block allows users to 
 History
 --------
 
+  .. image:: _images/wiki_5.png
+  
+  .. image:: _images/wiki_6.png
+
   * The **History** tab at the top or link in the navigation block allows users to see what has been altered in the wiki.
   * Compare edits by clicking the "Compare Selected" button.
   * Click the "Restore" button of the version you wish to restore if the latest edit is unsuitable.
 
 Map
 ----
+
+  .. image:: _images/wiki_7.png
+  
   * The **Map** tab at the top or link in the navigation block allows users to view areas of the wiki such as a list of pages (as in the following screenshot), updated or orphaned pages etc. (Orphaned pages are pages not linked to anywhere.)
   * To select what you want to see, click the Map menu dropdown box. 
 

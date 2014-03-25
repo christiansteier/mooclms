@@ -6,6 +6,8 @@ A wiki is a collection of collaboratively authored web documents. Basically, a w
 
 In Moodle, wikis can be a powerful tool for collaborative work. The entire class can edit a document together, creating a class product, or each student can have their own wiki and work on it with you and their classmates. 
 
+.. image:: _images/wiki_1.png
+
 Adding a wiki
 --------------
   * With the editing turned on, in the section you wish to add your wiki, click the "Add an activity or resource" link (or, if not present, the "Add an activity" drop down menu ) and choose *Wiki*.
@@ -14,6 +16,8 @@ Adding a wiki
 
 General
 ^^^^^^^^
+
+.. image:: _images/wiki_2.png
 
 **Wiki name**
 
@@ -37,7 +41,9 @@ The name you add here will form the first page of your new wiki. It is a require
 
 Format
 ^^^^^^^
-(These settings are collapsed by defaul) 
+(These settings are collapsed by defaul)
+
+.. image:: _images/wiki_3.png
 
 **Default format**
 
