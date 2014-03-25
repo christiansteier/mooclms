@@ -14,7 +14,7 @@ Adding more pages
 ------------------
   * Type the name of your page inside double brackets. (1 in screenshot below) You can preview it by clicking the "preview" button towards the bottom of the screen.
   * Press the "save" button.
-  * Now click the (red) link for one of the pages (2 in screenshot below) and you will be prompted to create it in the same way you create the first page.
+  * Now click the (red) link for one of the pages and you will be prompted to create it in the same way you create the first page.
   * A page once created has a blue link.
   
   .. image:: _images/wiki_8.png
