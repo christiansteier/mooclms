@@ -45,6 +45,8 @@ General
 ^^^^^^^^
 The General section allows you to give your assignment a name and description. 
 
+.. image:: _images/assignment_1.png
+
 **Assignment name**
 
 Give your Assignment a name (e.g. “Report on Topic 1 Content”). The title entered here will be the name that learners see in the course content area. Learners will click on this name to view the details of the assignment and, if applicable, submit their work. 
@@ -63,6 +65,8 @@ Enabling this will display the description on the course page just below the lin
 
 Availability
 ^^^^^^^^^^^^^
+
+.. image:: _images/assignment_2.png
 
 **Allow submissions from**
 
@@ -92,6 +96,8 @@ Submission Types
 ^^^^^^^^^^^^^^^^^^
 Here you can decide how you wish students to submit their work to you.
 
+.. image:: _images/assignment_3.png
+
 *Note that if Submission comments are enabled in Administration > Plugins > Activity modules > Assignment > Submission plugins then students will be able to add a note to their teacher on submitting work. If Blind marking is enabled, student comments display as from "Participant 01 etc" to avoid revealing identities. These comments will appear in the grading table in the Submission comments column.*
 
 **Online text**
@@ -117,6 +123,8 @@ This setting specifies the maximum size per file of each of the files that the s
 Feedback Types
 ^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
+
+.. image:: _images/assignment_4.png
 
 **Feedback comments**
 Setting this to yes means that markers can leave feedback comments for each submission. It enables the Feedback Comments column in the grading table.(To access the grading table, click on the assignment activity and then View/Grade all Submissions). Feedback comments are also accessible by clicking on the green tick in the grade column on the grading table. 
@@ -145,6 +153,8 @@ Uploading multiple feedback files - It is also possible to upload multiple feedb
 Submission settings
 ^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
+
+.. image:: _images/assignment_5.png
 
 **Require students click submit button**
 
@@ -183,6 +193,8 @@ Groups submission settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/assignment_6.png
+
 **Students submit in groups**
 
 If this box is ticked, then students are able to collaborate on an assignment. This might involve for example, working in the same online text area, or one student uploading an MS Powerpoint which another student downloads, improves and re-uploads to the common assignment area.
@@ -203,6 +215,8 @@ Notifications
 ^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
 
+.. image:: _images/assignment_7.png
+
 **Notify graders about submissions**
 
 Teachers will receive a message (of a type they choose) whenever a student submits an assignment. Please note if you are using the assignment in Groups Mode (eg Separate or Visible Groups), the teacher will need to be a member of the group in order to receive the submission notification.
@@ -215,6 +229,8 @@ Teachers will receive a message (of a type they choose)whenever a student submit
 Grade
 ^^^^^^
 (This setting is collapsed by default)
+
+.. image:: _images/assignment_8.png
 
 **Grade**
 
