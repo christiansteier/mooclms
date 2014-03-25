@@ -120,6 +120,8 @@ Here you can decide the maximum number of files which may be uploaded by each le
 
 This setting specifies the maximum size per file of each of the files that the students can upload as part of their submission. This maximum upload size may only be equal to or less than the course limit (which in turn may only be equal to or less than the site limit). The maximum size of each file is displayed to students at the point where they upload files. 
 
+.. image:: _images/assignment_9.png
+
 Feedback Types
 ^^^^^^^^^^^^^^^
 (This setting is collapsed by default) 
@@ -128,6 +130,8 @@ Feedback Types
 
 **Feedback comments**
 Setting this to yes means that markers can leave feedback comments for each submission. It enables the Feedback Comments column in the grading table.(To access the grading table, click on the assignment activity and then View/Grade all Submissions). Feedback comments are also accessible by clicking on the green tick in the grade column on the grading table. 
+
+.. image:: _images/assignment_10.png
 
 **Offline grading worksheet**
 If set to yes, the teacher will have a link to download the grading list as a spreadsheet. They will then be able to enter grades and feedback comments offline.
