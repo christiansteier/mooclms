@@ -2,6 +2,9 @@
 
 Book
 =====
+
+.. image:: _images/book_2.png
+
 The Book module makes it easy to create multi-page resources with a book-like format. 
 
 Previously created websites can be imported directly into the Book module. Books can be printed entirely or by chapter.
@@ -18,6 +21,8 @@ A teacher can add a book by choosing it from the "Add an activity or resource" l
 General
 ^^^^^^^^
 
+.. image:: _images/book_3.png
+
 **Name**
 
 Use a descriptive name for your book as it will form the link the students will click on to access it.
@@ -33,6 +38,8 @@ Enabling this will display the description on the course page just below the lin
 Appearance
 ^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/book_4.png
 
 **Chapter formatting**
 
@@ -75,6 +82,14 @@ You now see a chapter and a sub chapter. Because we did not elect to number chap
 
 By the way, the items in the table of contents are neither numbered nor are they indented only because that is the option we chose when setting up the book. We can always go back and change that (Screenshot 3). 
 
+.. image:: _images/book_5.png
+Adding a new chapter
+
+.. image:: _images/book_6.png
+Adding a subchapter
+
+.. image:: _images/book_7.png
+View of subchapter
 
 Importing chapters
 --------------------
@@ -85,6 +100,9 @@ To import chapters
   * Choose whether each HTML file or folder represents one chapter.
   * Browse for and select the zip file, either using the Add button or the drag and drop method.
   * Click the import button.
+  
+  .. image:: _images/book_8.png
+  Import book
 
 **Note:** Relative file links are converted to absolute chapter links. Images, Flash and Java are re-linked too. Remember to upload images and multimedia files as well as HTML files. 
 
