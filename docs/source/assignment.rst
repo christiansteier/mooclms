@@ -265,11 +265,9 @@ When set to Yes, teachers will be able to specify the stage they are at in their
 
 
 .. image:: _images/assignment_11.png
-
 Marking workflow state in the individual grading screen
 
 .. image:: _images/assignment_12.png
-
 Dropdown to select marking workflow state when quick grading
 
 One advantage of using marking workflow is that the grades can be hidden from students until they are set to 'Released'. The actual list of steps are:
@@ -300,7 +298,6 @@ Multiple markers,
 If marking workflow (see above) is set to Yes, it is possible to enable marking allocation. This means that teachers can be selected to grade or review the submitted work of specific students. Colleagues can monitor progress through the displayed marking workflow states.
 
 .. image:: _images/assignment_13.png
-
 Allocated markers on the grading screen
 
 Common module settings
