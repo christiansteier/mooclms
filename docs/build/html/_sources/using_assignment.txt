@@ -99,6 +99,9 @@ How do students submit their assignments?
 ------------------------------------------
 The first page students will see when they click on the assignment activity link from the course page will display the assignment name, description and the submission status. The first time a student views the assignment it will look like this.
 
+.. image:: _images/assignment_14.png
+Student view of assignment
+
 The submission status section includes:
 
   * Submission status
@@ -110,7 +113,13 @@ The submission status section includes:
 
 As they progress through the assignment the Submission status and Grading status will update and the Last modified date will appear. 
 
+.. image:: _images/assignment_15.png
+Example of submitted and graded assignment
+
 If the student uploaded a pdf file which the teacher has annotated, this will be made available in the feedback section. The student can search through the document and filter specific comments. 
+
+.. image:: _images/assignment_21.png
+Student view of graded pdf file
 
 Submission statuses include:
 
@@ -135,6 +144,12 @@ To submit a file submission, students complete the following steps:
   * If changes are required, click on ‘Edit my submission’.
   * Once ready to submit, click ‘Submit assignment’. Note that once the assignment is 'submitted’ no further changes are allowed. 
 
+   .. image:: _images/assignment_16.png
+   Student view when adding a submission
+   
+   .. image:: _images/assignment_17.png
+   Student view when submitting assignment
+
 **Note:** Depending on how the assignment is setup students may see both a file submission page and an online text editor. 
 
 Online text
@@ -153,6 +168,8 @@ Submission comments
 ^^^^^^^^^^^^^^^^^^^^
 Depending on how the assignment has been setup, there may be a section where students can leave submission comments. 
 
+.. image:: _images/assignment_18.png
+Submission comments
 
 Submission notifications
 --------------------------
@@ -183,6 +200,12 @@ The first option will notify the grader on any/all submissions made. The second 
 The Late Submissions option will be greyed out unless ‘Notify Graders about Submissions’ is selected as NO because ‘Notify Graders about Submissions’ will also send receipts for assignments submitted after the due date. To fully disable the grader receiving notifications, change both options to NO.
 
 Submission Notification for Students - *My Profile Settings > Messaging* Tickboxes on the messaging page can be set by the student depending on their preference. A student can opt to receive notification via email, popup message or both. 
+
+.. image:: _images/assignment_19.png
+Grader notifications
+
+.. image:: _images/assignment_20.png
+Student notifications
 
 Assignment notification - On submission of an assignment, the student will receive a notification that their assignment has been successfully received.
 
