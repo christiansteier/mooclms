@@ -48,7 +48,7 @@ The options are:
 
 **Custom titles**
 
-If you disallow custom titles, the chapter title (the one that appears on the table of contents) will appear as a header at the top of your content (1 below) If you enable custom titles, you will be able to create a title different from the one that appears in the ToC or display no title at all (2 below) If you enable custom titles, you will need to enter the chapter title as part of the page content. 
+If you disallow custom titles, the chapter title (the one that appears on the table of contents) will appear as a header at the top of your content. If you enable custom titles, you will be able to create a title different from the one that appears in the ToC or display no title at all. If you enable custom titles, you will need to enter the chapter title as part of the page content. 
 
 Common module settings
 ^^^^^^^^^^^^^^^^^^^^^^^
