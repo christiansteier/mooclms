@@ -15,6 +15,15 @@ Drag and drop images
   * With the editing turned on, drag your image into the section you want it to appear.
   * In the box that follows, choose "add image".
   * It will appear embedded in a label. 
+  
+  .. image:: _images/label_4.png
+  Drag an image onto your course page
+  
+  .. image:: _images/label_5.png
+  Choose "Add image to course page"
+  
+  .. image:: _images/label_6.png
+  Image is added to label
 
 Conventional method
 ^^^^^^^^^^^^^^^^^^^^^
@@ -24,6 +33,8 @@ Conventional method
   * Choose and upload your image using the filepicker.
   * Leave Common module settings at "show" if you wish the label to be visible.
   * Click "Save and return to course".
+  
+  .. image:: _images/label_7.png
   
 Adding text to a label
 ------------------------
@@ -40,6 +51,15 @@ Drag and drop text
   * Select the text you wish to use, for example in a Word document.
   * With the editing turned on, drag the text over to the section you want it to appear.
   * From the box that appears, choose "add a label" and then "upload". 
+  
+  .. image:: _images/label_8.png
+  Text selected from a word document is dragged over
+  
+  .. image:: _images/label_9.png
+  Choose "Add a label"
+  
+  .. image:: _images/label_10.png
+  Text is added to label
 
 Adding a link to a label
 -------------------------
@@ -63,11 +83,16 @@ If multimedia filters are enabled, a label is a neat way of displaying sound or 
 
   * Follow the instructions for :ref:`adding a label <label>`
   * Click the media icon in the text editor 
+  
+  .. image:: _images/label_11.png
+  
   * Click "Find or upload an sound,video or applet"
   * Choose and upload your sound or video file using the filepicker.(Details on how to do this here)
   * Note: You can search youtube for a video to embed if your admin has enabled the youtube repository.
   * Leave Common module settings at "show" if you wish the label to be visible.
   * Click "Save and return to course" 
+  
+  .. image:: _images/label_12.png
 
 Adding code to a label
 -----------------------
@@ -75,6 +100,9 @@ An example of this is the ability to embed a Google map into a label.
 
   * Follow the instructions for :ref:`adding a label <label>`
   * Expand the toolbar and click the HTML icon in the text editor 
+  
+  .. image:: _images/label_13.png
+  
   * This brings up the screen in code (HTML) view.
   * Paste the code you grabbed from Google maps into this screen
   * Scroll down and click "Update" 
