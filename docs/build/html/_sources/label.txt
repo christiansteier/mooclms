@@ -2,6 +2,9 @@
 
 Label
 ======
+
+.. image:: _images/label_1.png
+
 A label serves as a spacer on a Moodle course page.It can be used to add text,images, multimedia or code in between other resources in the different sections. It is a very versatile resource and can help to improve the appearance of a course if used thoughtfully. Banners or descriptions may be added to labels to distinguish between and highlight different areas.
 
 On the other hand, over-use of multimedia (sound,video) in labels can slow down the loading of a course page. 
@@ -12,6 +15,9 @@ Adding a label
 
 General
 ^^^^^^^^
+
+.. image:: _images/label_2.png
+
 Type your chosen words or add your resources. 
 
 **Note:** Because the label has the TinyMCE text editor, it is possible not just to type words but also to add images, links, media or code from within the labels' editor.
@@ -31,6 +37,7 @@ These settings are visible if :ref:`Conditional activities <conditional_activiti
 2. Click "Save and return to course".
 3. You can now use the move icon (crosshair or up/down arrow) to move your label to where you wish it to display. 
 
+    .. image:: _images/label_3.png
 
 Label capabilities
 --------------------
