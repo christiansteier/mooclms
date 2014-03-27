@@ -20,14 +20,31 @@ Quick method
   2. Drag and drop the folder onto the course section where you'd like it to appear
   3. Click the button of the action you would like to take with the folder (in our case, "Unzip") and click "Upload"
   4. If necessary, edit the title of the folder by clicking the pencil icon 
+  
+  .. image:: _images/folder_1.png
+  Drag and drop folder
+  
+  .. image:: _images/folder_2.png
+  Uploading the folder
+  
+  .. image:: _images/folder_3.png
+  Folder created
 
 Longer method
 ^^^^^^^^^^^^^^
   1. Click the 'Turn editing on' button at the top right of the course page
   2. `Click 'Add an activity or resource' link, then in the activity chooser; select folder then click the "Add" button (or select folder from the "Add a resource" dropdown menu) All settings may expanded by clicking the "Expand all" link top right. 
   3. For **General**, add name and a description (which may be required or optional according to the admin settings)Click "Show editing tools" to display the rich text editor and drag the bottom right of the text box out to expand it. Enabling 'Display description on course page' will show it just below the link to the folder. 
+  
+  .. image:: _images/folder_4.png
+  General settings 
+  
   4. For **Content**, either drag and drop a zipped/compressed folder into the box with an arrow or click the Add button to open the :ref:`File picker <file_picker>` menu in order to choose a file from your computer or a repository. 
   5. When the folder thumbnail appears, click on it and select "Unzip": 
+  
+  .. image:: _images/folder_5.png
+  Unzipping a folder
+  
   6. Click the original (zipped) folder and click the "Delete" button to delete it if you wish 
   7. Select how you want to display your folder contents, your :ref:`Common module settings <common_module_settings>` and, if enabled, :ref:`Conditional activities <conditional_activities_settings>` and :ref:`Activity completion <activity_completion_settings>` and click "Save and return to course" 
   8. Click the button 'Save and return to course' at the bottom of the page.
@@ -41,13 +58,25 @@ Use this method if you want to create a folder on your Moodle course and then up
   3. Enter a name and a description (which may be required or optional according to the admin settings)
   4. Click the "Create folder" link as below; choose a name for your new folder and then click "Create folder".
   5. Click INTO the folder
-  6. You can then add individual files into the folder either by dragging and dropping into the box (1 below) or clicking the "Add" (2 below) to upload files from the :ref:`File picker <file_picker>`.
+  6. You can then add individual files into the folder either by dragging and dropping into the box (1 below) or clicking the "Add" to upload files from the :ref:`File picker <file_picker>`.
   7. Choose how you want to display your folder contents, your :ref:`Common module settings <common_module_settings>` and, if enabled, :ref:`Conditional activities <conditional_activities_settings>`.
   8. Click "Save and return to course" .
+  
+  .. image:: _images/folder_6.png
+  Creating a folder
+  
+  .. image:: _images/folder_7.png
+  Adding files to a folder
   
 Display folder contents
 ------------------------
 Decide here whether to have the folder displayed on a separate page (the default) or inline with or without subfolders expanded or collapsed. 
+
+.. image:: _images/folder_8.png
+Folder displayed inline
+
+.. image:: _images/folder_9.png
+Folder displayed inline with subfolders expanded
 
 Folder capabilities
 --------------------
