@@ -12,7 +12,13 @@ To add a file to your course
 
   1. Click the 'Turn editing on' button at the top right of the course page
   2. Drag and drop the file onto the course section where you'd like it to appear
-  3. If necessary, edit the title of the file by clicking the pencil icon, or edit other options (see below) by clicking the editing icon 
+  3. If necessary, edit the title of the file by clicking the pencil icon, or edit other options (see below) by clicking the editing icon.
+  
+  .. image:: _images/file_1.png
+  
+  .. image:: _images/file_2.png
+  
+  Quick method of adding a file
 
 **Longer method:**
 
@@ -21,6 +27,8 @@ To add a file to your course
 
 General
 ^^^^^^^^
+
+.. image:: _images/file_3.png
 
 **Name**
 
@@ -36,6 +44,9 @@ If this box is ticked, the description will appear on the course page just below
 
 Content
 ^^^^^^^^
+
+.. image:: _images/file_4.png
+
 Either drag and drop your file onto the arrow if you are using an appropriate browser, or click on "Add" and use the :ref:`File picker <file_picker>` to upload your file.
 
 (Note that if legacy files were used there will be a setting "Migration of old course file") 
@@ -43,6 +54,8 @@ Either drag and drop your file onto the arrow if you are using an appropriate br
 Appearance
 ^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/file_5.png
 
 **Display**
 
@@ -96,6 +109,12 @@ The file module may be used if you have a folder with linked files such as a web
   3. Clicking the editing icon (hand with a pen) then click on the zip file and unzip it
   4. Click on the index.html file or the file you want to start displaying your linked files from then in the popup dialogue click the button 'Set main file'. This ensures this file is the one that appears on the course page for students to click on. The main file is then indicated with a title in bold.
   5. Click the button 'Save and display' at the bottom of the page 
+  
+  .. image:: _images/file_6.png
+  Setting the main file
+  
+  .. image:: _images/file_7.png
+  Setting the watercycle.pdf as main file
 
 File module capabilities
 --------------------------
