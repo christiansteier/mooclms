@@ -2,6 +2,9 @@
 
 URL
 ====
+
+.. image:: _images/url_1.png
+
 A URL (Uniform or Universal Resource Locator) is a link on the internet to a website or online file. Teachers can use the URL resource to provide their students with web links for research, saving the student time and effort in manually typing out the address. The URLS can be displayed in various ways - for example, opening in a new window so a student can access and use the URL, close it and return easily to their original Moodle course page. 
 
 Adding a URL resource
@@ -11,6 +14,8 @@ Adding a URL resource
  
 General
 ^^^^^^^^
+
+.. image:: _images/url_2.png
 
 **Name**
 
@@ -26,11 +31,16 @@ If this box is ticked, the description will appear on the course page just below
 
 Content
 ^^^^^^^^
+
+.. image:: _images/url_3.png
+
 Either enter the URL in the external URL field or click the "Choose a link" button to open the file picker and choose a URL YouTube, Picasa etc (depending on which repositories are enabled for the site).
 
 Appearance
 ^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/url_4.png
 
 **Display**
 
@@ -52,6 +62,8 @@ To show the resource name and/or description when clicking to access the URL, si
 URL variables
 ^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/url_5.png
 
 This section allows you to pass internal information as part of the URL.
 
