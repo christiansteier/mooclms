@@ -37,6 +37,30 @@ How to create a page?
 
 If you need to make subsequent changes, to edit the Page you can either open it and in its Settings block click Edit Settings, or from your course page (after you've Turned Editing On) you can click its adjacent Update icon. 
 
+**Drag and drop text into a page**
+
+It's possible to select text from a website or a word processed document and create a page by drag and drop.
+
+*Note: this does not work with IE, Safari 6 or below and is unreliable with Firefox*
+
+  1. Drag and drop upload of text/links must be enabled in *Administration > Site administration > Development > Experimental > Experimental settings*
+  2. Select the text you wish to use, for example in a Word document.
+  3. With the editing turned on, drag the text over to the section you want it to appear.
+  4. From the box that appears, choose "Create a new page resource"
+  5. Give it a name and then click "upload". 
+  
+  .. image:: _images/page_5.png
+  Select your text and drag into the course page
+  
+  .. image:: _images/page_6.png
+  Give your page a name
+  
+  .. image:: _images/page_7.png
+  The page is created
+  
+  .. image:: _images/page_8.png
+  view of page created from dragged and dropped text
+   
 **Pasting from another document**
 
 To safeguard against unpredictable, ugly, and inaccessible results, it's important to take some easy extra steps when pasting word processed and other text into web authoring software including Moodle.
