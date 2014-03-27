@@ -58,7 +58,7 @@ Use this method if you want to create a folder on your Moodle course and then up
   3. Enter a name and a description (which may be required or optional according to the admin settings)
   4. Click the "Create folder" link as below; choose a name for your new folder and then click "Create folder".
   5. Click INTO the folder
-  6. You can then add individual files into the folder either by dragging and dropping into the box (1 below) or clicking the "Add" to upload files from the :ref:`File picker <file_picker>`.
+  6. You can then add individual files into the folder either by dragging and dropping into the box or clicking the "Add" to upload files from the :ref:`File picker <file_picker>`.
   7. Choose how you want to display your folder contents, your :ref:`Common module settings <common_module_settings>` and, if enabled, :ref:`Conditional activities <conditional_activities_settings>`.
   8. Click "Save and return to course" .
   
