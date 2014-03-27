@@ -13,6 +13,8 @@ You can add an IMS Content package to a course by choosing it from the "Add an a
 General
 ^^^^^^^^
 
+.. image:: _images/ims_1.png
+
 **Name**
 
 Whatever you type here will form the link learners click on to view the IMS content package, so it is helpful to give it a name that suggests its purpose.
@@ -27,6 +29,9 @@ If this box is ticked, the description will appear on the course page just below
 
 Content
 ^^^^^^^^
+
+.. image:: _images/ims_2.png
+
 In the Content section, drag and drop your IMS Content package into the box with the arrow (1 below) or else click the button "Choose a file" to locate and add your IMS Content package via the File picker.
 
 Common module settings
