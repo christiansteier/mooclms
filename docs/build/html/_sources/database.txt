@@ -19,6 +19,8 @@ To add a database activity:
 General
 ^^^^^^^^
 
+.. image:: _images/database_1.png
+
 **Name**
 
 Choose a helpful name as this will form the link students will click on to access your database.
@@ -34,6 +36,8 @@ If this box is ticked, the description will appear on the course page just below
 Entries
 ^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/database_2.png
 
 **Approval required?**
 
@@ -59,6 +63,8 @@ Availability
 ^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
 
+.. image:: _images/database_3.png
+
 **Available from / to**
 
 Select here the dates you want the database to be visible to students.
@@ -74,6 +80,8 @@ RSS
 ^^^^
 (This setting is collapsed by default and only visible if RSS has been enabled on the site and for the database.)
 
+.. image:: _images/database_4.png
+
 Select the number of entries you wish to appear in the RSS feed here. 
 
 Grade
@@ -83,6 +91,8 @@ Grade
 Ratings
 ^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/database_5.png
 
 **Roles with permissions to rate**
 
