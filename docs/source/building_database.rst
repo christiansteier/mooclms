@@ -22,18 +22,52 @@ The name is what is shown when an entry is added. It must be unique and short. T
 The following screenshots show "before" and "afters" of setting up fields. The selection in orange shows the field as it is displayed for the user when they add an entry. 
 
 * *Checkbox* - This allows you to offer checkboxes for the user to select. Add the options one under the other. The word will appear next to a checkbox when the user clicks to add an entry. They can check more than one box. 
+
+   .. image:: _images/field_1.png
+
 * *Date* - This allows a user to enter a date by picking a day, month and year from a drop down list. 
+
+   .. image:: _images/field_2.png
+
 * *File* - Users can upload a file from their computer. If it is an image file then the picture field may be a better choice. 
+
+   .. image:: _images/field_3.png
+
 * *Latitude/longitude* - Users can enter a geographic location using latitude and longitude. For example, Moodle HQ is at latitude -31.9545, longitude 115.877. When viewing the record, links are automatically generated linking to geographic data services such as Google Earth, OpenStreetMap, GeaBios,Mapstars and more.
+
+   .. image:: _images/field_4.png
+
 * *Menu* - The text entered in the options area will be presented as a drop-down list for the user to choose from. Each line become a different option. 
+
+   .. image:: _images/field_5.png
+
 * *Menu (Multi-select)* - The text entered in the *options* area will be presented as a list for the user to choose from and each line become a different option. By holding down control or shift as they click, users will be able to select multiple options. This is a fairly advanced computer skill so it may be wise to use multiple checkboxes instead. 
+
+   .. image:: _images/field_6.png
+
 * *Number* - This allows users to enter any number. For example: 42, -1000, 0, 0.123, 3.0e8 
+
+   .. image:: _images/field_7.png
+
 * *Picture* - This allows a user to upload and display an image file. "Single view" is when the image is viewed on its own; "list view" is when it is viewed in with other images. Single view can be larger than list view. 
+
+   .. image:: _images/field_8.png
+
 * *Radio buttons* - The user gets radio buttons and can choose only one. They can only submit the entry when they have clicked on one button.
+
+   .. image:: _images/field_9.png
+
 * *Text* - Users can enter text up to 60 characters in length. For longer text, or for text that requires formatting such as headers and bullet points, you can use a text area field.
+
+   .. image:: _images/field_10.png
+
 * *Text area* - This allows users to enter a long piece of text using the text editor. 
+
+   .. image:: _images/field_11.png
+
 * *URL* - The user can add a link to a website here. If you select autolink then the URL becomes clickable.. If you also enter a forced name for the link then that text will be used for the hyperlink.
 
+   .. image:: _images/field_12.png
 
 Presets
 --------
