@@ -18,6 +18,8 @@ The list view shows multiple entries, possibly in a more abbreviated form to ens
 
 Alternatively, you may view only one entry at a time. This might allow you to view more detailed information than the list view.
 
+.. image:: _images/database_viewsingle.png
+
 **Add comment**
 
 If comments have been enabled, you may add a comment.
@@ -48,6 +50,9 @@ Once an entry has been approved, it is possible to undo the approval by clicking
 
 Importing many entries
 -----------------------
+
+.. image:: _images/database_import.png
+
 You can import entries via a CSV file if you click the "Import entries" link under 'Database activity administration' in the Administration block of your course. CSV means Comma-Separated-Values and is a common format for text interchange. 
 
 The easiest way to determine the format of the text file is to manually add an entry to the database and then export it. The resulting export text file may then be edited and used for importing entries. Here's a sample of what a very simple file will look like. 
@@ -73,6 +78,9 @@ Sample file:
 
 Exporting entries
 ------------------
+
+.. image:: _images/database_export.png
+
 You can export entries either in CSV (comma separated values) or ODS (OpenOffice Calc) formats by clicking the tab at the top or by clicking the "Export entries" link under 'Database activity administration' in the Administration block in your course. (Both CSV and ODS formats can be opened with MS Excel.)
 
 When using the CSV format, the user can select either the comma, semicolon, or tab to separate the fields. The selection of the proper character is important. If users select to use a comma to separate the fields and some of the fields contain data with commas then the number of columns is going to be misaligned and likely cause confusion.
