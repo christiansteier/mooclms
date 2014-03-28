@@ -35,6 +35,8 @@ Single template
 ----------------
 This is used to display a single entry at a time and so has more space for display and can use, for example, larger versions of images or optionally provide more information than shown in the list view. 
 
+.. image:: _images/single_database.png
+
 Advanced search template
 -------------------------
 An advanced search template is for creating the interface form used in the advanced search. 
