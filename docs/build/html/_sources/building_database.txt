@@ -73,6 +73,8 @@ Presets
 --------
 To avoid the necessity of always having to create a new database from scratch, the database activity module has a presets feature. An image gallery preset is currently included in the database module to help get you started. You can create your own presets as well and share them with others. 
 
+.. image:: _images/database_preset.png
+
 Importing a preset
 ^^^^^^^^^^^^^^^^^^^
 To use a preset:
