@@ -2,6 +2,9 @@
 
 Lesson
 =======
+
+.. image:: _images/lesson_1.png
+
 The lesson module presents a series of HTML pages to the student who is usually asked to make some sort of choice underneath the content area. The choice will send them to a specific page in the Lesson. In a Lesson page's simplest form, the student can select a continue button at the bottom of the page, which will send them to the next page in the Lesson.
 
 There are 2 basic Lesson page types that the student will see: question pages and content pages. There are also several advanced navigational pages which can meet more specialized needs of the Teacher. The Lesson module was designed to be adaptive and to use a student's choices to create a self directed lesson.
@@ -17,12 +20,16 @@ This page explains the settings involved when first creating a lesson. To add a 
 General
 ^^^^^^^^
 
+.. image:: _images/lesson_2.png
+
 **Name**
 
 Whatever you type here will form the link learners click on to view the lesson so it is helpful to give it a name that suggests its purpose.
 
 Appearance
 ^^^^^^^^^^^
+
+.. image:: _images/lesson_3.png
 
 **File pop**
 
@@ -64,6 +71,8 @@ Availability
 ^^^^^^^^^^^^^
 (These settings are collapsed by default) 
 
+.. image:: _images/lesson_4.png
+
 **Available from/Deadline**
 
 Here you can set a start and end date and time for your Lesson.
@@ -79,6 +88,8 @@ This allows you to set a time limit on the lesson. Students will see a countdown
 Prerequisite lesson
 ^^^^^^^^^^^^^^^^^^^^
 (These setings are collapsed by default) 
+
+.. image:: _images/lesson_5.png
 
 **Dependent on**
 
@@ -99,6 +110,8 @@ Enter the grade from the previous lesson which you want the student to have exce
 Flow control
 ^^^^^^^^^^^^^
 (These settings are collapsed by default) 
+
+.. image:: _images/lesson_6.png
 
 **Allow Student Review**
 
@@ -128,7 +141,9 @@ You only need this if you have set "Action after a correct answer" to show an un
 
 Grade
 ^^^^^^
-(These settings are collapsed by default.) 
+(These settings are collapsed by default.)
+
+.. image:: _images/lesson_7.png
 
 Set a grade and grade category here.
 
