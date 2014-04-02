@@ -15,9 +15,13 @@ Adding content and questions to your lesson
   * When you have set up your lesson with the Lesson settings,click "Save and display" and you will be taken to the screen in the screenshot below.
   * If you click "Save and return to course" instead, then click the "update" icon next to the lesson on the page and click "edit" in *Administration > Lesson Administration*
   
+  .. image:: _images/lesson_8.png
+  
 Import questions
 ^^^^^^^^^^^^^^^^^^
 If you have some questions in the following formats, you can import them to use in your lesson by clicking the Import questions link. For general information about these question types, see :ref:`Import questions <import_questions>`.
+
+.. image:: _images/lesson_9.png
 
 Add a cluster
 ^^^^^^^^^^^^^^
@@ -48,6 +52,9 @@ Content
 Format
 ^^^^^^^
 There are 4 format types to choose from when editing text in the content description box. If you wish to have the usual rich text editing icons, choose HTML format. (Note - once you have selected an option, you cannot then go back and change your mind!) However, if you DO choose HTML format, be warned that the student will not see the changes (such as bold or different colours) in the button. 
+
+.. image:: _images/lesson_10.png
+
 
 Number of options available
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
