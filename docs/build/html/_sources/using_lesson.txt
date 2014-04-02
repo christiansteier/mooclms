@@ -9,11 +9,18 @@ What the student sees
   * A student clicking on a Lesson will see an introductory page with one or more buttons which they choose from to select the path they wish to take.
   * The display may vary according to how the teacher has set up the lesson in Lesson settings. For example; there may or may not be a list of pages down the side; there may or may not be an ongoing score.
   * Students progress through the lesson with either content pages (of information, which is not graded) or various types of question pages(which may be graded) When a question page is used, the following page gives the answer and feedback if offered.
+  
+  .. image:: _images/lesson_17.png
+  
   * The lesson is ended when the student has met the criteria set by the teacher. This could be answering a certain number of questions correctly, accessing a certain number of pages with content (text, audio or video) or following a certain navigational path. A final page appears where the student can check their score, if applicable, and return to the main course page.   
+
+  .. image:: _images/lesson_18.png
 
 What the teacher sees
 -----------------------
 A teacher clicking on a lesson will see tabs at the top offering them the chance to preview, edit, view reports or grade essays in the lesson.
+    
+.. image:: _images/lesson_20.png
     
 **Preview** - The lesson opens up in preview mode for the teacher. However, it will not show the score unless the teacher switches their role to a student. 
 
@@ -23,7 +30,11 @@ A teacher clicking on a lesson will see tabs at the top offering them the chance
 
 **Overview** - By clicking on the specific attempt, the teacher can view the student's answers to specific questions. It is also possible to delete a student attempt by checking the attempt and using the pull down menu to change "Choose" to "Delete". Below the "Overview" can also be seen general statistics: Average score, Average time, High score, Low score, High time, Low time. 
 
+  .. image:: _images/lesson_21.png
+
 **Detailed statistics** - More detailed reports on individual questions are available from this tab.
+
+  .. image:: _images/lesson_22.png
 
 **Grade essays** - Any essay questions which have been set in the lesson can be accessed and graded here. 
 
