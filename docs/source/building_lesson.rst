@@ -71,12 +71,20 @@ The Jump
 Add a question page
 ^^^^^^^^^^^^^^^^^^^^
   * From this link you can choose from a variety of question types which will then be added as pages to your lesson.
+  
+  .. image:: _images/lesson_11.png
+  
   * (Note: These question types are not the same as the Quiz Question types and are in no way connected with quiz questions.) 
   * The format of question pages is similar to content pages.
   * A typical question page could include:
       * **Title** - the name the student sees at the top of the question page.
       * **Page contents** - the actual question 
+      
+      .. image:: _images/lesson_12.png
+      
       * **Answer/Response/Format/Jump/Score** as in the screenshot below 
+      
+      .. image:: _images/lesson_13.png
 
 Question types
 ^^^^^^^^^^^^^^^
@@ -97,12 +105,20 @@ Question types
 Moving your lesson forward
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   * Once you have added your first content or question page, you reach the next screen which displays your page title/type/jumps (ie where the responses take the student to) and actions you can take next.
+  
+  .. image:: _images/lesson_14.png
+  
   * The Actions icons allow you to move (if you have more than one), edit, preview or delete your pages.
   * The drop down allows you to create another page of your choice.
+  
+  .. image:: _images/lesson_15.png
+  
   * Note the different view options.
      
       * Collapsed view - This gives a brief outline of the lesson structure.
       * Expanded view - This shows more detail as in the screenshot below.
+      
+      .. image:: _images/lesson_16.png
 
 Ending your lesson
 ^^^^^^^^^^^^^^^^^^^
