@@ -74,7 +74,7 @@ Submission settings
 ^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default) 
 
-.. image:: _images/workshop_5.png
+.. image:: _images/workshop_4.png
 
 **Instructions for submission**
 
