@@ -14,14 +14,21 @@ The rubric definition must be saved using either 'Save rubric and make it ready'
 
 **Hint:** Use the Tab key to jump to the next level/criteria and even to add new criteria. 
 
+.. image:: _images/rubric_1.png
+
 Using the rubric
 ------------------
 When teachers use the rubric to assess some student's work, they select the level describing the student's performance best for each criterion. Currently selected levels are highlighted in light green. If the rubric filling is re-edited later, the previously selected level is highlighted in light red. A level must be selected for each criterion, otherwise the rubric is not validated by the server as the final grade can't be calculated.
 
 If the form definition allows it, an optional remark can be filled for each criterion providing a detailed feedback/explanation of the assessment. 
 
+.. image:: _images/rubric_2.png
+
 How students access the rubric
 --------------------------------
+
+.. image:: _images/rubric_3.png
+
 When students click on an assignment which has a rubric attached to it, they will see the rubric as part of the information about their assignment. Thus, they can see the rubric before they submit. 
 
 
