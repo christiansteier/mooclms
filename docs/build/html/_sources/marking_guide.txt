@@ -8,17 +8,26 @@ Selecting Marking guide
 ------------------------
 Create an assignment, and in the *Grades* section, choose from the *Grading method* drop down menu the *Marking guide* option.
 
+.. image:: _images/marking_guide1.png
+
 Creating a new Marking guide
 -----------------------------
   * When the assignment has been created and Marking guide selected as above, click *Save and display* and choose *Define new grading form from scratch*.
+  
+  .. image:: _images/marking_guide2.png
+  
   * Give the guide a name and description.
   * Click on the criterion name to edit it. It will open up a box for typing into.
   * Click the *Click to edit* links to provide an explanation for students and for markers as to what is required. It will open up a box for typing into.
   * Click the *Click to edit* link to allocate a maximum mark for this criterion. It will open up a box for typing into. 
+  
+  .. image:: _images/marking_guide3.png
 
 Adding more criteria
 ^^^^^^^^^^^^^^^^^^^^^
 Click the button to add one or more criteria (and then repeat the process as above) 
+
+.. image:: _images/marking_guide4.png
 
 Adding frequently used comments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -26,11 +35,11 @@ Adding frequently used comments
   * Click the *Click to edit* link and add a comment.
   * Click the *+Add frequently used comment* button to add another one and repeat as needed.
   
+  .. image:: _images/marking_guide5.png
+  
 Marking guide options
 ^^^^^^^^^^^^^^^^^^^^^^
 By checking the appropriate boxes it is possible to allow students to see (or not)the guide definition and how many marks are allocated per criterion. 
-
-
 
 Saving and using Marking guide
 -------------------------------
@@ -41,9 +50,13 @@ Editing or deleting Marking guide
   * Once completed, a guide may be edited or deleted by going to *Administration > Assignment administration > Advanced grading > Marking guide*. Options appear to edit or delete the currently defined form.
   * When an assignment has been graded, a warning appears if the guide is edited to check whether the assignments need to be regraded or not. 
 
+  .. image:: _images/marking_guide6.png
+
 Using templates
 ----------------
   *Those users with the capability Capabilities/moodle/grade:sharegradingforms (and perhaps Capabilities/moodle/grade:managesharedforms) may save their forms as a template for others to use. They will see an additional option in *Administration > Assignment administration > Advanced grading*. 
+
+  .. image:: _images/marking_guide7.png
 
 (Note that teachers do not have these capabilities by default.)
 
