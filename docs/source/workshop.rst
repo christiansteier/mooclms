@@ -4,6 +4,8 @@ Workshop
 =========
 Workshop is a peer assessment activity with many options. Students submit their work via an online text tool and attachments. There are two grades for a student: their own work and their peer assessments of other students' work. 
 
+.. image:: _images/workshop_1.png
+
 Features
 ---------
 Workshop is similar to the Assignment module and extends its functionality in many ways. However, it is recommended that both course facilitator (teacher) and course participants (students) have at least some experience with the Assignment module before the Workshop is used in the course.
@@ -22,6 +24,8 @@ With the editing turned on, in the section you wish to add your workshop, click 
 General
 ^^^^^^^^
 
+.. image:: _images/workshop_2.png
+
 **Name**
 
 Whatever you type here will form the link learners click on to view the workshop, so it is helpful to give it a name that suggests its purpose.
@@ -37,6 +41,8 @@ If this box is ticked, the description will appear on the course page just below
 Grade settings
 ---------------
 (These settings are collapsed by default) 
+
+.. image:: _images/workshop_3.png
 
 **Grading Strategy**
 
@@ -68,6 +74,8 @@ Submission settings
 ^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default) 
 
+.. image:: _images/workshop_5.png
+
 **Instructions for submission**
 
 Explain here what students must submit.
@@ -86,9 +94,13 @@ Ticking this box will allow students to submit after the deadline.
 
 Once the workshop has been made we can then set more settings relating to submissions. This is done through clicking on the menu highlighted below which is found when you click on the workshop’s link or after clicking “Save and Display” on completion of the workshop. To access the menu simply click on “Allocate Submissions”. It is highlighted in the picture by the red box. See the section :ref:`Submission phase <submission_phase>`. 
 
+.. image:: _images/workshop_5.png
+
 Assessment settings
 ^^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/workshop_6.png
 
 Teachers can write instructions for assessments online. This is very useful to help students have a better understanding about the important points of a task before assessing their classmates’ submissions.
 
@@ -96,6 +108,8 @@ After the workshop has been made, teachers can set more settings related to asse
 
 Feedback
 ^^^^^^^^^
+
+.. image:: _images/workshop_7.png
 
 **Overall feedback mode**
 
@@ -117,6 +131,8 @@ Example submissions
 ^^^^^^^^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
 
+.. image:: _images/workshop_8.png
+
 There are three options in this drop down menu: The first option means that the assessment of the example submission is voluntary, while the second and the third ones make it mandatory, which either requires students to assess example submissions before submitting their own work or after their own submission but before peer-assessment.
 
 **Note:** Assessments of the example submission are not counted when calculating the grade for assessment.
@@ -124,6 +140,8 @@ There are three options in this drop down menu: The first option means that the 
 Availability
 ^^^^^^^^^^^^^
 (These settings are collapsed by default.) 
+
+.. image:: _images/workshop_9.png
 
 his section deals with setting submission times and assessment times for the workshop. That is the time when students can start submitting as well as the deadline for submitting, and similarly the time assessments for other students’ work start and when they must finish assessing other students work.
 
@@ -145,6 +163,9 @@ These settings are visible if :ref:`Conditional activities <conditional_activiti
 
 Set up phase
 --------------
+
+.. image:: _images/workshop_10.png
+
 In order to set the criteria for an assignment, teachers need to fill out an assessment form during the setup phase. Students can view this assessment form in the submission phase and focus on what is important about the task when working on their assignment. In the next phase-the assessment phase, students will assess their peers’ work based on this assessment form.
 
 According to the grading strategy chosen in the grading settings, teachers will get corresponding original assessment form to edit by clicking ‘Edit assessment form’ button in the first page of the workshop setup for the assignment. The grading strategy can be one of *Accumulative grading, Comments, Number of errors or Rubrics*. Teachers can set each criterion in detail in the assessment form.
@@ -155,11 +176,20 @@ Submission phase
 ------------------
 Once the workshop has been made we can then set more settings relating to submissions. This is done through clicking on the menu highlighted below which is found when you click on the workshop’s link or after clicking “Save and Display” on completion of the workshop. To access the menu simply click on “Allocate Submissions”. It is highlighted in the picture by the red box. 
 
+.. image:: _images/workshop_11.png
+Submission settings for allocating reviewers to submissions
+
 **Manual Allocation**
+
+.. image:: _images/workshop_12.png
+Manual allocation menu
 
 Here,a teacher can manually choose which students review whose work. A student can review work even if they have not submitted anything themselves.
 
 **Random Allocation**
+
+.. image:: _images/workshop_13.png
+Random allocation menu
 
 The teacher is given 5 settings that determine how the random allocation will work.
 
@@ -197,6 +227,8 @@ Grading evaluation phase
 --------------------------
 Here you can choose your settings for calculation of the grade for assessments. 
 
+.. image:: _images/workshop_14.png
+
 Grade calculation method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 This setting determines how to calculate grade for assessments. Currently there is only one option- *comparison with the best assessment*.
@@ -220,6 +252,9 @@ Second, the workshop will give the best assessment 100% grade. Next it will meas
 Comparison of assessments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 This setting has 5 options: *very lax, lax, fair, strict and very strict*. It specifies how strict the comparison of assessment should be. By using *comparison with the best assessment* method, all assessments will be compared with the best assessment picked up by workshop. The more similar one assessment is with the best assessment, the higher grade this assessment will get, and vice versa. This setting determines how quickly the grades fall down when the assessments differ from the best assessment. 
+
+.. image:: _images/workshop_12.png
+Workbook toolbox
 
 **Clear all aggregated grades**
 
