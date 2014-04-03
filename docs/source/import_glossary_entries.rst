@@ -6,10 +6,15 @@ Glossary entries can be exported and then imported into another glossary via an 
 
   * As an editing teacher, access your glossary.
   * Go to *Administration > Glossary administration > Import entries*. 
+  
+  .. image:: _images/import_glossary_menu.png
+  
   * Click the "Choose a file" button and browse for the exported entries XML file on your computer
   * Select the destination for the new entries: either the current glossary or a new one
   * If you want to import category information, click the checkbox.
   * Click the "Submit" button. 
+  
+  .. image:: _images/import_entries.png
 
 You'll then see a report of the entries and categories added to the glossary. If you enabled duplicate entries when you created the glossary, the import process will add all of the new definitions. Otherwise, it will not allow you to import any duplicate entries.
 
