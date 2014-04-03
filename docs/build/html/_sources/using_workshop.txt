@@ -31,6 +31,8 @@ The major task during this phase is to calculate the final grades for submission
 
 Whenever the Workshop is being switched into this phase, the final grades calculated in the previous phase are pushed into the course Gradebook.This will result in the Workshop grades appearing in the Gradebook and in the workshop. Participants may view their submissions, their submission assessments and eventually other published submissions in this phase.
 
+.. image:: _images/workshop_16.png
+
 Workshop grading
 -----------------
 The grades for a Workshop activity are obtained gradually at several stages and then they are finalized. The following scheme illustrates the process and also provides the information in what database tables the grade values are stored. 
