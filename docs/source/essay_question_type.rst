@@ -19,7 +19,13 @@ Question set-up
   
 Creating a response template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-When using the Essay question type, you can set a template which appears in the students' text editor to help them scaffold their response
+When using the Essay question type, you can set a template which appears in the students' text editor to help them scaffold their response.
+
+.. image:: _images/essay_ques1.png
+Response template in question setup screen
+
+.. image:: _images/essay_ques2.png
+Student view
 
 Question grading
 -----------------
