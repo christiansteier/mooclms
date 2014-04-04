@@ -13,6 +13,9 @@ In addition, questions may be exported into Word format using a contributed plug
 Process
 --------
   * Click *Administration > Quiz Administration > Question bank > Export*. 
+  
+  .. image:: _images/export_questions.png
+  
   * Select the output type required for the exported file.
   * Use the pulldown menu to select the question category you want to export
   * Check if you want the category name to exported and/or the context to be included. This only applies to some formats and is used to restore this information on import.
