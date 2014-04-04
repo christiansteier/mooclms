@@ -14,6 +14,8 @@ Question bank import process
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The question bank allows you a great deal of flexibility when importing questions. To import questions into Moodle's Question bank, use the Questions link in the course administration and select the import tab. In most versions of Moodle it is also possible to get to this screen (produced by ../question/import.php) while editing an existing quiz. 
 
+  .. image:: _images/import_questions1.png
+
   * Select import tab
   * Select the question type to import
   * General: pick the category, determine if the context and category information that maybe contained in a GIFT or XML file should be used.
@@ -23,11 +25,15 @@ The question bank allows you a great deal of flexibility when importing question
       * Import from file upload. Use the browse function to import a file from your computer. Use the "Upload this file" button to import the questions.
       * Import from file already in course files. A popup window will take you to the course files start page. Use the "Import from this file" button. 
 
+   .. image:: _images/import_questions2.png
+
 Lesson moule process
 ^^^^^^^^^^^^^^^^^^^^^
 The question types that can be imported from the Quiz questions bank into a lesson are the following: Matching, Multichoice, Numerical, Short answer, True/false.
 
 The Description and Cloze questions can **not** be imported from Quiz questions bank into a lesson.
+
+.. image:: _images/import_questions3.png
 
 Lesson can only import from a file located on the teachers computer.
 
