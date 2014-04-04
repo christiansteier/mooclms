@@ -103,7 +103,7 @@ Required site settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 To use activity completion, the feature needs to be enabled for the site by an administrator as follows:
 
-.. image:: _images/activity_completion4.png
+  .. image:: _images/activity_completion4.png
 
   * In *Administration > Site administration > Advanced features* check the "Enable completion tracking" box. 
   * The admin may also set the default completion tracking setting when adding new activities, choosing from 'Do not indicate completion' or ' Use activity default' 
