@@ -59,6 +59,18 @@
 <li>Click Save changes to add the question to the category.</li>
 </ol>
 </div></blockquote>
+<p>Example -</p>
+<div class="line-block">
+<div class="line">Match the following cities with the correct state:</div>
+<div class="line">* San Francisco: {1:MULTICHOICE:=California#OK~Arizona#Wrong}</div>
+<div class="line">* Tucson: {1:MULTICHOICE:California#Wrong~%100%Arizona#OK}</div>
+<div class="line">* Los Angeles: {1:MULTICHOICE:=California#OK~Arizona#Wrong}</div>
+<div class="line">* Phoenix: {1:MULTICHOICE:%0%California#Wrong~=Arizona#OK}</div>
+<div class="line">The capital of France is {1:SHORTANSWER:%100%Paris#Congratulations!</div>
+<div class="line">~%50%Marseille#No, that is the second largest city in France (after</div>
+<div class="line">Paris).~*#Wrong answer. The capital of France is Paris, of course.}.</div>
+</div>
+<img alt="_images/embedded_answer.png" src="_images/embedded_answer.png" />
 <div class="section" id="penalty-factor">
 <h3>Penalty factor<a class="headerlink" href="#penalty-factor" title="Permalink to this headline">¶</a></h3>
 <p>The &#8216;penalty factor&#8217; only applies when the question is used in a quiz using adaptive mode - i.e. where the student is allowed multiple attempts at a question even within the same attempt at the quiz. If the penalty factor is more than 0, then the student will lose that proportion of the maximum grade upon each successive attempt. For example, if the default question grade is 10, and the penalty factor is 0.2, then each successive attempt after the first one will incur a penalty of 0.2 x 10 = 2 points.</p>
