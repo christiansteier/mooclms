@@ -25,6 +25,8 @@ Questions may have different answers with different levels of accuracy. That let
 
 Text answers are no longer allowed - Short-Answer question type should be used instead.
 
+.. image:: _images/numerical_question.png
+
 
 Numerical question set-up
 ---------------------------
