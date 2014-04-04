@@ -2,6 +2,9 @@
 
 Activity completion 
 ====================
+
+.. image:: _images/activity_completion1.png
+
 Activity completion allows the teacher to set completion criteria in a specific activity's settings. A check (tick) appears against the activity when the student meets this criterion. The criterion might be viewing, receiving a certain score or a student marking it as complete. 
 
 *Site administration > Advanced features > Completion tracking* must be enabled on the site.
@@ -10,6 +13,12 @@ Activity completion allows the teacher to set completion criteria in a specific 
 
 Activity completion settings
 -----------------------------
+
+.. image:: _images/activity_completion2.png
+Forum completion settings
+
+.. image:: _images/activity_completion3.png
+Assignment completion settings
 
 Activity settings
 ^^^^^^^^^^^^^^^^^^
@@ -94,6 +103,8 @@ Required site settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 To use activity completion, the feature needs to be enabled for the site by an administrator as follows:
 
+.. image:: _images/activity_completion4.png
+
   * In *Administration > Site administration > Advanced features* check the "Enable completion tracking" box. 
   * The admin may also set the default completion tracking setting when adding new activities, choosing from 'Do not indicate completion' or ' Use activity default' 
   * Click the 'Save changes' button 
@@ -137,7 +148,7 @@ Activity completion report
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Activity completion info can be viewed by managers, teachers and non-editing teachers (and any other users with the capability report/progress:view) in *Administration> Course administration> Reports > Activity completion*. 
 
-
+.. image:: _images/activity_completion5.png
 
 
 
