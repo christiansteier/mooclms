@@ -13,6 +13,9 @@ To use conditional activities, the feature must be enabled by an administrator b
 
 Restricting access
 ^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/con_activity_settings1.png
+
 The restrict access section asks for the conditions when the activity (or resource) should be visible. This can be based upon dates, and/or score ranges of other activities and/or if other activities are considered completed (see :ref:`Activity completion <activity_completion_settings>`).
 
 Note that ALL access restrictions (date, grade condition, activity completion condition) have to be met in order for the activity to be made available and that access may be restricted to an actual time and not just a date.
@@ -21,11 +24,15 @@ Generally access is prevented *before* the conditions are met, however if 'Allow
 
 **Restricting access to course sections**
 
+.. image:: _images/con_activity_settings2.png
+
 It is possible to restrict access to activities within a whole course section by specifying the conditions in the settings for that particular section. 
 
 **Restricting access by user profile fields**
 
 It is possible to restrict access to activities based on a custom user profile field. You can select a field type, condition and name. For more information please see :ref:`Conditional user fields <conditional_user_fields>`.
+
+.. image:: _images/con_activity_settings3.png
 
 **Grade condition**
 
@@ -38,7 +45,6 @@ You can specify a condition on any grade in the course: the full course grade, t
 **Removing a grade condition**
 
 To remove a grade condition, set the assessment name to 'none' and remove the range number values.
-
 
 
 Using conditional activities 
