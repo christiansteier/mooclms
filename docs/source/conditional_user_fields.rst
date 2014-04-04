@@ -15,6 +15,8 @@ Example
 ^^^^^^^^
 This is an example of the interface in Moodle when adding an activity to a course with the conditional functionality enabled. 
 
+.. image:: _images/conditional_userfield1.png
+
 This is how it will appear to users who fail to meet the restrictions set in place. 
 
 User fields
