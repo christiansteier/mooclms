@@ -30,6 +30,9 @@ Category Set Up and Management
 
   * Click on the 'Categories' tab.
   * Below the list of current categories you will see a form to add a new category.
+  
+  .. image:: _images/question_category.png
+  
   * Choose the 'parent' category in which your new category will be placed. See image of 'Parent' selector image to right. 
       
       * Placing your category in another category makes it a sub-category of the parent.
