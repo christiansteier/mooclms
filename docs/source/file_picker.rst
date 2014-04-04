@@ -8,11 +8,15 @@ Usually the file is copied into Moodle from wherever you have chosen it from (e.
 
 An "add" button appears which is clicked on to access the file picker.
 
+.. image:: _images/filepicker_1.png
+
 Getting files from the file picker
 ------------------------------------
 When the file picker screen appears, a number of links are listed down the side. These are links to Repositories which hold files you might want to use. There is also a link Upload a file which you would click on to add a file yourself from your computer.
 
 Which repositories are included depends on which ones have been enabled by the administrator and also the context in which you access the file picker. For example, if you have reached the file picker by clicking on the media icon in the TinyMCE text editor then you might see the Youtube videos repository link. If you have reached the file picker by clicking on the image icon in the TinyMCE text editor then you might see the Flickr repository repository link. 
+
+.. image:: _images/filepicker_2.png
 
 **Note:** The order in which repositories are listed in the file picker is set by an administrator in *Administration > Site administration > Plugins > Repositories > Manage repositories*. 
 
@@ -24,13 +28,18 @@ There are three ways to view files in the File picker, depending on your persona
 
 This shows the files as easily identifiable thumbnails.
 
+.. image:: _images/filepicker_3.png
+
 **View as table**
 
 This shows the files with details such as licence, date uploaded, size etc.
+
+.. image:: _images/filepicker_4.png
 
 **View as a list**
 
 This shows the files in a hierarchical list.
 
+.. image:: _images/filepicker_5.png
 
 
