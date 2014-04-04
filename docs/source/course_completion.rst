@@ -15,40 +15,70 @@ In order to use the course completion features, it has to be enabled in the site
 
 General
 ^^^^^^^^
+
+.. image:: _images/completion1.png
+
 Choose here how you wish to mark the course complete -whether you want *Any* or *All* of the requirements that follow to count towards completion. 
 
 **All other settings below are collapsed by default.**
 
 Condition: Activity completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion2.png
+Activity completion settings
+
 Tick the boxes of the activities you wish to count towards completion of the course. (You need to have Activity completion enabled to be able to do this. You can decide whether ALL of the activities must be completed or ANY one of them. 
 
 Condition: Completion of other courses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion3.png
+Settings when no other courses have course completion enabled
+
+.. image:: _images/completion4.png
+Settings when course completion is enabled in one or more other courses
+
 This setting allows you to make "the completion of another course" as a condition for completing the course you are currently working in. This does not block the student from your current course; it simply means that the current course will not be marked complete until the first course has been marked complete. Thus, completion of the current course is dependent upon completion of an earlier course. Just select one or more courses in the "Courses available box". Note: Once you have selected a course, it's not currently possible to remove it.
 
 Condition: Date
 ^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion5.png
+
 If you tick the *Enable* box you can then set a date after which the course will be declared complete.
 
 Condition: Enrolment duration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion6.png
+
 If you tick the *Enable* box you can then choose a number of days after enrolment upon which the course will be marked complete. 
 
 Condition: Unenrolment
 ^^^^^^^^^^^^^^^^^^^^^^^
+
 If you tick *Enable* here then the course will be marked complete once the student is unenrolled. 
 
 Condition: Course grade
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion7.png
+
 If you tick the *Enable* box, you can set a passing grade for the course.
 
 Condition: Manual self-completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion8.png
+
 If this is enabled then a student can mark the course complete themselves from the Self completion block.
 
 Condition: Manual completion by others
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _images/completion9.png
+
 Users with selected roles may mark the course as complete if their role is ticked here. The roles listed are ones for which the capability Mark users as complete in course completion is allowed.
 
 ALL means that each role must mark the course complete before; ANY means that it will be classed as complete once one role has marked it complete. 
