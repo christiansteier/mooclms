@@ -19,6 +19,8 @@ This is an example of the interface in Moodle when adding an activity to a cours
 
 This is how it will appear to users who fail to meet the restrictions set in place. 
 
+.. image:: _images/conditional_userfield2.png
+
 User fields
 ^^^^^^^^^^^^
 You can restrict by using one of the user fields that are located in the Moodle user table. Not all the user fields are included, as not all of them would make sense in this context. The ones included are listed below.
