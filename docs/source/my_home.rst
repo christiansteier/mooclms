@@ -6,10 +6,10 @@ My home is a customisable "dashboard" page for providing users with links to the
 
 My home usually has the :ref:`Course overview block <course_overview>` in the central column. Users can customize their My home page and add and remove blocks by clicking the 'Customise this page' button. 
 
-.. image:: _images/myhome1.png
+.. image:: _images/my_home1.png
 My home
 
-.. image:: _images/myhome2.png
+.. image:: _images/my_home2.png
 Customising My home
 
 The navigation block includes a My home link directly above or below the Site home link. Once a regular user is logged in, the My courses link will also take them to their My home page. 
