@@ -10,9 +10,13 @@ Full (site) profile
 ---------------------
 Depending on what the user has added to their profile, this gives information such as first and last access, general interests and links to individual course profiles. Users may be messaged from the link at the bottom of their full profile. 
 
+.. image:: _images/site_profile.png
+
 Course profile
 ----------------
 A shorter version of users' profiles is available in the course and includes their role(s) and groups in the course and a link to message them. Those the relevant permissions are also able to access the full profile from here.
+
+.. image:: _images/course_profile.png
 
 Viewing full profiles
 -----------------------
