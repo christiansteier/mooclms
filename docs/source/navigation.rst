@@ -8,6 +8,8 @@ Navigation block
 ------------------
 The :ref:`Navigation block <navigation_block>` provide easy access to view various sections of the Moodle site and includes
 
+ .. image:: _images/navigation_block1.png
+
  * My home - a personalised home page displaying links to the courses a user is associated with and activity information (such as unread forum posts and upcoming assignments)
  * Site pages - links to site pages and resources from the front page of Moodle
  * My profile - quick links allowing a user to view their profile, forums posts, blogs and messages as well as manage their private files
@@ -22,6 +24,8 @@ Keyboard/Screenreader and Voice input users can access navigation by using the T
 Administration block
 ----------------------
 The Administration block provides you with easy access to change various settings of a Moodle site. This block shows contextual settings (the settings for a forum when you are viewing it as an editing user) as well as settings for anything else you have permissions for. All users have access to edit their profile and message settings from this block as well as their Blog preferences.
+
+.. image:: _images/navigation_block2.png
 
 Site administration settings
 -----------------------------
