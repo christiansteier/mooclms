@@ -17,6 +17,8 @@ Block settings
 ^^^^^^^^^^^^^^^^
 Certain blocks, such as the HTML block, allow a block title and more to be set. 
 
+.. image:: _images/block_settings1.png
+
 Where this block appears
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Depending upon the context and users permissions, this area determines where this block will appear.
@@ -25,6 +27,8 @@ Depending upon the context and users permissions, this area determines where thi
  * Display on page types: allows the user to set the context that the block can appear in. These options will vary depending upon the permissions of the user. For example a site administrator might see a setting that will allow the block to appear on Any page, or any type of course main page, while a teacher may only see the option to place it on every page in the course.
  * Default region: Usually a right column or left column option.
  * Default weight: Where in the column do you want it to appear if there are other blocks in that column. -10 will put it at the top, 10 will put it at the bottom. A zero is neutral. 
+
+ .. image:: _images/block_settings2.png
  
 See :ref:`User profiles <user_profiles>` for instructions on how to make a block appear on all user profile pages. 
 
@@ -33,6 +37,8 @@ On this page
  * Visible - Yes or No.
  * Region - Here you can override the column preference on this page.
  * Weight - Here you can override the default setting on this page. 
+ 
+  .. image:: _images/block_settings3.png
  
 'Sticky blocks'
 -----------------
@@ -50,6 +56,8 @@ The Moodle administrator might wish for example to display support contact detai
  * For Where this block appears > Page contexts, choose 'Display throughout the entire site'.
  * Decide other settings according to your preference and save.
  * The block will now appear on all pages of your Moodle. 
+ 
+ .. image:: _images/block_settings4.png
 
 Making a block sticky throughout a course
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -59,6 +67,8 @@ The teacher might wish for example to display the Messages block everywhere in t
  * For *Display on page types*, choose 'Any page'
  * Decide other settings according to your preferences and save.
  * The block will now appear on all pages of the course. 
+
+ .. image:: _images/block_settings5.png
 
 Making a block sticky in a category
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,6 +98,8 @@ To change role permissions for a block
  1. Turn editing on in the course
  2. Click the Assign roles icon (a face and mask) in the header of the block
  3. In the administration block, go to *Block administration > Permissions* (ignore the message 'You are not able to assign any roles here', which is to be expected, since roles are not generally assigned in the block context) 
+ 
+ .. image:: _images/block_settings6.png
 
 
 
