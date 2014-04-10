@@ -8,9 +8,11 @@ Overview
 ---------
 The navigation block has links which can be expanded or collapsed.When logged in, a regular user will see the following as default: 
 
+ .. image:: _images/nav_block.png
+
  * **My home** - This takes the user directly to their personal dashboard, :ref:`My home <my_home>`.
 
- * **Site pages** - This expands to show pages and resources available site wide, for example, user blogs and a calendar. Any items which have been added to the front page, such as resources/activities from the Main Menu block, or the Site News will also appear here. Other items depend on the role of the user, so an administrator will see reports and notes, for instance. 
+ * **Site pages** - This expands to show pages and resources available site wide, for example, user blogs and a calendar. Any items which have been added to the front page, such as resources/activities from the Main Menu block. Other items depend on the role of the user, so an administrator will see participants and notes, for instance. 
  
  * **My profile** - This expands to allow regular users to view (and, if allowed, edit) their profile, view their forum posts, view and add and blog entries and messages and access their private files, providing these features have been enabled by the administrator. The administrator will also have a link here to Notes and Activity reports. 
  
@@ -23,6 +25,8 @@ Navigation inside a course
  * **My courses** - When a non-admin user clicks this link in a course, it takes them to their :ref:`My home <my_home>` page where they will see other courses they are enrolled in. 
  
  * **Courses** - If the administrator has enabled "show all courses" in *Administration > Site administration > Appearance > Navigation*, then clicking on this link in a course will take the user to the courses index page course/index.php. 
+ 
+ .. image:: _images/nav_block1.png
  
 Navigation block settings
 --------------------------
