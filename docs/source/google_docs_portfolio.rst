@@ -17,8 +17,16 @@ Sending ("pushing") your files to Google Drive
 ------------------------------------------------
   * You can export items such as assignments, chat and forum posts to enabled portfolios. Here is an example with a forum post:
   * At the bottom of your completed forum post are the words "export to portfolio". 
+  
+  .. image:: _images/forumexport.png
+  
   * Click the words "export to portfolio" and then select from the dropdown Google Drive. (If it is the only portfolio enabled, it wil be the only choice!) 
   * Click "Next". If you haven't done this before you will be prompted to log in to your account. Agree and log in.
   * The "export complete" message will appear. Clicking "continue" will take you to Google Drive. 
-  * As an example, an exported forum post will be named "post.html" It will open up like this.
+ 
+  .. image:: _images/forumexport1.png
+ 
+  * As an example, an exported forum post will be named "post.html" It will open up like this
+  
+  .. image:: _images/forumexport2.png
   
