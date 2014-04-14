@@ -2,6 +2,9 @@
 
 Working with files
 ===================
+
+ * Moodle provides an easy way for a teacher to present materials to their students. These materials may take the form of files such as word-processed documents or slideshow presentations. The material can be displayed on the page either as individual items or bundled together inside folders. One teacher might for instance wish to share a single research documents in pdf format; another might have a folder of sample past examination papers for students to download.
+ * Most types of files can be uploaded and accessed through Moodle but the students needs to have the correct software to be able to open them.
  
 Viewing uploaded files
 -----------------------
