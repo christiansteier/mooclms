@@ -1,5 +1,26 @@
+.. _working_with_files:
 
+Working with files
+===================
+ * Moodle provides an easy way for a teacher to present materials to their students. These materials may take the form of files such as word-processed documents or slideshow presentations. The materials can be displayed on the page either as individual items or bundled together inside folders. One teacher might for instance wish to share a single research document in pdf format; another might have a folder of sample past examination papers for students to download.
+ * Most types of files can be uploaded and accessed through Moodle but the student needs to have the correct software to be able to open them. 
+
+Adding files
+-------------
+ * To add files or folders, a teacher needs to have the editing turned on in their course and then they must select either :ref:`File <file>` or :ref:`Folder <folder>` from the activity chooser (or "Add a resource" drop down menu). 
  
+   .. image:: _images/adding_file1.png
+   Selecting a file or folder in activity chooser
+ 
+   .. image:: _images/adding_file2.png
+   The "Add a resource" drop down menu
+ 
+ * The screen for uploading and displaying a file (or folder of files) includes an "add" button. Clicking on this button takes you to the :ref:`File picker <file_picker>` which is the name given to the file storage and access area within Moodle. Find out more about the places you can upload or add files from in the File picker page.
+ * There is also a block (with an arrow) into which you can drag and drop a file straight from your desktop into Moodle.(Note that this currently doesn't work with Internet Explorer.) 
+ 
+   .. image:: _images/file_upload.png
+
+
 Viewing uploaded files
 -----------------------
  * Once uploaded, files appear as thumbnails in the file manager for easy recognition.
