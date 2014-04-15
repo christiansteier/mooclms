@@ -17,8 +17,18 @@ Getting ("pulling") your files from Google Drive
 -------------------------------------------------
   * From the file picker, click on the Google Drive link and a prompt to log in will appear. 
   * If it is your first time, the click the "Allow access" button to log in.
+  
+  .. image:: _images/googledrive_repo1.png
+  Log into your account
+  
+  .. image:: _images/googledrive_repo2.png
+  Allow access
+  
   * Your files will display for you to choose from.
   * You can view them in three ways by clicking one of the options at the top right. 
+  
+  .. image:: _images/googledrive_repo3.png
+  
   
 Repository capabilities
 -------------------------
