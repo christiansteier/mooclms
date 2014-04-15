@@ -26,6 +26,18 @@ Your site will then be registered with Google and you will be provided with a cl
 
 **Tip:** If you have more than one Moodle site to register with Google, you can add an authorized redirect URI for each site in step 7. The same name and logo would then be displayed on the authorisation screen for each Moodle site. 
 
+.. image:: _images/google_oauth1.png
+Creating an OAuth Client ID
+
+.. image:: _images/google_oauth2.png
+Client ID settings
+
+.. image:: _images/google_oauth3.png
+Registered details
+
+.. image:: _images/googledrive_repo2.png
+Authorisation screen
+
 Configuring the Google Docs and Picasa repositories
 -----------------------------------------------------
   1. Go to *Administration > Site administration > Plugins > Repositories > Manage Repositories*.
