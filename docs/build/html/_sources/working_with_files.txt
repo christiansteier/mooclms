@@ -2,8 +2,9 @@
 
 Working with files
 ===================
- * Moodle provides an easy way for a teacher to present materials to their students. These materials may take the form of files such as word-processed documents or slideshow presentations. The materials can be displayed on the page either as individual items or bundled together inside folders. One teacher might for instance wish to share a single research document in pdf format; another might have a folder of sample past examination papers for students to download.
- * Most types of files can be uploaded and accessed through Moodle but the student needs to have the correct software to be able to open them. 
+
+ * Moodle provides an easy way for a teacher to present materials to their students. These materials may take the form of files such as word-processed documents or slideshow presentations. The material can be displayed on the page either as individual items or bundled together inside folders. One teacher might for instance wish to share a single research documents in pdf format; another might have a folder of sample past examination papers for students to download.
+ * Most types of files can be uploaded and accessed through Moodle but the students needs to have the correct software to be able to open them.
 
 Adding files
 -------------
@@ -19,7 +20,6 @@ Adding files
  * There is also a block (with an arrow) into which you can drag and drop a file straight from your desktop into Moodle.(Note that this currently doesn't work with Internet Explorer.) 
  
  .. image:: _images/file_upload.png
- 
 Viewing uploaded files
 -----------------------
  * Once uploaded, files appear as thumbnails in the file manager for easy recognition.
