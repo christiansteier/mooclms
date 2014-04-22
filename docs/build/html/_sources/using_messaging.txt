@@ -11,7 +11,12 @@ To send a message to an individual
 **From the Messages block or from your profile**
 
   * Click on the blue link *Messages* in the Messages block or click the *Messages* link from *Navigation > My profile* and then type a name into the *Search people and messages* box. To narrow the search down further, click the blue *Advanced* link to search for a person "only in my courses" or with keywords in messages.
+  
+    .. image:: _images/searchmessageform.png
+  
   * Type the message in the box and click the *Send a message* button.
+  
+    .. image:: _images/send_message.png
   
 **From the Online users block**
   
@@ -21,8 +26,13 @@ To send a message to an individual
 **To read and reply to a message**
   
   * If the Messages block shows you have a message, click the envelope icon (with the number of messages) 
+  
+    .. image:: _images/message_block.png
+  
   * Type your reply into the box and then click on the *Send a message* button.
   * If you receive a popup notification of a message, click *Go to message* to read and reply to it. 
+  
+    .. image:: _images/message_popup.png
   
 **To send a message to selected course participants (for teachers only)**
 
