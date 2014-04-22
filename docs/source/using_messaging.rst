@@ -12,7 +12,7 @@ To send a message to an individual
 
   * Click on the blue link *Messages* in the Messages block or click the *Messages* link from *Navigation > My profile* and then type a name into the *Search people and messages* box. To narrow the search down further, click the blue *Advanced* link to search for a person "only in my courses" or with keywords in messages.
   
-  .. image:: _images/searchmessageform.png
+    .. image:: _images/searchmessageform.png
   
   * Type the message in the box and click the *Send a message* button.
   
