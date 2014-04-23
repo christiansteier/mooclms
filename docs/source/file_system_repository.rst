@@ -17,6 +17,10 @@ Creating folders for your file system repositories
   * Find the moodledata folder on the server
   * Inside it, create a folder called "repository"
   * Inside that folder, create as many folders as you need, named appropriately. 
+  
+  .. image:: _images/filesystem_repo1.png
+  Creating repository on the server
+  
   * Copy into the appropriate folder the files you want (using FTP, SFTP, shared folder etc.). (The folders can hold all types of files).
   
 Enabling the File System repository plugin
@@ -26,6 +30,9 @@ Enabling the File System repository plugin
 
 Note: Ignore the similarly named repository 'Server Files' (enabled by default). 
 
+  .. image:: _images/filesystem_repo2.png
+  Enabling the file system repository
+
 Setting up a site-wide file system repository
 -----------------------------------------------
 Having clicked the "Settings" link as above:
@@ -34,6 +41,12 @@ Having clicked the "Settings" link as above:
   * Click *Create a repository instance*.
   * Give it a name and (if there are several folders on the server) choose from the dropdown the one you want. Click Save.
   * It will now be available in the file picker in all courses. 
+  
+  .. image:: _images/filesystem_repo3.png
+  Creating a new file system repository
+  
+  .. image:: _images/filesystem_repo4.png
+  Selecting and naming the repository
   
 **NOTE:** Just repeat the process to get more than one site wide file system repository.
 
@@ -46,6 +59,16 @@ Enable repositories as in the instructions above. On the Settings page:
   * Check the top box allowing users to add a repository instance to the course (1 below).
   * Go to the desired course and click on “repositories” in the administration block(2 below).
   * Scroll down and click "Create File System instance" (3 below).
+  
+  .. image:: _images/filesystem_repo5.png
+  1. Enable course repositories
+  
+  .. image:: _images/filesystem_repo6.png
+  2. Click "Repositories" in course admin"
+  
+  .. image:: _images/filesystem_repo7.png
+  3. Click to create an instance in the course.
+  
   * Follow the same process as below.
 
 Setting up an individual file system repository instance
@@ -60,6 +83,16 @@ Enable repositories as in the instructions above. On the Settings page:
   * Click “Create File System instance”
   * Follow the same process as here
   * This will create a personal file system repository connecting just you to a folder on the server (3 below) 
+  
+  .. image:: _images/filesystem_repo8.png
+  Enable user repository instances
+  
+  .. image:: _images/filesystem_repo9.png
+  Click the "Repositories" link in profile.
+  
+  .. image:: _images/filesystem_repo10.png
+  Adding files from individual repository
+  
   * Upload any files required by course creators to the appropriate folders 
 
 Server permissions are needed here to add via FTP (or other method) the required files.
@@ -69,6 +102,10 @@ From this point on the check boxes need not be set - leaving them set just invit
 Using a File Syetem repository file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * A user can now make use of the uploaded files by accessing the repository from within the file picker, creating a resource link to a document, for example. This process copies the uploaded file into Moodle and students may access the resource. 
+ 
+ .. image:: _images/filesystem_repo11.png
+ Adding a file from a file system repository
+ 
  *  Note that file types are respected (based on file extensions), so if you are adding an image in the editor, then you won't see Office docs (for example) appear in the File Picker. 
  
 Repository capabilities
