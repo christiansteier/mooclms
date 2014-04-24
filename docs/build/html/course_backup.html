@@ -43,6 +43,74 @@
             
   <div class="section" id="course-backup">
 <span id="id1"></span><h1>Course Backup<a class="headerlink" href="#course-backup" title="Permalink to this headline">¶</a></h1>
+<p>A course can be saved with some or all of its parts by using the course backup. Typically, the site administrator will set a schedule of <a class="reference internal" href="automated_backup_setup.html#automated-backup-setup"><em>automated course backups</em></a> for the whole site. A teacher with editing privileges can create a backup or download an existing backup for safe keeping, or for use on another Moodle site.</p>
+<div class="section" id="backing-up-a-course">
+<h2>Backing up a course<a class="headerlink" href="#backing-up-a-course" title="Permalink to this headline">¶</a></h2>
+<p>To backup a course</p>
+<blockquote>
+<div><ul class="simple">
+<li>Go to Administration &gt; Course administration &gt; Backup</li>
+<li>Initial settings - Select activities, blocks, filters and other items as required then click the Next button. Users with appropriate permissions, such as administrators and managers, can choose whether to include users, anonymize user information, or include user role assignments, user files, comments, user completion details, course logs and grade history in the backup.</li>
+<li>Schema settings - Select/deselect specific items to include in backup, then click the Next button.</li>
+<li>If desired, select specific types of activity to be backed up by clicking the link &#8216;Show type options&#8217;.</li>
+</ul>
+<img alt="_images/coursebackup1.png" src="_images/coursebackup1.png" />
+<p>Backup screen with option to select all or none</p>
+<img alt="_images/coursebackup2.png" src="_images/coursebackup2.png" />
+<p>Backup screen with options to select activity types</p>
+<ul class="simple">
+<li>Confirmation and review - Check that everything is as required, using the Previous button if necessary, otherwise click the &#8216;Perform backup&#8217; button</li>
+<li>Complete - Click the Continue button</li>
+</ul>
+</div></blockquote>
+<p>A backup file (with distinctive .mbz extension to avoid confusion with .zip files) is then saved in the course backup area. Backup file names are of the form <em>backup-moodle2-course-coursename-date-hour.mbz</em>, ending in <em>-nu.mbz</em> when backed up with no users and <em>-an.mbz</em> with anonymized names.</p>
+</div>
+<div class="section" id="anonymizing-user-information">
+<h2>Anonymizing user information<a class="headerlink" href="#anonymizing-user-information" title="Permalink to this headline">¶</a></h2>
+<p>Anonymize user information is a backup feature which &#8220;protects user identities&#8221; by making each user anonymous. If this box is checked in the backup initial settings, Moodle will substitute aliases for real names, substituting &#64;doesntexist.com email addresses and so forth. For example &#8220;Max Manager&#8221; might become &#8220;anonfirstname4 anonlastname4&#8221;.</p>
+</div>
+<div class="section" id="backup-and-restore-from-1-9-to-2">
+<h2>Backup and restore from 1.9 to 2<a class="headerlink" href="#backup-and-restore-from-1-9-to-2" title="Permalink to this headline">¶</a></h2>
+<p>Courses created in 1.9 can be backed up and then restored into a 2.1 Moodle or later but blocks are not currently restored and nor is user data (such as forum posts, grades, submissions etc).</p>
+</div>
+<div class="section" id="backup-and-restore-of-assignments-from-moodle-2-2-and-older">
+<h2>Backup and restore of assignments from Moodle 2.2 and older<a class="headerlink" href="#backup-and-restore-of-assignments-from-moodle-2-2-and-older" title="Permalink to this headline">¶</a></h2>
+<p>The assignment activity module was completely rewritten in Moodle 2.3. Thus, assignments from Moodle 2.2 and older (e.g. from Moodle 1.9) need to be upgraded in order to continue being usable. See the section &#8216;Restoring course backups from Moodle 2.2 and older&#8217; in <em class="xref std std-ref">Assignment upgrade tool</em> for details of what to do.</p>
+</div>
+<div class="section" id="creative-uses">
+<h2>Creative uses<a class="headerlink" href="#creative-uses" title="Permalink to this headline">¶</a></h2>
+<p>The backup and restore processes can offer the teacher and administrators many creative solutions.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Duplicating courses or specific activities in one course to another course (similar to Import)</li>
+<li>Updating a production Moodle site course, with material from a localhost site course</li>
+<li>Transferring a course to a new Moodle site.</li>
+<li>In earlier versions of Moodle, a way of rolling a course forward without past student activity</li>
+<li>Creating a blank activity, save just that activity and then restore it to the course or another course one or more times.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="general-backup-defaults">
+<h2>General backup defaults<a class="headerlink" href="#general-backup-defaults" title="Permalink to this headline">¶</a></h2>
+<p>Default settings for course backups can be set by a site administrator in <em>Administration &gt; Site administration &gt; Courses &gt; Backups &gt; General backup defaults</em>.</p>
+<p>Selected settings may be locked, so that they cannot be changed when creating a course backup.</p>
+<p>By selecting a time in the &#8220;Keep logs for..&#8221; dropdown, it is possible to specify how long backup logs information is kept before being deleted. As this information may be very large, it is recommended the length of time chosen be quite short.</p>
+</div>
+<div class="section" id="course-backup-capabilities">
+<h2>Course backup capabilities<a class="headerlink" href="#course-backup-capabilities" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Anonymise user data on backup</li>
+<li>Backup courses</li>
+<li>Backup sections</li>
+<li>Backup for hub</li>
+<li>Backup for import</li>
+<li>Configure backup options</li>
+<li>Download files from backup areas</li>
+<li>Backup user data</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -51,6 +119,20 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Course Backup</a><ul>
+<li><a class="reference internal" href="#backing-up-a-course">Backing up a course</a></li>
+<li><a class="reference internal" href="#anonymizing-user-information">Anonymizing user information</a></li>
+<li><a class="reference internal" href="#backup-and-restore-from-1-9-to-2">Backup and restore from 1.9 to 2</a></li>
+<li><a class="reference internal" href="#backup-and-restore-of-assignments-from-moodle-2-2-and-older">Backup and restore of assignments from Moodle 2.2 and older</a></li>
+<li><a class="reference internal" href="#creative-uses">Creative uses</a></li>
+<li><a class="reference internal" href="#general-backup-defaults">General backup defaults</a></li>
+<li><a class="reference internal" href="#course-backup-capabilities">Course backup capabilities</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/course_backup.txt"
