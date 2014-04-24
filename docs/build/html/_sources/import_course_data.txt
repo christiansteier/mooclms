@@ -27,6 +27,16 @@ How to import activities or resources
  
  * You should see the "Import complete. Click continue to return to the course." message, or an error message indicating that the import process did not take place.
  
+Examples and tips
+-------------------
+ * Importing a quiz from course A to course B, will also add the questions to the question bank so you can use them in new quizzes.
+ * Groups can also be imported as a batch from a file.
+ * It may be necessary to check all Activities (Forums, Assignments, etc.) to assure they are now using HTML format. Due to the change in the HTML editor from 1.9 to 2.2, editing of Activities comes up as "Moodle Auto-format" which displays the HTML version of the Description. Once the "Moodle Auto-format" has been changed to "HTML format" the new HTML editor is available by default when editing. 
  
- 
+Import course capabilities
+----------------------------
+ * Backup for import - allows a user to backup a course ready for importing into another course
+ * Restore from files targeted as import - allows a user to import activities or resources from another course 
+
+
  
