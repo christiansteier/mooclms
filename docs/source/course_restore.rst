@@ -18,7 +18,9 @@ Note that if your new course has fewer sections than the course you are restorin
  7. Review - Check that everything is as required, using the Previous button if necessary, then click the 'Perform restore' button
  8. Complete - Click the continue button 
  
-  
+    .. image:: _images/course_restore1.png
+
+    .. image:: _images/course_restore2.png
 
 Course restore capabilities
 -----------------------------
