@@ -12,42 +12,42 @@ Standard blocks
 ----------------
 Available blocks include:
 
-Activities
-Admin bookmarks
-Administration
-Blog menu
-Blog tags
-Calendar
-Comments
-Community finder
-Course completion status
-Course overview
-Course/site summary
-Courses
-Feedback
-Flickr
-HTML
-Latest news
-Logged in user
-Login
-Main menu
-Mentees block
-Messages
-My latest badges
-My private files
-Navigation
-Network servers
-Online users
-People
-Quiz results
-Random glossary entry
-Recent activity
-Recent blog entries
-Remote RSS feeds
-Search forums
-Section links
-Self completion
-Social activities
-Tags
-Upcoming events
-Youtube
+ * Activities
+ * Admin bookmarks
+ * Administration
+ * Blog menu
+ * Blog tags
+ * Calendar
+ * Comments
+ * Community finder
+ * Course completion status
+ * Course overview
+ * Course/site summary
+ * Courses
+ * Feedback
+ * Flickr
+ * HTML
+ * Latest news
+ * Logged in user
+ * Login
+ * Main menu
+ * Mentees block
+ * Messages
+ * My latest badges
+ * My private files
+ * Navigation
+ * Network servers
+ * Online users
+ * People
+ * Quiz results
+ * Random glossary entry
+ * Recent activity
+ * Recent blog entries
+ * Remote RSS feeds
+ * Search forums
+ * Section links
+ * Self completion
+ * Social activities
+ * Tags
+ * Upcoming events
+ * Youtube
