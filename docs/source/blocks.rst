@@ -20,13 +20,13 @@ Available blocks include:
  * Calendar
  * Comments
  * Community finder
- * Course completion status
- * Course overview
- * Course/site summary
+ * :ref:`Course completion status <course_completion_status_block>`
+ * :ref:`Course overview <course_overview>`
+ * :ref:`Course/site summary <corses>`
  * Courses
  * Feedback
  * Flickr
- * HTML
+ * :ref:`HTML <html>`
  * Latest news
  * Logged in user
  * Login
@@ -35,7 +35,7 @@ Available blocks include:
  * Messages
  * My latest badges
  * My private files
- * Navigation
+ * :ref:`Navigation <navigation_block>`
  * Network servers
  * Online users
  * People
