@@ -6,6 +6,5 @@ The dock is an area where blocks can be moved to and from this area with the blo
 
 .. image:: _images/dock.png
 
-
 .. image:: _images/undock.png
 
