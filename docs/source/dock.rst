@@ -2,13 +2,10 @@
 
 Dock
 =====
-The dock is an area where blocks can be moved to and from this area with the block to dock Block to 
+The dock is an area where blocks can be moved to and from this area with the block to dock (1) and dock to block (2) icons.
 
-.. image:: _images/dock.png 
+.. image:: _images/dock.png
+Block to dock
 
-and dock to block 
-
-.. image:: _images/undock.png 
-
-icons.
-
+.. image:: _images/undock.png
+Dock to block
