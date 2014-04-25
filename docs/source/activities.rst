@@ -12,14 +12,14 @@ There are 14 different types of activities in the standard Moodle that can be fo
  * :ref:`Database <database>` - Enables participants to create, maintain and search a bank of record entries 
  * :ref:`External tool <external_tool>` - Allows participants to interact with LTI compliant learning resources and activities on other web sites. 
  * :ref:`Feedback <feedback>` - For creating and conducting surveys to collect feedback 
- * Forum - Allows participants to have asynchronous discussions 
- * Glossary - Enables participants to create and maintain a list of definitions, like a dictionary 
- * Lesson - For delivering content in flexible ways 
- * Quiz - Allows the teacher to design and set quiz tests, which may be automatically marked and feedback and/or to correct answers shown 
- * SCORM - Enables SCORM packages to be included as course content 
- * Survey - For gathering data from students to help teachers learn about their class and reflect on their own teaching 
- * Wiki - A collection of web pages that anyone can add to or edit 
- * Workshop - Enables peer assessment 
+ * :ref:`Forum <forum>` - Allows participants to have asynchronous discussions 
+ * :ref:`Glossary <glossary>` - Enables participants to create and maintain a list of definitions, like a dictionary 
+ * :ref:`Lesson <lesson>` - For delivering content in flexible ways 
+ * :ref:`Quiz <quiz>` - Allows the teacher to design and set quiz tests, which may be automatically marked and feedback and/or to correct answers shown 
+ * :ref:`SCORM <scorm>` - Enables SCORM packages to be included as course content 
+ * :ref:`Survey <survey>` - For gathering data from students to help teachers learn about their class and reflect on their own teaching 
+ * :ref:`Wiki <wiki>` - A collection of web pages that anyone can add to or edit 
+ * :ref:`Workshop <workshop>` - Enables peer assessment 
  
 
 
