@@ -12,14 +12,14 @@ Standard blocks
 ----------------
 Available blocks include:
 
- * Activities
- * Admin bookmarks
- * Administration
- * Blog menu
- * Blog tags
- * Calendar
- * Comments
- * Community finder
+ * :ref:`Activities <activities_block>`
+ * :ref:`Admin bookmarks <admin_bookmarks_block>`
+ * :ref:`Administration <administration_block>`
+ * :ref:`Blog menu <blog_menu_block>`
+ * :ref:`Blog tags <Blog_tags_block>`
+ * :ref:`Calendar <calendar_block>`
+ * :ref:`Comments <comments_block>`
+ * :ref:`Community finder <community_finder_block>`
  * :ref:`Course completion status <course_completion_status_block>`
  * :ref:`Course overview <course_overview>`
  * :ref:`Course/site summary <corses>`
@@ -37,7 +37,7 @@ Available blocks include:
  * My private files
  * :ref:`Navigation <navigation_block>`
  * Network servers
- * Online users
+ * :ref:`Online users <online_users>`
  * People
  * Quiz results
  * Random glossary entry
@@ -46,7 +46,7 @@ Available blocks include:
  * Remote RSS feeds
  * Search forums
  * Section links
- * Self completion
+ * :ref:`Self completion <self_completion_block>`
  * Social activities
  * Tags
  * Upcoming events
