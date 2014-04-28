@@ -22,8 +22,8 @@ Available blocks include:
  * :ref:`Community finder <community_finder_block>`
  * :ref:`Course completion status <course_completion_status_block>`
  * :ref:`Course overview <course_overview>`
- * :ref:`Course/site summary <corses>`
- * :ref:`Courses <courses_block>`
+ * :ref:`Course/site summary <course_block>`
+ * :ref:`Courses <corses>`
  * :ref:`Feedback <feedback_block>`
  * :ref:`Flickr <flickr_block>`
  * :ref:`HTML <html>`
