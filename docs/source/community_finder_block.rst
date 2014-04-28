@@ -6,6 +6,10 @@ The community finder block enables users to access public community hubs, such a
 
   * Downloadable courses may be immediately restored to your Moodle site
   * Links to enrollable courses are saved in the community finder block 
+  
+  .. image:: _images/com_finderblock.png
+  
+  .. image:: _images/community_search.png
 
 Downloading courses from a hub
 --------------------------------
