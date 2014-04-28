@@ -1,7 +1,7 @@
 .. _html:
 
-HTML
-=====
+HTML block
+============
 A HTML block is a standard block used to add text, multimedia, widgets etc to a site front page or course page. The title bar may be left blank if desired. 
 
 The block is flexible and can incorporate a variety of functions and uses in the content area. It has the standard Moodle Text editor for formatting text, adding images or creating links, switching to code view and allows any valid HTML mark-up to be used. This enables embedding video, sounds, Flash, and other files which can add unique elements to a course or site page. 
