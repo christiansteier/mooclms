@@ -1,5 +1,5 @@
 .. _courses_block:
 
-Course block
-==============
+Course / site summary block
+=============================
 
