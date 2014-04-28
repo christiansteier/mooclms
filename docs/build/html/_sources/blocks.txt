@@ -23,13 +23,13 @@ Available blocks include:
  * :ref:`Course completion status <course_completion_status_block>`
  * :ref:`Course overview <course_overview>`
  * :ref:`Course/site summary <corses>`
- * Courses
- * Feedback
- * Flickr
+ * :ref:`Courses <courses_block>`
+ * :ref:`Feedback <feedback_block>`
+ * :ref:`Flickr <flickr_block>`
  * :ref:`HTML <html>`
- * Latest news
- * Logged in user
- * Login
+ * :ref:`Latest news <latest_news_block>`
+ * :ref:`Logged in user <logged_in_user_block>`
+ * :ref:`Login <login_block>`
  * Main menu
  * Mentees block
  * Messages
