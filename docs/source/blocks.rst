@@ -16,8 +16,8 @@ Available blocks include:
  * :ref:`Admin bookmarks <admin_bookmarks_block>`
  * :ref:`Administration <administration_block>`
  * :ref:`Blog menu <blog_menu_block>`
- * :ref:`Blog tags <Blog_tags_block>`
- * :ref:`Calendar <calendar_block>`
+ * :ref:`Blog tags <blog_tags_block>`
+ * :ref:`Calendar block <calendar_block>`
  * :ref:`Comments <comments_block>`
  * :ref:`Community finder <community_finder_block>`
  * :ref:`Course completion status <course_completion_status_block>`
