@@ -12,9 +12,10 @@ Here are examples of the Administration block:
 .. image:: _images/administration_block1.png
 Admin view from front page
 
+.. image:: _images/administration_block3.png
+Student view in a course
+
 .. image:: _images/administration_block2.png
 Teacher view in a course
 
-.. image:: _images/administration_block3.png
-Student view in a course
 
