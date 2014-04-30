@@ -6,5 +6,5 @@ The Feedback block may be added to courses to provide a quick link to global fee
 
 .. image:: _images/feedback_block.png
 
-As with the Feedback module, this block is disabled by default and must be enabled by the administrator from *Administration > Site administration > Plugins > Blocks > Manage blocks*.
+As with the :ref:`Feedback <feedback>` module, this block is disabled by default and must be enabled by the administrator from *Administration > Site administration > Plugins > Blocks > Manage blocks*.
 
