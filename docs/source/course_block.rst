@@ -1,4 +1,4 @@
-.. _courses_block:
+.. _course_block:
 
 Course / site summary block
 =============================
