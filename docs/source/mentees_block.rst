@@ -4,7 +4,7 @@ Mentees block
 ===============
 A Mentees block is a frontpage block that provides mentors with quick access to their mentee(s) profile page(s). A mentor might be a parent for example who has access to their child's information through the link in the block.
 
-.. image:: _images/
+.. image:: _images/parent_block.png
 
 The mentees block may be added to the site front page or to :ref:`My home <my_home>`. 
 
