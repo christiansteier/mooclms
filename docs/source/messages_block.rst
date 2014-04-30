@@ -4,6 +4,8 @@ Messages block
 ===============
 The message block displays a list of new messages you have received, with a link to your Messages window. 
 
+.. image:: _images/messages_block.png
+
 To add a Messages block to your course page:
 
   1. Click on the "Turn editing on" button.
