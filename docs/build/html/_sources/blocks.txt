@@ -30,11 +30,11 @@ Available blocks include:
  * :ref:`Latest news <latest_news_block>`
  * :ref:`Logged in user <logged_in_user_block>`
  * :ref:`Login <login_block>`
- * Main menu
- * Mentees block
- * Messages
- * My latest badges
- * My private files
+ * :ref:`Main menu <main_menu_block>`
+ * :ref:`Mentees block <mentees_block>`
+ * :ref:`Messages <messages_block>`
+ * :ref:`My latest badges <latest_badges_block>`
+ * :ref:`My private files <my_private_files>`
  * :ref:`Navigation <navigation_block>`
  * Network servers
  * :ref:`Online users <online_users>`
