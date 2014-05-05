@@ -54,7 +54,7 @@
   <div class="section" id="private-files">
 <span id="id1"></span><h1>Private files<a class="headerlink" href="#private-files" title="Permalink to this headline">¶</a></h1>
 <p>In Moodle, each user has a private files area for uploading and managing a set of files.</p>
-<p>The private files area is accessible via <em>Navigation &gt; My home &gt; My profile &gt; My private files</em> or the My private files block. If the private files repository is enabled by a site admin, it is available as a source within the filepicker when selecting files to use in a course.</p>
+<p>The private files area is accessible via <em>Navigation &gt; My home &gt; My profile &gt; My private files</em> or the <a class="reference internal" href="my_private_files.html#my-private-files"><em>My private files block</em></a>. If the private files repository is enabled by a site admin, it is available as a source within the filepicker when selecting files to use in a course.</p>
 <img alt="_images/myprivatefiles_repos.png" src="_images/myprivatefiles_repos.png" />
 <div class="section" id="private-files-management">
 <h2>Private files management<a class="headerlink" href="#private-files-management" title="Permalink to this headline">¶</a></h2>
@@ -67,6 +67,30 @@
 <li>Click on the Add button to upload from the File picker or drag and drop from your desktop. It will look like the files are already there, but they aren&#8217;t until you do the next step!</li>
 <li>Click the &#8216;Save changes&#8217; button</li>
 </ol>
+<p>Once uploaded, files will appear as thumbnails. Clicking the icons top right will display them in table or list view as an alternative.</p>
+<img alt="_images/manage_privatefiles.png" src="_images/manage_privatefiles.png" />
+</div></blockquote>
+</div>
+<div class="section" id="private-files-size-limit">
+<h2>Private files size limit<a class="headerlink" href="#private-files-size-limit" title="Permalink to this headline">¶</a></h2>
+<p>The size limit for each user&#8217;s private files area is set by a site administrator in User quota in <em>Administration &gt; Site administration &gt; Security &gt; Site policies</em>.</p>
+</div>
+<div class="section" id="preventing-access-to-private-files">
+<h2>Preventing access to Private files<a class="headerlink" href="#preventing-access-to-private-files" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>To prevent all users having access to Private files, the administrator should disable the repository in <em>Administration &gt; Site administration &gt; Plugins &gt; Repositories &gt; Manage repositories</em>. and in <em>Administration &gt; Site administration &gt; Users &gt; Permissions &gt; Define Roles</em> edit the authenticated user role and set the capabilities &#8216;moodle/user:manageownfiles&#8217; and &#8216;repository/user:view&#8217; to prohibit.</li>
+<li>If only students are to be prevented from accessing private files (but teachers etc, allowed) then a new role should be made and assigned system wide.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="private-files-capabilities">
+<h2>Private files capabilities<a class="headerlink" href="#private-files-capabilities" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Manage files in own private file area</li>
+<li>View user private files</li>
+</ul>
 </div></blockquote>
 </div>
 </div>
@@ -81,6 +105,9 @@
   <ul>
 <li><a class="reference internal" href="#">Private files</a><ul>
 <li><a class="reference internal" href="#private-files-management">Private files management</a></li>
+<li><a class="reference internal" href="#private-files-size-limit">Private files size limit</a></li>
+<li><a class="reference internal" href="#preventing-access-to-private-files">Preventing access to Private files</a></li>
+<li><a class="reference internal" href="#private-files-capabilities">Private files capabilities</a></li>
 </ul>
 </li>
 </ul>
