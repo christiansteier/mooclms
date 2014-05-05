@@ -6,6 +6,8 @@ The random glossary block can be used to display random entries from a glossary,
 
 Before using the random glossary entry block you have to configure it using the edit icon. There you will have a number of fields to complete.
 
+.. image:: _images/random_glossary_block.png
+
 Title
 ^^^^^^^
 Here you will write the title of that block. The default is Random Glossary Entry.
