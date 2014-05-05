@@ -2,6 +2,7 @@
 
 My private files 
 ==================
-The My private files block enables access to a user's private files area.
+The My private files block enables access to a user's :ref:`private files <private_files>` area.
 
 .. image:: _images/my_privatefiles_block.png
+
