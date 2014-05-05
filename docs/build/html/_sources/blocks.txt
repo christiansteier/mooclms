@@ -36,18 +36,18 @@ Available blocks include:
  * :ref:`My latest badges <latest_badges_block>`
  * :ref:`My private files <my_private_files>`
  * :ref:`Navigation <navigation_block>`
- * Network servers
+ * :ref:`Network servers <network_servers_block>`
  * :ref:`Online users <online_users>`
- * People
- * Quiz results
- * Random glossary entry
- * Recent activity
- * Recent blog entries
- * Remote RSS feeds
- * Search forums
- * Section links
+ * :ref:`People <people_block>`
+ * :ref:`Quiz results <quiz_results_block>`
+ * :ref:`Random glossary entry <random_glossary_entry_block>`
+ * :ref:`Recent activity <recent_activity_block>`
+ * :ref:`Recent blog entries <recent_blog_entries_block>`
+ * :ref:`Remote RSS feeds <remote_rss_feed_block>`
+ * :ref:`Search forums <search_forum_block>`
+ * :ref:`Section links <section_links>`
  * :ref:`Self completion <self_completion_block>`
- * Social activities
- * Tags
- * Upcoming events
- * Youtube
+ * :ref:`Social activities <social_activities_block>`
+ * :ref:`Tags <tags_block>`
+ * :ref:`Upcoming events <upcoming_events_block>`
+ * :ref:`Youtube <youtube_block>`
