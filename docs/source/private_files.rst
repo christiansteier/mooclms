@@ -4,7 +4,7 @@ Private files
 ==============
 In Moodle, each user has a private files area for uploading and managing a set of files.
 
-The private files area is accessible via *Navigation > My home > My profile > My private files* or the My private files block. If the private files repository is enabled by a site admin, it is available as a source within the filepicker when selecting files to use in a course. 
+The private files area is accessible via *Navigation > My home > My profile > My private files* or the :ref:`My private files block <my_private_files>`. If the private files repository is enabled by a site admin, it is available as a source within the filepicker when selecting files to use in a course. 
 
 .. image:: _images/myprivatefiles_repos.png
 
